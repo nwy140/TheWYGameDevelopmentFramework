@@ -8,7 +8,7 @@
       <e p="Assets\Scripts" t="Include">
         <e p="Character Scripts" t="Include">
           <e p="Player Scripts" t="Include">
-            <e p="PlayerCharacterMovement.cs" t="Include" />
+            <e p="CharMovement.cs" t="Include" />
           </e>
           <e p="Universal" t="Include">
             <e p="MechActorGroundDetector.cs" t="Include" />

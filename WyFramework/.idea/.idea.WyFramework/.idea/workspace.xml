@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs" line="23" />
+    <bookmark url="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/CharMovement.cs" line="23" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="" />
@@ -13,28 +13,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/CharMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="28">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
-                <marker date="1558223051662" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558223051662" expanded="true" signature="133:1936" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="366:717" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="532:714" ph="/* if(flipChildChar){ ... */" />
-                <marker date="1558223051662" expanded="true" signature="769:831" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="865:1549" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1006:1235" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1011:1231" ph="/* childCharAnim.Walk(true); ... */" />
-                <marker date="1558223051662" expanded="true" signature="1271:1498" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1276:1494" ph="/* childCharAnim.Walk(true); ... */" />
-                <marker date="1558223051662" expanded="true" signature="1505:1546" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1581:1633" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1662:1928" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1697:1925" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1736:1921" ph="{...}" />
-                <marker date="1558223051662" expanded="true" signature="1746:1812" ph="/* jump only when grounded ... */" />
+                <marker date="1558223463792" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558223463792" expanded="true" signature="122:1925" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="355:706" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="521:703" ph="/* if(flipChildChar){ ... */" />
+                <marker date="1558223463792" expanded="true" signature="758:820" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="854:1538" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="995:1224" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="1000:1220" ph="/* childCharAnim.Walk(true); ... */" />
+                <marker date="1558223463792" expanded="true" signature="1260:1487" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="1265:1483" ph="/* childCharAnim.Walk(true); ... */" />
+                <marker date="1558223463792" expanded="true" signature="1494:1535" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="1570:1622" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="1651:1917" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="1686:1914" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="1725:1910" ph="{...}" />
+                <marker date="1558223463792" expanded="true" signature="1735:1801" ph="/* jump only when grounded ... */" />
               </folding>
             </state>
           </provider>
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <marker date="1558223294743" expanded="true" signature="6:78" ph="..." />
                 <marker date="1558223294743" expanded="true" signature="132:630" ph="{...}" />
@@ -137,7 +137,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/VisCharAnim.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/CharMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -156,8 +156,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/VisCharAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/CharMovement.cs" />
       </list>
     </option>
   </component>
@@ -228,12 +229,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558221026206</updated>
-      <workItem from="1558221029673" duration="2312000" />
+      <workItem from="1558221029673" duration="2574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2312000" />
+    <option name="totallyTimeSpent" value="2574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,35 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1558223051662" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558223051662" expanded="true" signature="133:1936" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="366:717" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="532:714" ph="/* if(flipChildChar){ ... */" />
-            <marker date="1558223051662" expanded="true" signature="769:831" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="865:1549" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1006:1235" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1011:1231" ph="/* childCharAnim.Walk(true); ... */" />
-            <marker date="1558223051662" expanded="true" signature="1271:1498" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1276:1494" ph="/* childCharAnim.Walk(true); ... */" />
-            <marker date="1558223051662" expanded="true" signature="1505:1546" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1581:1633" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1662:1928" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1697:1925" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1736:1921" ph="{...}" />
-            <marker date="1558223051662" expanded="true" signature="1746:1812" ph="/* jump only when grounded ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <marker date="1558223294743" expanded="true" signature="6:78" ph="..." />
             <marker date="1558223294743" expanded="true" signature="132:630" ph="{...}" />
@@ -456,6 +432,31 @@
             <marker date="1558223294743" expanded="true" signature="420:470" ph="{...}" />
             <marker date="1558223294743" expanded="true" signature="528:625" ph="{...}" />
             <marker date="1558223294743" expanded="true" signature="570:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/CharMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <marker date="1558223463792" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558223463792" expanded="true" signature="122:1925" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="355:706" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="521:703" ph="/* if(flipChildChar){ ... */" />
+            <marker date="1558223463792" expanded="true" signature="758:820" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="854:1538" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="995:1224" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="1000:1220" ph="/* childCharAnim.Walk(true); ... */" />
+            <marker date="1558223463792" expanded="true" signature="1260:1487" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="1265:1483" ph="/* childCharAnim.Walk(true); ... */" />
+            <marker date="1558223463792" expanded="true" signature="1494:1535" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="1570:1622" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="1651:1917" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="1686:1914" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="1725:1910" ph="{...}" />
+            <marker date="1558223463792" expanded="true" signature="1735:1801" ph="/* jump only when grounded ... */" />
           </folding>
         </state>
       </provider>

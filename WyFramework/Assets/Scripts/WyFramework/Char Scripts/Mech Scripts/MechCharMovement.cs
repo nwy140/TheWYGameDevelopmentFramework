@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class PlayerCharacterMovement : MonoBehaviour
+public class CharMovement : MonoBehaviour
 {
 	Rigidbody2D myRB;
 	VisCharAnim childCharAnim;
