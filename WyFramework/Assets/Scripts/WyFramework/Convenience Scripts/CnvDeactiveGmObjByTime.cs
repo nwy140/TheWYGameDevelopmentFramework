@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeactivateGameObject : MonoBehaviour
+public class CnvDeactiveGmObjByTime : MonoBehaviour
 {
 
     public float timer = 2f;

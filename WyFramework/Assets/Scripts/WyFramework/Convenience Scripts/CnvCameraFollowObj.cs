@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class CnvCameraFollowObj : MonoBehaviour
 {
 
     public GameObject target;       //Public variable to store a reference to the player game object

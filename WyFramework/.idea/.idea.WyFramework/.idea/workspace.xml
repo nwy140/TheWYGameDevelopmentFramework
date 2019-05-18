@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs" line="23" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <marker date="1558223051662" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558223051662" expanded="true" signature="133:1936" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="366:717" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="532:714" ph="/* if(flipChildChar){ ... */" />
+                <marker date="1558223051662" expanded="true" signature="769:831" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="865:1549" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1006:1235" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1011:1231" ph="/* childCharAnim.Walk(true); ... */" />
+                <marker date="1558223051662" expanded="true" signature="1271:1498" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1276:1494" ph="/* childCharAnim.Walk(true); ... */" />
+                <marker date="1558223051662" expanded="true" signature="1505:1546" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1581:1633" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1662:1928" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1697:1925" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1736:1921" ph="{...}" />
+                <marker date="1558223051662" expanded="true" signature="1746:1812" ph="/* jump only when grounded ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+              <folding>
+                <marker date="1558222980089" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558222980089" expanded="true" signature="124:313" ph="{...}" />
+                <marker date="1558222980089" expanded="true" signature="237:311" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
+              <folding>
+                <marker date="1558223294743" expanded="true" signature="6:78" ph="..." />
+                <marker date="1558223294743" expanded="true" signature="132:630" ph="{...}" />
+                <marker date="1558223294743" expanded="true" signature="167:277" ph="/* Start is called before the first frame update ... */" />
+                <marker date="1558223294743" expanded="true" signature="331:476" ph="{...}" />
+                <marker date="1558223294743" expanded="true" signature="420:470" ph="{...}" />
+                <marker date="1558223294743" expanded="true" signature="528:625" ph="{...}" />
+                <marker date="1558223294743" expanded="true" signature="570:619" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/VisCharAnim.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <marker date="1558222737643" expanded="true" signature="6:78" ph="..." />
+                <marker date="1558222737643" expanded="true" signature="120:1829" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="216:362" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="390:504" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="537:600" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="626:691" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="717:782" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="808:873" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="897:958" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1023:1327" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1048:1120" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1144:1216" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1240:1312" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1365:1464" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1493:1559" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1590:1654" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1676:1735" ph="{...}" />
+                <marker date="1558222737643" expanded="true" signature="1759:1821" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <marker date="1558222496385" expanded="true" signature="6:78" ph="..." />
+                <marker date="1558222496385" expanded="true" signature="127:1211" ph="{...}" />
+                <marker date="1558222496385" expanded="true" signature="431:444" ph="{...}" />
+                <marker date="1558222496385" expanded="true" signature="498:743" ph="{...}" />
+                <marker date="1558222496385" expanded="true" signature="657:737" ph="{...}" />
+                <marker date="1558222496385" expanded="true" signature="824:1209" ph="{...}" />
+                <marker date="1558222496385" expanded="true" signature="839:1030" ph="/* Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AnimationTags</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CnvAnimTags</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/VisCharAnim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/GroundDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/Convenience_LockPositionToObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_DeactivateGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_Tags.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/Components/ItemEquipSwapController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvDeactiveGmObjByTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvLockPosToObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/Convenience_Tags.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/CharacterAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/VisCharAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="" />
+      <created>1558221026206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558221026206</updated>
+      <workItem from="1558221029673" duration="2312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2312000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/Convenience_LockPositionToObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_DeactivateGameObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/Components/ItemEquipSwapController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_Tags.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvDeactiveGmObjByTime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvLockPosToObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/Convenience_Tags.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvTags.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <marker date="1558222496385" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558222496385" expanded="true" signature="127:1211" ph="{...}" />
+            <marker date="1558222496385" expanded="true" signature="431:444" ph="{...}" />
+            <marker date="1558222496385" expanded="true" signature="498:743" ph="{...}" />
+            <marker date="1558222496385" expanded="true" signature="657:737" ph="{...}" />
+            <marker date="1558222496385" expanded="true" signature="824:1209" ph="{...}" />
+            <marker date="1558222496385" expanded="true" signature="839:1030" ph="/* Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/Mechanics_GroundDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <marker date="1558222781455" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558222781455" expanded="true" signature="80:683" ph="/* NWY Framework class naming convention ... */" />
+            <marker date="1558222781455" expanded="true" signature="727:1302" ph="{...}" />
+            <marker date="1558222781455" expanded="true" signature="1329:1440" ph="{...}" />
+            <marker date="1558222781455" expanded="true" signature="1466:1935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/VisCharAnim.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <marker date="1558222737643" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558222737643" expanded="true" signature="120:1829" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="216:362" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="390:504" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="537:600" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="626:691" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="717:782" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="808:873" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="897:958" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1023:1327" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1048:1120" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1144:1216" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1240:1312" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1365:1464" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1493:1559" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1590:1654" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1676:1735" ph="{...}" />
+            <marker date="1558222737643" expanded="true" signature="1759:1821" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <marker date="1558222980089" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558222980089" expanded="true" signature="124:313" ph="{...}" />
+            <marker date="1558222980089" expanded="true" signature="237:311" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/PlayerCharacterMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1558223051662" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558223051662" expanded="true" signature="133:1936" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="366:717" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="532:714" ph="/* if(flipChildChar){ ... */" />
+            <marker date="1558223051662" expanded="true" signature="769:831" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="865:1549" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1006:1235" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1011:1231" ph="/* childCharAnim.Walk(true); ... */" />
+            <marker date="1558223051662" expanded="true" signature="1271:1498" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1276:1494" ph="/* childCharAnim.Walk(true); ... */" />
+            <marker date="1558223051662" expanded="true" signature="1505:1546" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1581:1633" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1662:1928" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1697:1925" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1736:1921" ph="{...}" />
+            <marker date="1558223051662" expanded="true" signature="1746:1812" ph="/* jump only when grounded ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <marker date="1558223294743" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558223294743" expanded="true" signature="132:630" ph="{...}" />
+            <marker date="1558223294743" expanded="true" signature="167:277" ph="/* Start is called before the first frame update ... */" />
+            <marker date="1558223294743" expanded="true" signature="331:476" ph="{...}" />
+            <marker date="1558223294743" expanded="true" signature="420:470" ph="{...}" />
+            <marker date="1558223294743" expanded="true" signature="528:625" ph="{...}" />
+            <marker date="1558223294743" expanded="true" signature="570:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\u1274886\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\u1274886\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_WyFramework.268922585.00" t="ExcludeRecursive" />
+    <e p="C:\Users\u1274886\Desktop\GameDevTech\TechProjects\TheWYGameDevelopmentFramework\WyFramework" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="Character Scripts" t="Include">
+          <e p="Player Scripts" t="Include">
+            <e p="PlayerCharacterMovement.cs" t="Include" />
+          </e>
+          <e p="Universal" t="Include">
+            <e p="MechActorGroundDetector.cs" t="Include" />
+            <e p="VisCharAnim.cs" t="Include" />
+          </e>
+        </e>
+        <e p="WyFramework" t="Include">
+          <e p="Convenience Scripts" t="Include">
+            <e p="CnvCameraFollowObj.cs" t="Include" />
+            <e p="CnvDeactiveGmObjByTime.cs" t="Include" />
+            <e p="CnvLockPosToObj.cs" t="Include" />
+            <e p="CnvTags.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="WyFramework.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
