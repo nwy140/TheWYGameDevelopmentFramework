@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) and export_objects.py -->
+<svg xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920px" height="1080px" viewBox="0 0 1920 1080" id="SVGRoot" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="Walker_NPC_01_00001.svg"><sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.5" inkscape:cx="-16.245" inkscape:cy="387.55585" inkscape:document-units="px" inkscape:current-layer="g488" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1051" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:snap-nodes="false"/>
+  <metadata id="metadata847">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Anim_00" inkscape:groupmode="layer" id="layer1" style="opacity:1;display:inline">
+    <path style="fill:#803300;fill-opacity:1;stroke-width:0.94530308" d="m 51.432918,335.81759 c 3.33414,109.498 187.438372,86.57801 277.710122,84.22869 90.2716,-2.3493 293.52458,37.67103 290.19028,-71.82697 C 615.99934,238.7213 407.34056,21.169625 317.06881,23.518935 226.79705,25.868275 48.098618,226.31962 51.432918,335.81759 Z" id="path968" inkscape:connector-curvature="0" sodipodi:nodetypes="sssss"/>
+    <path sodipodi:nodetypes="sssss" inkscape:connector-curvature="0" id="path145" d="m 130.58226,349.84348 c 2.40476,94.78196 135.19059,74.94231 200.29942,72.90874 65.10871,-2.03357 211.70565,32.6082 209.30077,-62.17375 C 537.77781,265.79651 387.28192,77.482824 322.17309,79.516397 257.06426,81.549996 128.17738,255.06156 130.58226,349.84348 Z" style="fill:#ff9955;fill-opacity:1;stroke-width:0.74692118"/>
+    <ellipse style="fill:#000000;fill-opacity:1" id="path161" cx="259.50818" cy="230.76477" rx="43.133514" ry="20.506096"/>
+    <ellipse style="fill:#000000;fill-opacity:1" id="path163" cx="392.44424" cy="233.5932" rx="34.648232" ry="19.091883"/>
+  </g>
+  </svg>

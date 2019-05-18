@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) and export_objects.py -->
+<svg xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920px" height="1080px" viewBox="0 0 1920 1080" id="SVGRoot" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="Fielder_NPC_01_00001.svg"><sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.70710678" inkscape:cx="253.67108" inkscape:cy="685.59473" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1051" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:snap-nodes="false"/>
+  <metadata id="metadata847">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:groupmode="layer" id="layer1" inkscape:label="Anim_01" style="opacity:1;display:inline">
+    <path inkscape:connector-curvature="0" id="path51" d="m 369.26204,164.18854 a 77.04994,83.988126 0 0 1 -77.04995,83.98812 77.04994,83.988126 0 0 1 -77.04994,-83.98812 77.04994,83.988126 0 0 1 77.04994,-83.988122 77.04994,83.988126 0 0 1 77.04995,83.988122 z" style="fill:#ff6600;fill-opacity:1;stroke-width:0.42225853"/>
+    <path sodipodi:nodetypes="sssss" inkscape:connector-curvature="0" id="path53" d="m 367.52346,433.86821 c 0,-58.23111 -31.46313,-222.2186 -74.01664,-222.2186 -42.55351,0 -69.46671,162.47084 -69.46671,220.70196 0,58.23111 26.9132,-9.82843 69.46671,-9.82843 42.55351,0 74.01664,69.57619 74.01664,11.34507 z" style="fill:#ff6600;fill-opacity:1;stroke-width:0.47311369"/>
+    <path style="fill:#ff6600;fill-opacity:1;stroke-width:0.28944686" d="m 294.76167,245.92033 c -39.12433,-1.47637 -150.26841,11.85691 -151.57235,35.51326 -1.30394,23.65636 107.03235,42.73719 146.1567,44.21356 39.12433,1.47637 -5.77886,-15.21077 -4.47492,-38.86712 1.30394,-23.65635 49.01492,-39.38333 9.89057,-40.8597 z" id="path55" inkscape:connector-curvature="0" sodipodi:nodetypes="sssss"/>
+    <ellipse style="fill:#000000;fill-opacity:1;stroke-width:0.07710475" id="ellipse51" cx="267.75458" cy="178.74393" rx="13.643003" ry="15.815599"/>
+    <path style="fill:#000000;fill-opacity:1;stroke-width:0.06718851" d="m 309.17098,202.26567 c 0,5.68515 -7.12601,10.29387 -15.91639,10.29387 -8.79038,0 -15.9164,-4.60872 -15.9164,-10.29387 0,-5.68515 7.53264,2.31139 16.32302,2.3114 8.79038,0 15.50977,-7.99655 15.50977,-2.3114 z" id="ellipse53" inkscape:connector-curvature="0" sodipodi:nodetypes="sssss"/>
+    <ellipse ry="15.815599" rx="13.643003" cy="178.74393" cx="315.75458" id="ellipse120" style="fill:#000000;fill-opacity:1;stroke-width:0.07710475"/>
+    <path style="fill:#ff6600;fill-opacity:1;stroke-width:0.26989773" d="m 311.16503,247.45559 c 36.48189,-1.37666 140.11934,11.0561 141.33521,33.11471 1.21587,22.05862 -99.80342,39.85073 -136.28533,41.22739 -36.48189,1.37666 5.38856,-14.18344 4.17269,-36.24205 -1.21588,-22.05861 -45.70447,-36.72339 -9.22257,-38.10005 z" id="path49" inkscape:connector-curvature="0" sodipodi:nodetypes="sssss"/>
+  </g>
+  </svg>

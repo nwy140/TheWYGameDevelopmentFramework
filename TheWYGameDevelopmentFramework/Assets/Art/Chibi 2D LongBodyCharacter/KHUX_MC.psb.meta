@@ -1,0 +1,1851 @@
+fileFormatVersion: 2
+guid: 6344bb23e2f543948b56e96e81ae98c1
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: LFeet_GO/LFeet_GO
+    100002: LFeet_GO/LFeet_GO/Ear
+    100004: LFeet_GO/LFeet_GO/ExteriorEyeBall
+    100006: LFeet_GO/LFeet_GO/ExteriorEyeBallOutLine
+    100008: LFeet_GO/LFeet_GO/EyeBase
+    100010: LFeet_GO/LFeet_GO/EyeLash
+    100012: LFeet_GO/LFeet_GO/Face
+    100014: LFeet_GO/LFeet_GO/g91
+    100016: LFeet_GO/LFeet_GO/g180
+    100018: LFeet_GO/LFeet_GO/g183
+    100020: LFeet_GO/LFeet_GO/g186
+    100022: LFeet_GO/LFeet_GO/g189
+    100024: LFeet_GO/LFeet_GO/g192
+    100026: LFeet_GO/LFeet_GO/g240
+    100028: LFeet_GO/LFeet_GO/g268
+    100030: LFeet_GO/LFeet_GO/g367
+    100032: LFeet_GO/LFeet_GO/g430
+    100034: LFeet_GO/LFeet_GO/g535
+    100036: LFeet_GO/LFeet_GO/g1103
+    100038: LFeet_GO/LFeet_GO/g1151
+    100040: LFeet_GO/LFeet_GO/g1299
+    100042: LFeet_GO/LFeet_GO/Gloves 001
+    100044: LFeet_GO/LFeet_GO/HairStyle F 001 Xylus
+    100046: LFeet_GO/LFeet_GO/HairStyle F 002 Ferilia
+    100048: LFeet_GO/LFeet_GO/HairStyle F 003 Aerius
+    100050: LFeet_GO/LFeet_GO/HairStyle F 005 Adeline
+    100052: LFeet_GO/LFeet_GO/HairStyle F 006 Rowline
+    100054: LFeet_GO/LFeet_GO/HairStyle F 008 Toriana
+    100056: LFeet_GO/LFeet_GO/HairStyle F 009 Annerix
+    100058: LFeet_GO/LFeet_GO/InteriorEyeBall
+    100060: LFeet_GO/LFeet_GO/LEyeBrow
+    100062: LFeet_GO/LFeet_GO/LFeet
+    100064: LFeet_GO/LFeet_GO/LimbGloves Pack 001
+    100066: LFeet_GO/LFeet_GO/LLowerArm2
+    100068: LFeet_GO/LFeet_GO/LLowerLeg
+    100070: LFeet_GO/LFeet_GO/LWrist
+    100072: LFeet_GO/LFeet_GO/Mouth
+    100074: LFeet_GO/LFeet_GO/Neck
+    100076: LFeet_GO/LFeet_GO/Nose
+    100078: LFeet_GO/LFeet_GO/Pants U 001 SockShoesPants
+    100080: LFeet_GO/LFeet_GO/path967
+    100082: LFeet_GO/LFeet_GO/path992
+    100084: LFeet_GO/LFeet_GO/path1071
+    100086: LFeet_GO/LFeet_GO/path1119
+    100088: LFeet_GO/LFeet_GO/REyeBrow
+    100090: LFeet_GO/LFeet_GO/RFeet
+    100092: LFeet_GO/LFeet_GO/RLowerArm2
+    100094: LFeet_GO/LFeet_GO/RLowerLeg
+    100096: LFeet_GO/LFeet_GO/RWrist
+    100098: LFeet_GO/LFeet_GO/Torso
+    100100: LFeet_GO/LFeet_GO/TorsoRightArmExit
+    400000: LFeet_GO/LFeet_GO/Transform
+    400002: LFeet_GO/LFeet_GO/Ear/Transform
+    400004: LFeet_GO/LFeet_GO/ExteriorEyeBall/Transform
+    400006: LFeet_GO/LFeet_GO/ExteriorEyeBallOutLine/Transform
+    400008: LFeet_GO/LFeet_GO/EyeBase/Transform
+    400010: LFeet_GO/LFeet_GO/EyeLash/Transform
+    400012: LFeet_GO/LFeet_GO/Face/Transform
+    400014: LFeet_GO/LFeet_GO/g91/Transform
+    400016: LFeet_GO/LFeet_GO/g180/Transform
+    400018: LFeet_GO/LFeet_GO/g183/Transform
+    400020: LFeet_GO/LFeet_GO/g186/Transform
+    400022: LFeet_GO/LFeet_GO/g189/Transform
+    400024: LFeet_GO/LFeet_GO/g192/Transform
+    400026: LFeet_GO/LFeet_GO/g240/Transform
+    400028: LFeet_GO/LFeet_GO/g268/Transform
+    400030: LFeet_GO/LFeet_GO/g367/Transform
+    400032: LFeet_GO/LFeet_GO/g430/Transform
+    400034: LFeet_GO/LFeet_GO/g535/Transform
+    400036: LFeet_GO/LFeet_GO/g1103/Transform
+    400038: LFeet_GO/LFeet_GO/g1151/Transform
+    400040: LFeet_GO/LFeet_GO/g1299/Transform
+    400042: LFeet_GO/LFeet_GO/Gloves 001/Transform
+    400044: LFeet_GO/LFeet_GO/HairStyle F 001 Xylus/Transform
+    400046: LFeet_GO/LFeet_GO/HairStyle F 002 Ferilia/Transform
+    400048: LFeet_GO/LFeet_GO/HairStyle F 003 Aerius/Transform
+    400050: LFeet_GO/LFeet_GO/HairStyle F 005 Adeline/Transform
+    400052: LFeet_GO/LFeet_GO/HairStyle F 006 Rowline/Transform
+    400054: LFeet_GO/LFeet_GO/HairStyle F 008 Toriana/Transform
+    400056: LFeet_GO/LFeet_GO/HairStyle F 009 Annerix/Transform
+    400058: LFeet_GO/LFeet_GO/InteriorEyeBall/Transform
+    400060: LFeet_GO/LFeet_GO/LEyeBrow/Transform
+    400062: LFeet_GO/LFeet_GO/LFeet/Transform
+    400064: LFeet_GO/LFeet_GO/LimbGloves Pack 001/Transform
+    400066: LFeet_GO/LFeet_GO/LLowerArm2/Transform
+    400068: LFeet_GO/LFeet_GO/LLowerLeg/Transform
+    400070: LFeet_GO/LFeet_GO/LWrist/Transform
+    400072: LFeet_GO/LFeet_GO/Mouth/Transform
+    400074: LFeet_GO/LFeet_GO/Neck/Transform
+    400076: LFeet_GO/LFeet_GO/Nose/Transform
+    400078: LFeet_GO/LFeet_GO/Pants U 001 SockShoesPants/Transform
+    400080: LFeet_GO/LFeet_GO/path967/Transform
+    400082: LFeet_GO/LFeet_GO/path992/Transform
+    400084: LFeet_GO/LFeet_GO/path1071/Transform
+    400086: LFeet_GO/LFeet_GO/path1119/Transform
+    400088: LFeet_GO/LFeet_GO/REyeBrow/Transform
+    400090: LFeet_GO/LFeet_GO/RFeet/Transform
+    400092: LFeet_GO/LFeet_GO/RLowerArm2/Transform
+    400094: LFeet_GO/LFeet_GO/RLowerLeg/Transform
+    400096: LFeet_GO/LFeet_GO/RWrist/Transform
+    400098: LFeet_GO/LFeet_GO/Torso/Transform
+    400100: LFeet_GO/LFeet_GO/TorsoRightArmExit/Transform
+    2800000: KHUX_MC
+    21200000: LFeet_GO/LFeet_GO/Ear/SpriteRenderer
+    21200002: LFeet_GO/LFeet_GO/ExteriorEyeBall/SpriteRenderer
+    21200004: LFeet_GO/LFeet_GO/ExteriorEyeBallOutLine/SpriteRenderer
+    21200006: LFeet_GO/LFeet_GO/EyeBase/SpriteRenderer
+    21200008: LFeet_GO/LFeet_GO/EyeLash/SpriteRenderer
+    21200010: LFeet_GO/LFeet_GO/Face/SpriteRenderer
+    21200012: LFeet_GO/LFeet_GO/g91/SpriteRenderer
+    21200014: LFeet_GO/LFeet_GO/g180/SpriteRenderer
+    21200016: LFeet_GO/LFeet_GO/g183/SpriteRenderer
+    21200018: LFeet_GO/LFeet_GO/g186/SpriteRenderer
+    21200020: LFeet_GO/LFeet_GO/g189/SpriteRenderer
+    21200022: LFeet_GO/LFeet_GO/g192/SpriteRenderer
+    21200024: LFeet_GO/LFeet_GO/g240/SpriteRenderer
+    21200026: LFeet_GO/LFeet_GO/g268/SpriteRenderer
+    21200028: LFeet_GO/LFeet_GO/g367/SpriteRenderer
+    21200030: LFeet_GO/LFeet_GO/g430/SpriteRenderer
+    21200032: LFeet_GO/LFeet_GO/g535/SpriteRenderer
+    21200034: LFeet_GO/LFeet_GO/g1103/SpriteRenderer
+    21200036: LFeet_GO/LFeet_GO/g1151/SpriteRenderer
+    21200038: LFeet_GO/LFeet_GO/g1299/SpriteRenderer
+    21200040: LFeet_GO/LFeet_GO/Gloves 001/SpriteRenderer
+    21200042: LFeet_GO/LFeet_GO/HairStyle F 001 Xylus/SpriteRenderer
+    21200044: LFeet_GO/LFeet_GO/HairStyle F 002 Ferilia/SpriteRenderer
+    21200046: LFeet_GO/LFeet_GO/HairStyle F 003 Aerius/SpriteRenderer
+    21200048: LFeet_GO/LFeet_GO/HairStyle F 005 Adeline/SpriteRenderer
+    21200050: LFeet_GO/LFeet_GO/HairStyle F 006 Rowline/SpriteRenderer
+    21200052: LFeet_GO/LFeet_GO/HairStyle F 008 Toriana/SpriteRenderer
+    21200054: LFeet_GO/LFeet_GO/HairStyle F 009 Annerix/SpriteRenderer
+    21200056: LFeet_GO/LFeet_GO/InteriorEyeBall/SpriteRenderer
+    21200058: LFeet_GO/LFeet_GO/LEyeBrow/SpriteRenderer
+    21200060: LFeet_GO/LFeet_GO/LFeet/SpriteRenderer
+    21200062: LFeet_GO/LFeet_GO/LimbGloves Pack 001/SpriteRenderer
+    21200064: LFeet_GO/LFeet_GO/LLowerArm2/SpriteRenderer
+    21200066: LFeet_GO/LFeet_GO/LLowerLeg/SpriteRenderer
+    21200068: LFeet_GO/LFeet_GO/LWrist/SpriteRenderer
+    21200070: LFeet_GO/LFeet_GO/Mouth/SpriteRenderer
+    21200072: LFeet_GO/LFeet_GO/Neck/SpriteRenderer
+    21200074: LFeet_GO/LFeet_GO/Nose/SpriteRenderer
+    21200076: LFeet_GO/LFeet_GO/Pants U 001 SockShoesPants/SpriteRenderer
+    21200078: LFeet_GO/LFeet_GO/path967/SpriteRenderer
+    21200080: LFeet_GO/LFeet_GO/path992/SpriteRenderer
+    21200082: LFeet_GO/LFeet_GO/path1071/SpriteRenderer
+    21200084: LFeet_GO/LFeet_GO/path1119/SpriteRenderer
+    21200086: LFeet_GO/LFeet_GO/REyeBrow/SpriteRenderer
+    21200088: LFeet_GO/LFeet_GO/RFeet/SpriteRenderer
+    21200090: LFeet_GO/LFeet_GO/RLowerArm2/SpriteRenderer
+    21200092: LFeet_GO/LFeet_GO/RLowerLeg/SpriteRenderer
+    21200094: LFeet_GO/LFeet_GO/RWrist/SpriteRenderer
+    21200096: LFeet_GO/LFeet_GO/Torso/SpriteRenderer
+    21200098: LFeet_GO/LFeet_GO/TorsoRightArmExit/SpriteRenderer
+    21300000: LimbGloves Pack 001
+    21300002: g367
+    21300004: g1299
+    21300006: HairStyle F 009 Annerix
+    21300008: HairStyle F 008 Toriana
+    21300010: g1103
+    21300012: HairStyle F 006 Rowline
+    21300014: HairStyle F 005 Adeline
+    21300016: g1151
+    21300018: HairStyle F 003 Aerius
+    21300020: HairStyle F 002 Ferilia
+    21300022: HairStyle F 001 Xylus
+    21300024: g192
+    21300026: g189
+    21300028: g186
+    21300030: g183
+    21300032: g180
+    21300034: LEyeBrow
+    21300036: InteriorEyeBall
+    21300038: ExteriorEyeBall
+    21300040: ExteriorEyeBallOutLine
+    21300042: EyeBase
+    21300044: EyeLash
+    21300046: REyeBrow
+    21300048: Ear
+    21300050: Nose
+    21300052: Mouth
+    21300054: Face
+    21300056: Neck
+    21300058: g535
+    21300060: path1071
+    21300062: RLowerArm2
+    21300064: RWrist
+    21300066: TorsoRightArmExit
+    21300068: Torso
+    21300070: Gloves 001
+    21300072: path1119
+    21300074: LLowerArm2
+    21300076: LWrist
+    21300078: g430
+    21300080: g268
+    21300082: g91
+    21300084: path967
+    21300086: RLowerLeg
+    21300088: RFeet
+    21300090: g240
+    21300092: Pants U 001 SockShoesPants
+    21300094: path992
+    21300096: LLowerLeg
+    21300098: LFeet
+    100100000: LFeet_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 300
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: LimbGloves Pack 001
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 3762
+      width: 94
+      height: 134
+    spriteID: 62adaf9646db9fa48beb6c40b3151539
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 578, y: 3331}
+  - name: g367
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 633
+      height: 801
+    spriteID: 1a38e919109544444beeec07fe990242
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -177, y: -697}
+  - name: g1299
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1550
+      width: 604
+      height: 657
+    spriteID: 51de03665fb99194d883f06bd8a0393d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -133, y: 719}
+  - name: HairStyle F 009 Annerix
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2215
+      width: 575
+      height: 627
+    spriteID: 8e6458c507b980f44ba1b7b9e6a4696a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -160, y: 1277}
+  - name: HairStyle F 008 Toriana
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 1885
+      width: 539
+      height: 452
+    spriteID: 45aeca6693fb4f042b9cb7b15a36110c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 450, y: 847}
+  - name: g1103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 864
+      width: 525
+      height: 480
+    spriteID: d95ef9c8ab04b8b4e828a8127a4ffd8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 432, y: -146}
+  - name: HairStyle F 006 Rowline
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1273
+      y: 434
+      width: 624
+      height: 360
+    spriteID: 1da84293227e94642bb7a4858ced681c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1147, y: -723}
+  - name: HairStyle F 005 Adeline
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 434
+      width: 620
+      height: 422
+    spriteID: 677ba1be7389e784bac1e53100b47d6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 434, y: -634}
+  - name: g1151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 4
+      width: 965
+      height: 422
+    spriteID: 2ef6937a41cec0c4eb738a9cd1845faf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 645, y: -1064}
+  - name: HairStyle F 003 Aerius
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3345
+      width: 528
+      height: 551
+    spriteID: fecddb27b5633f344b6054e7a2ac2928
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -205, y: 2406}
+  - name: HairStyle F 002 Ferilia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2850
+      width: 616
+      height: 487
+    spriteID: 01b15b82402f60b49af0754e9ebff589
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -118, y: 1840}
+  - name: HairStyle F 001 Xylus
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 813
+      width: 588
+      height: 729
+    spriteID: a581f2911eda71946aff1b357cdbaabf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -179, y: 56}
+  - name: g192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 888
+      y: 3157
+      width: 18
+      height: 28
+    spriteID: 055f6ef2023099146b7d8c25c6cf1427
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 593, y: 2056}
+  - name: g189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 888
+      y: 3097
+      width: 40
+      height: 52
+    spriteID: a4b1d95340cb5fd49964efa50f515578
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 604, y: 2012}
+  - name: g186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1690
+      y: 352
+      width: 49
+      height: 56
+    spriteID: af4aae919cb6ff74b82b9e975764f723
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1408, y: -729}
+  - name: g183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 4046
+      width: 70
+      height: 32
+    spriteID: 34c5f36e12c819546ad42256204fed4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 503, y: 2928}
+  - name: g180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1618
+      y: 352
+      width: 64
+      height: 56
+    spriteID: 702ffd7ba210938419c1cc7fb3c4ec08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1336, y: -729}
+  - name: LEyeBrow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 3366
+      width: 66
+      height: 19
+    spriteID: 190f3a1f4959f114f993398fbb312e44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 636, y: 2165}
+  - name: InteriorEyeBall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 936
+      y: 3157
+      width: 18
+      height: 28
+    spriteID: 6f5b8a45a1ee72c48b24f1a4d7a77439
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 479, y: 2056}
+  - name: ExteriorEyeBall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 936
+      y: 3097
+      width: 40
+      height: 52
+    spriteID: 987987e7d8fd5b04085e1a3ca069055a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 490, y: 2012}
+  - name: ExteriorEyeBallOutLine
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1824
+      y: 352
+      width: 49
+      height: 56
+    spriteID: 93cab4598b306604e8be78a5f1ba8a14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1381, y: -729}
+  - name: EyeBase
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1752
+      y: 352
+      width: 64
+      height: 56
+    spriteID: 3febf0e74aa120545a926987d777d359
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1309, y: -729}
+  - name: EyeLash
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 888
+      y: 3057
+      width: 70
+      height: 32
+    spriteID: f72023c839f83544297e7453e47839af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 448, y: 1939}
+  - name: REyeBrow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1886
+      y: 401
+      width: 102
+      height: 19
+    spriteID: 15f90eac72a7bba4ba5f0f36b10b0898
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1464, y: -804}
+  - name: Ear
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 884
+      y: 3904
+      width: 94
+      height: 103
+    spriteID: c9a9ca4c60ce65441b21950dc8b843e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 332, y: 2881}
+  - name: Nose
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1192
+      y: 1885
+      width: 31
+      height: 53
+    spriteID: 49055525ca24e9d47a57d25379ea2170
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 850, y: 826}
+  - name: Mouth
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 3904
+      width: 91
+      height: 13
+    spriteID: 0767f5103c3797f41bb3af37e32cd7ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -230, y: 2884}
+  - name: Face
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 1352
+      width: 465
+      height: 525
+    spriteID: 105d325f8d4fde04fb8d307137ad23d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 402, y: 400}
+  - name: Neck
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 884
+      y: 4015
+      width: 86
+      height: 68
+    spriteID: e98b230b57eac934583dfce27386ed68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 494, y: 3103}
+  - name: g535
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 3904
+      width: 94
+      height: 134
+    spriteID: 9b86a27e004eee642828958d9fd01a84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 233, y: 3463}
+  - name: path1071
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1886
+      y: 4
+      width: 123
+      height: 251
+    spriteID: 1342eac5cdbac8d42bd3db516b622d68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1394, y: -543}
+  - name: RLowerArm2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 3197
+      width: 62
+      height: 161
+    spriteID: c04b7fd71850efc469e29c7dcdf6ccc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 360, y: 2738}
+  - name: RWrist
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 888
+      y: 2887
+      width: 68
+      height: 77
+    spriteID: be58f7e4f80b6964d804050c630f96b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 339, y: 2446}
+  - name: TorsoRightArmExit
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1886
+      y: 263
+      width: 151
+      height: 130
+    spriteID: e12c3e5ba2c542c41a14ceb36d293bc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1445, y: -489}
+  - name: Torso
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 2345
+      width: 334
+      height: 534
+    spriteID: dd73d0243f6718a4d971a751dd22b5b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 402, y: 1933}
+  - name: Gloves 001
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 884
+      y: 3762
+      width: 94
+      height: 134
+    spriteID: 7b7243d6840ba1141b4f6f15fff527ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 680, y: 3331}
+  - name: path1119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 3410
+      width: 123
+      height: 251
+    spriteID: 4ccf4a0c74a377a42b9da51a66cb9c91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 412, y: 2873}
+  - name: LLowerArm2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 910
+      y: 3406
+      width: 62
+      height: 161
+    spriteID: 0bd55e51cfc01bc428e9019f3a333a29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 674, y: 2947}
+  - name: LWrist
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 888
+      y: 2972
+      width: 68
+      height: 77
+    spriteID: 8b6b61b4d7d63a8428139855c9d23bde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 658, y: 2540}
+  - name: g430
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 3615
+      width: 169
+      height: 139
+    spriteID: a3d9c5e81c1640f49bed68913441d77d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 527, y: 2872}
+  - name: g268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1618
+      y: 4
+      width: 126
+      height: 340
+    spriteID: 53742d5259656d748990eb3366648570
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1187, y: 3}
+  - name: g91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1118
+      y: 1352
+      width: 131
+      height: 517
+    spriteID: 1ba45392c4990c14d81780bc28a0d317
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 688, y: 1350}
+  - name: path967
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 3197
+      width: 120
+      height: 201
+    spriteID: e8dd75b1ef1ac234f9ac5089a095d73c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 354, y: 2892}
+  - name: RLowerLeg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 3669
+      width: 98
+      height: 302
+    spriteID: 1259f92d6d6ace647b1717fe5f7491d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 201, y: 3599}
+  - name: RFeet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 3979
+      width: 112
+      height: 99
+    spriteID: 96113f4f114f06b44ad308506d784f24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 213, y: 3978}
+  - name: g240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1752
+      y: 4
+      width: 126
+      height: 340
+    spriteID: 94a3acc4c007fc142926b0e5136afc75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1462, y: 3}
+  - name: Pants U 001 SockShoesPants
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 2887
+      width: 129
+      height: 515
+    spriteID: 3dd386b04498da247824199a6bfba2d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 358, y: 2885}
+  - name: path992
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 3406
+      width: 120
+      height: 201
+    spriteID: cd859818c29d6b449883a282d63668c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 498, y: 3101}
+  - name: LLowerLeg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 782
+      y: 2887
+      width: 98
+      height: 302
+    spriteID: ac3192fb4a1d8984989223d6214a0a7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 481, y: 2817}
+  - name: LFeet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3904
+      width: 112
+      height: 99
+    spriteID: 5ff0f26a4deb513448320e7ecdd87473
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -286, y: 3903}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 967, y: 1565}
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: svg8
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 91
+    mosaicPosition: {x: 0, y: 0}
+  - name: CustomLimbs
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 89
+    mosaicPosition: {x: 0, y: 0}
+  - name: LimbGloves Pack 001
+    spriteName: LimbGloves Pack 001
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 62adaf9646db9fa48beb6c40b3151539
+    layerID: 88
+    mosaicPosition: {x: 782, y: 3762}
+  - name: Head
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 86
+    mosaicPosition: {x: 0, y: 0}
+  - name: Hair
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 00000000000000000000000000000000
+    layerID: 84
+    mosaicPosition: {x: 0, y: 0}
+  - name: g367
+    spriteName: g367
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 1a38e919109544444beeec07fe990242
+    layerID: 83
+    mosaicPosition: {x: 4, y: 4}
+  - name: g1299
+    spriteName: g1299
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 51de03665fb99194d883f06bd8a0393d
+    layerID: 82
+    mosaicPosition: {x: 4, y: 1550}
+  - name: HairStyle F 009 Annerix
+    spriteName: HairStyle F 009 Annerix
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 8e6458c507b980f44ba1b7b9e6a4696a
+    layerID: 81
+    mosaicPosition: {x: 4, y: 2215}
+  - name: HairStyle F 008 Toriana
+    spriteName: HairStyle F 008 Toriana
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 45aeca6693fb4f042b9cb7b15a36110c
+    layerID: 80
+    mosaicPosition: {x: 645, y: 1885}
+  - name: g1103
+    spriteName: g1103
+    isGroup: 0
+    parentIndex: 4
+    spriteID: d95ef9c8ab04b8b4e828a8127a4ffd8f
+    layerID: 79
+    mosaicPosition: {x: 645, y: 864}
+  - name: HairStyle F 006 Rowline
+    spriteName: HairStyle F 006 Rowline
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 1da84293227e94642bb7a4858ced681c
+    layerID: 78
+    mosaicPosition: {x: 1273, y: 434}
+  - name: HairStyle F 005 Adeline
+    spriteName: HairStyle F 005 Adeline
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 677ba1be7389e784bac1e53100b47d6e
+    layerID: 77
+    mosaicPosition: {x: 645, y: 434}
+  - name: g1151
+    spriteName: g1151
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 2ef6937a41cec0c4eb738a9cd1845faf
+    layerID: 76
+    mosaicPosition: {x: 645, y: 4}
+  - name: HairStyle F 003 Aerius
+    spriteName: HairStyle F 003 Aerius
+    isGroup: 0
+    parentIndex: 4
+    spriteID: fecddb27b5633f344b6054e7a2ac2928
+    layerID: 75
+    mosaicPosition: {x: 4, y: 3345}
+  - name: HairStyle F 002 Ferilia
+    spriteName: HairStyle F 002 Ferilia
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 01b15b82402f60b49af0754e9ebff589
+    layerID: 74
+    mosaicPosition: {x: 4, y: 2850}
+  - name: HairStyle F 001 Xylus
+    spriteName: HairStyle F 001 Xylus
+    isGroup: 0
+    parentIndex: 4
+    spriteID: a581f2911eda71946aff1b357cdbaabf
+    layerID: 73
+    mosaicPosition: {x: 4, y: 813}
+  - name: LEye
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 00000000000000000000000000000000
+    layerID: 71
+    mosaicPosition: {x: 0, y: 0}
+  - name: g192
+    spriteName: g192
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 055f6ef2023099146b7d8c25c6cf1427
+    layerID: 70
+    mosaicPosition: {x: 888, y: 3157}
+  - name: g189
+    spriteName: g189
+    isGroup: 0
+    parentIndex: 16
+    spriteID: a4b1d95340cb5fd49964efa50f515578
+    layerID: 69
+    mosaicPosition: {x: 888, y: 3097}
+  - name: g186
+    spriteName: g186
+    isGroup: 0
+    parentIndex: 16
+    spriteID: af4aae919cb6ff74b82b9e975764f723
+    layerID: 68
+    mosaicPosition: {x: 1690, y: 352}
+  - name: g183
+    spriteName: g183
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 34c5f36e12c819546ad42256204fed4e
+    layerID: 67
+    mosaicPosition: {x: 782, y: 4046}
+  - name: g180
+    spriteName: g180
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 702ffd7ba210938419c1cc7fb3c4ec08
+    layerID: 66
+    mosaicPosition: {x: 1618, y: 352}
+  - name: LEyeBrow
+    spriteName: LEyeBrow
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 190f3a1f4959f114f993398fbb312e44
+    layerID: 65
+    mosaicPosition: {x: 910, y: 3366}
+  - name: REye
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 00000000000000000000000000000000
+    layerID: 63
+    mosaicPosition: {x: 0, y: 0}
+  - name: InteriorEyeBall
+    spriteName: InteriorEyeBall
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 6f5b8a45a1ee72c48b24f1a4d7a77439
+    layerID: 62
+    mosaicPosition: {x: 936, y: 3157}
+  - name: ExteriorEyeBall
+    spriteName: ExteriorEyeBall
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 987987e7d8fd5b04085e1a3ca069055a
+    layerID: 61
+    mosaicPosition: {x: 936, y: 3097}
+  - name: ExteriorEyeBallOutLine
+    spriteName: ExteriorEyeBallOutLine
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 93cab4598b306604e8be78a5f1ba8a14
+    layerID: 60
+    mosaicPosition: {x: 1824, y: 352}
+  - name: EyeBase
+    spriteName: EyeBase
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 3febf0e74aa120545a926987d777d359
+    layerID: 59
+    mosaicPosition: {x: 1752, y: 352}
+  - name: EyeLash
+    spriteName: EyeLash
+    isGroup: 0
+    parentIndex: 23
+    spriteID: f72023c839f83544297e7453e47839af
+    layerID: 58
+    mosaicPosition: {x: 888, y: 3057}
+  - name: REyeBrow
+    spriteName: REyeBrow
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 15f90eac72a7bba4ba5f0f36b10b0898
+    layerID: 57
+    mosaicPosition: {x: 1886, y: 401}
+  - name: Ear
+    spriteName: Ear
+    isGroup: 0
+    parentIndex: 3
+    spriteID: c9a9ca4c60ce65441b21950dc8b843e3
+    layerID: 56
+    mosaicPosition: {x: 884, y: 3904}
+  - name: Nose
+    spriteName: Nose
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 49055525ca24e9d47a57d25379ea2170
+    layerID: 55
+    mosaicPosition: {x: 1192, y: 1885}
+  - name: Mouth
+    spriteName: Mouth
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 0767f5103c3797f41bb3af37e32cd7ef
+    layerID: 54
+    mosaicPosition: {x: 124, y: 3904}
+  - name: Face
+    spriteName: Face
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 105d325f8d4fde04fb8d307137ad23d6
+    layerID: 53
+    mosaicPosition: {x: 645, y: 1352}
+  - name: Neck
+    spriteName: Neck
+    isGroup: 0
+    parentIndex: 3
+    spriteID: e98b230b57eac934583dfce27386ed68
+    layerID: 52
+    mosaicPosition: {x: 884, y: 4015}
+  - name: UpperBody
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+  - name: RUpperArm
+    spriteName: 
+    isGroup: 1
+    parentIndex: 35
+    spriteID: 00000000000000000000000000000000
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+  - name: Custom RArm
+    spriteName: 
+    isGroup: 1
+    parentIndex: 36
+    spriteID: 00000000000000000000000000000000
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+  - name: g535
+    spriteName: g535
+    isGroup: 0
+    parentIndex: 37
+    spriteID: 9b86a27e004eee642828958d9fd01a84
+    layerID: 45
+    mosaicPosition: {x: 782, y: 3904}
+  - name: RLowerArm
+    spriteName: 
+    isGroup: 1
+    parentIndex: 36
+    spriteID: 00000000000000000000000000000000
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+  - name: path1071
+    spriteName: path1071
+    isGroup: 0
+    parentIndex: 39
+    spriteID: 1342eac5cdbac8d42bd3db516b622d68
+    layerID: 42
+    mosaicPosition: {x: 1886, y: 4}
+  - name: RLowerArm2
+    spriteName: RLowerArm2
+    isGroup: 0
+    parentIndex: 39
+    spriteID: c04b7fd71850efc469e29c7dcdf6ccc0
+    layerID: 41
+    mosaicPosition: {x: 910, y: 3197}
+  - name: RWrist
+    spriteName: RWrist
+    isGroup: 0
+    parentIndex: 39
+    spriteID: be58f7e4f80b6964d804050c630f96b8
+    layerID: 40
+    mosaicPosition: {x: 888, y: 2887}
+  - name: TorsoRightArmExit
+    spriteName: TorsoRightArmExit
+    isGroup: 0
+    parentIndex: 35
+    spriteID: e12c3e5ba2c542c41a14ceb36d293bc2
+    layerID: 39
+    mosaicPosition: {x: 1886, y: 263}
+  - name: Torso
+    spriteName: Torso
+    isGroup: 0
+    parentIndex: 35
+    spriteID: dd73d0243f6718a4d971a751dd22b5b2
+    layerID: 38
+    mosaicPosition: {x: 645, y: 2345}
+  - name: LUpperArm
+    spriteName: 
+    isGroup: 1
+    parentIndex: 35
+    spriteID: 00000000000000000000000000000000
+    layerID: 36
+    mosaicPosition: {x: 0, y: 0}
+  - name: g495
+    spriteName: 
+    isGroup: 1
+    parentIndex: 45
+    spriteID: 00000000000000000000000000000000
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+  - name: Gloves 001
+    spriteName: Gloves 001
+    isGroup: 0
+    parentIndex: 46
+    spriteID: 7b7243d6840ba1141b4f6f15fff527ca
+    layerID: 33
+    mosaicPosition: {x: 884, y: 3762}
+  - name: LLowerArm
+    spriteName: 
+    isGroup: 1
+    parentIndex: 45
+    spriteID: 00000000000000000000000000000000
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+  - name: path1119
+    spriteName: path1119
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 4ccf4a0c74a377a42b9da51a66cb9c91
+    layerID: 30
+    mosaicPosition: {x: 645, y: 3410}
+  - name: LLowerArm2
+    spriteName: LLowerArm2
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 0bd55e51cfc01bc428e9019f3a333a29
+    layerID: 29
+    mosaicPosition: {x: 910, y: 3406}
+  - name: LWrist
+    spriteName: LWrist
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 8b6b61b4d7d63a8428139855c9d23bde
+    layerID: 28
+    mosaicPosition: {x: 888, y: 2972}
+  - name: g430
+    spriteName: g430
+    isGroup: 0
+    parentIndex: 35
+    spriteID: a3d9c5e81c1640f49bed68913441d77d
+    layerID: 27
+    mosaicPosition: {x: 782, y: 3615}
+  - name: LowerBody
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+  - name: RLeg
+    spriteName: 
+    isGroup: 1
+    parentIndex: 53
+    spriteID: 00000000000000000000000000000000
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+  - name: Custom RLeg
+    spriteName: 
+    isGroup: 1
+    parentIndex: 54
+    spriteID: 00000000000000000000000000000000
+    layerID: 21
+    mosaicPosition: {x: 0, y: 0}
+  - name: g268
+    spriteName: g268
+    isGroup: 0
+    parentIndex: 55
+    spriteID: 53742d5259656d748990eb3366648570
+    layerID: 20
+    mosaicPosition: {x: 1618, y: 4}
+  - name: g91
+    spriteName: g91
+    isGroup: 0
+    parentIndex: 55
+    spriteID: 1ba45392c4990c14d81780bc28a0d317
+    layerID: 19
+    mosaicPosition: {x: 1118, y: 1352}
+  - name: RUpperLeg
+    spriteName: 
+    isGroup: 1
+    parentIndex: 54
+    spriteID: 00000000000000000000000000000000
+    layerID: 17
+    mosaicPosition: {x: 0, y: 0}
+  - name: path967
+    spriteName: path967
+    isGroup: 0
+    parentIndex: 58
+    spriteID: e8dd75b1ef1ac234f9ac5089a095d73c
+    layerID: 16
+    mosaicPosition: {x: 782, y: 3197}
+  - name: RLowerLeg
+    spriteName: RLowerLeg
+    isGroup: 0
+    parentIndex: 58
+    spriteID: 1259f92d6d6ace647b1717fe5f7491d1
+    layerID: 15
+    mosaicPosition: {x: 645, y: 3669}
+  - name: RFeet
+    spriteName: RFeet
+    isGroup: 0
+    parentIndex: 58
+    spriteID: 96113f4f114f06b44ad308506d784f24
+    layerID: 14
+    mosaicPosition: {x: 645, y: 3979}
+  - name: LLeg
+    spriteName: 
+    isGroup: 1
+    parentIndex: 53
+    spriteID: 00000000000000000000000000000000
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+  - name: Custom LLeg
+    spriteName: 
+    isGroup: 1
+    parentIndex: 62
+    spriteID: 00000000000000000000000000000000
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+  - name: g240
+    spriteName: g240
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 94a3acc4c007fc142926b0e5136afc75
+    layerID: 9
+    mosaicPosition: {x: 1752, y: 4}
+  - name: Pants U 001 SockShoesPants
+    spriteName: Pants U 001 SockShoesPants
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 3dd386b04498da247824199a6bfba2d3
+    layerID: 8
+    mosaicPosition: {x: 645, y: 2887}
+  - name: LUpperLeg
+    spriteName: 
+    isGroup: 1
+    parentIndex: 62
+    spriteID: 00000000000000000000000000000000
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+  - name: path992
+    spriteName: path992
+    isGroup: 0
+    parentIndex: 66
+    spriteID: cd859818c29d6b449883a282d63668c4
+    layerID: 5
+    mosaicPosition: {x: 782, y: 3406}
+  - name: LLowerLeg
+    spriteName: LLowerLeg
+    isGroup: 0
+    parentIndex: 66
+    spriteID: ac3192fb4a1d8984989223d6214a0a7a
+    layerID: 4
+    mosaicPosition: {x: 782, y: 2887}
+  - name: LFeet
+    spriteName: LFeet
+    isGroup: 0
+    parentIndex: 66
+    spriteID: 5ff0f26a4deb513448320e7ecdd87473
+    layerID: 3
+    mosaicPosition: {x: 4, y: 3904}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0

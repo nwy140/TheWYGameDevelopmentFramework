@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) and export_objects.py -->
+<svg xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" width="3840" height="2160" viewBox="0 0 3840 2160" id="SVGRoot" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="Tree_Pack_01_00006.svg"><sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.125" inkscape:cx="-1349.0963" inkscape:cy="-386.16932" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1051" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:snap-nodes="false"/>
+  <metadata id="metadata847">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:groupmode="layer" id="layer6" inkscape:label="Tree_Pack_01_Tree06" style="opacity:1;display:inline" transform="translate(0,1080)">
+    <rect style="fill:#803300;fill-opacity:1;stroke-width:0.68220967" id="rect978" width="79.915993" height="372.2916" x="836.4101" y="65.716187"/>
+    <ellipse style="fill:#008000;fill-opacity:1;stroke-width:0.88337409" id="ellipse980" cx="797.16937" cy="18.936096" rx="143.86378" ry="196.86624"/>
+    <ellipse style="fill:#008000;fill-opacity:1;stroke-width:0.88337409" id="ellipse982" cx="981.23688" cy="24.599731" rx="143.86378" ry="196.86624"/>
+    <path sodipodi:nodetypes="sssss" inkscape:connector-curvature="0" id="path984" d="m 1142.8216,35.950631 c 0,109.266509 -170.35155,91.190449 -253.63043,91.190449 -83.27886,0 -269.51524,45.17837 -269.51524,-64.088149 0,-109.26655 186.23638,-331.600941 269.51524,-331.600941 83.27888,0 253.63043,195.232111 253.63043,304.498641 z" style="fill:#008000;fill-opacity:1;stroke-width:0.90663236"/>
+  </g>
+  </svg>
