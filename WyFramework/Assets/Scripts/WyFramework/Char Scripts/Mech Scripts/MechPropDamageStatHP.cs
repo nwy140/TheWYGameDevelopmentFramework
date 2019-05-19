@@ -11,7 +11,11 @@ public class MechPropDamageStatHP : MonoBehaviour
     {
         if (other)
         {
-            other.GetComponent<MechCharStatHP>().ApplyDamage(dmg);
+            MechCharStatHP mechCharStatHPComp = other.GetComponent<MechCharStatHP>();
+            if (mechCharStatHPComp)
+            {
+                mechCharStatHPComp.ApplyDamage(dmg);
+            }
         }
     }
 
@@ -19,7 +23,11 @@ public class MechPropDamageStatHP : MonoBehaviour
     {
         if (other.gameObject)
         {
-            other.gameObject.GetComponent<MechCharStatHP>().ApplyDamage(dmg);
+            MechCharStatHP mechCharStatHPComp = other.gameObject.GetComponent<MechCharStatHP>();
+            if (mechCharStatHPComp)
+            {
+                mechCharStatHPComp.ApplyDamage(dmg);
+            }
         }    
     }
 }

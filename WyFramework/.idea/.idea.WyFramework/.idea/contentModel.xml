@@ -19,6 +19,18 @@
               <e p="MechActorGroundDetector.cs" t="Include" />
               <e p="MechCharMovement.cs" t="Include" />
               <e p="MechCharStatHP.cs" t="Include" />
+              <e p="MechExtra Scripts" t="Include">
+                <e p="CharSkills" t="Include">
+                  <e p="MechExtraCharSkillMeleeAtk.cs" t="Include" />
+                  <e p="MechExtraCharSkillProjectile.cs" t="Include" />
+                  <e p="MechExtraCharSkillProjectile2D.cs" t="Include" />
+                  <e p="MechExtraCharSkillRangeAtkRayCast.cs" t="Include" />
+                  <e p="MechExtraCharSkillRangeAtkSpwnProjectile.cs" t="Include" />
+                </e>
+                <e p="WorldStat" t="Include">
+                  <e p="MechExtraWorldStatTimer.cs" t="Include" />
+                </e>
+              </e>
               <e p="MechPropDamageStatHP.cs" t="Include" />
             </e>
             <e p="Vis Scripts" t="Include">
@@ -31,6 +43,7 @@
             <e p="CnvLockPosToObj.cs" t="Include" />
             <e p="CnvTags.cs" t="Include" />
           </e>
+          <e p="Mech.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
