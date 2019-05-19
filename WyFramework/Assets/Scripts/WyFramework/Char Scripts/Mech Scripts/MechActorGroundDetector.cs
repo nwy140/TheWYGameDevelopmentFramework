@@ -10,7 +10,6 @@ public class MechActorGroundDetector : MonoBehaviour
     // add new collision layer as 8 for ground detection
 
     private void OnTriggerEnter2D(Collider2D other) {
-        print("Det" + other.gameObject.layer);
         if(other.gameObject.layer == 8 ){
             isGrounded = true;        
         }

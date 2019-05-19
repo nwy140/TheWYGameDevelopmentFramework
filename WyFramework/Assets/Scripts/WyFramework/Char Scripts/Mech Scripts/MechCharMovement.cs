@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class CharMovement : MonoBehaviour
+public class MechCharMovement : MonoBehaviour
 {
 	Rigidbody2D myRB;
-	VisCharAnim childCharAnim;
-	public MechActorGroundDetector childGD;
+	VisCharAnim childVisCharAnim;
+	public MechActorGroundDetector MechActorGroundDetector;
 	public float runSpeed;
 	public float jumpSpeed;
 	public bool flipChildChar;
@@ -17,15 +17,8 @@ public class CharMovement : MonoBehaviour
 	void Awake()
 	{
 		myRB = GetComponent<Rigidbody2D>();
-		childCharAnim = GetComponentInChildren<VisCharAnim>();
-//		childGD = GetComponentInChildren<MechActorGroundDetector>();
+		childVisCharAnim = GetComponentInChildren<VisCharAnim>();
 
-
-//		if(flipChildChar){
-//			childCharAnim.transform.localRotation = Quaternion.Euler(0,180,0);
-//		}else{
-//			childCharAnim.transform.localRotation = Quaternion.Euler(0,0,0);
-//		}	
 	}
 
 	// Update is called once per frame
@@ -39,27 +32,17 @@ public class CharMovement : MonoBehaviour
 	void ManualHorizontalMovement()
 	{
 		myRB.velocity = new Vector2((runSpeed * Input.GetAxis("Horizontal") * Vector2.right).x, myRB.velocity.y);
+		
 		if (myRB.velocity.x > 0.2f)
 		{
-//			childCharAnim.Walk(true);
-//			if(flipChildChar){
-//				childCharAnim.transform.localRotation = Quaternion.Euler(0,180,0);
-//			}else{
-//				childCharAnim.transform.localRotation = Quaternion.Euler(0,0,0);
-//			}			
+		
 		}
 		else if (myRB.velocity.x < -0.2f)
 		{
-//			childCharAnim.Walk(true);	
-//			if(flipChildChar){
-//				childCharAnim.transform.localRotation = Quaternion.Euler(0,0,0);
-//			}else{
-//				childCharAnim.transform.localRotation = Quaternion.Euler(0,180,0);
-//			}
+
 		}
 		else
 		{
-//			childCharAnim.Walk(false);
 
 		}
 	}
@@ -74,12 +57,9 @@ public class CharMovement : MonoBehaviour
 	{
 		if (Input.GetButton("Fire1"))
 		{
-			if (childGD.isGrounded == true)
+			if (MechActorGroundDetector.isGrounded == true)
 			{
-				// jump only when grounded
-//                childCharAnim.Jump();
 				myRB.velocity = new Vector2(myRB.velocity.x, (jumpSpeed * Input.GetAxis("Fire1") * Vector2.up).y);
-
 			}
 		}
 	}

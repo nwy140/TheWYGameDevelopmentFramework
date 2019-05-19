@@ -5,17 +5,26 @@
     <e p="C:\Users\u1274886\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_WyFramework.268922585.00" t="ExcludeRecursive" />
     <e p="C:\Users\u1274886\Desktop\GameDevTech\TechProjects\TheWYGameDevelopmentFramework\WyFramework" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets\Scripts" t="Include">
-        <e p="Character Scripts" t="Include">
-          <e p="Player Scripts" t="Include">
-            <e p="CharMovement.cs" t="Include" />
-          </e>
-          <e p="Universal" t="Include">
-            <e p="MechActorGroundDetector.cs" t="Include" />
-            <e p="VisCharAnim.cs" t="Include" />
+      <e p="Assets\ArtStyles" t="Include">
+        <e p="Fonts" t="Include">
+          <e p="kenney_fontpackage" t="Include">
+            <e p="License.txt" t="Include" />
           </e>
         </e>
+      </e>
+      <e p="Assets\Scripts" t="Include">
         <e p="WyFramework" t="Include">
+          <e p="Char Scripts" t="Include">
+            <e p="Mech Scripts" t="Include">
+              <e p="MechActorGroundDetector.cs" t="Include" />
+              <e p="MechCharMovement.cs" t="Include" />
+              <e p="MechCharStatHP.cs" t="Include" />
+              <e p="MechPropDamageStatHP.cs" t="Include" />
+            </e>
+            <e p="Vis Scripts" t="Include">
+              <e p="VisCharAnim.cs" t="Include" />
+            </e>
+          </e>
           <e p="Convenience Scripts" t="Include">
             <e p="CnvCameraFollowObj.cs" t="Include" />
             <e p="CnvDeactiveGmObjByTime.cs" t="Include" />
