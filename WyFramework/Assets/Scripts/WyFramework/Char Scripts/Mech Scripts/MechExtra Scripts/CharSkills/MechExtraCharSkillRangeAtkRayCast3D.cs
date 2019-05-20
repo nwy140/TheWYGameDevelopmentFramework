@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MechExtraCharSkillRangeAtkRayCast : MonoBehaviour
+public class MechExtraCharSkillRangeAtkRayCast3D : MonoBehaviour
 {
     public float range = 10f;
     public float damage = 5f;
@@ -13,9 +13,9 @@ public class MechExtraCharSkillRangeAtkRayCast : MonoBehaviour
     LineRenderer gunLine;
 
     // Start is called before the first frame update
-    void Awake()
+    void Update()
     {
-        shootableMask = LayerMask.GetMask("Shootable");
+        shootableMask = LayerMask.GetMask("PropCol");
         gunLine = GetComponent<LineRenderer>(); 
 
         shootRay.origin = transform.position;  
@@ -26,13 +26,8 @@ public class MechExtraCharSkillRangeAtkRayCast : MonoBehaviour
             //hit an enemy goes here
             gunLine.SetPosition(1,shootHit.point); // draw line from position of fired all the way to hit point
         } else gunLine.SetPosition(1,shootRay.origin + shootRay.direction * range);
-        if(shootHit.collider.tag != tag)
-            shootHit.collider.GetComponent<MechCharStatHP>().ApplyDamage(damage);
+//        shootHit.collider.GetComponent<MechCharStatHP>().ApplyDamage(damage);
     }   
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

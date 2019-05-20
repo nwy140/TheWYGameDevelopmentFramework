@@ -6,7 +6,7 @@ using UnityEngine;
 public class MechCharMovement : MonoBehaviour
 {
 	Rigidbody2D myRB;
-	VisCharAnim childVisCharAnim;
+	// VisCharAnim childVisCharAnim;
 	public MechActorGroundDetector MechActorGroundDetector;
 	public float runSpeed;
 	public float jumpSpeed;
@@ -17,7 +17,7 @@ public class MechCharMovement : MonoBehaviour
 	void Awake()
 	{
 		myRB = GetComponent<Rigidbody2D>();
-		childVisCharAnim = GetComponentInChildren<VisCharAnim>();
+//		childVisCharAnim = GetComponentInChildren<VisCharAnim>();
 
 	}
 

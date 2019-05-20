@@ -10,13 +10,16 @@ public class MechActorGroundDetector : MonoBehaviour
     // add new collision layer as 8 for ground detection
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.layer == 8 ){
+        if(LayerMask.LayerToName(other.gameObject.layer) == "PropCol" ){
             isGrounded = true;        
         }
     }
     private void OnTriggerExit2D(Collider2D other) {
-        if(other.gameObject.layer == 8 ){
+        if(LayerMask.LayerToName(other.gameObject.layer) == "PropCol" ){
             isGrounded = false;      
         }
     }   
 }
+
+
+// old get layer         if(other.gameObject.layer == 8 ){
