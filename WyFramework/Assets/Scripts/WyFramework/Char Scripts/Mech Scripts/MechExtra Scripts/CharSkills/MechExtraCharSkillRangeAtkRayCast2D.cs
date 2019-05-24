@@ -7,7 +7,6 @@ public class MechExtraCharSkillRangeAtkRayCast2D : MonoBehaviour
     public float range = 10f;
     public float damage = 5f;
 
-    Ray shootRay;
     RaycastHit2D shootHit; //Anything that's hit by the raycast
     int shootableMask;
     LineRenderer gunLine;
@@ -16,16 +15,13 @@ public class MechExtraCharSkillRangeAtkRayCast2D : MonoBehaviour
     void Update()
     {
         shootableMask = LayerMask.GetMask("PropCol");
-        gunLine = GetComponent<LineRenderer>(); 
-
-        shootRay.origin = transform.position;  
-        shootRay.direction = transform.forward;
+        gunLine = GetComponent<LineRenderer>();
         gunLine.SetPosition(0,transform.position);
 
-        if(Physics2D.Raycast(shootRay, out shootHit, range, shootableMask)){
+        if(Physics2D.Raycast(transform.position, transform.forward, range, shootableMask)){
             //hit an enemy goes here
-            gunLine.SetPosition(1,shootHit.point); // draw line from position of fired all the way to hit point
-        } else gunLine.SetPosition(1,shootRay.origin + shootRay.direction * range);
+            gunLine.SetPosition(1,shootHit.collider.transform.position); // draw line from position of fired all the way to hit point
+        } else gunLine.SetPosition(1,shootHit.collider.transform.position + shootHit.collider.transform.forward * range);
 //        shootHit.collider.GetComponent<MechCharStatHP>().ApplyDamage(damage);
     }   
 

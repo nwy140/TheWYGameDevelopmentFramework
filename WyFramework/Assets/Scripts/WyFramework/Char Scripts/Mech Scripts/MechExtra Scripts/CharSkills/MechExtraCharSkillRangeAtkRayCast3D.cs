@@ -22,7 +22,7 @@ public class MechExtraCharSkillRangeAtkRayCast3D : MonoBehaviour
         shootRay.direction = transform.forward;
         gunLine.SetPosition(0,transform.position);
 
-        if(Physics.Raycast(shootRay, out shootHit, range, shootableMask)){
+        if(Physics.Raycast(shootRay, out shootHit,range , shootableMask)){
             //hit an enemy goes here
             gunLine.SetPosition(1,shootHit.point); // draw line from position of fired all the way to hit point
         } else gunLine.SetPosition(1,shootRay.origin + shootRay.direction * range);

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="" />
+    <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
+            <state relative-caret-position="165">
               <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <marker date="1558300589300" expanded="false" signature="6:100" ph="..." />
@@ -44,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="165">
               <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <marker date="1558312107249" expanded="false" signature="6:78" ph="..." />
@@ -72,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="45">
               <caret line="9" column="10" selection-start-line="9" selection-end-line="10" />
               <folding>
                 <marker date="1558310876837" expanded="false" signature="6:92" ph="..." />
@@ -110,13 +114,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            <state relative-caret-position="375">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
-                <marker date="1558312893222" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558312893222" expanded="true" signature="144:1067" ph="{...}" />
-                <marker date="1558312893222" expanded="true" signature="408:1060" ph="{...}" />
-                <marker date="1558312893222" expanded="true" signature="740:900" ph="{...}" />
+                <marker date="1558489669177" expanded="false" signature="6:78" ph="..." />
+                <marker date="1558489669177" expanded="true" signature="144:1067" ph="{...}" />
+                <marker date="1558489669177" expanded="true" signature="408:1060" ph="{...}" />
+                <marker date="1558489669177" expanded="true" signature="740:900" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,13 +129,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="345">
+              <caret line="23" column="121" lean-forward="true" selection-start-line="22" selection-start-column="133" selection-end-line="23" selection-end-column="121" />
               <folding>
-                <marker date="1558312986508" expanded="true" signature="6:78" ph="..." />
-                <marker date="1558312986508" expanded="true" signature="144:1071" ph="{...}" />
-                <marker date="1558312986508" expanded="true" signature="410:1064" ph="{...}" />
-                <marker date="1558312986508" expanded="true" signature="744:904" ph="{...}" />
+                <marker date="1558489715027" expanded="true" signature="6:78" ph="..." />
+                <marker date="1558489715027" expanded="true" signature="144:1030" ph="{...}" />
+                <marker date="1558489715027" expanded="true" signature="392:1023" ph="{...}" />
+                <marker date="1558489715027" expanded="true" signature="643:825" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -140,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state>
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <marker date="1558308586598" expanded="false" signature="6:78" ph="..." />
@@ -236,8 +240,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" />
       </list>
     </option>
@@ -308,11 +312,12 @@
       <workItem from="1558308543313" duration="2195000" />
       <workItem from="1558310765531" duration="262000" />
       <workItem from="1558311077034" duration="1915000" />
+      <workItem from="1558489153686" duration="2412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17973000" />
+    <option name="totallyTimeSpent" value="20385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,7 +353,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info active="true" anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
@@ -534,7 +539,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/MechExtraCharSkillTouchAttack.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
+        <state relative-caret-position="165">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <marker date="1558300589300" expanded="false" signature="6:100" ph="..." />
@@ -561,64 +566,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-          <folding>
-            <marker date="1558309832445" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558309832445" expanded="true" signature="132:645" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="167:277" ph="/* Start is called before the first frame update ... */" />
-            <marker date="1558309832445" expanded="true" signature="331:460" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="404:454" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="512:640" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="585:634" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1558308586598" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558308586598" expanded="true" signature="126:1186" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="381:488" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="540:602" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="636:855" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="780:791" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="827:836" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="843:852" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="887:939" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="968:1178" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="1003:1175" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="1058:1171" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="10" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <marker date="1558310876837" expanded="false" signature="6:92" ph="..." />
-            <marker date="1558310876837" expanded="true" signature="187:1511" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="406:455" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="496:895" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="641:889" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="685:879" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="938:1351" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="1407:1507" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="1443:1501" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="165">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <marker date="1558312107249" expanded="false" signature="6:78" ph="..." />
@@ -642,28 +592,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="10" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <marker date="1558310876837" expanded="false" signature="6:92" ph="..." />
+            <marker date="1558310876837" expanded="true" signature="187:1511" ph="{...}" />
+            <marker date="1558310876837" expanded="true" signature="406:455" ph="{...}" />
+            <marker date="1558310876837" expanded="true" signature="496:895" ph="{...}" />
+            <marker date="1558310876837" expanded="true" signature="641:889" ph="{...}" />
+            <marker date="1558310876837" expanded="true" signature="685:879" ph="{...}" />
+            <marker date="1558310876837" expanded="true" signature="938:1351" ph="{...}" />
+            <marker date="1558310876837" expanded="true" signature="1407:1507" ph="{...}" />
+            <marker date="1558310876837" expanded="true" signature="1443:1501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <marker date="1558309832445" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558309832445" expanded="true" signature="132:645" ph="{...}" />
+            <marker date="1558309832445" expanded="true" signature="167:277" ph="/* Start is called before the first frame update ... */" />
+            <marker date="1558309832445" expanded="true" signature="331:460" ph="{...}" />
+            <marker date="1558309832445" expanded="true" signature="404:454" ph="{...}" />
+            <marker date="1558309832445" expanded="true" signature="512:640" ph="{...}" />
+            <marker date="1558309832445" expanded="true" signature="585:634" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1558308586598" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558308586598" expanded="true" signature="126:1186" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="381:488" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="540:602" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="636:855" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="780:791" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="827:836" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="843:852" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="887:939" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="968:1178" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="1003:1175" ph="{...}" />
+            <marker date="1558308586598" expanded="true" signature="1058:1171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        <state relative-caret-position="375">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
-            <marker date="1558312893222" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558312893222" expanded="true" signature="144:1067" ph="{...}" />
-            <marker date="1558312893222" expanded="true" signature="408:1060" ph="{...}" />
-            <marker date="1558312893222" expanded="true" signature="740:900" ph="{...}" />
+            <marker date="1558489669177" expanded="false" signature="6:78" ph="..." />
+            <marker date="1558489669177" expanded="true" signature="144:1067" ph="{...}" />
+            <marker date="1558489669177" expanded="true" signature="408:1060" ph="{...}" />
+            <marker date="1558489669177" expanded="true" signature="740:900" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="345">
+          <caret line="23" column="121" lean-forward="true" selection-start-line="22" selection-start-column="133" selection-end-line="23" selection-end-column="121" />
           <folding>
-            <marker date="1558312986508" expanded="true" signature="6:78" ph="..." />
-            <marker date="1558312986508" expanded="true" signature="144:1071" ph="{...}" />
-            <marker date="1558312986508" expanded="true" signature="410:1064" ph="{...}" />
-            <marker date="1558312986508" expanded="true" signature="744:904" ph="{...}" />
+            <marker date="1558489715027" expanded="true" signature="6:78" ph="..." />
+            <marker date="1558489715027" expanded="true" signature="144:1030" ph="{...}" />
+            <marker date="1558489715027" expanded="true" signature="392:1023" ph="{...}" />
+            <marker date="1558489715027" expanded="true" signature="643:825" ph="{...}" />
           </folding>
         </state>
       </provider>
