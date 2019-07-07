@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 ///<summary> 
-///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider that apply damage to any character that touches it, and push them back in recoil 
+///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider that apply damage to any character that touches it, and push them back in recoil
+///         
 ///     Explanation:
 
 /// 		

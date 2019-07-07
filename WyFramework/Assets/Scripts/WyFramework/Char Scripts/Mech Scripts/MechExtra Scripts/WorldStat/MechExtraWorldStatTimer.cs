@@ -5,7 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 ///<summary> 
-///     This class sets a timer in game, that will keep counting down in real time
+///     This class sets a timer in game, that will keep counting down in real time.0
+///         
 ///     Explanation:
 
 /// 		

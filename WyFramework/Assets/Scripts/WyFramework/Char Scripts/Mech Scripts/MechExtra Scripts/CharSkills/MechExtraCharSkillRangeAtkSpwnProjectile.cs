@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 ///<summary> 
 ///     This class spawn a projectile and manages/Limits the Weapon stats of a weapon e.g Ammo, TimeBetweenBullets
+///         
 ///     Explanation:
 
 /// 		

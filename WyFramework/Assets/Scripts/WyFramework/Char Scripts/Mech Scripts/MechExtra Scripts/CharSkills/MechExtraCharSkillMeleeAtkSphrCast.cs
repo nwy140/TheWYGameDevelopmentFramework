@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 ///<summary> 
-///     This class performs a spherecast that detects any character near it and apply damage to them , and push them back in recoil 
+///     This class performs a spherecast that detects any character near it and apply damage to them , and push them back in recoil
+///         
 ///     Explanation:
 
 /// 		

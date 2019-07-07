@@ -6,6 +6,7 @@ using UnityEngine.Serialization;
 	//Class
 	///<summary> 
 	///     This class controls the movement of an object
+	/// 		
 	///     Explanation:
 	/// 		- There are 3 types of Movement here, TapMovement , ManualMovement and AutoMovement
 	/// 			- TapMovement moves your character when you tap or click the screen.

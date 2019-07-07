@@ -6,6 +6,7 @@ using UnityEngine;
 //Class 
 ///<summary> 
 ///     This class contains the functions that will perform the In-Game Animations of each characters when called by managing/manipulating the Unity's Animation Parameters
+///         
 ///     Explanation:
 
 /// 		

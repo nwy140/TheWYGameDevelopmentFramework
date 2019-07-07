@@ -8,7 +8,8 @@ using UnityEngine;
 
 */
 ///<summary> 
-///     This class uses a collider that apply damage to any character that touches it, and push them back in recoil 
+///     This class uses a collider that apply damage to any character that touches it, and push them back in recoil
+///         
 ///     Explanation:
 
 /// 		

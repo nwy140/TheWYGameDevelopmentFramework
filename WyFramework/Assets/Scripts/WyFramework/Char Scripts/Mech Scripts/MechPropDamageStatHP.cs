@@ -6,6 +6,7 @@ using UnityEngine;
 //Class
 ///<summary> 
 ///     This class damages your character when your character touches a collider
+///         
 ///     Explanation:
 
 /// 		

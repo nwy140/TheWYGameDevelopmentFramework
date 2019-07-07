@@ -7,6 +7,7 @@ using UnityEngine.UI;
 //Class
 ///<summary> 
 ///     This class controls the HP Stat of the Character
+///         
 ///     Explanation:
 
 /// 		

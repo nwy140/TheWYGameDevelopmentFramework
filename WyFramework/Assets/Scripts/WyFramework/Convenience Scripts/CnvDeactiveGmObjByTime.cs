@@ -5,6 +5,7 @@ using UnityEngine;
 //Class 
 ///<summary> 
 ///     This class deactives a gameObject after a particular amount of time
+///         
 ///     Explanation:
 
 /// 		

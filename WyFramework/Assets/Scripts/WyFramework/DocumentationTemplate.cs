@@ -25,8 +25,10 @@ namespace WyFramework
     ///
     /// 
     /// </summary>
+
     /// Class Documentation Template
-    ///<summary> 
+    /// //Class
+    /// <summary> 
     ///     This class explain and describes how the documentation of the Wy framework works.
     ///        
     ///     Explanation:
@@ -56,7 +58,7 @@ namespace WyFramework
         ///         - Set a value for this variable in the inpsector
         ///         - Value may change at runtime
         /// </summary>
-        // float num
+        private float examplefloatVariable;
     }
 }
 
@@ -76,4 +78,41 @@ namespace WyFramework
 // Vis for visual scripts
     // for things that affect the visual aspect of the game
     // e.g character animations class that can call animations to be played
+    
+    
+    
+    
+    
+
+## Framework Convention
+
+
+
+## Naming Convention
+
+- Class Hierachy
+
+  - CharScripts
+
+    - Mech 
+
+      - mechanics
+        - e.g movement, ground detection
+
+      - Char
+        - character : Anything that has anything to do with NPCs and Playable Characters
+          - e.g An
+
+      - Extra
+        - extra mechanics libraries that adds more functionality and mechanics to the game
+
+    - Vis 
+
+      - visual
+        - e.g Char Animations
+
+  Cvn
+
+  -  convenience
+    - e.g Camera, deactive game object by timer, LockPosToObject, tags
 */

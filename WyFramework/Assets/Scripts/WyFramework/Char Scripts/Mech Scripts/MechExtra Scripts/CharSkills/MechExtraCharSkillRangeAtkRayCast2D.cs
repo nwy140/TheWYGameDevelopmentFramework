@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 ///<summary> 
-///     This class performs a raycast that detects any Character and apply damage to them, and then push them back in recoil 
+///     This class performs a raycast that detects any Character and apply damage to them, and then push them back in recoil
+///         
 ///     Explanation:
 
 /// 		

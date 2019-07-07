@@ -5,6 +5,7 @@ using UnityEngine;
 //Class 
 ///<summary> 
 ///     This class locks the position of your camera in relation to a gameObj reference, to create a feeling that the camera following the object referenced in RunTime
+///         
 ///     Explanation:
 
 /// 		

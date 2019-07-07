@@ -5,7 +5,8 @@ using UnityEngine;
 
 //Class 
 ///<summary> 
-///     This class locks the position of this gameObj to another GameObj. 
+///     This class locks the position of this gameObj to another GameObj.
+/// 		
 ///     Explanation:
 
 /// 		

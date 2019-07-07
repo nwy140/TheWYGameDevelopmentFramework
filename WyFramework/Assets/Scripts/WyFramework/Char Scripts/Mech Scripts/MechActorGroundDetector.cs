@@ -4,6 +4,7 @@ using UnityEngine;
 
 ///<summary>
 ///     This class detects if a gameObject is touching the ground or a Prop that has a collider
+///         
 ///     Explanation:
 ///             - Whenever your character's feet touches the ground, isGrounded becomes true,
 ///             - isGrounded will become false if your character jumps and is no longer touching the ground

@@ -2,7 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Class 
+///<summary> 
+///     This class stores all the Tags and string values in the game. If you are familiar with Android Development, this class is just like the string.xml file
+///         
+///     Explanation:
 
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///     Implement Later:
+///
+/// 
+/// </summary>
+/// 
 
 public class CnvAnimTags // animation tags
 {
