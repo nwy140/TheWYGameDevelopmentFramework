@@ -92,6 +92,9 @@ $(document).ready(function(){initNavTree('class_mech_char_movement.html','');});
 <div class="title">MechCharMovement Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class controls the movement of an object Explanation:  
+ <a href="class_mech_char_movement.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for MechCharMovement:</div>
 <div class="dyncontent">
@@ -102,15 +105,41 @@ Inheritance diagram for MechCharMovement:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab318f9c86f6896cc399d1a625af4b351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mech_actor_ground_detector.html">MechActorGroundDetector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_char_movement.html#ab318f9c86f6896cc399d1a625af4b351">MechActorGroundDetector</a></td></tr>
+<tr class="memdesc:ab318f9c86f6896cc399d1a625af4b351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to <a class="el" href="class_mech_actor_ground_detector.html" title="This class detects if a gameObject is touching the ground or a Prop that has a collider Explanation:">MechActorGroundDetector</a> in Child  <a href="#ab318f9c86f6896cc399d1a625af4b351">More...</a><br /></td></tr>
 <tr class="separator:ab318f9c86f6896cc399d1a625af4b351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5360d2bf34295ef6adf0a3e651df96e5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_char_movement.html#a5360d2bf34295ef6adf0a3e651df96e5">runSpeed</a></td></tr>
-<tr class="separator:a5360d2bf34295ef6adf0a3e651df96e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacb7a5095b148226670d257a9e3aa99d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_char_movement.html#aacb7a5095b148226670d257a9e3aa99d">movementSpeed</a></td></tr>
+<tr class="memdesc:aacb7a5095b148226670d257a9e3aa99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Movement Speed of the Character  <a href="#aacb7a5095b148226670d257a9e3aa99d">More...</a><br /></td></tr>
+<tr class="separator:aacb7a5095b148226670d257a9e3aa99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d3d00794f2a3391917a8fe62cc8e1bc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_char_movement.html#a1d3d00794f2a3391917a8fe62cc8e1bc">jumpSpeed</a></td></tr>
 <tr class="separator:a1d3d00794f2a3391917a8fe62cc8e1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3ac3523afbc1e5cd20efc552b28273a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_char_movement.html#ad3ac3523afbc1e5cd20efc552b28273a">flipChildChar</a></td></tr>
 <tr class="separator:ad3ac3523afbc1e5cd20efc552b28273a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class controls the movement of an object Explanation: </p>
+<ul>
+<li>There are 3 types of Movement here, TapMovement , ManualMovement and AutoMovement<ul>
+<li>TapMovement moves your character when you tap or click the screen.</li>
+<li>ManualMovement moves your character via your Axis Bindings</li>
+<li>HorizontalMovement moves your character automatically without any key bindings</li>
+</ul>
+</li>
+</ul>
+<p>Usage:</p><ul>
+<li>Access a reference to a gameObj with this script attached</li>
+<li>Get the isGrounded boolean from it and implement it with your gameplay Logic.<ul>
+<li>Whenever your character's feet touches the ground, isGrounded becomes true, isGrounded will become false if your character jumps and is no longer touching the ground</li>
+<li>e.g if isGrounded, canJump = true. Else, canJump = false</li>
+</ul>
+</li>
+</ul>
+<p>Integration:</p><ul>
+<li>Attach this script to a gameObject</li>
+<li>Attach a collision and a rigidbody to the gameObject</li>
+<li>Set the gameObject's LayerMask to "PropCol"</li>
+<li>Attach and position this gameObject to your character's feet</li>
+</ul>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="ad3ac3523afbc1e5cd20efc552b28273a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3ac3523afbc1e5cd20efc552b28273a">&#9670;&nbsp;</a></span>flipChildChar</h2>
 
@@ -151,19 +180,36 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Reference to <a class="el" href="class_mech_actor_ground_detector.html" title="This class detects if a gameObject is touching the ground or a Prop that has a collider Explanation:">MechActorGroundDetector</a> in Child </p>
+<p>Explanation:</p><ul>
+<li>To detect if character is touching the ground</li>
+</ul>
+<p>Usage:</p><ul>
+<li>By Getting Boolean from <a class="el" href="class_mech_actor_ground_detector.html#a5bf074f832d641390461e38fc0cfa2f1">MechActorGroundDetector.isGrounded</a></li>
+</ul>
+
 </div>
 </div>
-<a id="a5360d2bf34295ef6adf0a3e651df96e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5360d2bf34295ef6adf0a3e651df96e5">&#9670;&nbsp;</a></span>runSpeed</h2>
+<a id="aacb7a5095b148226670d257a9e3aa99d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb7a5095b148226670d257a9e3aa99d">&#9670;&nbsp;</a></span>movementSpeed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MechCharMovement.runSpeed</td>
+          <td class="memname">float MechCharMovement.movementSpeed</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Movement Speed of the Character </p>
+<p>Explanation:</p><ul>
+<li>movement speed determines how fast the character moves Usage:</li>
+<li>set this value to influence the speed of the character</li>
+</ul>
+<p>Integration:</p><ul>
+<li>Set a value for this variable in the inspector</li>
+</ul>
 
 </div>
 </div>
@@ -176,7 +222,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_mech_char_movement.html">MechCharMovement</a></li>
-    <li class="footer">Generated on Sat Jul 6 2019 19:58:21 for WyFramework by
+    <li class="footer">Generated on Sat Jul 6 2019 20:59:56 for WyFramework by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

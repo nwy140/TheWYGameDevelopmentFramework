@@ -4,6 +4,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+///<summary> 
+///     This class sets a timer in game, that will keep counting down in real time
+///     Explanation:
+
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///
+///     Implement Later: 
+/// 
+/// </summary>
+///
+/// 
 public class MechExtraWorldStatTimer : MonoBehaviour {
     public float currentCountDownTimer = 100f;
     public Text StatTimerText;

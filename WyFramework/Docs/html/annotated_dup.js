@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "WyFramework", "namespace_wy_framework.html", "namespace_wy_framework" ],
     [ "CnvAnimTags", "class_cnv_anim_tags.html", "class_cnv_anim_tags" ],
     [ "CnvAxisTags", "class_cnv_axis_tags.html", "class_cnv_axis_tags" ],
     [ "CnvCameraFollowObj", "class_cnv_camera_follow_obj.html", "class_cnv_camera_follow_obj" ],

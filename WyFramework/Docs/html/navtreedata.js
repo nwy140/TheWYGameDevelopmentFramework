@@ -24,6 +24,9 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "WyFramework", "index.html", [
+    [ "Packages", "namespaces.html", [
+      [ "Packages", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -45,7 +48,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_cnv_camera_follow_obj_8cs.html",
-"class_vis_char_anim.html#ac9c72148e8e44dfe58330602d336ec4a"
+"class_vis_char_anim.html#aadbc32f26f2c4d40ebd4542f1fca88e3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

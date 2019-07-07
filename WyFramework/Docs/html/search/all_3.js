@@ -39,6 +39,8 @@ var searchData=
   ['debugwiresphere_5fradius',['debugWireSphere_Radius',['../class_example.html#abe9a82c56b770899c39d4219a6ebd955',1,'Example']]],
   ['dmg',['dmg',['../class_mech_prop_damage_stat_h_p.html#a9ada929a385741ad336f500f773b60a4',1,'MechPropDamageStatHP']]],
   ['docdirectory',['DocDirectory',['../class_doxygen_config.html#aea9ba41fe61487effafbeb77120749f0',1,'DoxygenConfig']]],
+  ['documentationtemplate',['DocumentationTemplate',['../class_wy_framework_1_1_documentation_template.html',1,'WyFramework']]],
+  ['documentationtemplate_2ecs',['DocumentationTemplate.cs',['../_documentation_template_8cs.html',1,'']]],
   ['doxygenconfig',['DoxygenConfig',['../class_doxygen_config.html',1,'']]],
   ['doxygenoutputstring',['DoxygenOutputString',['../class_doxygen_window.html#a20e7d1bdb1f32c97f600bf0f0bdb2358',1,'DoxygenWindow']]],
   ['doxygenwindow',['DoxygenWindow',['../class_doxygen_window.html',1,'']]],

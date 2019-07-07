@@ -1,7 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+///<summary> 
+///     This class performs a raycast that detects any Character and apply damage to them, and then push them back in recoil 
+///     Explanation:
 
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///
+///     Implement Later:
+///     - Add Pushback force 
+/// 
+/// </summary>
+/// 
 public class MechExtraCharSkillRangeAtkRayCast2D : MonoBehaviour
 {
     public float range = 10f;

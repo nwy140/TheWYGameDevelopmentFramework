@@ -2,7 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+///<summary> 
+///     This class spawn a projectile and manages/Limits the Weapon stats of a weapon e.g Ammo, TimeBetweenBullets
+///     Explanation:
 
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///
+///     Implement Later:
+///     - Integrate with an inventory system
+/// 
+/// </summary>
+/// 
 public class MechExtraCharSkillRangeAtkSpwnProjectile : MonoBehaviour
 {
     public float timeBetweenBullets = 0.15f;

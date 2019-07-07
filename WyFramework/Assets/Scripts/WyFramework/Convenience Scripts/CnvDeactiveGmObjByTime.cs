@@ -2,6 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Class 
+///<summary> 
+///     This class deactives a gameObject after a particular amount of time
+///     Explanation:
+
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///     Implement Later:
+///
+/// 
+/// </summary>
 public class CnvDeactiveGmObjByTime : MonoBehaviour
 {
 

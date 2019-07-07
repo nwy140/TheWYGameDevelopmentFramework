@@ -4,6 +4,7 @@ var hierarchy =
     [ "CnvAxisTags", "class_cnv_axis_tags.html", null ],
     [ "CnvGenTags", "class_cnv_gen_tags.html", null ],
     [ "DebugExtension", "class_debug_extension.html", null ],
+    [ "WyFramework.DocumentationTemplate", "class_wy_framework_1_1_documentation_template.html", null ],
     [ "DoxygenConfig", "class_doxygen_config.html", null ],
     [ "DoxyRunner", "class_doxy_runner.html", null ],
     [ "DoxyThreadSafeOutput", "class_doxy_thread_safe_output.html", null ],

@@ -2,6 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///<summary> 
+///     This class performs a spherecast that detects any character near it and apply damage to them , and push them back in recoil 
+///     Explanation:
+
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///    
+/// </summary>
+/// 
 public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sphr cast
 {
     public float damage;

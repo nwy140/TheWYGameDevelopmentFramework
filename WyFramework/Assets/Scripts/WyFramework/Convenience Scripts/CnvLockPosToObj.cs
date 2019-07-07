@@ -3,6 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Class 
+///<summary> 
+///     This class locks the position of this gameObj to another GameObj. 
+///     Explanation:
+
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///     Implement Later:
+///
+/// 
+/// </summary>
 public class CnvLockPosToObj : MonoBehaviour
 {
 

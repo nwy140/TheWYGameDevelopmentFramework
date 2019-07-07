@@ -7,7 +7,18 @@ using UnityEngine;
 /*
 
 */
+///<summary> 
+///     This class uses a collider that apply damage to any character that touches it, and push them back in recoil 
+///     Explanation:
 
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+/// 
+/// </summary>
 public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee attack collision
 {
     public float damage;

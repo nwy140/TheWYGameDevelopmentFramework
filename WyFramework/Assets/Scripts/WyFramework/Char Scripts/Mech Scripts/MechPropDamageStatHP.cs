@@ -3,6 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Class
+///<summary> 
+///     This class damages your character when your character touches a collider
+///     Explanation:
+
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+/// 
+/// </summary>
+
 public class MechPropDamageStatHP : MonoBehaviour
 {
     public float dmg = 1f;

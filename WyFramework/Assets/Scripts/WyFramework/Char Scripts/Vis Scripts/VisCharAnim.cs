@@ -2,6 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Class 
+///<summary> 
+///     This class contains the functions that will perform the In-Game Animations of each characters when called by managing/manipulating the Unity's Animation Parameters
+///     Explanation:
+
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+///     Implement Later:
+///
+/// 
+/// </summary>
+/// 
 public class VisCharAnim : MonoBehaviour
 {
    private Animator myAnim;

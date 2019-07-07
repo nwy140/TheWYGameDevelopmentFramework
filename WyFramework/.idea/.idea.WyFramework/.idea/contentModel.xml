@@ -64,6 +64,7 @@
             <e p="CnvLockPosToObj.cs" t="Include" />
             <e p="CnvTags.cs" t="Include" />
           </e>
+          <e p="DocumentationTemplate.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

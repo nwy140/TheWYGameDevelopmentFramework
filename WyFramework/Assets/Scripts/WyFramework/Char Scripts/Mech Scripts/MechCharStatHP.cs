@@ -4,6 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 //using TmPro;
 
+//Class
+///<summary> 
+///     This class controls the HP Stat of the Character
+///     Explanation:
+
+/// 		
+///     Usage:
+
+/// 		
+///     Integration:
+
+/// 
+/// </summary>
+
 public class MechCharStatHP : MonoBehaviour
 {
     

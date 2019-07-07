@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// 	Info: This class detects if a gameObject is touching a Prop with Collision on it
-///     Integration:
-///         - Attach a collision and a rigidbody to a gameObject
-///         - Set the gameObject's LayerMask to "PropCol"
+///<summary>
+///     This class detects if a gameObject is touching the ground or a Prop that has a collider
+///     Explanation:
+///             - Whenever your character's feet touches the ground, isGrounded becomes true,
+///             - isGrounded will become false if your character jumps and is no longer touching the ground
+///                 - e.g if isGrounded, canJump = true. Else, canJump = false       
 ///     Usage:
 ///         - Access a reference to a gameObj with this script attached
-///         - Get the isGrounded boolean from it and integrate with your gameplay Logic
+///         - Get the isGrounded boolean from it and implement it with your gameplay Logic.             
+///     Integration:
+///         - Attach this script to a gameObject
+///         - Attach a collision and a rigidbody to the gameObject
+///         - Set the gameObject's LayerMask to "PropCol"
+///         - Attach and position this gameObject to your character's feet
 /// 
 /// </summary>
 
