@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 	This class detects if a gameObject is touching a Prop with Collision on it
+/// </summary>
+
+
 public class MechActorGroundDetector : MonoBehaviour
 {
     public bool isGrounded;

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,59 +19,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding>
-                <marker date="1558300589300" expanded="false" signature="6:100" ph="..." />
-                <marker date="1558300589300" expanded="true" signature="160:2599" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="617:798" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="825:893" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="936:1173" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="961:1007" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1035:1077" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1221:1658" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1263:1424" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1348:1414" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1450:1553" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1689:2168" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1704:1768" ph="/* death code for char ... */" />
-                <marker date="1558300589300" expanded="true" signature="1887:1941" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="1999:2053" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="2109:2162" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="2221:2332" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="2286:2325" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="2363:2595" ph="{...}" />
-                <marker date="1558300589300" expanded="true" signature="2416:2565" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <marker date="1558312107249" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558312107249" expanded="true" signature="166:3109" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="498:662" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="725:809" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="767:803" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="838:2555" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="873:2549" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="989:1743" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="1155:1289" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="1342:1712" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="1522:1694" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="1789:2539" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="1948:2082" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="2171:2523" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="2330:2501" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="2602:3102" ph="{...}" />
-                <marker date="1558312107249" expanded="true" signature="2842:3094" ph="{...}" />
+                <marker date="1562458208958" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562458208958" expanded="true" signature="166:3109" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="498:662" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="725:809" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="767:803" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="838:2555" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="873:2549" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="989:1743" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="1155:1289" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="1342:1712" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="1522:1694" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="1789:2539" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="1948:2082" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="2171:2523" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="2330:2501" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="2602:3102" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="2842:3094" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -76,66 +49,254 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="9" column="10" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="96">
+              <caret line="9" selection-start-line="9" selection-end-line="10" />
               <folding>
-                <marker date="1558310876837" expanded="false" signature="6:92" ph="..." />
-                <marker date="1558310876837" expanded="true" signature="187:1511" ph="{...}" />
-                <marker date="1558310876837" expanded="true" signature="406:455" ph="{...}" />
-                <marker date="1558310876837" expanded="true" signature="496:895" ph="{...}" />
-                <marker date="1558310876837" expanded="true" signature="641:889" ph="{...}" />
-                <marker date="1558310876837" expanded="true" signature="685:879" ph="{...}" />
-                <marker date="1558310876837" expanded="true" signature="938:1351" ph="{...}" />
-                <marker date="1558310876837" expanded="true" signature="1407:1507" ph="{...}" />
-                <marker date="1558310876837" expanded="true" signature="1443:1501" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-              <folding>
-                <marker date="1558309832445" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558309832445" expanded="true" signature="132:645" ph="{...}" />
-                <marker date="1558309832445" expanded="true" signature="167:277" ph="/* Start is called before the first frame update ... */" />
-                <marker date="1558309832445" expanded="true" signature="331:460" ph="{...}" />
-                <marker date="1558309832445" expanded="true" signature="404:454" ph="{...}" />
-                <marker date="1558309832445" expanded="true" signature="512:640" ph="{...}" />
-                <marker date="1558309832445" expanded="true" signature="585:634" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <marker date="1558489669177" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558489669177" expanded="true" signature="144:1067" ph="{...}" />
-                <marker date="1558489669177" expanded="true" signature="408:1060" ph="{...}" />
-                <marker date="1558489669177" expanded="true" signature="740:900" ph="{...}" />
+                <marker date="1562458208948" expanded="false" signature="6:92" ph="..." />
+                <marker date="1562458208948" expanded="true" signature="95:101" ph="/* ... */" />
+                <marker date="1562458208948" expanded="true" signature="196:1520" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="415:464" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="505:904" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="650:898" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="694:888" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="947:1360" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="1416:1516" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="1452:1510" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+              <folding>
+                <marker date="1562462996296" expanded="true" signature="6:78" ph="..." />
+                <marker date="1562462996296" expanded="true" signature="80:188" ph="/// &#9;- This class  ... " />
+                <marker date="1562462996296" expanded="true" signature="243:756" ph="{...}" />
+                <marker date="1562462996296" expanded="true" signature="278:388" ph="/* Start is called before the first frame update ... */" />
+                <marker date="1562462996296" expanded="true" signature="442:571" ph="{...}" />
+                <marker date="1562462996296" expanded="true" signature="515:565" ph="{...}" />
+                <marker date="1562462996296" expanded="true" signature="623:751" ph="{...}" />
+                <marker date="1562462996296" expanded="true" signature="696:745" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/PluginsAssetStore/DebugDrawingExtension/DebugExtension.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" selection-start-line="4" selection-end-line="10" />
+              <folding>
+                <marker date="1562458208939" expanded="false" signature="6:69" ph="..." />
+                <marker date="1562458208939" expanded="true" signature="71:350" ph="/// Debug Extension ... " />
+                <marker date="1562458208939" expanded="true" signature="386:47043" ph="{...}" />
+                <marker date="1562458208939" expanded="false" signature="390:27660" ph="DebugDrawFunctions" />
+                <marker date="1562458208939" expanded="true" signature="420:887" ph="/// &#9;- Debugs a point. ... " />
+                <marker date="1562458208939" expanded="true" signature="1012:1396" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="1400:1795" ph="/// &#9;- Debugs a point. ... " />
+                <marker date="1562458208939" expanded="true" signature="1907:1978" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="1982:2400" ph="/// &#9;- Debugs an axis-aligned bounding box. ... " />
+                <marker date="1562458208939" expanded="true" signature="2503:3679" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="3683:4028" ph="/// &#9;- Debugs an axis-aligned bounding box. ... " />
+                <marker date="1562458208939" expanded="true" signature="4118:4181" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="4185:4793" ph="/// &#9;- Debugs a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="4954:6346" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="6350:6891" ph="/// &#9;- Debugs a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="7039:7122" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="7126:7721" ph="/// &#9;- Debugs a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="7878:9317" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="9321:9849" ph="/// &#9;- Debugs a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="9993:10072" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="10076:10684" ph="/// &#9;- Debugs a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="10823:11788" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="11488:11785" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="11792:12297" ph="/// &#9;- Debugs a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="12424:12503" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="12507:13042" ph="/// &#9;- Debugs a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="13168:13245" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="13249:13681" ph="/// &#9;- Debugs a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="13795:13880" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="13884:14385" ph="/// &#9;- Debugs a wire sphere. ... " />
+                <marker date="1562458208939" expanded="true" signature="14516:15641" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="14965:15638" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="15645:16073" ph="/// &#9;- Debugs a wire sphere. ... " />
+                <marker date="1562458208939" expanded="true" signature="16191:16268" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="16272:16867" ph="/// &#9;- Debugs a cylinder. ... " />
+                <marker date="1562458208939" expanded="true" signature="17003:18068" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="18072:18592" ph="/// &#9;- Debugs a cylinder. ... " />
+                <marker date="1562458208939" expanded="true" signature="18715:18792" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="18796:19370" ph="/// &#9;- Debugs a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="19511:20720" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="20724:21227" ph="/// &#9;- Debugs a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="21355:21436" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="21440:21920" ph="/// &#9;- Debugs a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="22042:22118" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="22122:22531" ph="/// &#9;- Debugs a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="22640:22722" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="22726:23227" ph="/// &#9;- Debugs an arrow. ... " />
+                <marker date="1562458208939" expanded="true" signature="23351:23522" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="23526:23955" ph="/// &#9;- Debugs an arrow. ... " />
+                <marker date="1562458208939" expanded="true" signature="24066:24141" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="24145:24733" ph="/// &#9;- Debugs a capsule. ... " />
+                <marker date="1562458208939" expanded="true" signature="24868:26929" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="25799:26926" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="26933:27447" ph="/// &#9;- Debugs a capsule. ... " />
+                <marker date="1562458208939" expanded="true" signature="27569:27646" ph="{...}" />
+                <marker date="1562458208939" expanded="false" signature="27664:45583" ph="GizmoDrawFunctions" />
+                <marker date="1562458208939" expanded="true" signature="27694:27972" ph="/// &#9;- Draws a point. ... " />
+                <marker date="1562458208939" expanded="true" signature="28053:28386" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="28390:28589" ph="/// &#9;- Draws a point. ... " />
+                <marker date="1562458208939" expanded="true" signature="28657:28706" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="28710:28925" ph="/// &#9;- Draws an axis-aligned bounding box. ... " />
+                <marker date="1562458208939" expanded="true" signature="28984:29926" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="29930:30072" ph="/// &#9;- Draws an axis-aligned bounding box. ... " />
+                <marker date="1562458208939" expanded="true" signature="30118:30159" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="30163:30540" ph="/// &#9;- Draws a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="30657:31815" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="31819:32126" ph="/// &#9;- Draws a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="32230:32291" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="32295:32664" ph="/// &#9;- Draws a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="32777:33919" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="33923:34221" ph="/// &#9;- Draws a local cube. ... " />
+                <marker date="1562458208939" expanded="true" signature="34321:34378" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="34382:34788" ph="/// &#9;- Draws a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="34883:35914" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="35611:35881" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="35918:36221" ph="/// &#9;- Draws a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="36304:36361" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="36365:36698" ph="/// &#9;- Draws a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="36780:36841" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="36845:37075" ph="/// &#9;- Draws a circle. ... " />
+                <marker date="1562458208939" expanded="true" signature="37145:37208" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="37243:37632" ph="/// &#9;- Draws a cylinder. ... " />
+                <marker date="1562458208939" expanded="true" signature="37727:38598" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="38602:38916" ph="/// &#9;- Draws a cylinder. ... " />
+                <marker date="1562458208939" expanded="true" signature="38998:39053" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="39057:39435" ph="/// &#9;- Draws a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="39532:40700" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="40704:41011" ph="/// &#9;- Draws a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="41095:41154" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="41158:41440" ph="/// &#9;- Draws a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="41518:41572" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="41576:41787" ph="/// &#9;- Draws a cone. ... " />
+                <marker date="1562458208939" expanded="true" signature="41852:41912" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="41916:42216" ph="/// &#9;- Draws an arrow. ... " />
+                <marker date="1562458208939" expanded="true" signature="42296:42509" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="42513:42741" ph="/// &#9;- Draws an arrow. ... " />
+                <marker date="1562458208939" expanded="true" signature="42808:42861" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="42865:43249" ph="/// &#9;- Draws a capsule. ... " />
+                <marker date="1562458208939" expanded="true" signature="43340:45123" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="44179:45090" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="45127:45437" ph="/// &#9;- Draws a capsule. ... " />
+                <marker date="1562458208939" expanded="true" signature="45515:45569" ph="{...}" />
+                <marker date="1562458208939" expanded="false" signature="45587:47041" ph="DebugFunctions" />
+                <marker date="1562458208939" expanded="true" signature="45613:45966" ph="/// &#9;- Gets the methods of an object. ... " />
+                <marker date="1562458208939" expanded="true" signature="46049:46327" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="46176:46301" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="46196:46238" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="46242:46297" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="46331:46678" ph="/// &#9;- Gets the methods of a type. ... " />
+                <marker date="1562458208939" expanded="true" signature="46758:47027" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="46876:47001" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="46896:46938" ph="{...}" />
+                <marker date="1562458208939" expanded="true" signature="46942:46997" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+              <folding>
+                <marker date="1562458208968" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562458208968" expanded="true" signature="80:683" ph="/* NWY Framework class naming convention ... */" />
+                <marker date="1562458208968" expanded="true" signature="727:1302" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1329:1440" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1466:1935" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Vis Scripts/VisCharAnim.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <marker date="1562458208968" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562458208968" expanded="true" signature="120:1829" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="216:362" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="390:504" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="537:600" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="626:691" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="717:782" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="808:873" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="897:958" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1023:1327" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1048:1120" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1144:1216" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1240:1312" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1365:1464" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1493:1559" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1590:1654" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1676:1735" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="1759:1821" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/MechExtraWorldStatTimer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <marker date="1562458208958" expanded="false" signature="6:114" ph="..." />
+                <marker date="1562458208958" expanded="true" signature="169:665" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="347:411" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="430:658" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="121" lean-forward="true" selection-start-line="22" selection-start-column="133" selection-end-line="23" selection-end-column="121" />
+            <state relative-caret-position="289">
+              <caret line="23" column="121" selection-start-line="22" selection-start-column="133" selection-end-line="23" selection-end-column="121" />
               <folding>
-                <marker date="1558489715027" expanded="true" signature="6:78" ph="..." />
-                <marker date="1558489715027" expanded="true" signature="144:1030" ph="{...}" />
-                <marker date="1558489715027" expanded="true" signature="392:1023" ph="{...}" />
-                <marker date="1558489715027" expanded="true" signature="643:825" ph="{...}" />
+                <marker date="1562458208958" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562458208958" expanded="true" signature="144:1030" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="392:1023" ph="{...}" />
+                <marker date="1562458208958" expanded="true" signature="643:825" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <marker date="1562458208968" expanded="false" signature="6:92" ph="..." />
+                <marker date="1562458208968" expanded="true" signature="138:596" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="292:339" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="392:594" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="427:504" ph="{...}" />
+                <marker date="1562458208968" expanded="true" signature="511:590" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -144,21 +305,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="17">
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
-                <marker date="1558308586598" expanded="false" signature="6:78" ph="..." />
-                <marker date="1558308586598" expanded="true" signature="126:1186" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="381:488" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="540:602" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="636:855" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="780:791" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="827:836" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="843:852" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="887:939" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="968:1178" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="1003:1175" ph="{...}" />
-                <marker date="1558308586598" expanded="true" signature="1058:1171" ph="{...}" />
+                <marker date="1562458208948" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562458208948" expanded="true" signature="126:1186" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="381:488" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="540:602" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="636:855" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="780:791" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="827:836" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="843:852" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="887:939" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="968:1178" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="1003:1175" ph="{...}" />
+                <marker date="1562458208948" expanded="true" signature="1058:1171" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -179,20 +340,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechPropDamageStatHP.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PluginsAssetStore/DebugDrawingExtension/DebugExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/MechExtraWorldStatTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnProjectile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Vis Scripts/VisCharAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -235,7 +399,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/MechExtraCharTouchAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/MechExtraCharSkillTouchAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeTouchAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkCols.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs" />
@@ -243,21 +406,99 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1660" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="872" />
+    <option name="width" value="1055" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+              <item name="Doxygen" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+              <item name="Doxygen" type="1045f7f1:UnityExplorerNode" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+              <item name="Doxygen" type="1045f7f1:UnityExplorerNode" />
+              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
+              <item name="LightTheme" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Convenience Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -267,6 +508,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,14 +527,12 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -313,11 +553,12 @@
       <workItem from="1558310765531" duration="262000" />
       <workItem from="1558311077034" duration="1915000" />
       <workItem from="1558489153686" duration="2412000" />
+      <workItem from="1562460631931" duration="1959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20385000" />
+    <option name="totallyTimeSpent" value="22344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,9 +570,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18336888" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,10 +594,11 @@
       <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.32942432" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.6772429" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
@@ -410,38 +655,9 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/Convenience_Tags.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvTags.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/Mechanics_GroundDetector.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <marker date="1558222781455" expanded="true" signature="6:78" ph="..." />
-            <marker date="1558222781455" expanded="true" signature="80:683" ph="/* NWY Framework class naming convention ... */" />
-            <marker date="1558222781455" expanded="true" signature="727:1302" ph="{...}" />
-            <marker date="1558222781455" expanded="true" signature="1329:1440" ph="{...}" />
-            <marker date="1558222781455" expanded="true" signature="1466:1935" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/VisCharAnim.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/MechActorGroundDetector.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/CharMovement.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <marker date="1558225863335" expanded="true" signature="6:92" ph="..." />
-            <marker date="1558225863335" expanded="true" signature="138:596" ph="{...}" />
-            <marker date="1558225863335" expanded="true" signature="292:339" ph="{...}" />
-            <marker date="1558225863335" expanded="true" signature="392:594" ph="{...}" />
-            <marker date="1558225863335" expanded="true" signature="427:504" ph="{...}" />
-            <marker date="1558225863335" expanded="true" signature="511:590" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/MechExtraTimer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/fireBullet.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/shootBullet.cs" />
@@ -539,136 +755,329 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/MechExtraCharSkillTouchAttack.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="408">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
-            <marker date="1558300589300" expanded="false" signature="6:100" ph="..." />
-            <marker date="1558300589300" expanded="true" signature="160:2599" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="617:798" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="825:893" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="936:1173" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="961:1007" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1035:1077" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1221:1658" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1263:1424" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1348:1414" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1450:1553" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1689:2168" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1704:1768" ph="/* death code for char ... */" />
-            <marker date="1558300589300" expanded="true" signature="1887:1941" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="1999:2053" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="2109:2162" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="2221:2332" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="2286:2325" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="2363:2595" ph="{...}" />
-            <marker date="1558300589300" expanded="true" signature="2416:2565" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <marker date="1558312107249" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558312107249" expanded="true" signature="166:3109" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="498:662" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="725:809" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="767:803" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="838:2555" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="873:2549" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="989:1743" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="1155:1289" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="1342:1712" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="1522:1694" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="1789:2539" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="1948:2082" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="2171:2523" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="2330:2501" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="2602:3102" ph="{...}" />
-            <marker date="1558312107249" expanded="true" signature="2842:3094" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="10" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <marker date="1558310876837" expanded="false" signature="6:92" ph="..." />
-            <marker date="1558310876837" expanded="true" signature="187:1511" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="406:455" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="496:895" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="641:889" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="685:879" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="938:1351" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="1407:1507" ph="{...}" />
-            <marker date="1558310876837" expanded="true" signature="1443:1501" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-          <folding>
-            <marker date="1558309832445" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558309832445" expanded="true" signature="132:645" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="167:277" ph="/* Start is called before the first frame update ... */" />
-            <marker date="1558309832445" expanded="true" signature="331:460" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="404:454" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="512:640" ph="{...}" />
-            <marker date="1558309832445" expanded="true" signature="585:634" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1558308586598" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558308586598" expanded="true" signature="126:1186" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="381:488" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="540:602" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="636:855" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="780:791" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="827:836" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="843:852" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="887:939" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="968:1178" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="1003:1175" ph="{...}" />
-            <marker date="1558308586598" expanded="true" signature="1058:1171" ph="{...}" />
+            <marker date="1562458208948" expanded="false" signature="6:100" ph="..." />
+            <marker date="1562458208948" expanded="true" signature="160:2599" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="617:798" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="825:893" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="936:1173" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="961:1007" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1035:1077" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1221:1658" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1263:1424" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1348:1414" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1450:1553" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1689:2168" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1704:1768" ph="/* death code for char ... */" />
+            <marker date="1562458208948" expanded="true" signature="1887:1941" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1999:2053" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="2109:2162" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="2221:2332" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="2286:2325" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="2363:2595" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="2416:2565" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="357">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
-            <marker date="1558489669177" expanded="false" signature="6:78" ph="..." />
-            <marker date="1558489669177" expanded="true" signature="144:1067" ph="{...}" />
-            <marker date="1558489669177" expanded="true" signature="408:1060" ph="{...}" />
-            <marker date="1558489669177" expanded="true" signature="740:900" ph="{...}" />
+            <marker date="1562458208958" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562458208958" expanded="true" signature="144:1067" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="408:1060" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="740:900" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1562458208948" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562458208948" expanded="true" signature="126:1186" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="381:488" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="540:602" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="636:855" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="780:791" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="827:836" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="843:852" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="887:939" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="968:1178" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1003:1175" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1058:1171" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="121" lean-forward="true" selection-start-line="22" selection-start-column="133" selection-end-line="23" selection-end-column="121" />
+        <state relative-caret-position="289">
+          <caret line="23" column="121" selection-start-line="22" selection-start-column="133" selection-end-line="23" selection-end-column="121" />
           <folding>
-            <marker date="1558489715027" expanded="true" signature="6:78" ph="..." />
-            <marker date="1558489715027" expanded="true" signature="144:1030" ph="{...}" />
-            <marker date="1558489715027" expanded="true" signature="392:1023" ph="{...}" />
-            <marker date="1558489715027" expanded="true" signature="643:825" ph="{...}" />
+            <marker date="1562458208958" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562458208958" expanded="true" signature="144:1030" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="392:1023" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="643:825" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <marker date="1562458208968" expanded="false" signature="6:92" ph="..." />
+            <marker date="1562458208968" expanded="true" signature="138:596" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="292:339" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="392:594" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="427:504" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="511:590" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <marker date="1562458208968" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562458208968" expanded="true" signature="80:683" ph="/* NWY Framework class naming convention ... */" />
+            <marker date="1562458208968" expanded="true" signature="727:1302" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1329:1440" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1466:1935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Vis Scripts/VisCharAnim.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1562458208968" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562458208968" expanded="true" signature="120:1829" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="216:362" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="390:504" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="537:600" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="626:691" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="717:782" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="808:873" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="897:958" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1023:1327" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1048:1120" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1144:1216" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1240:1312" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1365:1464" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1493:1559" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1590:1654" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1676:1735" ph="{...}" />
+            <marker date="1562458208968" expanded="true" signature="1759:1821" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/MechExtraWorldStatTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <marker date="1562458208958" expanded="false" signature="6:114" ph="..." />
+            <marker date="1562458208958" expanded="true" signature="169:665" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="347:411" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="430:658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1562458208958" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562458208958" expanded="true" signature="166:3109" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="498:662" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="725:809" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="767:803" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="838:2555" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="873:2549" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="989:1743" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="1155:1289" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="1342:1712" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="1522:1694" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="1789:2539" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="1948:2082" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="2171:2523" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="2330:2501" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="2602:3102" ph="{...}" />
+            <marker date="1562458208958" expanded="true" signature="2842:3094" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PluginsAssetStore/DebugDrawingExtension/DebugExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" selection-start-line="4" selection-end-line="10" />
+          <folding>
+            <marker date="1562458208939" expanded="false" signature="6:69" ph="..." />
+            <marker date="1562458208939" expanded="true" signature="71:350" ph="/// Debug Extension ... " />
+            <marker date="1562458208939" expanded="true" signature="386:47043" ph="{...}" />
+            <marker date="1562458208939" expanded="false" signature="390:27660" ph="DebugDrawFunctions" />
+            <marker date="1562458208939" expanded="true" signature="420:887" ph="/// &#9;- Debugs a point. ... " />
+            <marker date="1562458208939" expanded="true" signature="1012:1396" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="1400:1795" ph="/// &#9;- Debugs a point. ... " />
+            <marker date="1562458208939" expanded="true" signature="1907:1978" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="1982:2400" ph="/// &#9;- Debugs an axis-aligned bounding box. ... " />
+            <marker date="1562458208939" expanded="true" signature="2503:3679" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="3683:4028" ph="/// &#9;- Debugs an axis-aligned bounding box. ... " />
+            <marker date="1562458208939" expanded="true" signature="4118:4181" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="4185:4793" ph="/// &#9;- Debugs a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="4954:6346" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="6350:6891" ph="/// &#9;- Debugs a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="7039:7122" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="7126:7721" ph="/// &#9;- Debugs a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="7878:9317" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="9321:9849" ph="/// &#9;- Debugs a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="9993:10072" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="10076:10684" ph="/// &#9;- Debugs a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="10823:11788" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="11488:11785" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="11792:12297" ph="/// &#9;- Debugs a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="12424:12503" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="12507:13042" ph="/// &#9;- Debugs a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="13168:13245" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="13249:13681" ph="/// &#9;- Debugs a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="13795:13880" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="13884:14385" ph="/// &#9;- Debugs a wire sphere. ... " />
+            <marker date="1562458208939" expanded="true" signature="14516:15641" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="14965:15638" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="15645:16073" ph="/// &#9;- Debugs a wire sphere. ... " />
+            <marker date="1562458208939" expanded="true" signature="16191:16268" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="16272:16867" ph="/// &#9;- Debugs a cylinder. ... " />
+            <marker date="1562458208939" expanded="true" signature="17003:18068" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="18072:18592" ph="/// &#9;- Debugs a cylinder. ... " />
+            <marker date="1562458208939" expanded="true" signature="18715:18792" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="18796:19370" ph="/// &#9;- Debugs a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="19511:20720" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="20724:21227" ph="/// &#9;- Debugs a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="21355:21436" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="21440:21920" ph="/// &#9;- Debugs a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="22042:22118" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="22122:22531" ph="/// &#9;- Debugs a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="22640:22722" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="22726:23227" ph="/// &#9;- Debugs an arrow. ... " />
+            <marker date="1562458208939" expanded="true" signature="23351:23522" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="23526:23955" ph="/// &#9;- Debugs an arrow. ... " />
+            <marker date="1562458208939" expanded="true" signature="24066:24141" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="24145:24733" ph="/// &#9;- Debugs a capsule. ... " />
+            <marker date="1562458208939" expanded="true" signature="24868:26929" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="25799:26926" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="26933:27447" ph="/// &#9;- Debugs a capsule. ... " />
+            <marker date="1562458208939" expanded="true" signature="27569:27646" ph="{...}" />
+            <marker date="1562458208939" expanded="false" signature="27664:45583" ph="GizmoDrawFunctions" />
+            <marker date="1562458208939" expanded="true" signature="27694:27972" ph="/// &#9;- Draws a point. ... " />
+            <marker date="1562458208939" expanded="true" signature="28053:28386" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="28390:28589" ph="/// &#9;- Draws a point. ... " />
+            <marker date="1562458208939" expanded="true" signature="28657:28706" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="28710:28925" ph="/// &#9;- Draws an axis-aligned bounding box. ... " />
+            <marker date="1562458208939" expanded="true" signature="28984:29926" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="29930:30072" ph="/// &#9;- Draws an axis-aligned bounding box. ... " />
+            <marker date="1562458208939" expanded="true" signature="30118:30159" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="30163:30540" ph="/// &#9;- Draws a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="30657:31815" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="31819:32126" ph="/// &#9;- Draws a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="32230:32291" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="32295:32664" ph="/// &#9;- Draws a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="32777:33919" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="33923:34221" ph="/// &#9;- Draws a local cube. ... " />
+            <marker date="1562458208939" expanded="true" signature="34321:34378" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="34382:34788" ph="/// &#9;- Draws a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="34883:35914" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="35611:35881" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="35918:36221" ph="/// &#9;- Draws a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="36304:36361" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="36365:36698" ph="/// &#9;- Draws a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="36780:36841" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="36845:37075" ph="/// &#9;- Draws a circle. ... " />
+            <marker date="1562458208939" expanded="true" signature="37145:37208" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="37243:37632" ph="/// &#9;- Draws a cylinder. ... " />
+            <marker date="1562458208939" expanded="true" signature="37727:38598" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="38602:38916" ph="/// &#9;- Draws a cylinder. ... " />
+            <marker date="1562458208939" expanded="true" signature="38998:39053" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="39057:39435" ph="/// &#9;- Draws a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="39532:40700" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="40704:41011" ph="/// &#9;- Draws a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="41095:41154" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="41158:41440" ph="/// &#9;- Draws a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="41518:41572" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="41576:41787" ph="/// &#9;- Draws a cone. ... " />
+            <marker date="1562458208939" expanded="true" signature="41852:41912" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="41916:42216" ph="/// &#9;- Draws an arrow. ... " />
+            <marker date="1562458208939" expanded="true" signature="42296:42509" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="42513:42741" ph="/// &#9;- Draws an arrow. ... " />
+            <marker date="1562458208939" expanded="true" signature="42808:42861" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="42865:43249" ph="/// &#9;- Draws a capsule. ... " />
+            <marker date="1562458208939" expanded="true" signature="43340:45123" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="44179:45090" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="45127:45437" ph="/// &#9;- Draws a capsule. ... " />
+            <marker date="1562458208939" expanded="true" signature="45515:45569" ph="{...}" />
+            <marker date="1562458208939" expanded="false" signature="45587:47041" ph="DebugFunctions" />
+            <marker date="1562458208939" expanded="true" signature="45613:45966" ph="/// &#9;- Gets the methods of an object. ... " />
+            <marker date="1562458208939" expanded="true" signature="46049:46327" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="46176:46301" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="46196:46238" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="46242:46297" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="46331:46678" ph="/// &#9;- Gets the methods of a type. ... " />
+            <marker date="1562458208939" expanded="true" signature="46758:47027" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="46876:47001" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="46896:46938" ph="{...}" />
+            <marker date="1562458208939" expanded="true" signature="46942:46997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <marker date="1562458208948" expanded="false" signature="6:92" ph="..." />
+            <marker date="1562458208948" expanded="true" signature="95:101" ph="/* ... */" />
+            <marker date="1562458208948" expanded="true" signature="196:1520" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="415:464" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="505:904" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="650:898" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="694:888" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="947:1360" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1416:1516" ph="{...}" />
+            <marker date="1562458208948" expanded="true" signature="1452:1510" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+          <folding>
+            <marker date="1562462996296" expanded="true" signature="6:78" ph="..." />
+            <marker date="1562462996296" expanded="true" signature="80:188" ph="/// &#9;- This class  ... " />
+            <marker date="1562462996296" expanded="true" signature="243:756" ph="{...}" />
+            <marker date="1562462996296" expanded="true" signature="278:388" ph="/* Start is called before the first frame update ... */" />
+            <marker date="1562462996296" expanded="true" signature="442:571" ph="{...}" />
+            <marker date="1562462996296" expanded="true" signature="515:565" ph="{...}" />
+            <marker date="1562462996296" expanded="true" signature="623:751" ph="{...}" />
+            <marker date="1562462996296" expanded="true" signature="696:745" ph="{...}" />
           </folding>
         </state>
       </provider>

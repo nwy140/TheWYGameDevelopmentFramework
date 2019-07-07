@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\u1274886\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\u1274886\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_WyFramework.268922585.00" t="ExcludeRecursive" />
-    <e p="C:\Users\u1274886\Desktop\GameDevTech\TechProjects\TheWYGameDevelopmentFramework\WyFramework" t="IncludeRecursive">
+    <e p="C:\Users\u1274886\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\u1274886\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_WyFramework.-1219781092.00" t="ExcludeRecursive" />
+    <e p="C:\Users\u1274886\Desktop\TheWYGameDevelopmentFramework\WyFramework" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\ArtStyles" t="Include">
         <e p="Fonts" t="Include">
           <e p="kenney_fontpackage" t="Include">
             <e p="License.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Assets\Editor" t="Include">
+        <e p="Doxygen" t="Include">
+          <e p="DoxygenWindow.cs" t="Include" />
+          <e p="readme.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="BaseDoxyfile.txt" t="Include" />
           </e>
         </e>
       </e>
@@ -56,9 +66,12 @@
           </e>
         </e>
       </e>
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
       <e p="WyFramework.sln" t="IncludeFlat" />
     </e>
   </component>
