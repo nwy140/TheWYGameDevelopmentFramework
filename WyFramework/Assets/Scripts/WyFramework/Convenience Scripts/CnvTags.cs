@@ -18,8 +18,6 @@ using UnityEngine;
 ///
 /// 
 /// </summary>
-/// 
-
 public class CnvAnimTags // animation tags
 {
     public const string WALK = "Walk";
