@@ -3,14 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 	This class detects if a gameObject is touching a Prop with Collision on it
+/// 	Info: This class detects if a gameObject is touching a Prop with Collision on it
+///     Integration:
+///         - Attach a collision and a rigidbody to a gameObject
+///         - Set the gameObject's LayerMask to "PropCol"
+///     Usage:
+///         - Access a reference to a gameObj with this script attached
+///         - Get the isGrounded boolean from it and integrate with your gameplay Logic
+/// 
 /// </summary>
 
 
 public class MechActorGroundDetector : MonoBehaviour
 {
     public bool isGrounded;
-    // Start is called before the first frame update
+    // Start is called before the first frame update    
     
     // add new collision layer as 8 for ground detection
 

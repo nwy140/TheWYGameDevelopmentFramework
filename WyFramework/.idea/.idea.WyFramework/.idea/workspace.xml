@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,17 +64,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+            <state relative-caret-position="187">
+              <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
               <folding>
-                <marker date="1562462996296" expanded="true" signature="6:78" ph="..." />
-                <marker date="1562462996296" expanded="true" signature="80:188" ph="/// &#9;- This class  ... " />
-                <marker date="1562462996296" expanded="true" signature="243:756" ph="{...}" />
-                <marker date="1562462996296" expanded="true" signature="278:388" ph="/* Start is called before the first frame update ... */" />
-                <marker date="1562462996296" expanded="true" signature="442:571" ph="{...}" />
-                <marker date="1562462996296" expanded="true" signature="515:565" ph="{...}" />
-                <marker date="1562462996296" expanded="true" signature="623:751" ph="{...}" />
-                <marker date="1562462996296" expanded="true" signature="696:745" ph="{...}" />
+                <marker date="1562464665652" expanded="true" signature="6:78" ph="..." />
+                <marker date="1562464665652" expanded="true" signature="80:518" ph="/// &#9;Info: This class detects if a gameObject is touching a Prop with Collision on it ... " />
+                <marker date="1562464665652" expanded="true" signature="573:1090" ph="{...}" />
+                <marker date="1562464665652" expanded="true" signature="608:722" ph="/* Start is called before the first frame update ... */" />
+                <marker date="1562464665652" expanded="true" signature="776:905" ph="{...}" />
+                <marker date="1562464665652" expanded="true" signature="849:899" ph="{...}" />
+                <marker date="1562464665652" expanded="true" signature="957:1085" ph="{...}" />
+                <marker date="1562464665652" expanded="true" signature="1030:1079" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -553,12 +547,12 @@
       <workItem from="1558310765531" duration="262000" />
       <workItem from="1558311077034" duration="1915000" />
       <workItem from="1558489153686" duration="2412000" />
-      <workItem from="1562460631931" duration="1959000" />
+      <workItem from="1562460631931" duration="3627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22344000" />
+    <option name="totallyTimeSpent" value="24012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1067,17 +1061,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+        <state relative-caret-position="187">
+          <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
           <folding>
-            <marker date="1562462996296" expanded="true" signature="6:78" ph="..." />
-            <marker date="1562462996296" expanded="true" signature="80:188" ph="/// &#9;- This class  ... " />
-            <marker date="1562462996296" expanded="true" signature="243:756" ph="{...}" />
-            <marker date="1562462996296" expanded="true" signature="278:388" ph="/* Start is called before the first frame update ... */" />
-            <marker date="1562462996296" expanded="true" signature="442:571" ph="{...}" />
-            <marker date="1562462996296" expanded="true" signature="515:565" ph="{...}" />
-            <marker date="1562462996296" expanded="true" signature="623:751" ph="{...}" />
-            <marker date="1562462996296" expanded="true" signature="696:745" ph="{...}" />
+            <marker date="1562464665652" expanded="true" signature="6:78" ph="..." />
+            <marker date="1562464665652" expanded="true" signature="80:518" ph="/// &#9;Info: This class detects if a gameObject is touching a Prop with Collision on it ... " />
+            <marker date="1562464665652" expanded="true" signature="573:1090" ph="{...}" />
+            <marker date="1562464665652" expanded="true" signature="608:722" ph="/* Start is called before the first frame update ... */" />
+            <marker date="1562464665652" expanded="true" signature="776:905" ph="{...}" />
+            <marker date="1562464665652" expanded="true" signature="849:899" ph="{...}" />
+            <marker date="1562464665652" expanded="true" signature="957:1085" ph="{...}" />
+            <marker date="1562464665652" expanded="true" signature="1030:1079" ph="{...}" />
           </folding>
         </state>
       </provider>

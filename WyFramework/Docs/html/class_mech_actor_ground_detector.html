@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('class_mech_actor_ground_detector.html'
 </div><!--header-->
 <div class="contents">
 
-<p>This class detects if a gameObject is touching a Prop with Collision on it  
+<p>Info: This class detects if a gameObject is touching a Prop with Collision on it Integration:  
  <a href="class_mech_actor_ground_detector.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for MechActorGroundDetector:</div>
@@ -108,7 +108,13 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a5bf074f832d641390461e38fc0cfa2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class detects if a gameObject is touching a Prop with Collision on it </p>
+<div class="textblock"><p>Info: This class detects if a gameObject is touching a Prop with Collision on it Integration: </p>
+<ul>
+<li>Attach a collision and a rigidbody to a gameObject</li>
+<li>Set the gameObject's LayerMask to "PropCol" Usage:</li>
+<li>Access a reference to a gameObj with this script attached</li>
+<li>Get the isGrounded boolean from it and integrate with your gameplay Logic</li>
+</ul>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a5bf074f832d641390461e38fc0cfa2f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5bf074f832d641390461e38fc0cfa2f1">&#9670;&nbsp;</a></span>isGrounded</h2>
@@ -133,7 +139,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_mech_actor_ground_detector.html">MechActorGroundDetector</a></li>
-    <li class="footer">Generated on Sat Jul 6 2019 19:30:01 for WyFramework by
+    <li class="footer">Generated on Sat Jul 6 2019 19:58:21 for WyFramework by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>
