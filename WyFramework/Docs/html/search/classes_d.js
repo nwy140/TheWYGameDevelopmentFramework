@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['particlesystemdestroyer',['ParticleSystemDestroyer',['../class_unity_standard_assets_1_1_utility_1_1_particle_system_destroyer.html',1,'UnityStandardAssets::Utility']]],
-  ['particlesystemmultiplier',['ParticleSystemMultiplier',['../class_unity_standard_assets_1_1_effects_1_1_particle_system_multiplier.html',1,'UnityStandardAssets::Effects']]],
-  ['phonecontroller',['PhoneController',['../class_phone_controller.html',1,'']]],
-  ['platformspecificcontent',['PlatformSpecificContent',['../class_unity_standard_assets_1_1_utility_1_1_platform_specific_content.html',1,'UnityStandardAssets::Utility']]],
-  ['playercontroller',['PlayerController',['../class_player_controller.html',1,'']]],
-  ['playermotor',['PlayerMotor',['../class_player_motor.html',1,'']]],
-  ['playernavcontroller',['PlayerNavController',['../class_player_nav_controller.html',1,'']]]
+  ['replacementdefinition',['ReplacementDefinition',['../class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_definition.html',1,'UnityStandardAssets::Utility::AutoMobileShaderSwitch']]],
+  ['replacementlist',['ReplacementList',['../class_unity_standard_assets_1_1_utility_1_1_auto_mobile_shader_switch_1_1_replacement_list.html',1,'UnityStandardAssets::Utility::AutoMobileShaderSwitch']]],
+  ['rigidbodyfirstpersoncontroller',['RigidbodyFirstPersonController',['../class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller.html',1,'UnityStandardAssets::Characters::FirstPerson']]],
+  ['routepoint',['RoutePoint',['../struct_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_route_point.html',1,'UnityStandardAssets::Utility::WaypointCircuit']]]
 ];

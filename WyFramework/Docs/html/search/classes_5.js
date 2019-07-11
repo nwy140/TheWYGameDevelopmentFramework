@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['fireflicker',['FireFlicker',['../class_fire_flicker.html',1,'']]],
   ['firelight',['FireLight',['../class_unity_standard_assets_1_1_effects_1_1_fire_light.html',1,'UnityStandardAssets::Effects']]],
   ['firstpersoncontroller',['FirstPersonController',['../class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_first_person_controller.html',1,'UnityStandardAssets::Characters::FirstPerson']]],
-  ['follower',['Follower',['../class_follower.html',1,'']]],
   ['followtarget',['FollowTarget',['../class_unity_standard_assets_1_1_utility_1_1_follow_target.html',1,'UnityStandardAssets::Utility']]],
   ['forcedreset',['ForcedReset',['../class_forced_reset.html',1,'']]],
   ['fovkick',['FOVKick',['../class_unity_standard_assets_1_1_utility_1_1_f_o_v_kick.html',1,'UnityStandardAssets::Utility']]],

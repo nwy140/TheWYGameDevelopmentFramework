@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joystick_2ecs',['Joystick.cs',['../_joystick_8cs.html',1,'']]]
+  ['lerpcontrolledbob_2ecs',['LerpControlledBob.cs',['../_lerp_controlled_bob_8cs.html',1,'']]]
 ];

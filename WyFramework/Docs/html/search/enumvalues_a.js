@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['mousepositionx',['MousePositionX',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping.html#a237892bdafa6578dcf66b355a470e58ba2e5d285ad44c4b5c60c19d821f837597',1,'UnityStandardAssets::CrossPlatformInput::TiltInput::AxisMapping']]],
-  ['mousepositiony',['MousePositionY',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping.html#a237892bdafa6578dcf66b355a470e58ba34a9ef3987b77e6cb421e0f99aa29500',1,'UnityStandardAssets::CrossPlatformInput::TiltInput::AxisMapping']]],
-  ['mousepositionz',['MousePositionZ',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input_1_1_axis_mapping.html#a237892bdafa6578dcf66b355a470e58ba29cefbe721516636bf49ac7a3dd92516',1,'UnityStandardAssets::CrossPlatformInput::TiltInput::AxisMapping']]]
+  ['onlyhorizontal',['OnlyHorizontal',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html#a6d8c31bfbf3b5fb568caa04cfd87f901aad0df54cc6571aea4edb7176c3149ef9',1,'UnityStandardAssets.CrossPlatformInput.Joystick.OnlyHorizontal()'],['../class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html#a97d0cfd4e00c26253919746e84ebb7e5aad0df54cc6571aea4edb7176c3149ef9',1,'UnityStandardAssets.CrossPlatformInput.TouchPad.OnlyHorizontal()']]],
+  ['onlyvertical',['OnlyVertical',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_joystick.html#a6d8c31bfbf3b5fb568caa04cfd87f901ae9490dd647be2142274984691da814fb',1,'UnityStandardAssets.CrossPlatformInput.Joystick.OnlyVertical()'],['../class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html#a97d0cfd4e00c26253919746e84ebb7e5ae9490dd647be2142274984691da814fb',1,'UnityStandardAssets.CrossPlatformInput.TouchPad.OnlyVertical()']]]
 ];

@@ -4,6 +4,126 @@
     <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_camera_follow_obj_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_camera_follow_obj_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_deactive_gm_obj_by_time_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_deactive_gm_obj_by_time_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_lock_pos_to_obj_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_lock_pos_to_obj_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_tags_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_tags_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_debug_extension_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_debug_extension_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_documentation_template_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_documentation_template_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_doxygen_window_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_doxygen_window_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_example_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_example_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_actor_ground_detector_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_actor_ground_detector_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_char_movement_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_char_movement_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_char_stat_h_p_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_char_stat_h_p_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_cols_pushback_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_cols_pushback_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_sphr_cast_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_sphr_cast_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile2_d_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile2_d_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast2_d_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast2_d_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast3_d_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast3_d_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_spwn_projectile_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_spwn_projectile_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_world_stat_timer_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_world_stat_timer_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_prop_damage_stat_h_p_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_prop_damage_stat_h_p_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/_vis_char_anim_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_vis_char_anim_8cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_debug_extension-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_debug_extension-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_debug_extension.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_debug_extension.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_runner-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_runner-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_runner.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_runner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_config-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_config-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_config.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_window-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_window-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_window.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_window.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_example-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_example-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_movement-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_movement-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_movement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_movement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_vis_char_anim-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_vis_char_anim-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_vis_char_anim.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_vis_char_anim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_133173485271e7f1e3b6d6e2d716f505.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_133173485271e7f1e3b6d6e2d716f505.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_24a11b761fde93373ddecfbf55b5d85e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_24a11b761fde93373ddecfbf55b5d85e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_38c0671d8e669cdaf9fe4d0c8e0456be.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_38c0671d8e669cdaf9fe4d0c8e0456be.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_490ddef33e77ad8d9bbc2a2639c392ca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_490ddef33e77ad8d9bbc2a2639c392ca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_794cde1c16f92358ecf9383baa4e7df5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_794cde1c16f92358ecf9383baa4e7df5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_8262631723f7b33364a0e0cb8e3c4ff0.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_8262631723f7b33364a0e0cb8e3c4ff0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_84bbf7b3c7f28a5a18725745e1505219.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_84bbf7b3c7f28a5a18725745e1505219.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_8f175305dcf494b168020041f41fa16c.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_8f175305dcf494b168020041f41fa16c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_965adb4510022a155008af67c96285fb.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_965adb4510022a155008af67c96285fb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_a61728ed8d39ae932c553f4837da35dd.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_a61728ed8d39ae932c553f4837da35dd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_c64eca068d506df8b47709f55644f335.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_c64eca068d506df8b47709f55644f335.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_c95f19dcf09716dd9ae87692584e795e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_c95f19dcf09716dd9ae87692584e795e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_e29f982f64bc82a0c28b0e819cc603fc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_e29f982f64bc82a0c28b0e819cc603fc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_fae6f6586213a416a2f78192599692d8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_fae6f6586213a416a2f78192599692d8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_enum.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_enum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_g.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_g.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_h.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_j.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_j.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_k.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_k.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_o.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_prop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_prop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_r.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_r.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_s.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_t.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_t.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_u.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_u.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_v.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_v.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_vars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_w.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/namespace_wy_framework.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespace_wy_framework.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/namespaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespaces.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_14.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <marker date="1562469193388" expanded="false" signature="6:78" ph="..." />
                 <marker date="1562469193388" expanded="true" signature="89:398" ph="///     This class stores all the Tags and string values in the game. If you are familiar with Android Developmen ... " />
@@ -149,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -329,12 +449,12 @@
       <workItem from="1558310765531" duration="262000" />
       <workItem from="1558311077034" duration="1915000" />
       <workItem from="1558489153686" duration="2412000" />
-      <workItem from="1562460631931" duration="8553000" />
+      <workItem from="1562460631931" duration="9013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28938000" />
+    <option name="totallyTimeSpent" value="29398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,8 +466,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -948,7 +1067,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <marker date="1562469193388" expanded="false" signature="6:78" ph="..." />
             <marker date="1562469193388" expanded="true" signature="89:398" ph="///     This class stores all the Tags and string values in the game. If you are familiar with Android Developmen ... " />
