@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "MDA", "namespace_m_d_a.html", "namespace_m_d_a" ],
     [ "WyFramework", "namespace_wy_framework.html", "namespace_wy_framework" ],
     [ "CnvAnimTags", "class_cnv_anim_tags.html", "class_cnv_anim_tags" ],
     [ "CnvAxisTags", "class_cnv_axis_tags.html", "class_cnv_axis_tags" ],

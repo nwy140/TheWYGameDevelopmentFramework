@@ -43,6 +43,19 @@ namespace WyFramework
     ///
     /// 
     /// </summary>
+  
+    /**
+    This class explain and describes how the documentation of the Wy framework works.
+     
+    Explanation:
+     
+    Usage:
+
+    Integration:
+
+    Implement Later:
+
+     */
     public class DocumentationTemplate
     {
         /// Variable Documentation Template
@@ -58,6 +71,18 @@ namespace WyFramework
         ///         - Set a value for this variable in the inpsector
         ///         - Value may change at runtime
         /// </summary>
+        
+        /**
+        Movement Speed of the Character
+        Explanation:
+        Usage:
+            - set this value to influence the speed of the character
+                
+        Integration:
+            - Set a value for this variable in the inpsector
+            - Value may change at runtime
+         */
+        
         private float examplefloatVariable;
     }
 }

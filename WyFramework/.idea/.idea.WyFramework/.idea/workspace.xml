@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/New Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_camera_follow_obj_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_camera_follow_obj_8cs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_deactive_gm_obj_by_time_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_deactive_gm_obj_by_time_8cs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_lock_pos_to_obj_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_lock_pos_to_obj_8cs.html" afterDir="false" />
@@ -26,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/Docs/html/_mech_prop_damage_stat_h_p_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_prop_damage_stat_h_p_8cs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/_vis_char_anim_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_vis_char_anim_8cs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/annotated_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/annotated_dup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags-members.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags-members.html" afterDir="false" />
@@ -76,6 +79,7 @@
       <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/class_vis_char_anim-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_vis_char_anim-members.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/class_vis_char_anim.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_vis_char_anim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template-members.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/dir_133173485271e7f1e3b6d6e2d716f505.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_133173485271e7f1e3b6d6e2d716f505.html" afterDir="false" />
@@ -92,12 +96,14 @@
       <change beforePath="$PROJECT_DIR$/Docs/html/dir_c95f19dcf09716dd9ae87692584e795e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_c95f19dcf09716dd9ae87692584e795e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/dir_e29f982f64bc82a0c28b0e819cc603fc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_e29f982f64bc82a0c28b0e819cc603fc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/dir_fae6f6586213a416a2f78192599692d8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_fae6f6586213a416a2f78192599692d8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/files.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_b.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_c.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_dup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_enum.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_enum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_f.html" afterDir="false" />
@@ -109,6 +115,7 @@
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_k.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_k.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_l.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/functions_n.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_n.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_o.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_p.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_prop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_prop.html" afterDir="false" />
@@ -120,10 +127,43 @@
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_vars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/functions_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_w.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/hierarchy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/hierarchy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/menudata.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/namespace_wy_framework.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespace_wy_framework.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/namespaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespaces.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/namespaces_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespaces_dup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/navtreedata.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/navtreedata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/navtreeindex0.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/navtreeindex0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/navtreeindex1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/navtreeindex1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_13.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/html/search/all_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_15.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/classes_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/classes_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/classes_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/classes_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/files_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/files_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/files_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/files_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/files_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/files_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/namespaces_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/namespaces_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/searchdata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_15.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_f.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,44 +173,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <marker date="1562469193388" expanded="false" signature="6:78" ph="..." />
-                <marker date="1562469193388" expanded="true" signature="89:398" ph="///     This class stores all the Tags and string values in the game. If you are familiar with Android Developmen ... " />
-                <marker date="1562469193388" expanded="true" signature="441:1016" ph="{...}" />
-                <marker date="1562469193388" expanded="true" signature="1043:1154" ph="{...}" />
-                <marker date="1562469193388" expanded="true" signature="1180:1649" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <marker date="1562469599866" expanded="false" signature="6:111" ph="..." />
-                <marker date="1562469599866" expanded="true" signature="123:1312" ph="///     This class controls the movement of an object ... " />
-                <marker date="1562469599866" expanded="true" signature="1359:3339" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="1363:1614" ph="/// &#9;Reference to RigidBody in current gameObj ... " />
-                <marker date="1562469599866" expanded="true" signature="1635:1907" ph="/// &#9;Reference to MechActorGroundDetector in Child ... " />
-                <marker date="1562469599866" expanded="true" signature="1980:2340" ph="/// &#9;Movement Speed of the Character ... " />
-                <marker date="1562469599866" expanded="true" signature="2523:2630" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="2682:2744" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="2779:3003" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="2928:2939" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="2975:2984" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="2991:3000" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="3035:3092" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="3121:3331" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="3156:3328" ph="{...}" />
-                <marker date="1562469599866" expanded="true" signature="3211:3324" ph="{...}" />
+                <marker date="1562892329989" expanded="true" signature="28:10459" ph="{...}" />
+                <marker date="1562892329989" expanded="true" signature="32:256" ph="/* This is a documentation about games with [MDA](file:///C:/Users/u1274886/Desktop/TheWYGameDevelopmentFramework ... */" />
+                <marker date="1562892329989" expanded="true" signature="259:10333" ph="/* #### Conversation 2 6/25/2019 ... */" />
+                <marker date="1562892329989" expanded="true" signature="10364:10438" ph="{...}" />
+                <marker date="1562892329989" expanded="true" signature="10374:10392" ph="/* ​&#9;Stopped ... */" />
               </folding>
             </state>
           </provider>
@@ -183,6 +196,7 @@
       <find>AnimationTags</find>
       <find>Player</find>
       <find>tap</find>
+      <find>//</find>
     </findStrings>
     <replaceStrings>
       <replace>CnvAnimTags</replace>
@@ -208,6 +222,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Vis Scripts/VisCharAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvDeactiveGmObjByTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
@@ -216,8 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/GroundDetector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Universal/Convenience_LockPositionToObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_DeactivateGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_Tags.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/Components/ItemEquipSwapController.cs" />
@@ -263,16 +276,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvDeactiveGmObjByTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Class1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Info.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -323,66 +340,13 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="MDA" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
               <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="MechExtra Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="MechExtra Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="CharSkills" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="MechExtra Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WorldStat" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Vis Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
-              <item name="Convenience Scripts" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
@@ -390,10 +354,10 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,11 +414,12 @@
       <workItem from="1558311077034" duration="1915000" />
       <workItem from="1558489153686" duration="2412000" />
       <workItem from="1562460631931" duration="9013000" />
+      <workItem from="1562888421789" duration="3296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29398000" />
+    <option name="totallyTimeSpent" value="32694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,11 +431,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Image Layers" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.23134328" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16791044" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -760,12 +725,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RPG/Dialogue.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Experimental/GameManagerController.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RPG/Dialogue.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Experimental/GameManagerController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -1050,23 +1011,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="116" column="70" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
-          <folding>
-            <marker date="1562468863561" expanded="true" signature="21:1987" ph="{...}" />
-            <marker date="1562468863561" expanded="true" signature="46:1419" ph="///     This class explain and describes how the documentation of the Wy framework works. ... " />
-            <marker date="1562468863561" expanded="true" signature="1458:1985" ph="{...}" />
-            <marker date="1562468863561" expanded="true" signature="1473:1935" ph="/// &#9;Movement Speed of the Character ... " />
-            <marker date="1562468863561" expanded="true" signature="1991:3162" ph="/* Archive ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="629">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <marker date="1562469193388" expanded="false" signature="6:78" ph="..." />
@@ -1075,6 +1022,13 @@
             <marker date="1562469193388" expanded="true" signature="1043:1154" ph="{...}" />
             <marker date="1562469193388" expanded="true" signature="1180:1649" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1099,6 +1053,43 @@
             <marker date="1562469599866" expanded="true" signature="3121:3331" ph="{...}" />
             <marker date="1562469599866" expanded="true" signature="3156:3328" ph="{...}" />
             <marker date="1562469599866" expanded="true" signature="3211:3324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Info.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <marker date="1562890855718" expanded="true" signature="21:2501" ph="{...}" />
+            <marker date="1562890855718" expanded="true" signature="46:1419" ph="///     This class explain and describes how the documentation of the Wy framework works. ... " />
+            <marker date="1562890855718" expanded="true" signature="1427:1605" ph="/* ... */" />
+            <marker date="1562890855718" expanded="true" signature="1644:2499" ph="{...}" />
+            <marker date="1562890855718" expanded="true" signature="1659:2121" ph="/// &#9;Movement Speed of the Character ... " />
+            <marker date="1562890855718" expanded="true" signature="2139:2440" ph="/* ... */" />
+            <marker date="1562890855718" expanded="true" signature="2505:3676" ph="/* Archive ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1562892329989" expanded="true" signature="28:10459" ph="{...}" />
+            <marker date="1562892329989" expanded="true" signature="32:256" ph="/* This is a documentation about games with [MDA](file:///C:/Users/u1274886/Desktop/TheWYGameDevelopmentFramework ... */" />
+            <marker date="1562892329989" expanded="true" signature="259:10333" ph="/* #### Conversation 2 6/25/2019 ... */" />
+            <marker date="1562892329989" expanded="true" signature="10364:10438" ph="{...}" />
+            <marker date="1562892329989" expanded="true" signature="10374:10392" ph="/* ​&#9;Stopped ... */" />
           </folding>
         </state>
       </provider>

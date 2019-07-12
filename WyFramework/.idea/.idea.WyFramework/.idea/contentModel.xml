@@ -32,6 +32,9 @@
         </e>
       </e>
       <e p="Assets\Scripts" t="Include">
+        <e p="MDA" t="Include">
+          <e p="Info.cs" t="Include" />
+        </e>
         <e p="WyFramework" t="Include">
           <e p="Char Scripts" t="Include">
             <e p="Mech Scripts" t="Include">

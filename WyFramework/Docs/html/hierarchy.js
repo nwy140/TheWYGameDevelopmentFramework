@@ -11,6 +11,7 @@ var hierarchy =
     [ "EditorWindow", null, [
       [ "DoxygenWindow", "class_doxygen_window.html", null ]
     ] ],
+    [ "MDA.MechanicsAs", "class_m_d_a_1_1_mechanics_as.html", null ],
     [ "MonoBehaviour", null, [
       [ "CnvCameraFollowObj", "class_cnv_camera_follow_obj.html", null ],
       [ "CnvDeactiveGmObjByTime", "class_cnv_deactive_gm_obj_by_time.html", null ],
