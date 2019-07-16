@@ -24,7 +24,7 @@ using UnityEngine;
 public class MechActorGroundDetector : MonoBehaviour
 {
     public bool isGrounded;
-    // Start is called before the first frame update    
+    // Start is called before the first frame update        
     
     // add new collision layer as 8 for ground detection
 

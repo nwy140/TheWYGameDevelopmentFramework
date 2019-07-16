@@ -24,6 +24,7 @@ public class MechExtraCharSkillProjectile2D : MonoBehaviour
 {
     public float damage;
     public float speed;
+    public float pushBackForce;
 
     Rigidbody2D myRB;
     // Start is called before the first frame update
@@ -38,11 +39,28 @@ public class MechExtraCharSkillProjectile2D : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.layer == LayerMask.NameToLayer("Shootable"))
+        if(other.gameObject.layer == LayerMask.NameToLayer("PropCol"))
         {
             MechCharStatHP mechCharStatHP = other.GetComponent<MechCharStatHP>();
-            mechCharStatHP.ApplyDamage(damage);
+            if(mechCharStatHP)
+                mechCharStatHP.ApplyDamage(damage);
             myRB.velocity = Vector2.zero;
+            MechExtraCharSkillPhysicsShortcuts.pushback(other.transform, transform, pushBackForce);
+            
+            Destroy(gameObject);
+        }    
+    }
+    
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.layer == LayerMask.NameToLayer("PropCol"))
+        {
+            MechCharStatHP mechCharStatHP = other.gameObject.GetComponent<MechCharStatHP>();
+            if(mechCharStatHP)
+                mechCharStatHP.ApplyDamage(damage);
+            myRB.velocity = Vector2.zero;
+            MechExtraCharSkillPhysicsShortcuts.pushback(other.transform, transform, pushBackForce);
+            
             Destroy(gameObject);
         }    
     }

@@ -48,20 +48,12 @@ public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee att
                 targetMechCharStatHP.ApplyDamage(damage);
                 nextDamageTime = Time.time + damageRate;
                 
-                pushback(targetObj.transform);
+                MechExtraCharSkillPhysicsShortcuts.pushback(targetObj.transform,transform, pushBackForce);
             }
         }
     }
 
-    void pushback(Transform pushedObject){
-        Vector3 pushDirection = new Vector3(0, (pushedObject.position.y - transform.position.y),0 ).normalized; // normalized returns unit vector
-        pushDirection*=pushBackForce;
 
-        Rigidbody2D pushedRB = pushedObject.GetComponent<Rigidbody2D>();
-        pushedRB.velocity = Vector3.zero;
-        pushedRB.AddForce(pushDirection, ForceMode2D.Impulse); // impulse is the explosive type of force
-
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -71,5 +63,12 @@ public class MechExtraCharSkillMeleeAtkColsPushback : MonoBehaviour // melee att
         }
     }
 
-
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject)
+        {
+            Attack(other.gameObject);
+        }
+        
+    }
 }

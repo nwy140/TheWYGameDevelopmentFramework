@@ -1,81 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\u1274886\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\u1274886\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_WyFramework.-1219781092.00" t="ExcludeRecursive" />
-    <e p="C:\Users\u1274886\Desktop\TheWYGameDevelopmentFramework\WyFramework" t="IncludeRecursive">
+    <e p="C:\Users\NetAc\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\NetAc\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_WyFramework.-1251325019.00" t="ExcludeRecursive" />
+    <e p="C:\Users\NetAc\OneDrive - University of Utah\Documents\MyGitRepos\TheWYGameDevelopmentFramework\WyFramework" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets\ArtStyles" t="Include">
-        <e p="Fonts" t="Include">
-          <e p="kenney_fontpackage" t="Include">
-            <e p="License.txt" t="Include" />
+      <e p="Assets" t="Include">
+        <e p="ArtStyles" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="kenney_fontpackage" t="Include">
+              <e p="License.txt" t="Include" />
+            </e>
           </e>
         </e>
-      </e>
-      <e p="Assets\Editor" t="Include">
-        <e p="Doxygen" t="Include">
-          <e p="DoxygenWindow.cs" t="Include" />
-          <e p="readme.txt" t="Include" />
-          <e p="Resources" t="Include">
-            <e p="BaseDoxyfile.txt" t="Include" />
+        <e p="Editor" t="Include">
+          <e p="Doxygen" t="Include">
+            <e p="DoxygenWindow.cs" t="Include" />
+            <e p="readme.txt" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="BaseDoxyfile.txt" t="Include" />
+            </e>
           </e>
         </e>
-      </e>
-      <e p="Assets\PluginsAssetStore" t="Include">
-        <e p="DebugDrawingExtension" t="Include">
-          <e p="DebugExtension.cs" t="Include" />
-          <e p="Example" t="Include">
-            <e p="Example.cs" t="Include" />
+        <e p="PluginsAssetStore" t="Include">
+          <e p="DebugDrawingExtension" t="Include">
+            <e p="DebugExtension.cs" t="Include" />
+            <e p="Example" t="Include">
+              <e p="Example.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
           </e>
-          <e p="readme.txt" t="Include" />
+          <e p="ObjectNotes" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ObjectNoteEditor.cs" t="Include" />
+              <e p="ObjectNoteInGameEditor.cs" t="Include" />
+            </e>
+            <e p="ObjectNote.cs" t="Include" />
+            <e p="ObjectNoteInGame.cs" t="Include" />
+            <e p="readme.txt" t="Include" />
+          </e>
         </e>
-      </e>
-      <e p="Assets\Scripts" t="Include">
-        <e p="MDA" t="Include">
-          <e p="Info.cs" t="Include" />
-        </e>
-        <e p="WyFramework" t="Include">
-          <e p="Char Scripts" t="Include">
-            <e p="Mech Scripts" t="Include">
-              <e p="MechActorGroundDetector.cs" t="Include" />
-              <e p="MechCharMovement.cs" t="Include" />
-              <e p="MechCharStatHP.cs" t="Include" />
-              <e p="MechExtra Scripts" t="Include">
-                <e p="CharSkills" t="Include">
-                  <e p="MechExtraCharSkillMeleeAtkColsPushback.cs" t="Include" />
-                  <e p="MechExtraCharSkillMeleeAtkSphrCast.cs" t="Include" />
-                  <e p="MechExtraCharSkillProjectile.cs" t="Include" />
-                  <e p="MechExtraCharSkillProjectile2D.cs" t="Include" />
-                  <e p="MechExtraCharSkillRangeAtkRayCast2D.cs" t="Include" />
-                  <e p="MechExtraCharSkillRangeAtkRayCast3D.cs" t="Include" />
-                  <e p="MechExtraCharSkillRangeAtkSpwnProjectile.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="MDA" t="Include">
+            <e p="Info.cs" t="Include" />
+          </e>
+          <e p="WyFramework" t="Include">
+            <e p="Char Scripts" t="Include">
+              <e p="Mech Scripts" t="Include">
+                <e p="Archive" t="Include">
+                  <e p="MechPropDamageStatHP.cs" t="Include" />
                 </e>
-                <e p="WorldStat" t="Include">
-                  <e p="MechExtraWorldStatTimer.cs" t="Include" />
+                <e p="MechActorGroundDetector.cs" t="Include" />
+                <e p="MechCharMovement.cs" t="Include" />
+                <e p="MechCharStatHP.cs" t="Include" />
+                <e p="MechExtra Scripts" t="Include">
+                  <e p="CharSkills" t="Include">
+                    <e p="MechExtraCharSkillMeleeAtkColsPushback.cs" t="Include" />
+                    <e p="MechExtraCharSkillMeleeAtkSphrCastPushback.cs" t="Include" />
+                    <e p="MechExtraCharSkillPhysicsShortcuts.cs" t="Include" />
+                    <e p="MechExtraCharSkillProjectile.cs" t="Include" />
+                    <e p="MechExtraCharSkillProjectile2D.cs" t="Include" />
+                    <e p="MechExtraCharSkillRangeAtkRayCast2D.cs" t="Include" />
+                    <e p="MechExtraCharSkillRangeAtkRayCast3D.cs" t="Include" />
+                    <e p="MechExtraCharSkillRangeAtkSpwnObj.cs" t="Include" />
+                  </e>
+                  <e p="WorldStat" t="Include">
+                    <e p="MechExtraWorldStatTimer.cs" t="Include" />
+                  </e>
                 </e>
               </e>
-              <e p="MechPropDamageStatHP.cs" t="Include" />
+              <e p="Vis Scripts" t="Include">
+                <e p="VisCharAnim.cs" t="Include" />
+              </e>
             </e>
-            <e p="Vis Scripts" t="Include">
-              <e p="VisCharAnim.cs" t="Include" />
+            <e p="Convenience Scripts" t="Include">
+              <e p="CnvCameraFollowObj.cs" t="Include" />
+              <e p="CnvDeactiveGmObjByTime.cs" t="Include" />
+              <e p="CnvLockPosToObj.cs" t="Include" />
+              <e p="CnvTags.cs" t="Include" />
             </e>
+            <e p="DocumentationTemplate.cs" t="Include" />
           </e>
-          <e p="Convenience Scripts" t="Include">
-            <e p="CnvCameraFollowObj.cs" t="Include" />
-            <e p="CnvDeactiveGmObjByTime.cs" t="Include" />
-            <e p="CnvLockPosToObj.cs" t="Include" />
-            <e p="CnvTags.cs" t="Include" />
-          </e>
-          <e p="DocumentationTemplate.cs" t="Include" />
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="WyFramework.sln" t="IncludeFlat" />
     </e>
   </component>

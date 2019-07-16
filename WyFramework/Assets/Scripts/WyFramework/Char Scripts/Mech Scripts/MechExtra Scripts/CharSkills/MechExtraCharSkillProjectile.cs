@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,6 +25,7 @@ public class MechExtraCharSkillProjectile : MonoBehaviour
 {
     public float damage;
     public float speed;
+    public float pushBackForce;
 
     Rigidbody myRB;
     // Start is called before the first frame update
@@ -36,12 +38,33 @@ public class MechExtraCharSkillProjectile : MonoBehaviour
         else myRB.AddForce(Vector3.forward *-speed, ForceMode.Impulse);
     }
 
-    private void OnTriggerEnter(Collider other) {
-        if(other.gameObject.layer == LayerMask.NameToLayer("Shootable")){
-            MechCharStatHP mechCharStatHP = other.GetComponent<MechCharStatHP>();
-            mechCharStatHP.ApplyDamage(damage);
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("PropCol"))
+        {
+            MechCharStatHP mechCharStatHP = other.gameObject.GetComponent<MechCharStatHP>();
+            if (mechCharStatHP)
+                mechCharStatHP.ApplyDamage(damage);
             myRB.velocity = Vector2.zero;
+            MechExtraCharSkillPhysicsShortcuts.pushback(other.transform, transform, pushBackForce);
+
             Destroy(gameObject);
         }
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.layer == LayerMask.NameToLayer("PropCol"))
+        {
+            MechCharStatHP mechCharStatHP = other.gameObject.GetComponent<MechCharStatHP>();
+            if(mechCharStatHP)
+                mechCharStatHP.ApplyDamage(damage);
+            myRB.velocity = Vector2.zero;
+            MechExtraCharSkillPhysicsShortcuts.pushback(other.transform, transform, pushBackForce);
+            
+            Destroy(gameObject);
+        }    
+    }
+
+    
 }

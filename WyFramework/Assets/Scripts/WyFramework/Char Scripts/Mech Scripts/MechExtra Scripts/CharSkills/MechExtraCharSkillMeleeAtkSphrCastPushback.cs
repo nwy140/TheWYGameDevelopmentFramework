@@ -65,7 +65,7 @@ public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sph
                     if (targetMechCharStatHP)
                     {
                         targetMechCharStatHP.ApplyDamage(damage);
-                        pushback(tCol.gameObject.transform);
+                        MechExtraCharSkillPhysicsShortcuts.pushback(tCol.gameObject.transform,transform, pushBackForce);
 
                     }
                 }
@@ -88,7 +88,7 @@ public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sph
                     if (targetMechCharStatHP)
                     {
                         targetMechCharStatHP.ApplyDamage(damage);
-                        pushback(tCol.gameObject.transform);
+                        MechExtraCharSkillPhysicsShortcuts.pushback(tCol.gameObject.transform,transform, pushBackForce);
                     }    
                 }
 
@@ -97,18 +97,6 @@ public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sph
         }
     }
     
-    void pushback(Transform pushedObject){
-        Vector3 pushDirection = new Vector3(0, (pushedObject.position.y - transform.position.y),0 ).normalized; // normalized returns unit vector
-        pushDirection*=pushBackForce;
 
-        if (pushedObject.GetComponent<Rigidbody2D>())
-        {
-            Rigidbody2D pushedRB = pushedObject.GetComponent<Rigidbody2D>();
-            pushedRB.velocity = Vector3.zero;
-            pushedRB.AddForce(pushDirection, ForceMode2D.Impulse); // impulse is the explosive type of force
-        }
-
-
-    }
     
 }

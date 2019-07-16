@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 ///<summary> 
@@ -22,10 +23,15 @@ public class MechExtraCharSkillRangeAtkRayCast2D : MonoBehaviour
 {
     public float range = 10f;
     public float damage = 5f;
+    public float pushBackForce;
+
 
     RaycastHit2D shootHit; //Anything that's hit by the raycast
     int shootableMask;
     LineRenderer gunLine;
+
+    public bool bInvertRaycastDirection;
+    public float offsetMultiplier = 1;
 
     // Start is called before the first frame update
     void Update()
@@ -33,12 +39,35 @@ public class MechExtraCharSkillRangeAtkRayCast2D : MonoBehaviour
         shootableMask = LayerMask.GetMask("PropCol");
         gunLine = GetComponent<LineRenderer>();
         gunLine.SetPosition(0,transform.position);
+        
+        // invert direction check
+        if (bInvertRaycastDirection)
+        {
+            offsetMultiplier = -Mathf.Abs(offsetMultiplier); // right
+        }
+        else
+        {
+            offsetMultiplier = Mathf.Abs(offsetMultiplier); // right
+        }
+     
+        shootHit = Physics2D.Raycast(transform.position,  transform.right * offsetMultiplier , range, shootableMask);
+        if (shootHit.collider != null)
+        {            
+            gunLine.SetPosition(1,shootHit.point );
+            Debug.Log(gameObject.name + " 2DRaycasthit: " + shootHit.collider.name);
 
-        if(Physics2D.Raycast(transform.position, transform.forward, range, shootableMask)){
-            //hit an enemy goes here
-            gunLine.SetPosition(1,shootHit.collider.transform.position); // draw line from position of fired all the way to hit point
-        } else gunLine.SetPosition(1,shootHit.collider.transform.position + shootHit.collider.transform.forward * range);
-//        shootHit.collider.GetComponent<MechCharStatHP>().ApplyDamage(damage);
+
+            GameObject targetObj = shootHit.collider.gameObject;
+            MechCharStatHP targetMechCharStatHP = targetObj.GetComponent<MechCharStatHP>();
+            
+            if(targetMechCharStatHP)
+                targetMechCharStatHP.ApplyDamage(damage);
+
+            MechExtraCharSkillPhysicsShortcuts.pushback(shootHit.collider.transform,transform, pushBackForce);
+        }
+        else gunLine.SetPosition(1, transform.position + transform.right * range * offsetMultiplier);
+
+        
     }   
 
 

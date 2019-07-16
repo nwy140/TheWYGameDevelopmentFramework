@@ -19,11 +19,11 @@ using UnityEngine.UI;
 /// 
 /// </summary>
 /// 
-public class MechExtraCharSkillRangeAtkSpwnProjectile : MonoBehaviour
+public class MechExtraCharSkillRangeAtkSpwnObj : MonoBehaviour
 {
     public float timeBetweenBullets = 0.15f;
 
-    public GameObject projectile;
+    public GameObject objToSpawn;
     // public Slider playerAmmoSlider;
     public int maxRounds;
     public int startingRounds;
@@ -70,7 +70,7 @@ public class MechExtraCharSkillRangeAtkSpwnProjectile : MonoBehaviour
                 } else{
                     rot = transform.rotation.ToEuler();
                 }
-                Instantiate(projectile, transform.position,Quaternion.Euler(rot));
+                Instantiate(objToSpawn, transform.position,Quaternion.Euler(rot));
                 playASound(shootSound);
                 remainingRounds -=1;
                 // playerAmmoSlider.value = remainingRounds;
@@ -87,7 +87,11 @@ public class MechExtraCharSkillRangeAtkSpwnProjectile : MonoBehaviour
     }
 
     void playASound(AudioClip playTheSound){
-        gunMuzzleAS.clip = playTheSound;
-        gunMuzzleAS.Play();
+        if (gunMuzzleAS)
+        {
+            gunMuzzleAS.clip = playTheSound;
+            gunMuzzleAS.Play();
+        }
+
     }
 }

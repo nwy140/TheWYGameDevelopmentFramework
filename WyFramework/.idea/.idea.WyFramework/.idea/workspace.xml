@@ -2,168 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="104d3055-2b56-4a10-b666-83642a39d75d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/BigCrosshair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/BigCrosshair.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/DemoScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/DemoScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/Editor/ObjectNoteEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/Editor/ObjectNoteEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/Editor/ObjectNoteInGameEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/Editor/ObjectNoteInGameEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/ObjectNote.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/ObjectNote.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/ObjectNoteInGame.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/ObjectNoteInGame.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/SmallCrosshair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/SmallCrosshair.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PluginsAssetStore/ObjectNotes/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillPhysicsShortcuts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillPhysicsShortcuts.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WyFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/New Folder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_camera_follow_obj_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_camera_follow_obj_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_deactive_gm_obj_by_time_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_deactive_gm_obj_by_time_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_lock_pos_to_obj_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_lock_pos_to_obj_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_cnv_tags_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_cnv_tags_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_debug_extension_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_debug_extension_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_documentation_template_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_documentation_template_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_doxygen_window_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_doxygen_window_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_example_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_example_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_actor_ground_detector_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_actor_ground_detector_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_char_movement_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_char_movement_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_char_stat_h_p_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_char_stat_h_p_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_cols_pushback_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_cols_pushback_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_sphr_cast_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_melee_atk_sphr_cast_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile2_d_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile2_d_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_projectile_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast2_d_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast2_d_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast3_d_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_ray_cast3_d_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_spwn_projectile_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_char_skill_range_atk_spwn_projectile_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_extra_world_stat_timer_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_extra_world_stat_timer_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_mech_prop_damage_stat_h_p_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_mech_prop_damage_stat_h_p_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/_vis_char_anim_8cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/_vis_char_anim_8cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/annotated.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/annotated_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/annotated_dup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_anim_tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_axis_tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_camera_follow_obj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_deactive_gm_obj_by_time.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_gen_tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_cnv_lock_pos_to_obj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_debug_extension-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_debug_extension-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_debug_extension.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_debug_extension.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_runner-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_runner-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_runner.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_runner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxy_thread_safe_output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_config-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_config-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_config.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_config.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_window-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_window-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_doxygen_window.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_doxygen_window.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_example-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_example-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_actor_ground_detector.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_movement-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_movement-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_movement.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_movement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_char_stat_h_p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_cols_pushback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_melee_atk_sphr_cast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_projectile2_d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast2_d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_ray_cast3_d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_char_skill_range_atk_spwn_projectile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_extra_world_stat_timer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_mech_prop_damage_stat_h_p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_vis_char_anim-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_vis_char_anim-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_vis_char_anim.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_vis_char_anim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/class_wy_framework_1_1_documentation_template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_133173485271e7f1e3b6d6e2d716f505.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_133173485271e7f1e3b6d6e2d716f505.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_24a11b761fde93373ddecfbf55b5d85e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_24a11b761fde93373ddecfbf55b5d85e.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_38c0671d8e669cdaf9fe4d0c8e0456be.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_38c0671d8e669cdaf9fe4d0c8e0456be.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_490ddef33e77ad8d9bbc2a2639c392ca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_490ddef33e77ad8d9bbc2a2639c392ca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_794cde1c16f92358ecf9383baa4e7df5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_794cde1c16f92358ecf9383baa4e7df5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_8262631723f7b33364a0e0cb8e3c4ff0.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_8262631723f7b33364a0e0cb8e3c4ff0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_84bbf7b3c7f28a5a18725745e1505219.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_84bbf7b3c7f28a5a18725745e1505219.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_8f175305dcf494b168020041f41fa16c.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_8f175305dcf494b168020041f41fa16c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_965adb4510022a155008af67c96285fb.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_965adb4510022a155008af67c96285fb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_a61728ed8d39ae932c553f4837da35dd.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_a61728ed8d39ae932c553f4837da35dd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_c64eca068d506df8b47709f55644f335.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_c64eca068d506df8b47709f55644f335.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_c95f19dcf09716dd9ae87692584e795e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_c95f19dcf09716dd9ae87692584e795e.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_e29f982f64bc82a0c28b0e819cc603fc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_e29f982f64bc82a0c28b0e819cc603fc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_f13b41af88cf68434578284aaf699e39.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/dir_fae6f6586213a416a2f78192599692d8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/dir_fae6f6586213a416a2f78192599692d8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/files.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_dup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_e.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_enum.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_enum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_g.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_g.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_h.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_h.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_i.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_j.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_j.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_k.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_k.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_m.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_n.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_n.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_o.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_prop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_prop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_r.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_r.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_s.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_t.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_t.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_u.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_u.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_v.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_v.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_vars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/functions_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/functions_w.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/hierarchy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/hierarchy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/hierarchy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/menudata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/namespace_wy_framework.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespace_wy_framework.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/namespaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespaces.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/namespaces_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/namespaces_dup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/navtreedata.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/navtreedata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/navtreeindex0.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/navtreeindex0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/navtreeindex1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/navtreeindex1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_13.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_15.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_15.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_c.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/all_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/all_f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/classes_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/classes_3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/classes_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/classes_5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/files_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/files_3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/files_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/files_4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/files_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/files_5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/namespaces_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/namespaces_0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/searchdata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_13.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_15.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_15.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_c.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/html/search/variables_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/html/search/variables_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PluginsAssetStore/External.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/Archive.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FrameworkExamplesScenes/Debug_t1m1_FrameworkTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FrameworkExamplesScenes/Debug_t1m1_FrameworkTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCastPushback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCastPushback.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnObj.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnProjectile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnObj.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechPropDamageStatHP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/Archive/MechPropDamageStatHP.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechPropDamageStatHP.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/Archive/MechPropDamageStatHP.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityPackageManager/manifest.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,17 +56,149 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="210">
+              <caret line="26" column="19" selection-start-line="26" selection-end-line="27" />
               <folding>
-                <marker date="1562892329989" expanded="true" signature="28:10459" ph="{...}" />
-                <marker date="1562892329989" expanded="true" signature="32:256" ph="/* This is a documentation about games with [MDA](file:///C:/Users/u1274886/Desktop/TheWYGameDevelopmentFramework ... */" />
-                <marker date="1562892329989" expanded="true" signature="259:10333" ph="/* #### Conversation 2 6/25/2019 ... */" />
-                <marker date="1562892329989" expanded="true" signature="10364:10438" ph="{...}" />
-                <marker date="1562892329989" expanded="true" signature="10374:10392" ph="/* ​&#9;Stopped ... */" />
+                <marker date="1563263353097" expanded="true" signature="94:469" ph="///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider tha ... " />
+                <marker date="1563263353097" expanded="true" signature="529:2001" ph="{...}" />
+                <marker date="1563263353097" expanded="true" signature="705:951" ph="{...}" />
+                <marker date="1563263353097" expanded="true" signature="791:873" ph="{...}" />
+                <marker date="1563263353097" expanded="true" signature="1008:1468" ph="{...}" />
+                <marker date="1563263353097" expanded="true" signature="1085:1458" ph="{...}" />
+                <marker date="1563263353097" expanded="true" signature="1528:1999" ph="{...}" />
+                <marker date="1563263353097" expanded="true" signature="1605:1989" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+              <folding>
+                <marker date="1563263604266" expanded="true" signature="6:92" ph="..." />
+                <marker date="1563263604266" expanded="true" signature="95:470" ph="///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider tha ... " />
+                <marker date="1563263604266" expanded="true" signature="528:1983" ph="{...}" />
+                <marker date="1563263604266" expanded="true" signature="702:946" ph="{...}" />
+                <marker date="1563263604266" expanded="true" signature="786:868" ph="{...}" />
+                <marker date="1563263604266" expanded="true" signature="995:1452" ph="{...}" />
+                <marker date="1563263604266" expanded="true" signature="1073:1446" ph="{...}" />
+                <marker date="1563263604266" expanded="true" signature="1504:1975" ph="{...}" />
+                <marker date="1563263604266" expanded="true" signature="1581:1965" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="65" column="22" selection-start-line="65" selection-end-line="66" />
+              <folding>
+                <marker date="1563263072099" expanded="true" signature="6:92" ph="..." />
+                <marker date="1563263072099" expanded="true" signature="93:402" ph="///     This class performs a raycast that detects any Character and apply damage to them, and then push them bac ... " />
+                <marker date="1563263072099" expanded="true" signature="467:2096" ph="{...}" />
+                <marker date="1563263072099" expanded="true" signature="829:2089" ph="{...}" />
+                <marker date="1563263072099" expanded="true" signature="1068:1158" ph="{...}" />
+                <marker date="1563263072099" expanded="true" signature="1171:1260" ph="{...}" />
+                <marker date="1563263072099" expanded="true" signature="1423:1971" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding>
+                <marker date="1563264070867" expanded="false" signature="6:78" ph="..." />
+                <marker date="1563264070867" expanded="true" signature="79:388" ph="///     This class performs a raycast that detects any Character and apply damage to them, and then push them bac ... " />
+                <marker date="1563264070867" expanded="true" signature="453:1911" ph="{...}" />
+                <marker date="1563264070867" expanded="true" signature="750:1904" ph="{...}" />
+                <marker date="1563264070867" expanded="true" signature="1082:1742" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+              <folding>
+                <marker date="1563264577406" expanded="false" signature="6:100" ph="..." />
+                <marker date="1563264577406" expanded="true" signature="101:415" ph="///     This class spawn a projectile and manages/Limits the Weapon stats of a weapon e.g Ammo, TimeBetweenBullet ... " />
+                <marker date="1563264577406" expanded="true" signature="478:2548" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="968:1273" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="1050:1144" ph="/* playerAmmoSlider.maxValue = maxRounds; ... */" />
+                <marker date="1563264577406" expanded="true" signature="1331:1418" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="1373:1410" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="1446:2214" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="1503:2208" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="1711:2198" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="1818:1882" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="2240:2371" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="2416:2546" ph="{...}" />
+                <marker date="1563264577406" expanded="true" signature="2442:2539" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="45" column="28" selection-start-line="45" selection-end-line="46" />
+              <folding>
+                <marker date="1563261441409" expanded="true" signature="6:92" ph="..." />
+                <marker date="1563261441409" expanded="true" signature="95:101" ph="/* ... */" />
+                <marker date="1563261441409" expanded="true" signature="102:338" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
+                <marker date="1563261441409" expanded="true" signature="432:1521" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="651:700" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="741:1200" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="886:1194" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="930:1184" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="1258:1358" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="1294:1352" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="1410:1519" ph="{...}" />
+                <marker date="1563261441409" expanded="true" signature="1446:1504" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCastPushback.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="26" column="21" selection-start-line="26" selection-end-line="27" />
+              <folding>
+                <marker date="1563261566750" expanded="true" signature="6:78" ph="..." />
+                <marker date="1563261566750" expanded="true" signature="80:340" ph="///     This class performs a spherecast that detects any character near it and apply damage to them , and push t ... " />
+                <marker date="1563261566750" expanded="true" signature="427:2949" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="759:923" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="986:1070" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="1028:1064" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="1099:2936" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="1134:2930" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="1250:2064" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="1416:1550" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="1603:2033" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="1783:2015" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="2110:2920" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="2269:2403" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="2492:2904" ph="{...}" />
+                <marker date="1563261566750" expanded="true" signature="2651:2882" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -206,34 +221,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechPropDamageStatHP.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/Doxygen/DoxygenWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PluginsAssetStore/DebugDrawingExtension/DebugExtension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/MechExtraWorldStatTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnProjectile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PluginsAssetStore/DebugDrawingExtension/DebugExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCastPushback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillPhysicsShortcuts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Vis Scripts/VisCharAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvCameraFollowObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvDeactiveGmObjByTime.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvLockPosToObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Doxygen/DoxygenWindow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_DeactivateGameObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Helper Scripts/Convenience_Tags.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Player Scripts/Components/ItemEquipSwapController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvDeactiveGmObjByTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/CnvLockPosToObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character Scripts/Convenience Scripts/Convenience_Tags.cs" />
@@ -261,15 +273,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkCols.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnProjectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/MechExtraWorldStatTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharStatHP.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechPropDamageStatHP.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Vis Scripts/VisCharAnim.cs" />
@@ -282,14 +288,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Info.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillPhysicsShortcuts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCastPushback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnObj.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="226" />
+    <option name="y" value="135" />
+    <option name="width" value="1363" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -297,56 +312,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-              <item name="Doxygen" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-              <item name="Doxygen" type="1045f7f1:UnityExplorerNode" />
-              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-              <item name="Doxygen" type="1045f7f1:UnityExplorerNode" />
-              <item name="Resources" type="1045f7f1:UnityExplorerNode" />
-              <item name="LightTheme" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="MDA" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
               <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="MechExtra Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Char Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Mech Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="MechExtra Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="CharSkills" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="WyFramework" type="1045f7f1:UnityExplorerNode" />
+              <item name="Convenience Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
           <select />
@@ -354,16 +385,14 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -387,12 +416,14 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -415,11 +446,12 @@
       <workItem from="1558489153686" duration="2412000" />
       <workItem from="1562460631931" duration="9013000" />
       <workItem from="1562888421789" duration="3296000" />
+      <workItem from="1563257907761" duration="6435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32694000" />
+    <option name="totallyTimeSpent" value="39129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,11 +463,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1466" height="878" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Image Layers" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16791044" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26652452" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -727,135 +759,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RPG/Dialogue.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Experimental/GameManagerController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <marker date="1562468523082" expanded="false" signature="6:92" ph="..." />
-            <marker date="1562468523082" expanded="true" signature="95:101" ph="/* ... */" />
-            <marker date="1562468523082" expanded="true" signature="102:338" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
-            <marker date="1562468523082" expanded="true" signature="432:1756" ph="{...}" />
-            <marker date="1562468523082" expanded="true" signature="651:700" ph="{...}" />
-            <marker date="1562468523082" expanded="true" signature="741:1140" ph="{...}" />
-            <marker date="1562468523082" expanded="true" signature="886:1134" ph="{...}" />
-            <marker date="1562468523082" expanded="true" signature="930:1124" ph="{...}" />
-            <marker date="1562468523082" expanded="true" signature="1183:1596" ph="{...}" />
-            <marker date="1562468523082" expanded="true" signature="1652:1752" ph="{...}" />
-            <marker date="1562468523082" expanded="true" signature="1688:1746" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCast.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1562468523088" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562468523088" expanded="true" signature="80:340" ph="///     This class performs a spherecast that detects any character near it and apply damage to them , and push t ... " />
-            <marker date="1562468523088" expanded="true" signature="427:3370" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="759:923" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="986:1070" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="1028:1064" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="1099:2816" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="1134:2810" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="1250:2004" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="1416:1550" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="1603:1973" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="1783:1955" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="2050:2800" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="2209:2343" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="2432:2784" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="2591:2762" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="2863:3363" ph="{...}" />
-            <marker date="1562468523088" expanded="true" signature="3103:3355" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <marker date="1562468533478" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562468533478" expanded="true" signature="81:456" ph="///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider tha ... " />
-            <marker date="1562468533478" expanded="true" signature="514:1248" ph="{...}" />
-            <marker date="1562468533478" expanded="true" signature="656:900" ph="{...}" />
-            <marker date="1562468533478" expanded="true" signature="740:822" ph="{...}" />
-            <marker date="1562468533478" expanded="true" signature="950:1246" ph="{...}" />
-            <marker date="1562468533478" expanded="true" signature="1024:1240" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <marker date="1562468536826" expanded="false" signature="6:92" ph="..." />
-            <marker date="1562468536826" expanded="true" signature="94:469" ph="///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider tha ... " />
-            <marker date="1562468536826" expanded="true" signature="529:1292" ph="{...}" />
-            <marker date="1562468536826" expanded="true" signature="673:919" ph="{...}" />
-            <marker date="1562468536826" expanded="true" signature="759:841" ph="{...}" />
-            <marker date="1562468536826" expanded="true" signature="976:1290" ph="{...}" />
-            <marker date="1562468536826" expanded="true" signature="1055:1280" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <marker date="1562468540617" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562468540617" expanded="true" signature="79:388" ph="///     This class performs a raycast that detects any Character and apply damage to them, and then push them bac ... " />
-            <marker date="1562468540617" expanded="true" signature="453:1339" ph="{...}" />
-            <marker date="1562468540617" expanded="true" signature="701:1332" ph="{...}" />
-            <marker date="1562468540617" expanded="true" signature="952:1134" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <marker date="1562468543662" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562468543662" expanded="true" signature="79:388" ph="///     This class performs a raycast that detects any Character and apply damage to them, and then push them bac ... " />
-            <marker date="1562468543662" expanded="true" signature="453:1376" ph="{...}" />
-            <marker date="1562468543662" expanded="true" signature="717:1369" ph="{...}" />
-            <marker date="1562468543662" expanded="true" signature="1049:1209" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnProjectile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1562468548845" expanded="false" signature="6:100" ph="..." />
-            <marker date="1562468548845" expanded="true" signature="101:415" ph="///     This class spawn a projectile and manages/Limits the Weapon stats of a weapon e.g Ammo, TimeBetweenBullet ... " />
-            <marker date="1562468548845" expanded="true" signature="485:2501" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="975:1280" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="1057:1151" ph="/* playerAmmoSlider.maxValue = maxRounds; ... */" />
-            <marker date="1562468548845" expanded="true" signature="1338:1425" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="1380:1417" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="1453:2221" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="1510:2215" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="1718:2205" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="1825:1889" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="2247:2378" ph="{...}" />
-            <marker date="1562468548845" expanded="true" signature="2423:2499" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/MechExtraWorldStatTimer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -976,41 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechPropDamageStatHP.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <marker date="1562468571656" expanded="false" signature="6:92" ph="..." />
-            <marker date="1562468571656" expanded="true" signature="102:303" ph="///     This class damages your character when your character touches a collider ... " />
-            <marker date="1562468571656" expanded="true" signature="354:1028" ph="{...}" />
-            <marker date="1562468571656" expanded="true" signature="436:690" ph="{...}" />
-            <marker date="1562468571656" expanded="true" signature="461:684" ph="{...}" />
-            <marker date="1562468571656" expanded="true" signature="593:674" ph="{...}" />
-            <marker date="1562468571656" expanded="true" signature="746:1026" ph="{...}" />
-            <marker date="1562468571656" expanded="true" signature="782:1016" ph="{...}" />
-            <marker date="1562468571656" expanded="true" signature="925:1006" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1562468560392" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562468560392" expanded="true" signature="80:992" ph="///     This class detects if a gameObject is touching the ground or a Prop that has a collider ... " />
-            <marker date="1562468560392" expanded="true" signature="1047:1564" ph="{...}" />
-            <marker date="1562468560392" expanded="true" signature="1082:1196" ph="/* Start is called before the first frame update ... */" />
-            <marker date="1562468560392" expanded="true" signature="1250:1379" ph="{...}" />
-            <marker date="1562468560392" expanded="true" signature="1323:1373" ph="{...}" />
-            <marker date="1562468560392" expanded="true" signature="1431:1559" ph="{...}" />
-            <marker date="1562468560392" expanded="true" signature="1504:1553" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Convenience Scripts/CnvTags.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -1025,13 +893,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechCharMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1057,13 +919,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Info.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveFiction/Info.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/DocumentationTemplate.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1082,14 +938,188 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MDA/Info.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <marker date="1562892329989" expanded="true" signature="28:10459" ph="{...}" />
-            <marker date="1562892329989" expanded="true" signature="32:256" ph="/* This is a documentation about games with [MDA](file:///C:/Users/u1274886/Desktop/TheWYGameDevelopmentFramework ... */" />
-            <marker date="1562892329989" expanded="true" signature="259:10333" ph="/* #### Conversation 2 6/25/2019 ... */" />
-            <marker date="1562892329989" expanded="true" signature="10364:10438" ph="{...}" />
-            <marker date="1562892329989" expanded="true" signature="10374:10392" ph="/* ​&#9;Stopped ... */" />
+            <marker date="1562896301000" expanded="true" signature="28:10459" ph="{...}" />
+            <marker date="1562896301000" expanded="true" signature="32:256" ph="/* This is a documentation about games with [MDA](file:///C:/Users/u1274886/Desktop/TheWYGameDevelopmentFramework ... */" />
+            <marker date="1562896301000" expanded="true" signature="259:10333" ph="/* #### Conversation 2 6/25/2019 ... */" />
+            <marker date="1562896301000" expanded="true" signature="10364:10438" ph="{...}" />
+            <marker date="1562896301000" expanded="true" signature="10374:10392" ph="/* ​&#9;Stopped ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechActorGroundDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <marker date="1563257917019" expanded="false" signature="6:78" ph="..." />
+            <marker date="1563257917019" expanded="true" signature="80:992" ph="///     This class detects if a gameObject is touching the ground or a Prop that has a collider ... " />
+            <marker date="1563257917019" expanded="true" signature="1047:1568" ph="{...}" />
+            <marker date="1563257917019" expanded="true" signature="1082:1200" ph="/* Start is called before the first frame update ... */" />
+            <marker date="1563257917019" expanded="true" signature="1254:1383" ph="{...}" />
+            <marker date="1563257917019" expanded="true" signature="1327:1377" ph="{...}" />
+            <marker date="1563257917019" expanded="true" signature="1435:1563" ph="{...}" />
+            <marker date="1563257917019" expanded="true" signature="1508:1557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/UnityEditorMemo/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillPhysicsShortcuts.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <marker date="1563261500835" expanded="true" signature="6:92" ph="..." />
+            <marker date="1563261500835" expanded="true" signature="142:1201" ph="{...}" />
+            <marker date="1563261500835" expanded="true" signature="164:273" ph="/* This function adds velocity to an object that is passed as PushObject away from the Origin ... */" />
+            <marker date="1563261500835" expanded="true" signature="368:1199" ph="{...}" />
+            <marker date="1563261500835" expanded="true" signature="623:875" ph="{...}" />
+            <marker date="1563261500835" expanded="true" signature="945:1191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="19" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <marker date="1563263353097" expanded="true" signature="94:469" ph="///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider tha ... " />
+            <marker date="1563263353097" expanded="true" signature="529:2001" ph="{...}" />
+            <marker date="1563263353097" expanded="true" signature="705:951" ph="{...}" />
+            <marker date="1563263353097" expanded="true" signature="791:873" ph="{...}" />
+            <marker date="1563263353097" expanded="true" signature="1008:1468" ph="{...}" />
+            <marker date="1563263353097" expanded="true" signature="1085:1458" ph="{...}" />
+            <marker date="1563263353097" expanded="true" signature="1528:1999" ph="{...}" />
+            <marker date="1563263353097" expanded="true" signature="1605:1989" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillProjectile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding>
+            <marker date="1563263604266" expanded="true" signature="6:92" ph="..." />
+            <marker date="1563263604266" expanded="true" signature="95:470" ph="///     This class adds force to a gameObj and blast it away like a projectile. The Projectile has a collider tha ... " />
+            <marker date="1563263604266" expanded="true" signature="528:1983" ph="{...}" />
+            <marker date="1563263604266" expanded="true" signature="702:946" ph="{...}" />
+            <marker date="1563263604266" expanded="true" signature="786:868" ph="{...}" />
+            <marker date="1563263604266" expanded="true" signature="995:1452" ph="{...}" />
+            <marker date="1563263604266" expanded="true" signature="1073:1446" ph="{...}" />
+            <marker date="1563263604266" expanded="true" signature="1504:1975" ph="{...}" />
+            <marker date="1563263604266" expanded="true" signature="1581:1965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="65" column="22" selection-start-line="65" selection-end-line="66" />
+          <folding>
+            <marker date="1563263072099" expanded="true" signature="6:92" ph="..." />
+            <marker date="1563263072099" expanded="true" signature="93:402" ph="///     This class performs a raycast that detects any Character and apply damage to them, and then push them bac ... " />
+            <marker date="1563263072099" expanded="true" signature="467:2096" ph="{...}" />
+            <marker date="1563263072099" expanded="true" signature="829:2089" ph="{...}" />
+            <marker date="1563263072099" expanded="true" signature="1068:1158" ph="{...}" />
+            <marker date="1563263072099" expanded="true" signature="1171:1260" ph="{...}" />
+            <marker date="1563263072099" expanded="true" signature="1423:1971" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkSphrCastPushback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="21" selection-start-line="26" selection-end-line="27" />
+          <folding>
+            <marker date="1563261566750" expanded="true" signature="6:78" ph="..." />
+            <marker date="1563261566750" expanded="true" signature="80:340" ph="///     This class performs a spherecast that detects any character near it and apply damage to them , and push t ... " />
+            <marker date="1563261566750" expanded="true" signature="427:2949" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="759:923" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="986:1070" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="1028:1064" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="1099:2936" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="1134:2930" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="1250:2064" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="1416:1550" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="1603:2033" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="1783:2015" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="2110:2920" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="2269:2403" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="2492:2904" ph="{...}" />
+            <marker date="1563261566750" expanded="true" signature="2651:2882" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillMeleeAtkColsPushback.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="28" selection-start-line="45" selection-end-line="46" />
+          <folding>
+            <marker date="1563261441409" expanded="true" signature="6:92" ph="..." />
+            <marker date="1563261441409" expanded="true" signature="95:101" ph="/* ... */" />
+            <marker date="1563261441409" expanded="true" signature="102:338" ph="///     This class uses a collider that apply damage to any character that touches it, and push them back in reco ... " />
+            <marker date="1563261441409" expanded="true" signature="432:1521" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="651:700" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="741:1200" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="886:1194" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="930:1184" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="1258:1358" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="1294:1352" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="1410:1519" ph="{...}" />
+            <marker date="1563261441409" expanded="true" signature="1446:1504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechPropDamageStatHP.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkRayCast3D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <marker date="1563264070867" expanded="false" signature="6:78" ph="..." />
+            <marker date="1563264070867" expanded="true" signature="79:388" ph="///     This class performs a raycast that detects any Character and apply damage to them, and then push them bac ... " />
+            <marker date="1563264070867" expanded="true" signature="453:1911" ph="{...}" />
+            <marker date="1563264070867" expanded="true" signature="750:1904" ph="{...}" />
+            <marker date="1563264070867" expanded="true" signature="1082:1742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/CharSkills/MechExtraCharSkillRangeAtkSpwnObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding>
+            <marker date="1563264577406" expanded="false" signature="6:100" ph="..." />
+            <marker date="1563264577406" expanded="true" signature="101:415" ph="///     This class spawn a projectile and manages/Limits the Weapon stats of a weapon e.g Ammo, TimeBetweenBullet ... " />
+            <marker date="1563264577406" expanded="true" signature="478:2548" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="968:1273" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="1050:1144" ph="/* playerAmmoSlider.maxValue = maxRounds; ... */" />
+            <marker date="1563264577406" expanded="true" signature="1331:1418" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="1373:1410" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="1446:2214" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="1503:2208" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="1711:2198" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="1818:1882" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="2240:2371" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="2416:2546" ph="{...}" />
+            <marker date="1563264577406" expanded="true" signature="2442:2539" ph="{...}" />
           </folding>
         </state>
       </provider>
