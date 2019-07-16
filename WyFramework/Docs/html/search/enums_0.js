@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windowmodes',['WindowModes',['../class_doxygen_window.html#ad1f6043062e30f52cb634b72294a5676',1,'DoxygenWindow']]]
+  ['axis',['Axis',['../namespace_pro_grids.html#a4f70133909677fe6f81830ad7ed761d2',1,'ProGrids']]]
 ];

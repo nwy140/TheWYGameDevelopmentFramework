@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vischaranim',['VisCharAnim',['../class_vis_char_anim.html',1,'']]]
+  ['highlightnearestface',['HighlightNearestFace',['../class_highlight_nearest_face.html',1,'']]]
 ];

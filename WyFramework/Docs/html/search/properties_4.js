@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jumping',['Jumping',['../class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller.html#a6e58f286b249480cee5a8124c5079ac8',1,'UnityStandardAssets::Characters::FirstPerson::RigidbodyFirstPersonController']]]
+  ['ortho',['ortho',['../class_pro_grids_1_1pg___editor.html#a86a97afedd4fa48c9974d5a6d98cf13a',1,'ProGrids::pg_Editor']]]
 ];

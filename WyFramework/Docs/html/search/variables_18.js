@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ysensitivity',['YSensitivity',['../class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_mouse_look.html#a2e8ac09236a95f05a007d700e6b738e2',1,'UnityStandardAssets.Characters.FirstPerson.MouseLook.YSensitivity()'],['../class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html#a2481cb2206a2127c4abe6945621752ab',1,'UnityStandardAssets.CrossPlatformInput.TouchPad.Ysensitivity()']]]
+  ['zoomspeed',['zoomSpeed',['../class_pro_builder2_1_1_examples_1_1_camera_controls.html#a4a3dfd53c9f0ecbdb45fbadd15bc0e37',1,'ProBuilder2::Examples::CameraControls']]]
 ];

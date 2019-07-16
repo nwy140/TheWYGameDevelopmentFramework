@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['invulnerable',['Invulnerable',['../class_mech_char_stat_h_p.html#af8503ac0bb1c341320a0744fab48228b',1,'MechCharStatHP']]]
+  ['notetext',['NoteText',['../class_object_note.html#a35ce458587e952892a3320d73f804b96',1,'ObjectNote']]]
 ];

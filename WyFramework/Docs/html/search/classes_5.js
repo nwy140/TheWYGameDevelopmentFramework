@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vischaranim',['VisCharAnim',['../class_vis_char_anim.html',1,'']]]
+  ['lookat',['LookAt',['../class_look_at.html',1,'']]]
 ];
