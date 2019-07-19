@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 00000000000000000000000000000000
+  productGUID: 4ba99bff64fad4d40befc9c790a2fd86
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -654,7 +654,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 345602ca-fd4f-42d7-811d-af4f0812d131
-  projectName: 
+  projectName: WyFramework
   organizationId: nwy140
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

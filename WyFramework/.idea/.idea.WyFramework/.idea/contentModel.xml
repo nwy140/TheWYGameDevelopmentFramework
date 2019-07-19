@@ -1083,11 +1083,11 @@
               <e p="MechCharStatHP.cs" t="Include" />
               <e p="MechExtra Scripts" t="Include">
                 <e p="CharSkills" t="Include">
+                  <e p="MechExtraCharSkillLaunchObjectBySpeed.cs" t="Include" />
+                  <e p="MechExtraCharSkillLaunchObjectBySpeed2D.cs" t="Include" />
                   <e p="MechExtraCharSkillMeleeAtkColsPushback.cs" t="Include" />
                   <e p="MechExtraCharSkillMeleeAtkSphrCastPushback.cs" t="Include" />
                   <e p="MechExtraCharSkillPhysicsShortcuts.cs" t="Include" />
-                  <e p="MechExtraCharSkillProjectile.cs" t="Include" />
-                  <e p="MechExtraCharSkillProjectile2D.cs" t="Include" />
                   <e p="MechExtraCharSkillRangeAtkRayCast2D.cs" t="Include" />
                   <e p="MechExtraCharSkillRangeAtkRayCast3D.cs" t="Include" />
                   <e p="MechExtraCharSkillRangeAtkSpwnObj.cs" t="Include" />
@@ -1110,6 +1110,7 @@
             <e p="CnvTags.cs" t="Include" />
           </e>
           <e p="DocumentationTemplate.cs" t="Include" />
+          <e p="MechVehDroneMovement25D.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

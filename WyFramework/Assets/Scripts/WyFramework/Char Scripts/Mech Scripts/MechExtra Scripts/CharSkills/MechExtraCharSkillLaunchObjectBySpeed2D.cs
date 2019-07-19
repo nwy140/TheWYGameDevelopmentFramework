@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +10,7 @@ using UnityEngine;
 
 /// 		
 ///     Usage:
-
+///        - Best Used with In-Game weapon projectiles or obstacles    
 /// 		
 ///     Integration:
 
@@ -20,7 +20,7 @@ using UnityEngine;
 /// 
 /// </summary>
 /// 
-public class MechExtraCharSkillProjectile2D : MonoBehaviour
+public class MechExtraCharSkillLaunchObjectBySpeed2D : MonoBehaviour
 {
     public float damage;
     public float speed;
@@ -45,7 +45,7 @@ public class MechExtraCharSkillProjectile2D : MonoBehaviour
             if(mechCharStatHP)
                 mechCharStatHP.ApplyDamage(damage);
             myRB.velocity = Vector2.zero;
-            MechExtraCharSkillPhysicsShortcuts.pushback(other.transform, transform, pushBackForce);
+            MechExtraCharSkillPhysicsShortcuts.LaunchObjBy2Transforms(other.transform, transform, pushBackForce);
             
             Destroy(gameObject);
         }    
@@ -59,7 +59,7 @@ public class MechExtraCharSkillProjectile2D : MonoBehaviour
             if(mechCharStatHP)
                 mechCharStatHP.ApplyDamage(damage);
             myRB.velocity = Vector2.zero;
-            MechExtraCharSkillPhysicsShortcuts.pushback(other.transform, transform, pushBackForce);
+            MechExtraCharSkillPhysicsShortcuts.LaunchObjBy2Transforms(other.transform, transform, pushBackForce);
             
             Destroy(gameObject);
         }    

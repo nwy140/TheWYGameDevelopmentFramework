@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
+// Static
 public class MechExtraCharSkillPhysicsShortcuts
 {
     
@@ -12,7 +14,7 @@ public class MechExtraCharSkillPhysicsShortcuts
     /*
      *  This function adds velocity to an object that is passed as PushObject away from the Origin
      */
-    public static void pushback(Transform pushedObject, Transform origin, float pushBackForce){
+    public static void LaunchObjBy2Transforms(Transform pushedObject, Transform origin, float pushBackForce){
         Vector3 pushDirection = new Vector3(0, (pushedObject.position.y - origin.position.y),0 ).normalized; // normalized returns unit vector
         pushDirection*=pushBackForce;
 
@@ -32,3 +34,4 @@ public class MechExtraCharSkillPhysicsShortcuts
 
     }
 }
+

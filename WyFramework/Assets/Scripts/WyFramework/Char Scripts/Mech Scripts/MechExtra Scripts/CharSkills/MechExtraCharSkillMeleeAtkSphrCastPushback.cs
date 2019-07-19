@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 ///<summary> 
 ///     This class performs a spherecast that detects any character near it and apply damage to them , and push them back in recoil
@@ -9,18 +10,18 @@ using UnityEngine;
 
 /// 		
 ///     Usage:
-
+///         - Best used in MeleeWeapons or Attacks
 /// 		
 ///     Integration:
 
 ///    
 /// </summary>
 /// 
-public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sphr cast
+public class MechExtraCharSkillMeleeAtkSphrCastPushback : MonoBehaviour // melee atk sphr cast
 {
     public float damage;
     public float knockBackRadius;
-    public float meleeRate;
+    [FormerlySerializedAs("meleeRate")] public float fireRate;
     float nextMelee;
     int shootableMask;
     // Animator myAnim;
@@ -40,13 +41,14 @@ public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sph
     void FixedUpdate()
     {
         if(Input.GetAxis("Jump")>0){
-            useWeapon();
+            UseItemAbility();
         }
     }
 
-    public void useWeapon(){
+    public void UseItemAbility(){
+        //sphr cast and attack all objects with PropCol layerMask in it
         if(nextMelee < Time.time){
-            nextMelee = Time.time + meleeRate;
+            nextMelee = Time.time + fireRate;
 
             //do damage
             if (bIs2DGame) // for 2D Games
@@ -65,7 +67,7 @@ public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sph
                     if (targetMechCharStatHP)
                     {
                         targetMechCharStatHP.ApplyDamage(damage);
-                        MechExtraCharSkillPhysicsShortcuts.pushback(tCol.gameObject.transform,transform, pushBackForce);
+                        MechExtraCharSkillPhysicsShortcuts.LaunchObjBy2Transforms(tCol.gameObject.transform,transform, pushBackForce);
 
                     }
                 }
@@ -88,7 +90,7 @@ public class MechExtraCharSkillMeleeAtkSphrCast : MonoBehaviour // melee atk sph
                     if (targetMechCharStatHP)
                     {
                         targetMechCharStatHP.ApplyDamage(damage);
-                        MechExtraCharSkillPhysicsShortcuts.pushback(tCol.gameObject.transform,transform, pushBackForce);
+                        MechExtraCharSkillPhysicsShortcuts.LaunchObjBy2Transforms(tCol.gameObject.transform,transform, pushBackForce);
                     }    
                 }
 

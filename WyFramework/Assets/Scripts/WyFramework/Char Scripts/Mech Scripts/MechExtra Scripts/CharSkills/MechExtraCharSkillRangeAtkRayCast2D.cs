@@ -63,7 +63,7 @@ public class MechExtraCharSkillRangeAtkRayCast2D : MonoBehaviour
             if(targetMechCharStatHP)
                 targetMechCharStatHP.ApplyDamage(damage);
 
-            MechExtraCharSkillPhysicsShortcuts.pushback(shootHit.collider.transform,transform, pushBackForce);
+            MechExtraCharSkillPhysicsShortcuts.LaunchObjBy2Transforms(shootHit.collider.transform,transform, pushBackForce);
         }
         else gunLine.SetPosition(1, transform.position + transform.right * range * offsetMultiplier);
 
