@@ -1,0 +1,4 @@
+var namespace_game_framework_1_1_localisation_1_1_object_model_1_1_abstract_classes =
+[
+    [ "LocalisableObject", "class_game_framework_1_1_localisation_1_1_object_model_1_1_abstract_classes_1_1_localisable_object.html", "class_game_framework_1_1_localisation_1_1_object_model_1_1_abstract_classes_1_1_localisable_object" ]
+];

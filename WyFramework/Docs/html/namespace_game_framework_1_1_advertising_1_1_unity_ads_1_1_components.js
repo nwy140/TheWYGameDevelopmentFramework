@@ -1,0 +1,5 @@
+var namespace_game_framework_1_1_advertising_1_1_unity_ads_1_1_components =
+[
+    [ "OnButtonClickWatchAdvertForCoins", "class_game_framework_1_1_advertising_1_1_unity_ads_1_1_components_1_1_on_button_click_watch_advert_for_coins.html", "class_game_framework_1_1_advertising_1_1_unity_ads_1_1_components_1_1_on_button_click_watch_advert_for_coins" ],
+    [ "ShowAdvert", "class_game_framework_1_1_advertising_1_1_unity_ads_1_1_components_1_1_show_advert.html", null ]
+];

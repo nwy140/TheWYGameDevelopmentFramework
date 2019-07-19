@@ -1,0 +1,6 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_prefab_entry =
+[
+    [ "LocalisablePrefab", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_prefab_entry.html#a96c2ce13e44e3357abbb488c5598bece", null ],
+    [ "LocalisablePrefabType", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_prefab_entry.html#a8a2294d5b347a57be0ee63f5b7f48066", null ],
+    [ "Name", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_prefab_entry.html#a4ba7f980c0bdc6f0aa698d6ef3b5880f", null ]
+];

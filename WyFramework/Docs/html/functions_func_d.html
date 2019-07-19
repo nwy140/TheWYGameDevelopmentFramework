@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_func_d.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -91,17 +115,98 @@ $(function() {
 <li>DebugPoint()
 : <a class="el" href="class_debug_extension.html#a368039c97cf20fd7452f0171c1512d1a">DebugExtension</a>
 </li>
+<li>DebugText()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#a649f3bcf4de3f2001bb793b548325a36">GameFramework.Debugging.MyDebug</a>
+</li>
 <li>DebugWireSphere()
 : <a class="el" href="class_debug_extension.html#a337c477d5c80dba4baa6d22c9459398e">DebugExtension</a>
+</li>
+<li>Decrease()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a5ab84d8bb8c150f09cee2da405711c83">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
 </li>
 <li>DecreaseGridSize()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#a2d8f37ca5d3d619362b76e51057bbc6c">ProGrids.pg_Editor</a>
 </li>
+<li>DelayedCallback()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#a4fb8fe87fb88c9d06ad10b16c144ad5e">GameFramework.Display.Other.CoRoutines</a>
+</li>
+<li>DelayedMoveToPosition()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#a530ca731dee76059bac9bae0b419d30f">GameFramework.Display.Other.CoRoutines</a>
+</li>
+<li>DeleteAll()
+: <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#a9cb583dfc331ac0ff28f236c054c60f0">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#afa191d47088573350cc0579dc42b7080">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a1f53ee86be14adb7ed8970edc8a84292">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>DeleteKey()
+: <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#a839ea58693f9217f9a606ad5eccc9498">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#ab742ae3e39dd49cb18199d89fcb1a86b">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a8917c4e602e62c678dced6a4ede18815">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>Deserialize()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#ac80489f6da7551edeffbba084cf57af4">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+</li>
 <li>Destroy()
 : <a class="el" href="class_pro_grids_1_1pg___grid_renderer.html#a989520afce51ccddcbe42dd9796274e2">ProGrids.pg_GridRenderer</a>
 </li>
+<li>DestroyChildren()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_extensions.html#a66bf15eff11c2a6f1cb8690081228c2c">GameFramework.GameObjects.GameObjectExtensions</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_helper.html#a146d69ba2dafa5923c7be036436e4ed2">GameFramework.GameObjects.GameObjectHelper</a>
+</li>
+<li>DestroyGameObject()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_components_1_1_generic_callback_functions.html#a928a7ff1790dbd2add477813349af923">GameFramework.Helper.Components.GenericCallbackFunctions</a>
+</li>
+<li>DestroyParentGameObject()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_components_1_1_generic_callback_functions.html#a07e405004d9e3493886800f49f0b948a">GameFramework.Helper.Components.GenericCallbackFunctions</a>
+</li>
 <li>DetachControls()
 : <a class="el" href="class_attach_objects.html#a48a787bdc7596ffe28b056d766faa81e">AttachObjects</a>
+</li>
+<li>DeviceOrientationChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_device_orientation_changed_message.html#abd0e99d439134ebac081d3a46287442f">GameFramework.GameStructure.Game.Messages.DeviceOrientationChangedMessage</a>
+</li>
+<li>DisableGameObject()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_components_1_1_generic_callback_functions.html#a9e9660ef48f41df4f7bb52ef30716158">GameFramework.Helper.Components.GenericCallbackFunctions</a>
+</li>
+<li>DisableGameObjectForRemoval()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_helper.html#ab0abfc521bc35be695ae1d9404d7d788">GameFramework.GameObjects.GameObjectHelper</a>
+</li>
+<li>DisplayGradient()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background.html#a2f79c249e6e92c91e96718fc24ebfa25">GameFramework.Display.Other.Components.GradientBackground</a>
+</li>
+<li>DistancesSavedAndUnique()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_test.html#a39fb32341a94dad251533b30f812f48b">GameFramework.Weighting.DistanceWeightedItemsTest</a>
+</li>
+<li>DistanceWeightValue()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weight_value.html#a356dea12bf6d920af50274c1b8053ee6">GameFramework.Weighting.DistanceWeightValue</a>
+</li>
+<li>Done()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#ae5bfbdab8d21a3e3564fb0139c77579f">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DoneCallback()
+: <a class="el" href="class_game_framework_1_1___demo_1_1_about_1_1_scripts_1_1_custom_settings.html#a41361df74eabc2d4da5891322edd0b01">GameFramework._Demo.About.Scripts.CustomSettings</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_settings.html#a007842e37e25425eefe8f8110dda9581">GameFramework.UI.Dialogs.Components.Settings</a>
+</li>
+<li>DoneCancel()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#a9057457ad0aeaba1a1f1e4b05ce1c16f">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DoneCustom()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#a92e86ec000cd7cb75a272933e37cb45f">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DoneFinished()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#a036a67a6a7e7c2cf3efe734cfe43e01b">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DoneNo()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#ae4bc58710c67074026abece0b9fcb8de">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DoneOk()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#acf016eccacb3bb304ade7c7e6fc7353f">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DoneYes()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#a3f87a2c13d8e53fec423d860786b39bf">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DontShowInEditorLog()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_base_message.html#a72335c04865494d3f5a52f74bc28c14c">GameFramework.Messaging.BaseMessage</a>
 </li>
 <li>DoRebuildMeshes()
 : <a class="el" href="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes.html#ad26be62b3fe50222186b2734445ee943">ProBuilder2.Actions.pb_RebuildMeshes</a>
@@ -116,6 +221,10 @@ $(function() {
 <li>DrawArrow()
 : <a class="el" href="class_debug_extension.html#af9e4e3205fa799abed0b2ea7ced36ac9">DebugExtension</a>
 </li>
+<li>DrawBasicProperties()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_abstract_classes_1_1_collider_editor.html#accc603a9c26f73048a1d55d49685fb49">GameFramework.GameStructure.Colliders.Editor.AbstractClasses.ColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_game_item_editor.html#afc007a9eabf8ed3e0257c30780aa729d">GameFramework.GameStructure.GameItems.Editor.GameItemEditor</a>
+</li>
 <li>DrawBounds()
 : <a class="el" href="class_debug_extension.html#aa9873838d9c698e8c4713ac472424c40">DebugExtension</a>
 </li>
@@ -123,33 +232,116 @@ $(function() {
 : <a class="el" href="class_debug_extension.html#a8231e46e12d4b227b6ce1bf447d68d18">DebugExtension</a>
 </li>
 <li>DrawCircle()
-: <a class="el" href="class_debug_extension.html#af899e458e6fddb9e2532ac9f23e05807">DebugExtension</a>
+: <a class="el" href="class_debug_extension.html#a11043428e5300003c870e9e83489900b">DebugExtension</a>
 </li>
 <li>DrawCone()
-: <a class="el" href="class_debug_extension.html#a3c105ea35ef15bb13635852e8106b657">DebugExtension</a>
+: <a class="el" href="class_debug_extension.html#a99676e2fc1259741d81d5d37fd16db47">DebugExtension</a>
+</li>
+<li>DrawCube()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#a2f522bba8a56db081317061948389be2">GameFramework.Debugging.MyDebug</a>
+</li>
+<li>DrawCustomProperties()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_abstract_classes_1_1_collider_editor.html#a7fdc02601745c92bb996bda56dc497ac">GameFramework.GameStructure.Colliders.Editor.AbstractClasses.ColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_coin_collider_editor.html#ae93d0394f89736c2f586ed2cd20e27d0">GameFramework.GameStructure.Colliders.Editor.CoinColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_generic_collider_editor.html#a3d909b754b79a3e27400a1cf65f5d9cd">GameFramework.GameStructure.Colliders.Editor.GenericColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_health_collider_editor.html#a3100576e0870420791880658012cefee">GameFramework.GameStructure.Colliders.Editor.HealthColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_lose_level_collider_editor.html#ac8c628f856e31f289ae6c9714675610f">GameFramework.GameStructure.Colliders.Editor.LoseLevelColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_points_collider_editor.html#ab9a06e53f85b50a731f1af137c558d68">GameFramework.GameStructure.Colliders.Editor.PointsColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_star_collider_editor.html#ac3308f2497aa8b13ff0570c55d3242f2">GameFramework.GameStructure.Colliders.Editor.StarColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_win_level_collider_editor.html#ae3a3693fc868ccc586a59a5621e98782">GameFramework.GameStructure.Colliders.Editor.WinLevelColliderEditor</a>
 </li>
 <li>DrawCylinder()
 : <a class="el" href="class_debug_extension.html#aa3e6dfbc7a1fd58c5c1bfbfbc98a827f">DebugExtension</a>
 </li>
+<li>DrawEntries()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor.html#addb4d85c5fd1001ba154ecb630756d75">GameFramework.Localisation.Editor.LocalisationDataEditor</a>
+</li>
+<li>DrawGizmoRect()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#aebbed39279c4d18ba208b8c57da4fd81">GameFramework.Debugging.MyDebug</a>
+</li>
 <li>DrawGridPerspective()
 : <a class="el" href="class_pro_grids_1_1pg___grid_renderer.html#a0b6528ddf0a7876d27fd8458f2f07ead">ProGrids.pg_GridRenderer</a>
 </li>
+<li>DrawGUI()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_editor_1_1_character_editor.html#a763a1e909c9cc9896db4eedef8a5a854">GameFramework.GameStructure.Characters.Editor.CharacterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_editor_1_1_abstract_classes_1_1_collider_editor.html#aa23cd549b3c6d2ef138c9f3208f3f187">GameFramework.GameStructure.Colliders.Editor.AbstractClasses.ColliderEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_collision_handler_editor.html#a8a32bf8fb164558ef17d03d5531f2189">GameFramework.GameStructure.Game.Editor.CollisionHandlerEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_conditional_action_editor.html#a63bd953662274f17a81f195e361e8a0c">GameFramework.GameStructure.Game.Editor.ConditionalActionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#a6f00bc14f521f8a377fc5c52227158de">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_gam55bf2b987d6d14a9240460384c698a1c.html#a05c4683f506f2146dc83e261c38e5bc9">GameFramework.GameStructure.Game.Editor.GameActions.GameActionGameItemContextSelectedTypeCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_hierarchy_1_1_g7d7ad4216075c49057c092259376a201.html#ad201558d5bd50007292bbf4fc6194c7e">GameFramework.GameStructure.Game.Editor.GameActions.Hierarchy.GameActionDestroyGameObjectEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_hierarchy_1_1_g3d167dd6da4120267ac7aa64eae70cc7.html#a1b251cc244b1fb06d3749700251f699a">GameFramework.GameStructure.Game.Editor.GameActions.Hierarchy.GameActionDisableGameObjectEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_hierarchy_1_1_g4233f07378222aaa7b900aff96e74373.html#ac76dfc97a8a1105f40c6987ead937cca">GameFramework.GameStructure.Game.Editor.GameActions.Hierarchy.GameActionEnableGameObjectEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_hierarchy_1_1_g00cda1f5df99b16e810d04af9946f2c4.html#ad497d717abe6e5bd36216153d979dfd7">GameFramework.GameStructure.Game.Editor.GameActions.Hierarchy.GameActionInstantiatePrefabEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_hierarchy_1_1_g92ed1690194c8882d647effbddc8073d.html#ad19e032ea6122626be2b5d2e4677220f">GameFramework.GameStructure.Game.Editor.GameActions.Hierarchy.GameActionPhysics2DRigidbodyTypeEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_hierarchy_1_1_g42ecfd468d9043ef069d088fa5af0234.html#ae9acac2da3ae3328648766c5925a42af">GameFramework.GameStructure.Game.Editor.GameActions.Hierarchy.GameActionSwapGameObjectsEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_pro_pooling_1_12a0cc9082eecbb10eef1f9860b3fa6c6.html#a4f06899b6228987303623b58e61c9118">GameFramework.GameStructure.Game.Editor.GameActions.ProPooling.GameActionAddPooledItemEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_pro_pooling_1_176e566e6cad13b4fc90dfaafeffff0b2.html#ad19d966bb7db34ba547dc00cf931645b">GameFramework.GameStructure.Game.Editor.GameActions.ProPooling.GameActionProPoolingInformationEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_u_i_1_1_game_accce7bebf7bac491a909cdabbb32ef9d5.html#afbd16cb5ab67d4a6e464e624a0c98491">GameFramework.GameStructure.Game.Editor.GameActions.UI.GameActionSetButtonInteractableStateEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_a62bb8889f6a0eace4cca65ee2fcdfcae.html#a286c70cd984cd8bd4203a2d84d1e6872">GameFramework.GameStructure.Game.Editor.GameConditions.Common.Abstract.GameConditionGameItemContextSelectedTypeNumberEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_a0bbf1a1247a8b6f33d9fbb864f44689b.html#a55d39e712e7dceb09bfb6474b0ed5399">GameFramework.GameStructure.Game.Editor.GameConditions.Common.Abstract.GameConditionNumberEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_game_condition_bool_editor.html#a3b7a4b51425a884772abf656157b21c7">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionBoolEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_game_condition_editor.html#a27dc5ac46e27cf0e1ddbb281174911ee">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_g01085ecf0e1650899336b177995575e1.html#a62dd7c6c9961b9bcdeadd7fa97563712">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionGameItemContextSelectedTypeBoolEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_g634de7ff523fda06b263be8b0c3caad0.html#adc8470cb9cb399712a02cb2ff4e47de8">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionGameItemContextSelectedTypeCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_game_item_1_b0bbfcd37c317ed62183723de341baf2.html#a47dd6db7d539d2e2348e79b42f9bfbff">GameFramework.GameStructure.Game.Editor.GameConditions.GameItem.GameItemMatchesGameItemGameConditionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_run_game_actions_editor.html#a5bf0e48e617bdcbb961b20ecdfd45b5f">GameFramework.GameStructure.Game.Editor.RunGameActionsEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_game_item_editor.html#ac9302c944e3090f3e6f4159b00d7c8c5">GameFramework.GameStructure.GameItems.Editor.GameItemEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_editor_1_1_generic_game_item_editor.html#a5fa88e75a2a44231aac5ef3e7ccc64cf">GameFramework.GameStructure.GenericGameItems.Editor.GenericGameItemEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_editor_1_1_level_editor.html#a633b065b1629b0acff4cff6626540707">GameFramework.GameStructure.Levels.Editor.LevelEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_editor_1_1_player_editor.html#a513041207d4f1911fa63130efc032a61">GameFramework.GameStructure.Players.Editor.PlayerEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_world_editor.html#af9a6cd5bc32c7c4072c5c4940cd94ae8">GameFramework.GameStructure.Worlds.Editor.WorldEditor</a>
+</li>
+<li>DrawLanguages()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor.html#a14e950fe8cebff31aedd6e0d14ca305c">GameFramework.Localisation.Editor.LocalisationDataEditor</a>
+</li>
+<li>DrawLevelProperties()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_editor_1_1_level_editor.html#ae1c0b378aecf0ede35e8cf9c217f6a3d">GameFramework.GameStructure.Levels.Editor.LevelEditor</a>
+</li>
+<li>DrawLine()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#ac2b9c443d536f3ae378ce2a9259ff049">GameFramework.Debugging.MyDebug</a>
+</li>
 <li>DrawLocalCube()
-: <a class="el" href="class_debug_extension.html#a9b24a791c5de3e4a6f58c0214cc2e118">DebugExtension</a>
+: <a class="el" href="class_debug_extension.html#a45fa85343391823fc5bc2a1553a0886d">DebugExtension</a>
 </li>
 <li>DrawPlane()
 : <a class="el" href="class_pro_grids_1_1pg___grid_renderer.html#a51bfd73aa986a3d43cb2f159c97366b9">ProGrids.pg_GridRenderer</a>
 </li>
 <li>DrawPoint()
 : <a class="el" href="class_debug_extension.html#a29184c033e239cc7a9efd456817746e6">DebugExtension</a>
+, <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#aeefdc858cca8c43796381f2f034fb683">GameFramework.Debugging.MyDebug</a>
+</li>
+<li>DrawPrefabs()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_game_item_editor.html#aa2066959f022fa3daa006bf251ae7170">GameFramework.GameStructure.GameItems.Editor.GameItemEditor</a>
+</li>
+<li>DrawProperties()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_game_item_editor.html#aa18b7c4bb482601a8368fa97841f2f85">GameFramework.GameStructure.GameItems.Editor.GameItemEditor</a>
+</li>
+<li>DrawRay()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#a8bd7a8482314b05da26392d1b18e4e2c">GameFramework.Debugging.MyDebug</a>
+</li>
+<li>DrawRect()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#a26b7187c56a7470df4c31bd36a0ab318">GameFramework.Debugging.MyDebug</a>
+</li>
+<li>DrawSprites()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_game_item_editor.html#aec600d5a446085356a2a6367c09e7796">GameFramework.GameStructure.GameItems.Editor.GameItemEditor</a>
+</li>
+<li>DrawTools()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor.html#a28d1459a145677da740160545030e0ca">GameFramework.Localisation.Editor.LocalisationDataEditor</a>
+</li>
+<li>DrawVariables()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_game_item_editor.html#aa567579bc61a81d5d40a278e814c165c">GameFramework.GameStructure.GameItems.Editor.GameItemEditor</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

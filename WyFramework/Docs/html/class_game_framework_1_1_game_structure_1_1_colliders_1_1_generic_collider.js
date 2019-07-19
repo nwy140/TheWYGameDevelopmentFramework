@@ -1,0 +1,38 @@
+var class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider =
+[
+    [ "TriggerData", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data" ],
+    [ "DisableAfterUseType", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a2b23f94b259ae1050f0c7e27f660c91b", [
+      [ "None", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a2b23f94b259ae1050f0c7e27f660c91ba6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "ThisComponent", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a2b23f94b259ae1050f0c7e27f660c91baa935963738bb0d706b795aa649037286", null ],
+      [ "GameObject", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a2b23f94b259ae1050f0c7e27f660c91ba3d164a4fbbdd103bddb596268f741bae", null ],
+      [ "Colliders", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a2b23f94b259ae1050f0c7e27f660c91ba71a3401ace0451f90750c55ad5f66b1f", null ]
+    ] ],
+    [ "Awake", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a95907f59fa9141686abec7db966bf54a", null ],
+    [ "EnterOccurred", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7250c896b07e1a3f56eac1a525400198", null ],
+    [ "ExitOccurred", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#afd0a5465f53b4287f6edee0d89431985", null ],
+    [ "OnCollisionEnter", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a1f379cf37a8162f336c60d30bf24a5c7", null ],
+    [ "OnCollisionEnter2D", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a86eb0435a5ee3ab452962ae0a5b7109b", null ],
+    [ "OnCollisionExit", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a4451489209216806089d4f1fbd9d444d", null ],
+    [ "OnCollisionExit2D", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a9f045a084604b3b37ca547781b374459", null ],
+    [ "OnCollisionStay", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a4bd75e834eed42c8a2da23bcce47dd20", null ],
+    [ "OnCollisionStay2D", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7e94d4a85d6ec09c03d0954c3208bc20", null ],
+    [ "OnTriggerEnter", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#ab1f1be9d927ca5324dfabf9033d09755", null ],
+    [ "OnTriggerEnter2D", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#aed8b6018a069e258b284ee7ff08fdae3", null ],
+    [ "OnTriggerExit", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a31f5dbd9a9e7ee377e94246908b0940c", null ],
+    [ "OnTriggerExit2D", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#aa0c6ea3fb8570abe09c16a02f20de1bb", null ],
+    [ "OnTriggerStay", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a6fa47a90f0aee988449f65ead7396caf", null ],
+    [ "OnTriggerStay2D", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a6e5c67aa1bd7f97223e960ca4d678704", null ],
+    [ "ProcessEnter", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7ad9fac6c4db60d8e21a8fd0c99bf669", null ],
+    [ "ProcessExit", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#aab494d9a50c8c51779906cf3ddfef7dd", null ],
+    [ "ProcessStay", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a15b8db9eca9a5a9eea3b005908008c5a", null ],
+    [ "StayOccurred", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#ab0cda9852f1692b39a45c10c4eb2dd08", null ],
+    [ "CollidingTag", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#ab864e07ac7f54d2c145fe46f463607f0", null ],
+    [ "DisableAfterUse", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a57ec755ef23222322811bae1147fdbf1", null ],
+    [ "Enter", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a1408780412d776b07753e65a6ca10b75", null ],
+    [ "Exit", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a946e755143256cb6cc59c400a2c29b95", null ],
+    [ "Interval", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7151021e2dd420f3cf26f160028a2fd8", null ],
+    [ "OnlyWhenLevelRunning", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a5a558819640c84535da85674e922d900", null ],
+    [ "ProcessWithin", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#ab8687f3c926a09ce15d4c0d7b13d58e7", null ],
+    [ "RunInterval", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#adece37e423fe3d771a286ca890bbd3a5", null ],
+    [ "Within", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#aef968efccbfecc396992972f7a5924da", null ]
+];

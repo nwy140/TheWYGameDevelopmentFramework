@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_h.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,11 +88,113 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_h"></a>- h -</h3><ul>
+<li>h
+: <a class="el" href="struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html#ac3b5086e4589546e88565654f435d3bf">GameFramework.Display.Other.ColorHSV</a>
+</li>
+<li>HandlerCount
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_statistics.html#ab8294fd05279316b87330a338e01d1d1">GameFramework.Messaging.MessageStatistics</a>
+</li>
+<li>HasAskedToRate
+: <a class="el" href="class_game_framework_1_1_social_1_1_game_feedback.html#ab6f8e0c7689a393e02203335be70d09d">GameFramework.Social.GameFeedback</a>
+</li>
+<li>HasKey()
+: <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#ace4c7823a9797f36b6396a79ce939cc3">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#a01cb8ea503d70595b34b6f0bd6005601">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a4cbd63ed717b2fe1302c2b3ef7c15954">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>HasMoreLockedCoinUnlockableItems()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a8642a35f6fac1f4758983019cd3fd0ab">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>HasRated
+: <a class="el" href="class_game_framework_1_1_social_1_1_game_feedback.html#a139f5de3df6e6ab3fd4905686ab2f2eb">GameFramework.Social.GameFeedback</a>
+</li>
 <li>Heal()
 : <a class="el" href="class_mech_char_stat_h_p.html#a4f98c1f5f5bfaaa3c200a296a508827b">MechCharStatHP</a>
 </li>
+<li>Health
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_health.html#a8327cc2a66d26eb113f4d9b8e00df2e4">GameFramework.GameStructure.Players.Components.SetHealth</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#a727fede531e894cb762256d2e80113a6">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+</li>
 <li>HEALTH_UI
 : <a class="el" href="class_cnv_gen_tags.html#ad4c35027d8bf889b1067efb435bc8b45">CnvGenTags</a>
+</li>
+<li>HealthChange
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_health_collider.html#ab606d6ce4af07215fd942752daae779a">GameFramework.GameStructure.Colliders.HealthCollider</a>
+</li>
+<li>HealthChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_health_changed_message.html#a8979c7f945ce63acb99603fbced33796">GameFramework.GameStructure.Players.Messages.HealthChangedMessage</a>
+</li>
+<li>HealthMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_player_tests.html#a1d1ac50217127dff86bdd766d0cd89db">GameFramework.GameStructure.Players.PlayerTests</a>
+</li>
+<li>HealthTintEmpty
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_health_image.html#abcc7a33f3b02d5ae686905d783c749b7">GameFramework.GameStructure.Players.Components.ShowHealthImage</a>
+</li>
+<li>HealthTintFull
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_health_image.html#a7f1a07d3fe274b2c41902eb0b724bce3">GameFramework.GameStructure.Players.Components.ShowHealthImage</a>
+</li>
+<li>Height
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor_1_1_entry_reference.html#a0c2ea18e5466027c34a34d90525f944a">GameFramework.Localisation.Editor.LocalisationDataEditor.EntryReference</a>
+</li>
+<li>HelpBoxAttribute()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_help_box_attribute.html#a287c59c7beceb8435d8adf56c45fe84b">GameFramework.EditorExtras.HelpBoxAttribute</a>
+</li>
+<li>HelpRect
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_abstract_classes_1_1_game_0a053ae854fc054e1dc91a17f0679cdb.html#ac15120b0cc8701a5f83f22b47bb956a1">GameFramework.GameStructure.GameItems.Editor.AbstractClasses.GameItemContextBaseRunnableCounterEditor</a>
+</li>
+<li>HexString()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_color_helper.html#a5375fb49d4f784c2875bfe3e3362991b">GameFramework.Display.Other.ColorHelper</a>
+</li>
+<li>HideableHelpRect
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#ace2ad2d64e407a57b93870fb7b46b5dc">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+</li>
+<li>HideBanner()
+: <a class="el" href="class_game_framework_1_1_advertising_1_1_ad_mob_1_1_components_1_1_ad_mob_manager.html#a310c5e7989306c3a4236cd44416e4219">GameFramework.Advertising.AdMob.Components.AdMobManager</a>
+</li>
+<li>HideInInspector
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_conditional_hide_attribute.html#ad217ec6a8e00aebfe9d153fbb0441608">GameFramework.EditorExtras.ConditionalHideAttribute</a>
+</li>
+<li>HideOnDestroy
+: <a class="el" href="class_game_framework_1_1_advertising_1_1_ad_mob_1_1_components_1_1_show_hide_advert.html#a8c3ad02f5ea380660b7b535aadfdeffa">GameFramework.Advertising.AdMob.Components.ShowHideAdvert</a>
+</li>
+<li>HighlightedColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_image_colors.html#ade3a0f509de81678cfad0acbdf4816ef">GameFramework.UI.Buttons.Components.SyncStateImageColors</a>
+</li>
+<li>HighlightedOutlineColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#a9393f74d1edd98544cdbe5ff32540f8a">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>HighlightedShadowColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#a394cd59e27565cb113dd1dc7cce364c0">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>HighlightedTextColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#a0ad27c2cafe9937f381dc61ec9e1d0e7">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>HighlightGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a847275b62d32c4b0d7e685429e68c70d">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>HighScore()
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_high_score.html#a90ea31412c68a2df1594dc8f65c6f881">GameFramework.Facebook.HighScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a3a6e6ee6d1783fd3cb7a25fd303a5ef1">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>HighScoreChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_high_score_changed_message.html#a687dd6d80eb2ea9a9a5e90f00294fc3e">GameFramework.GameStructure.GameItems.Messages.HighScoreChangedMessage</a>
+</li>
+<li>HighScoreGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a1081855dfa53352c4600dd9577590b36">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>HighScoreLocalPlayers
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a58933b5492f6d1275d5150ca4bf87693">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>HighScoreLocalPlayersPlayerNumber
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a79eb5cf56e646354e535a51535eae2b9">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>HighScoreMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a20bb35b1dc321fe35a2245beb88bce7c">GameFramework.GameStructure.GameItems.GameItemTests</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_levels_tests.html#a4673a1c8483231c2d3747902de684f72">GameFramework.GameStructure.Levels.LevelsTests</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_player_tests.html#a1a4a0539ecb64761d6862c947c2deb3d">GameFramework.GameStructure.Players.PlayerTests</a>
+</li>
+<li>HighScoreUnchangedNoMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#abb299fe2286b9cf3cbc48a0230b28620">GameFramework.GameStructure.GameItems.GameItemTests</a>
 </li>
 <li>Hit()
 : <a class="el" href="class_vis_char_anim.html#a6820576d2d810b50cb76253f19e0647e">VisCharAnim</a>
@@ -84,17 +210,21 @@ $(function() {
 </li>
 <li>horizontalRot
 : <a class="el" href="class_drone_movement.html#a8e9f86fd5fff40ff48166a0e82226067">DroneMovement</a>
+, <a class="el" href="class_mech_veh_fly_drone_movement25_d.html#aeebaf52b643d2e9ee25413c9eb849bff">MechVehFlyDroneMovement25D</a>
 </li>
 <li>HPSlider
 : <a class="el" href="class_mech_char_stat_h_p.html#a31f332a0d513dc851dc96303fce1b392">MechCharStatHP</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

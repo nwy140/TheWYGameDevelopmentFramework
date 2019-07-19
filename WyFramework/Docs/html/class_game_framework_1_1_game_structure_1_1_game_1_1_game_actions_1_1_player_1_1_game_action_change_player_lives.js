@@ -1,0 +1,5 @@
+var class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives =
+[
+    [ "Execute", "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html#aae4fc775d993f89c56832e6a7c2c79a3", null ],
+    [ "Amount", "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html#ad48df614fa97daf5f65065fd58bdbde3", null ]
+];

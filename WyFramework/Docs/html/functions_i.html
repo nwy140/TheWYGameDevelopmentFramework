@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_i.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,14 +88,40 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_i"></a>- i -</h3><ul>
+<li>Id
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_facebook_friend.html#adb309393d552b86e2bff27c53cc83b86">GameFramework.Facebook.FacebookFriend</a>
+</li>
+<li>Identifier
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_action_reference.html#a6c4b7ebc012b4e28ac57dcfc0e808813">GameFramework.GameStructure.Game.ObjectModel.GameActionReference</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_condition_reference.html#af17a37621cd6b9ac0bec1424e3022aef">GameFramework.GameStructure.Game.ObjectModel.GameConditionReference</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#abb01d28045450a49936a399e425ab3a5">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
 <li>identifier
 : <a class="el" href="class_pro_builder2_1_1_editor_common_1_1pb___about_entry.html#a8f2989b2534694fd09fc5321d56054fd">ProBuilder2.EditorCommon.pb_AboutEntry</a>
+</li>
+<li>IdentifierBase
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_object_model_1_1_character.html#ab2ac5b0b3a3437d5bc6621ec987edd4a">GameFramework.GameStructure.Characters.ObjectModel.Character</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a98fc9a281eee4977aa8c614d39fb078c">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#ace7c7311cf92e32a4ca295b273ac3501">GameFramework.GameStructure.GameManager</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_object_model_1_1_generic_game_item.html#a4d557fe7240938fe7536eaa3609f67c8">GameFramework.GameStructure.GenericGameItems.ObjectModel.GenericGameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a0fbf9fd6bfd496418b48064eeb62bec3">GameFramework.GameStructure.Levels.ObjectModel.Level</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#ab48817bf44f2ca99733e15dae3eef61f">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_object_model_1_1_world.html#a06f2e2909879a24d3765d91476035df8">GameFramework.GameStructure.Worlds.ObjectModel.World</a>
+</li>
+<li>IdentifierBasePrefs
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_object_model_1_1_character.html#a1384c08e0732fb86f7c6109ffa308b8e">GameFramework.GameStructure.Characters.ObjectModel.Character</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#afbf668c625b5c14ba703f9f0672836fc">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_object_model_1_1_generic_game_item.html#acb5774d94705fe976c1a1c65f6361835">GameFramework.GameStructure.GenericGameItems.ObjectModel.GenericGameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#aae900d25a4bcf65aa357793c51b5fe5f">GameFramework.GameStructure.Levels.ObjectModel.Level</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#a28214e1a9e8ffda4168293ee29ca3f63">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_object_model_1_1_world.html#a55951150c5d02dfd002ddedfa125533b">GameFramework.GameStructure.Worlds.ObjectModel.World</a>
 </li>
 <li>IDLE_ANIMATION
 : <a class="el" href="class_cnv_anim_tags.html#af650beec916614e522976f3e5129ebb5">CnvAnimTags</a>
 </li>
 <li>idleForce
 : <a class="el" href="class_drone_movement.html#a944eac2032e7e67bdd711d9a36445206">DroneMovement</a>
+, <a class="el" href="class_mech_veh_fly_drone_movement25_d.html#acc4cd6db4b2710e9951fccb7feb941aa">MechVehFlyDroneMovement25D</a>
 </li>
 <li>idleRotation
 : <a class="el" href="class_pro_builder2_1_1_examples_1_1_camera_controls.html#ad4ce671ea06571aca14be34017a27b0a">ProBuilder2.Examples.CameraControls</a>
@@ -88,6 +138,9 @@ $(function() {
 <li>ImageOffset
 : <a class="el" href="class_object_note.html#a13fc9b7dce3682aa6800f3d5106e3c94">ObjectNote</a>
 </li>
+<li>Images
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_image_colors.html#a699905572696c942361b52e9b3c48234">GameFramework.UI.Buttons.Components.SyncStateImageColors</a>
+</li>
 <li>ImageScale
 : <a class="el" href="class_object_note.html#a491f76e538de9cb2cadd17888c52f770">ObjectNote</a>
 </li>
@@ -96,6 +149,9 @@ $(function() {
 </li>
 <li>INCH
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a3e8e0fd93a83a9962f9a4075507f7d3c">ProGrids.pg_Constant</a>
+</li>
+<li>Increase()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a960982f26d323c064f1489ee5e510f98">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
 </li>
 <li>IncreaseGridSize()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#a40e435071d098b680b011fb0e1b029f3">ProGrids.pg_Editor</a>
@@ -113,49 +169,361 @@ $(function() {
 <li>InitGuiStyles()
 : <a class="el" href="class_pro_builder2_1_1_editor_common_1_1pb___about_window.html#ab2fba4d8b1f5a94fa91e2f65ee1823e5">ProBuilder2.EditorCommon.pb_AboutWindow</a>
 </li>
+<li>InitialisationBasicSpecifiedValues()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a5b202587a56507d4e498ebfe70223ad7">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>InitialisationDefaults()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#aa86dda0cd0145b6642814b22e0c4894d">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>InitialisationStartUnlocked()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a060b83380ccda2a275af80b20ed5a771">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>Initialise()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#aab46251eed4434d59e8667ff3c98218e">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_gam55bf2b987d6d14a9240460384c698a1c.html#a3beeac10926abeb50851514c5be1d63b">GameFramework.GameStructure.Game.Editor.GameActions.GameActionGameItemContextSelectedTypeCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_a62bb8889f6a0eace4cca65ee2fcdfcae.html#a5dfea94345df06a7957decb503d4cbd3">GameFramework.GameStructure.Game.Editor.GameConditions.Common.Abstract.GameConditionGameItemContextSelectedTypeNumberEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_a0bbf1a1247a8b6f33d9fbb864f44689b.html#ab1e1d9fd3a39d9d407d205c37234480e">GameFramework.GameStructure.Game.Editor.GameConditions.Common.Abstract.GameConditionNumberEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_game_condition_bool_editor.html#a6c0bd44bcd1013e8ae72c0b5a1e59cc2">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionBoolEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_game_condition_editor.html#a9a3969a50666c5876e81d9edeb4ba0af">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_g01085ecf0e1650899336b177995575e1.html#a0f08d4dcfd95b8faef141a1f40aee549">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionGameItemContextSelectedTypeBoolEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_g634de7ff523fda06b263be8b0c3caad0.html#aa52cde116710a34ac26999c17c038422">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionGameItemContextSelectedTypeCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_game_item_1_b0bbfcd37c317ed62183723de341baf2.html#a9ce053857fba1b75a2dee681f87f4457">GameFramework.GameStructure.Game.Editor.GameConditions.GameItem.GameItemMatchesGameItemGameConditionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html#ac17ba1102bd2172c2425165ca1d0a001">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_g6b265e40c2ba4f4500c78dee93a5e256.html#a27b7386b265deb9f18c0ceca85f06759">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameActionGameItemContextSelectableTypeCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition.html#a87d67352086f92d1639c07059e95a5d7">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameCondition</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#af252e8a5f9d0624ea21abd75b9ebf5ef">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>InitialiseGameActions()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_action_helper.html#a7e0432c53cff0d74cbc578a122d05d1d">GameFramework.GameStructure.Game.GameActionHelper</a>
+</li>
+<li>InitialiseGameConditions()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_condition_helper.html#a839321695bc29908dd417611e4637763">GameFramework.GameStructure.Game.GameConditionHelper</a>
+</li>
+<li>InitialiseInternal()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html#a238a284d05e4e293877c2e1d26fb91f3">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition.html#ad0d2549bdf7e1b47919a514480976897">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameCondition</a>
+</li>
+<li>InitialiseNonScriptableObjectValues()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a13d2038c282bd00667cf701a81568e03">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
 <li>Initialize()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#af1cf20345743930e5b1f33d47d08624b">ProGrids.pg_Editor</a>
 </li>
 <li>InitProGrids()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#afdc03ea6add3874103286249ac79e633">ProGrids.pg_Editor</a>
 </li>
+<li>instance
+: <a class="el" href="class_cnv_sgt_lvl_man.html#ae5bededc86512377b706914bfb364a43">CnvSgtLvlMan</a>
+</li>
 <li>Instance
 : <a class="el" href="class_doxygen_window.html#a45d09c9a64d2873367470303789e3bf9">DoxygenWindow</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_singleton.html#ae4622b94cee11347f5477d5b4de6d77c">GameFramework.GameObjects.Components.Singleton&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_configuration.html#a7d7380255f2d43b1bb547ae381dab80c">GameFramework.GameStructure.Game.ObjectModel.GameConfiguration</a>
 </li>
 <li>instance
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#a14134b1cc018df873b056c3037b823fc">ProGrids.pg_Editor</a>
 </li>
+<li>Instantiate()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#ac9d2a431a29ff125d04b5ee862069383">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>InstantiatePrefab
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html#acd564dd5d2e77c1c3902a23fc83c18bd">GameFramework.GameStructure.Colliders.GenericCollider.TriggerData</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a2a43ba85b6d7888ef25716a62df966c9">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>InstantiatePrefabInGame()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a62e7f7b39f07a0df2c2df7b0932d710d">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>InstantiatePrefabSelectionMenu()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ac1d206151bc6975915b88979ea0b14a8">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>IntAmount
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_g6b265e40c2ba4f4500c78dee93a5e256.html#ab02f31724acd39aa232e8431ac0326a8">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameActionGameItemContextSelectableTypeCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_conditiocfe0a2d7cc2db860b250a4fa653264ba.html#a5643973ad3c3a58d4facea9947ca4cd6">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameConditionGameItemContextSelectableTypeCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_change_counter_over_time.html#a5390589ed6dba850aae39ce88666eb11">GameFramework.GameStructure.GameItems.Components.ChangeCounterOverTime</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_set_counter.html#adbd3fba523b6f4eba0374ba1413ac3d2">GameFramework.GameStructure.GameItems.Components.SetCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#ad28cf51248ee18ecf4861f4eea2d5ed9">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
+<li>IntAmountBest
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#af90c2540b2806e71c6577cc9e35717f7">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
+<li>IntAmountBestSaved
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a613bac7015befa6580dd10c6db524dc2">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
+<li>IntAmountChangedCounter
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests_1_1_counter_callback_test_class.html#a5f1f3ba59dcc25f4359dbf61e7bbd0e0">GameFramework.GameStructure.GameItems.CounterTests.CounterCallbackTestClass</a>
+</li>
+<li>IntAmountChangeHandlerCalled()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a721e824c059a9aafacbeee4f47b591f0">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>IntAmountSaved
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#af710f4b319a63031d19e5ad0e2ba122d">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
+<li>IntDefault
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_counter_configuration.html#a16549c9c7b378f2ebfaf001a85a7605e">GameFramework.GameStructure.Game.ObjectModel.CounterConfiguration</a>
+</li>
+<li>Interactable
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_u_i_1_1_game_action_set_button_interactable_state.html#a235e69e01f4c292b9a019c32a05e6153">GameFramework.GameStructure.Game.GameActions.UI.GameActionSetButtonInteractableState</a>
+</li>
+<li>InternalVerifyState()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#ad1aa420d3231941f1f0b1c0d58c29c87">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>Interval
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7151021e2dd420f3cf26f160028a2fd8">GameFramework.GameStructure.Colliders.GenericCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler.html#a12de101dd4fb79260865161f1dd94a65">GameFramework.GameStructure.Game.Components.CollisionHandler</a>
+</li>
+<li>IntMaximum
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_counter_configuration.html#a9aef5d8118879ed4ff7e4e8b26b746c6">GameFramework.GameStructure.Game.ObjectModel.CounterConfiguration</a>
+</li>
+<li>IntMinimum
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_counter_configuration.html#a3a7e25049b9923c91572b01160b4f6f6">GameFramework.GameStructure.Game.ObjectModel.CounterConfiguration</a>
+</li>
+<li>IntValueNames
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_animation_1_1_components_1_1_set_animator_start_values.html#ac2ccea83206506528ac6f3a015624045">GameFramework.GameFramework.Animation.Components.SetAnimatorStartValues</a>
+</li>
+<li>IntValueValues
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_animation_1_1_components_1_1_set_animator_start_values.html#a4731ae6403e2382da358de50e3ebaec8">GameFramework.GameFramework.Animation.Components.SetAnimatorStartValues</a>
+</li>
+<li>IntVariables
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#ab3256825c11193d712441e6a1f1f1c43">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+</li>
+<li>Inverse
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_conditional_hide_attribute.html#acfee25deb340e5969155271bbd77c170">GameFramework.EditorExtras.ConditionalHideAttribute</a>
+</li>
 <li>InverseAxisMask()
 : <a class="el" href="class_pro_grids_1_1pg___enum.html#a0b26f73797e6c30ea155dffaa183ac91">ProGrids.pg_Enum</a>
+</li>
+<li>InvitedFriends
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_app_request_message.html#a00bdecb72d4d4ff80692cd9e49d74494">GameFramework.Facebook.Messages.FacebookAppRequestMessage</a>
+</li>
+<li>InvocationContext
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html#a3cc31a5879924ae0de6c80f47c7e6838">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction</a>
 </li>
 <li>Invulnerable
 : <a class="el" href="class_mech_char_stat_h_p.html#af8503ac0bb1c341320a0744fab48228b">MechCharStatHP</a>
 </li>
+<li>IOsUrl
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_on_button_click_load_url.html#ace77a91eaadd926a8cd5525d8d0a746e">GameFramework.UI.Buttons.Components.OnButtonClickLoadUrl</a>
+</li>
+<li>iOSWebUrl
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#abbbdf7ace578f65c95e6875757c16840">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>IsActive
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_singleton.html#a0aa24dcae627c57e468276f0558fa9f9">GameFramework.GameObjects.Components.Singleton&lt; T &gt;</a>
+</li>
+<li>IsArray
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_array.html#a2f936d1164f479562fe31e71c795d5dd">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONArray</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#ae078340c7ff6e0ec3add3cff40dd7ada">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+</li>
+<li>IsBoolean
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_bool.html#a881e00320a9bbfc68de8341a40b0787f">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONBool</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#a4be66d3eea7345fa8694cade2ab31856">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+</li>
+<li>IsBought
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ac0c8062979c236b939df198fcc606c46">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>IsBoughtSetsUnlocked()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a65f8412c6de76053a3e00b71093765ef">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>IsColliderEditor()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#ae953e9c83b51e02ef075eb032cb48941">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+</li>
+<li>IsConditionMet()
+: <a class="el" href="class_game_framework_1_1_billing_1_1_components_1_1_enable_if_billing_enabled.html#af3e37a96d3eb64345604b15c0d745390">GameFramework.Billing.Components.EnableIfBillingEnabled</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_components_1_1_enable_if_facebook_s_d_k.html#a30cecc1fdb9e47aa66ca8dab2ab61c72">GameFramework.Facebook.Components.EnableIfFacebookSDK</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_components_1_1_enable_if_permissions_granted.html#a979e542dbf9003d622e894515d5b6ffa">GameFramework.Facebook.Components.EnableIfPermissionsGranted</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_components_1_1_enable_if_user_data_loaded.html#aa3b8f61743b117d9815a9ce909b4b2de">GameFramework.Facebook.Components.EnableIfUserDataLoaded</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_abstract_classes_1_1_enable_disable_game_object.html#ae632d6bc1249562beb86a0c25ee518ff">GameFramework.GameObjects.Components.AbstractClasses.EnableDisableGameObject</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_abstract_classes_1_1_enable_disable_game_object_messaging.html#a712269ab258c8027f74b3db1f50ae31a">GameFramework.GameObjects.Components.AbstractClasses.EnableDisableGameObjectMessaging&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_enable_based_upon_flag.html#aa1aa4a8fea77b296820b8f31843804d3">GameFramework.GameObjects.Components.EnableBasedUponFlag</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_enable_based_upon_game_unlocked.html#a22554fe80cbf39a67a7e20d3eda22840">GameFramework.GameStructure.Game.Components.EnableBasedUponGameUnlocked</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_enable_based_upon_number_of_stars_won.html#a30d4069657e081329d557a227534ad58">GameFramework.GameStructure.Levels.Components.EnableBasedUponNumberOfStarsWon</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_enable_based_upon_number_of_lives.html#a67ebb01bfd1537ba1cca88fbd22ccea0">GameFramework.GameStructure.Players.Components.EnableBasedUponNumberOfLives</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_enable_if_language.html#aa978ae6150ca78214a897ff32c73a78b">GameFramework.Localisation.Components.EnableIfLanguage</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_enable_if_multiple_languages.html#ae152e30af17d881983f26c5d1cac6ecb">GameFramework.Localisation.Components.EnableIfMultipleLanguages</a>
+, <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_games_played.html#ab29745d10689141a45937fc08cd6eeb2">GameFramework.Social.Components.EnableBasedUponModulusOfGamesPlayed</a>
+, <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_levels_played.html#a8ee1d0a2843caaaf8e0038b09cc3bc4f">GameFramework.Social.Components.EnableBasedUponModulusOfLevelsPlayed</a>
+, <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_number_of_games_played.html#ac43b1554fadf15f8aece2733fc22e216">GameFramework.Social.Components.EnableBasedUponNumberOfGamesPlayed</a>
+, <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_number_of_levels_played.html#a8750c1431d468216c4c783dcba3e3437">GameFramework.Social.Components.EnableBasedUponNumberOfLevelsPlayed</a>
+</li>
+<li>IsCountingDown()
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ac2bfbae2601db72bf7ecbbce89af541f">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>IsCurrentLevelLastInGame()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_helper.html#a9ca42f3403bede9343f0c7d4a7aa5064">GameFramework.GameStructure.Game.GameHelper</a>
+</li>
+<li>IsCurrentLevelLastInWorld()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_helper.html#a169ac736e77d7fd1e249b35cef481aa0">GameFramework.GameStructure.Game.GameHelper</a>
+</li>
+<li>IsDebugBuildOrEditor
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#aac4f185bf8eb33feef836a37915b7d11">GameFramework.Debugging.MyDebug</a>
+</li>
+<li>IsDesignedForFamilies
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_advertising_1_1_ad_mob_1_1_ad_mob.html#ac61033bc97cd093a0bfcfd757e2c1b7f">GameFramework.GameFramework.Advertising.AdMob.AdMob</a>
+</li>
+<li>IsExpanded
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor_1_1_entry_reference.html#aacb0625086332fabdd025d40666178fe">GameFramework.Localisation.Editor.LocalisationDataEditor.EntryReference</a>
+</li>
 <li>isFinished()
 : <a class="el" href="class_doxy_thread_safe_output.html#a676622488e7bec792b66693fc1f20e73">DoxyThreadSafeOutput</a>
+</li>
+<li>IsFlagSet()
+: <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a237b16268e36d4107234aa9a88ad9a44">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>IsGameWon
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#ab0d19a8be7e2a55aaad6b2f7e9806afc">GameFramework.GameStructure.Players.ObjectModel.Player</a>
 </li>
 <li>isGrounded
 : <a class="el" href="class_mech_actor_ground_detector.html#a5bf074f832d641390461e38fc0cfa2f1">MechActorGroundDetector</a>
 </li>
+<li>IsInitialised
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#aec99e33bd7c59d2d77bd7556a26aad7e">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a801e6d69ad1d81a0010b5bba3a4e0fe8">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>IsInteractable
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#a7559a35b65632aa28e9ee3112fad4c26">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
+<li>IsLevelFinished
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#ab3ba44df4d61566cbbede94ba30cad2d">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>IsLevelPaused
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#ad3f622245695cfa8a380ba3315ad6b3b">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>IsLevelRunning
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a34e26b972e4558ea0c9d198454ea1671">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>IsLevelStarted
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a70942510037cdf83d9a261ffe88d5878">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>IsLocalisationLoaded
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localise_text.html#a6c53a668507e4d8c3b390b2211b9f26c">GameFramework.Localisation.LocaliseText</a>
+</li>
+<li>IsLocalised
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_text.html#a9ac78ecedafcec17065b91072809f82d">GameFramework.Localisation.ObjectModel.LocalisableText</a>
+</li>
+<li>IsLocalisedWithNoKey()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_text.html#afa7361a6ca636f26d7fb15479ea37d7b">GameFramework.Localisation.ObjectModel.LocalisableText</a>
+</li>
 <li>IsNew
 : <a class="el" href="class_object_note.html#ac15e802edd5fba55aefee0a18d36a795">ObjectNote</a>
+</li>
+<li>IsNextWorldUnlocked()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_helper.html#a17f908cee277301e48b7b809b69445b5">GameFramework.GameStructure.Game.GameHelper</a>
+</li>
+<li>IsNull
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#adcafc1791e07de50e4f99813df2ed254">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_null.html#a4b2f2d537aebd126c7c09f3382a11fb4">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNull</a>
+</li>
+<li>IsNumber
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#a02c06e3419e09ee6cd1e9ce58fc2db89">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_number.html#a2f7d0f66381f320bd478c13eb381c2a4">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNumber</a>
+</li>
+<li>IsObject
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#af8ab98b48606789c8cebd32fd5e8e5ec">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_object.html#a6e930e7831d9e0889a724ee5245c23d1">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONObject</a>
+</li>
+<li>IsPointerDown
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#af97d66141a0c0ac2d5c5699b43f11bf4">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
+<li>IsPointerOver
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#aa550acb0c050da6c0a8bfd55602eeb65">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
+<li>IsPrizeAvailable()
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ae80eb98ab0ab0c1f9c91e44a3624a81e">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>IsReference
+: <a class="el" href="class_game_framework_1_1_helper_1_1_scriptable_object_container.html#a48b7b3351fe6e71344ddbff3cc999dfd">GameFramework.Helper.ScriptableObjectContainer&lt; T &gt;</a>
 </li>
 <li>IsRounded()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#a08671f7c07f54b2851557ef9f88e18f7">ProGrids.pg_Editor</a>
 </li>
+<li>IsScriptingDefineSet()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_player_settings_helper.html#a22ac3752963d6d2cc84ae5b3ef744405">GameFramework.EditorExtras.Editor.PlayerSettingsHelper</a>
+</li>
+<li>IsSelected
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#a00bc0ee72dd4e85c97e88c5b5997e5bf">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
+<li>IsShowingFreePrizeDialog
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ab75f39762202e2c165201d15b6fb8117">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>IsShown
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor_1_1_entry_reference.html#ad0e93876e1f14d5e8ec012c7138097aa">GameFramework.Localisation.Editor.LocalisationDataEditor.EntryReference</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#a5752f22fc447ebad18e9b5c2504178a9">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>IsSplashScreenShown
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#acc16926c5b18b71fb231ddb1449030c6">GameFramework.GameStructure.GameManager</a>
+</li>
 <li>isStarted()
 : <a class="el" href="class_doxy_thread_safe_output.html#afc9e32fd7203a5c6c74ee914241c3e79">DoxyThreadSafeOutput</a>
+</li>
+<li>IsStarWon()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6fbea90798cf05acaa7fc557efb17766">GameFramework.GameStructure.Levels.ObjectModel.Level</a>
+</li>
+<li>IsString
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#a98df158f53ca86f7f86ea9968eb6202b">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_string.html#a21eac697f03af8f6f7e72c776b26bed3">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONString</a>
+</li>
+<li>IsSystemDpiAvailable()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_display_metrics.html#a8a1a57cc92d8661ec86b7b95efffc372">GameFramework.Display.Placement.DisplayMetrics</a>
+</li>
+<li>IsUnityShown
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_hide_unity_message.html#afd594cf20841fbe8961c8be72ffa9a84">GameFramework.Facebook.Messages.FacebookHideUnityMessage</a>
+</li>
+<li>IsUnlocked
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_game_unlocked_message.html#a743d19d8a787c5ebcf0f04bb9748faf2">GameFramework.GameStructure.Game.Messages.GameUnlockedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a5cea43db49bef09f5c0740f3e0b1c937">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a892d92ceafd132e4b0348dcfcfd1a071">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>IsUnlockedAnimationShown
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a8917236bb8892635568cc2d1573d48d2">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>IsUserInteractionEnabled
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#aaccc86554b1b8f56fb9387c13b8d4578">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>IsUsingWorlds()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_helper.html#a8f25d3169a34c3f216fb2b1d58ff7aed">GameFramework.GameStructure.Game.GameHelper</a>
+</li>
+<li>IsVisibleFrom()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_renderer_extensions.html#a02547e0809d2cdde0b6cc812240e1ab0">GameFramework.Display.Other.RendererExtensions</a>
+, <a class="el" href="class_game_framework_1_1_game_framework_1_1_editor_1_1_select_items.html#a5aa3cc82fdaaf27a15068937b37e5ac2">GameFramework.GameFramework.Editor.SelectItems</a>
+</li>
+<li>IsWithinRange()
+: <a class="el" href="struct_game_framework_1_1_game_objects_1_1_min_max.html#a2b0e33c373c89f6cb9c143cb845cfbc4">GameFramework.GameObjects.MinMax</a>
+, <a class="el" href="struct_game_framework_1_1_game_objects_1_1_min_maxf.html#a8f17e20fae8827e9878b5bb2e33d6928">GameFramework.GameObjects.MinMaxf</a>
+</li>
+<li>ItalicLabelStyle()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_editor_helper.html#adcc5d2d62d65cadb31187405e356a820">GameFramework.EditorExtras.Editor.EditorHelper</a>
 </li>
 <li>ITEM_WEAPON
 : <a class="el" href="class_cnv_gen_tags.html#a2b646b212a925830671bba5895189c5c">CnvGenTags</a>
 </li>
+<li>ItemCount
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items.html#a70f38c6c4d3bddd9f2eb7ead1cda8914">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;</a>
+</li>
+<li>ItemCountLikeItemsAdded()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_test.html#afd73675f4a344d6284f823c2695b653c">GameFramework.Weighting.DistanceWeightedItemsTest</a>
+</li>
+<li>ItemPurchasedMessage()
+: <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_item_purchased_message.html#a7f52a5a78ae5fec5bf92e5117bd1a5a6">GameFramework.Billing.Messages.ItemPurchasedMessage</a>
+</li>
+<li>Items
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#ad1ec66d33c9b566f6fbc4cfa61de87b7">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>ItemWeights
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_1_1_distance_with_weights.html#a27292f8216e21d7095884f52982a9a6a">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;.DistanceWithWeights</a>
+</li>
+<li>ItemWithoutWeightsNotAdded()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_test.html#a8fbbae98f4079c553e06e722d56bd140">GameFramework.Weighting.DistanceWeightedItemsTest</a>
+</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

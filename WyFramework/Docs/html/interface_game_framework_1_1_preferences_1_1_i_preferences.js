@@ -1,0 +1,25 @@
+var interface_game_framework_1_1_preferences_1_1_i_preferences =
+[
+    [ "DeleteAll", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a9cb583dfc331ac0ff28f236c054c60f0", null ],
+    [ "DeleteKey", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a839ea58693f9217f9a606ad5eccc9498", null ],
+    [ "GetBool", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#afcd2a8600622eb84d1ecf3cf7266f35d", null ],
+    [ "GetColor", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a346e9aeab979ece18ec4bb51689715ce", null ],
+    [ "GetFloat", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#ae3bcc2a4520e90111a684b25be56fa4c", null ],
+    [ "GetInt", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a27aec2a1ba54e969c045b09e169451d5", null ],
+    [ "GetString", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a27ba8c92e846a5bcbbd3bd594f0ac8ac", null ],
+    [ "GetVector2", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a200e1bf4194b2dad026e250ac707ef67", null ],
+    [ "GetVector3", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a80d1f621a057adb18c1da570cdcafd28", null ],
+    [ "HasKey", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#ace4c7823a9797f36b6396a79ce939cc3", null ],
+    [ "Save", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a80bea4daad3ed60584cb104b6e41f01a", null ],
+    [ "SetBool", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a87efc60eeb4d2abb3ac8887deb185dd5", null ],
+    [ "SetColor", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#af8acce5ed947369e231e82754f4361b2", null ],
+    [ "SetFloat", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a91c2857a9829b09f6a98acfc8d0a03c0", null ],
+    [ "SetInt", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a89ceb4493e0f42355f18cf5456e31f0f", null ],
+    [ "SetString", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#af459e0d3f7907acbc3c9da922f9b59ec", null ],
+    [ "SetVector2", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#af349aaf1111b54d98ed11451f2cd43b1", null ],
+    [ "SetVector3", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a6aed7fcaf953021c5df472b91ddbe0b1", null ],
+    [ "AutoConvertUnsecurePrefs", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a6158f376c15d2b6a068b2492f4f610ae", null ],
+    [ "PassPhrase", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#ac50a689c5f8b4de55479a063295942bc", null ],
+    [ "SupportsSecurePrefs", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#a04142fce39126f9a37d53f9b31b1f207", null ],
+    [ "UseSecurePrefs", "interface_game_framework_1_1_preferences_1_1_i_preferences.html#aa9c7484861f795abf07ba1478183d242", null ]
+];

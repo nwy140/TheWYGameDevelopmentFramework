@@ -58,7 +58,7 @@ public class MechExtraCharSkillRangeAtkSpwnObj : MonoBehaviour
     void Awake()
     {
         nextBullet = 0f;
-        currentRemainingAmmoInPocket = startingAmmoInPocket;
+        currentRemainingAmmoInPocket = Mathf.Clamp(startingAmmoInPocket,0,maxAmmo);
         currentRemainingRoundsInMagazine = startingRoundsInMagazine;
 
         ReloadMagazine();
@@ -128,6 +128,9 @@ public class MechExtraCharSkillRangeAtkSpwnObj : MonoBehaviour
             print(gameObject.name + ": Reload Initiated" + " Reason: NoMoreRoundsInMagazine");
             ReloadMagazine();
         }
+        //Clamp
+        currentRemainingAmmoInPocket = Mathf.Clamp(startingAmmoInPocket,0,maxAmmo);
+
     }
 
     public void reload()

@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_player_1_1_game_condition_player_health =
+[
+    [ "Evaluate", "class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_player_1_1_game_condition_player_health.html#abfb8c6ea9792bd2601ee88c4c8b5c6c8", null ]
+];

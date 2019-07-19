@@ -1,0 +1,5 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_set_sprite_renderer_color_from_counter =
+[
+    [ "AssignAmount", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_set_sprite_renderer_color_from_counter.html#aaf5639ac086e14d6d04e657694ef5ccc", null ],
+    [ "Gradient", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_set_sprite_renderer_color_from_counter.html#a4ff04ab46966a722601525f9ad2cb7c9", null ]
+];

@@ -1,16 +1,19 @@
 var dir_490ddef33e77ad8d9bbc2a2639c392ca =
 [
+    [ "MechExtraCharSkillLaunchObjectBySpeed.cs", "_mech_extra_char_skill_launch_object_by_speed_8cs.html", [
+      [ "MechExtraCharSkillLaunchObjectBySpeed", "class_mech_extra_char_skill_launch_object_by_speed.html", "class_mech_extra_char_skill_launch_object_by_speed" ]
+    ] ],
+    [ "MechExtraCharSkillLaunchObjectBySpeed2D.cs", "_mech_extra_char_skill_launch_object_by_speed2_d_8cs.html", [
+      [ "MechExtraCharSkillLaunchObjectBySpeed2D", "class_mech_extra_char_skill_launch_object_by_speed2_d.html", "class_mech_extra_char_skill_launch_object_by_speed2_d" ]
+    ] ],
     [ "MechExtraCharSkillMeleeAtkColsPushback.cs", "_mech_extra_char_skill_melee_atk_cols_pushback_8cs.html", [
       [ "MechExtraCharSkillMeleeAtkColsPushback", "class_mech_extra_char_skill_melee_atk_cols_pushback.html", "class_mech_extra_char_skill_melee_atk_cols_pushback" ]
     ] ],
-    [ "MechExtraCharSkillMeleeAtkSphrCast.cs", "_mech_extra_char_skill_melee_atk_sphr_cast_8cs.html", [
-      [ "MechExtraCharSkillMeleeAtkSphrCast", "class_mech_extra_char_skill_melee_atk_sphr_cast.html", "class_mech_extra_char_skill_melee_atk_sphr_cast" ]
+    [ "MechExtraCharSkillMeleeAtkSphrCastPushback.cs", "_mech_extra_char_skill_melee_atk_sphr_cast_pushback_8cs.html", [
+      [ "MechExtraCharSkillMeleeAtkSphrCastPushback", "class_mech_extra_char_skill_melee_atk_sphr_cast_pushback.html", "class_mech_extra_char_skill_melee_atk_sphr_cast_pushback" ]
     ] ],
-    [ "MechExtraCharSkillProjectile.cs", "_mech_extra_char_skill_projectile_8cs.html", [
-      [ "MechExtraCharSkillProjectile", "class_mech_extra_char_skill_projectile.html", "class_mech_extra_char_skill_projectile" ]
-    ] ],
-    [ "MechExtraCharSkillProjectile2D.cs", "_mech_extra_char_skill_projectile2_d_8cs.html", [
-      [ "MechExtraCharSkillProjectile2D", "class_mech_extra_char_skill_projectile2_d.html", "class_mech_extra_char_skill_projectile2_d" ]
+    [ "MechExtraCharSkillPhysicsShortcuts.cs", "_mech_extra_char_skill_physics_shortcuts_8cs.html", [
+      [ "MechExtraCharSkillPhysicsShortcuts", "class_mech_extra_char_skill_physics_shortcuts.html", "class_mech_extra_char_skill_physics_shortcuts" ]
     ] ],
     [ "MechExtraCharSkillRangeAtkRayCast2D.cs", "_mech_extra_char_skill_range_atk_ray_cast2_d_8cs.html", [
       [ "MechExtraCharSkillRangeAtkRayCast2D", "class_mech_extra_char_skill_range_atk_ray_cast2_d.html", "class_mech_extra_char_skill_range_atk_ray_cast2_d" ]
@@ -18,7 +21,7 @@ var dir_490ddef33e77ad8d9bbc2a2639c392ca =
     [ "MechExtraCharSkillRangeAtkRayCast3D.cs", "_mech_extra_char_skill_range_atk_ray_cast3_d_8cs.html", [
       [ "MechExtraCharSkillRangeAtkRayCast3D", "class_mech_extra_char_skill_range_atk_ray_cast3_d.html", "class_mech_extra_char_skill_range_atk_ray_cast3_d" ]
     ] ],
-    [ "MechExtraCharSkillRangeAtkSpwnProjectile.cs", "_mech_extra_char_skill_range_atk_spwn_projectile_8cs.html", [
-      [ "MechExtraCharSkillRangeAtkSpwnProjectile", "class_mech_extra_char_skill_range_atk_spwn_projectile.html", "class_mech_extra_char_skill_range_atk_spwn_projectile" ]
+    [ "MechExtraCharSkillRangeAtkSpwnObj.cs", "_mech_extra_char_skill_range_atk_spwn_obj_8cs.html", [
+      [ "MechExtraCharSkillRangeAtkSpwnObj", "class_mech_extra_char_skill_range_atk_spwn_obj.html", "class_mech_extra_char_skill_range_atk_spwn_obj" ]
     ] ]
 ];

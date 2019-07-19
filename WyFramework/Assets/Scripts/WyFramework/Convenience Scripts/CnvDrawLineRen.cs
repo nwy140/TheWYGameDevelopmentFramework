@@ -10,13 +10,15 @@ This class gets a line renderer in this object, and then set its end points base
 Explanation:
  
 Usage:
+
+
+Integration:
     - Attach this class script to an Obj with LineRenderer attached to it.
     - Line Renderer will automatically set its endPoint as the target that is passed in this script
     - You can swap the target endPoint by calling the SwapTarget function
     - You can reset the target to the initial default target by calling the ResetTarget function
     - You can make the LineRenderer target any child obj under this Obj by calling the SetLineTargetChildObject function
 
-Integration:
 
 Implement Later:
 

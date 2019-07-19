@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_i.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,14 +88,21 @@ $(function() {
 &#160;
 
 <h3><a id="index_i"></a>- i -</h3><ul>
+<li>Id
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_facebook_friend.html#adb309393d552b86e2bff27c53cc83b86">GameFramework.Facebook.FacebookFriend</a>
+</li>
 <li>identifier
 : <a class="el" href="class_pro_builder2_1_1_editor_common_1_1pb___about_entry.html#a8f2989b2534694fd09fc5321d56054fd">ProBuilder2.EditorCommon.pb_AboutEntry</a>
+</li>
+<li>IdentifierBase
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#ace7c7311cf92e32a4ca295b273ac3501">GameFramework.GameStructure.GameManager</a>
 </li>
 <li>IDLE_ANIMATION
 : <a class="el" href="class_cnv_anim_tags.html#af650beec916614e522976f3e5129ebb5">CnvAnimTags</a>
 </li>
 <li>idleForce
 : <a class="el" href="class_drone_movement.html#a944eac2032e7e67bdd711d9a36445206">DroneMovement</a>
+, <a class="el" href="class_mech_veh_fly_drone_movement25_d.html#acc4cd6db4b2710e9951fccb7feb941aa">MechVehFlyDroneMovement25D</a>
 </li>
 <li>idleRotation
 : <a class="el" href="class_pro_builder2_1_1_examples_1_1_camera_controls.html#ad4ce671ea06571aca14be34017a27b0a">ProBuilder2.Examples.CameraControls</a>
@@ -88,6 +119,9 @@ $(function() {
 <li>ImageOffset
 : <a class="el" href="class_object_note.html#a13fc9b7dce3682aa6800f3d5106e3c94">ObjectNote</a>
 </li>
+<li>Images
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_image_colors.html#a699905572696c942361b52e9b3c48234">GameFramework.UI.Buttons.Components.SyncStateImageColors</a>
+</li>
 <li>ImageScale
 : <a class="el" href="class_object_note.html#a491f76e538de9cb2cadd17888c52f770">ObjectNote</a>
 </li>
@@ -97,25 +131,82 @@ $(function() {
 <li>INCH
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a3e8e0fd93a83a9962f9a4075507f7d3c">ProGrids.pg_Constant</a>
 </li>
+<li>instance
+: <a class="el" href="class_cnv_sgt_lvl_man.html#ae5bededc86512377b706914bfb364a43">CnvSgtLvlMan</a>
+</li>
 <li>Instance
 : <a class="el" href="class_doxygen_window.html#a45d09c9a64d2873367470303789e3bf9">DoxygenWindow</a>
+</li>
+<li>IntAmountChangedCounter
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests_1_1_counter_callback_test_class.html#a5f1f3ba59dcc25f4359dbf61e7bbd0e0">GameFramework.GameStructure.GameItems.CounterTests.CounterCallbackTestClass</a>
+</li>
+<li>IntValueNames
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_animation_1_1_components_1_1_set_animator_start_values.html#ac2ccea83206506528ac6f3a015624045">GameFramework.GameFramework.Animation.Components.SetAnimatorStartValues</a>
+</li>
+<li>IntValueValues
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_animation_1_1_components_1_1_set_animator_start_values.html#a4731ae6403e2382da358de50e3ebaec8">GameFramework.GameFramework.Animation.Components.SetAnimatorStartValues</a>
+</li>
+<li>Inverse
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_conditional_hide_attribute.html#acfee25deb340e5969155271bbd77c170">GameFramework.EditorExtras.ConditionalHideAttribute</a>
+</li>
+<li>InvitedFriends
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_app_request_message.html#a00bdecb72d4d4ff80692cd9e49d74494">GameFramework.Facebook.Messages.FacebookAppRequestMessage</a>
+</li>
+<li>IOsUrl
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_on_button_click_load_url.html#ace77a91eaadd926a8cd5525d8d0a746e">GameFramework.UI.Buttons.Components.OnButtonClickLoadUrl</a>
+</li>
+<li>iOSWebUrl
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#abbbdf7ace578f65c95e6875757c16840">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>IsDesignedForFamilies
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_advertising_1_1_ad_mob_1_1_ad_mob.html#ac61033bc97cd093a0bfcfd757e2c1b7f">GameFramework.GameFramework.Advertising.AdMob.AdMob</a>
+</li>
+<li>IsExpanded
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor_1_1_entry_reference.html#aacb0625086332fabdd025d40666178fe">GameFramework.Localisation.Editor.LocalisationDataEditor.EntryReference</a>
 </li>
 <li>isGrounded
 : <a class="el" href="class_mech_actor_ground_detector.html#a5bf074f832d641390461e38fc0cfa2f1">MechActorGroundDetector</a>
 </li>
+<li>IsInteractable
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#a7559a35b65632aa28e9ee3112fad4c26">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
 <li>IsNew
 : <a class="el" href="class_object_note.html#ac15e802edd5fba55aefee0a18d36a795">ObjectNote</a>
+</li>
+<li>IsPointerDown
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#af97d66141a0c0ac2d5c5699b43f11bf4">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
+<li>IsPointerOver
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#aa550acb0c050da6c0a8bfd55602eeb65">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
+<li>IsSelected
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html#a00bc0ee72dd4e85c97e88c5b5997e5bf">GameFramework.UI.Buttons.Components.AbstractClasses.SyncState</a>
+</li>
+<li>IsShown
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor_1_1_entry_reference.html#ad0e93876e1f14d5e8ec012c7138097aa">GameFramework.Localisation.Editor.LocalisationDataEditor.EntryReference</a>
+</li>
+<li>IsUnityShown
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_hide_unity_message.html#afd594cf20841fbe8961c8be72ffa9a84">GameFramework.Facebook.Messages.FacebookHideUnityMessage</a>
+</li>
+<li>IsUnlocked
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_game_unlocked_message.html#a743d19d8a787c5ebcf0f04bb9748faf2">GameFramework.GameStructure.Game.Messages.GameUnlockedMessage</a>
 </li>
 <li>ITEM_WEAPON
 : <a class="el" href="class_cnv_gen_tags.html#a2b646b212a925830671bba5895189c5c">CnvGenTags</a>
 </li>
+<li>ItemWeights
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_1_1_distance_with_weights.html#a27292f8216e21d7095884f52982a9a6a">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;.DistanceWithWeights</a>
+</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:13 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

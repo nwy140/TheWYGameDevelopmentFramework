@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_func_e.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,22 +88,129 @@ $(function() {
 &#160;
 
 <h3><a id="index_e"></a>- e -</h3><ul>
+<li>EffectVolumeChangedMessage()
+: <a class="el" href="class_game_framework_1_1_audio_1_1_messages_1_1_effect_volume_changed_message.html#a8c349931c67af359bab7ea7103cf8565">GameFramework.Audio.Messages.EffectVolumeChangedMessage</a>
+</li>
+<li>EnableGameObject()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_components_1_1_generic_callback_functions.html#aac234aa42db3aa14a83f091300a0fc38">GameFramework.Helper.Components.GenericCallbackFunctions</a>
+</li>
+<li>EndLevel()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#adf5bc67d309cd17edfb02fa5d56b7cef">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
 <li>EnemyAttack()
 : <a class="el" href="class_vis_char_anim.html#aadbc32f26f2c4d40ebd4542f1fca88e3">VisCharAnim</a>
 </li>
+<li>EnterOccurred()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_coin_collider.html#ab9ac836973ee4aefc7fa0010b504c473">GameFramework.GameStructure.Colliders.CoinCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7250c896b07e1a3f56eac1a525400198">GameFramework.GameStructure.Colliders.GenericCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_health_collider.html#ab33f23de3199ac79a3940240d4a8eba9">GameFramework.GameStructure.Colliders.HealthCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_lose_level_collider.html#a77e1bc9da543e14fb304d2e32aa3bdd5">GameFramework.GameStructure.Colliders.LoseLevelCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_points_collider.html#a656335a087c700c9fde7692d1c655b1f">GameFramework.GameStructure.Colliders.PointsCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_star_collider.html#afd1291bfba889d02545744f3912b4b3e">GameFramework.GameStructure.Colliders.StarCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_win_level_collider.html#acf6864baf8751126f564bc4d2b239ca5">GameFramework.GameStructure.Colliders.WinLevelCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler.html#a810791bfcd81a41d752f7dcf8fd37341">GameFramework.GameStructure.Game.Components.CollisionHandler</a>
+</li>
 <li>Equals()
-: <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a9679b77e631a5ae514bf90973055fd89">ProBuilder2.EditorCommon.pb_VersionInfo</a>
+: <a class="el" href="struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html#aa7bbe1a231d73abcf0e413c720d5bf0c">GameFramework.Display.Other.ColorHSV</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_bool.html#a2b0980558e13aebe234dcf416d615e61">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONBool</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_lazy_creator.html#aca22aaa863b7810530816c8390dd44c7">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONLazyCreator</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#ae5525f191e92b9c39407becfedd8dbe4">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_null.html#a32cd24ba5f0e8a806dbf2f85683ee693">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNull</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_number.html#a5fab58f9e2a2bc3fa9db35e108fa7850">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNumber</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_string.html#ae6fe5cf245eddc21f20a8928b4e2d1ab">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONString</a>
+, <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a9679b77e631a5ae514bf90973055fd89">ProBuilder2.EditorCommon.pb_VersionInfo</a>
+</li>
+<li>Error()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_logger.html#af5ced0d028dfc183a624c15cfbbaf9f3">GameFramework.Helper.JSONLogger</a>
 </li>
 <li>EscapeArguments()
 : <a class="el" href="class_doxy_runner.html#a9e1ad0bb37f42899aeac2e2fb59cb769">DoxyRunner</a>
 </li>
+<li>Evaluate()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_1_1_game_condition_game_is_unlocked.html#abe46dad08f1ee319d6d6db919989ab4b">GameFramework.GameStructure.Game.GameConditions.Game.GameConditionGameIsUnlocked</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_condf5fc374098e2486d56b0074074783683.html#a7acb0d7ca34df08768970c916a30beb6">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemCanUnlockWithCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_cond801b3813b6e9b873a89b6c09126cfa4a.html#aed6d4bc8a4dceb506d90437fcf493180">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemCanUnlockWithCompletion</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_cond177cadf728672e959fd938d30bf497ea.html#a6228171493d3fb92f683ac1c8373bf3b">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemCanUnlockWithPayment</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_condition_game_item_coins.html#a449685f11fd3175228edf0ecee62877a">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_condition_game_item_counter_amount.html#ade0a918529c6ff74c250ab320c95ba5b">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemCounterAmount</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_cond75a5d1b4f9334454913bba25eb2e58ce.html#ad4ee6aa5b4c9e56b6f21fe0c659b4ac3">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemCounterAmountBest</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_cond64f6da973ba0b26d23f9288d7f4de406.html#aa8840cb6ce09f56ab187d120f581707d">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemMatchesGameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_cond5dea34760dfaccbcd5463929445e31a3.html#a890a69dd43297671feb7415ebf229650">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemPlayerHasCoinsToUnlock</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_condition_game_item_score.html#a4a88a1e1eab75dc5dda6101f452fdce0">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_condition_game_item_unlocked.html#a07afd6202146176bb332f8bcfe4657a2">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemUnlocked</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_level_1_1_game_condition_level_coins.html#a9dd0456507ea53a3dc6c67f1617f55a1">GameFramework.GameStructure.Game.GameConditions.Level.GameConditionLevelCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_level_1_1_game_condition_level_score.html#a90104954e682e5884ac447ddc4b6679d">GameFramework.GameStructure.Game.GameConditions.Level.GameConditionLevelScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_level_1_1_game_condition_level_unlocked.html#a77215a279f35e30384583e00a1a9b920">GameFramework.GameStructure.Game.GameConditions.Level.GameConditionLevelUnlocked</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_player_1_1_game_condition_player_coins.html#a6fd0a18db3231364cb1c7acdd3de6db3">GameFramework.GameStructure.Game.GameConditions.Player.GameConditionPlayerCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_player_1_1_game_condition_player_health.html#abfb8c6ea9792bd2601ee88c4c8b5c6c8">GameFramework.GameStructure.Game.GameConditions.Player.GameConditionPlayerHealth</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_player_1_1_game_condition_player_lives.html#ad5e6b0d494e21b4671d5b7fe91d88a69">GameFramework.GameStructure.Game.GameConditions.Player.GameConditionPlayerLives</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_player_1_1_game_condition_player_score.html#ab3f0a62e49b00b7486443404a55b2a93">GameFramework.GameStructure.Game.GameConditions.Player.GameConditionPlayerScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition.html#aab01269017040c68ccc42346cb26668e">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameCondition</a>
+</li>
+<li>Execute()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_audio_1_1_game_action_play_audio_clip.html#ab55729b84405a089a97130346a9bdbb1">GameFramework.GameStructure.Game.GameActions.Audio.GameActionPlayAudioClip</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_game_item_1_1_game_action_game_item_change_counter_amount.html#aec278b6ee011ba1eb353e95763249f14">GameFramework.GameStructure.Game.GameActions.GameItem.GameActionGameItemChangeCounterAmount</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_game_item_1_1_game_action_game_item_set_counter_amount.html#ac68c4ccfd7129d4bc87b7bebb389286c">GameFramework.GameStructure.Game.GameActions.GameItem.GameActionGameItemSetCounterAmount</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_game_item_1_1_game_action_game_item_unlock.html#a203068cddc559180d4ec8f2e1e697967">GameFramework.GameStructure.Game.GameActions.GameItem.GameActionGameItemUnlock</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_destroy_game_object.html#a90b6b0d9b603c4b603b89c3a0ef847d1">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionDestroyGameObject</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_disable_game_object.html#acc99df8a7279756d6dbf19bc3c54d953">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionDisableGameObject</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_enable_game_object.html#af0fefd9561a23c5eed58c4b25787e6b1">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionEnableGameObject</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_instantiate_prefab.html#a0bec2f44da63cbeff4ddc3f185025875">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionInstantiatePrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_physics2_d_rigidbody_type.html#a85e1d60b4fd172496764687d1daa8fba">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionPhysics2DRigidbodyType</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_swap_game_objects.html#a07d1ae7a81f663a2e9e97af065078c3d">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionSwapGameObjects</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_change_level_coins.html#a1b29f73ba4b24cba395edb7e6714e502">GameFramework.GameStructure.Game.GameActions.Level.GameActionChangeLevelCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_change_level_score.html#a9d71a354495373e5c556a979a827ba0b">GameFramework.GameStructure.Game.GameActions.Level.GameActionChangeLevelScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_lose_level.html#afbbd63e8e598c9f94453862bcebd0e3d">GameFramework.GameStructure.Game.GameActions.Level.GameActionLoseLevel</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_win_level.html#a587fe753e484cd2e13bcdcec8985bad7">GameFramework.GameStructure.Game.GameActions.Level.GameActionWinLevel</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_win_star.html#a1602a0ccae78dd5c25626008f79b0576">GameFramework.GameStructure.Game.GameActions.Level.GameActionWinStar</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_coins.html#a841854cbeb9f031b040a17a87157af81">GameFramework.GameStructure.Game.GameActions.Player.GameActionChangePlayerCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_health.html#a80a68ac9b3e567ba51703da5d777d9de">GameFramework.GameStructure.Game.GameActions.Player.GameActionChangePlayerHealth</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html#aae4fc775d993f89c56832e6a7c2c79a3">GameFramework.GameStructure.Game.GameActions.Player.GameActionChangePlayerLives</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_score.html#aa1fe81c5d9730f404a9537924d63d449">GameFramework.GameStructure.Game.GameActions.Player.GameActionChangePlayerScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_pro_pooling_1_1_game_action_add_pooled_item.html#aff8707e5ac444fbc5d92b9771b5bfaef">GameFramework.GameStructure.Game.GameActions.ProPooling.GameActionAddPooledItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_pro_pooling_1_1_game_action_pro_pooling_information.html#ac7e2bb7bd2ee8b61b3405d969d306b64">GameFramework.GameStructure.Game.GameActions.ProPooling.GameActionProPoolingInformation</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_u_i_1_1_game_action_set_button_interactable_state.html#a672ddbfff7dc6927522af5c5c8bcbfda">GameFramework.GameStructure.Game.GameActions.UI.GameActionSetButtonInteractableState</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html#ab25e29bf724775286c9ea80801a2c96b">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction</a>
+</li>
+<li>ExecuteActions()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_run_game_actions.html#a749c71b73717a141582c26e7906dfad4">GameFramework.GameStructure.Game.Components.RunGameActions</a>
+</li>
+<li>ExecuteCoroutine()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html#aee95c8e64f238733dcaa5c089325e546">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction</a>
+</li>
+<li>ExecuteGameActions()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_action_helper.html#a78baa5f14a6342a480645a14ba790c6d">GameFramework.GameStructure.Game.GameActionHelper</a>
+</li>
+<li>ExecuteInternal()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html#a14126eb4d7a259355312071d29f68c5c">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction</a>
+</li>
+<li>Exists()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_global_localisation.html#ac34e02ea29f9e5a0606895d422c6d640">GameFramework.Localisation.GlobalLocalisation</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_localise_text.html#a4564dd8df8e34b3b924eaddfa7dd38ad">GameFramework.Localisation.LocaliseText</a>
+</li>
+<li>ExitLevel()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_pause_window.html#a31190552d40390f4fe009ad7f500931a">GameFramework.UI.Dialogs.Components.PauseWindow</a>
+</li>
+<li>ExitOccurred()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#afd0a5465f53b4287f6edee0d89431985">GameFramework.GameStructure.Colliders.GenericCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler.html#a6aa7beb49363039fd747d5502ada407b">GameFramework.GameStructure.Game.Components.CollisionHandler</a>
+</li>
+<li>ExtraCoinsNeededToUnlock()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#ae55b8a0213571a7ed974ac0f32f55a77">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>ExtraValueNeededToUnlock()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#ae1d2d0c518a6bc2c029f4bf9a4fd8572">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

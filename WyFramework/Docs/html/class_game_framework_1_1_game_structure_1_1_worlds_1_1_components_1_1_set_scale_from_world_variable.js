@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_scale_from_world_variable =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_scale_from_world_variable.html#a9f86dfbab28c4d009d83a766967b25f4", null ]
+];

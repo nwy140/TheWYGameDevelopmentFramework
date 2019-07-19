@@ -1,0 +1,5 @@
+var class_game_framework_1_1_display_1_1_particles_1_1_components_1_1_auto_destruct_when_particle_system_finished =
+[
+    [ "GameObjectToDestruct", "class_game_framework_1_1_display_1_1_particles_1_1_components_1_1_auto_destruct_when_particle_system_finished.html#ae5691c48836177e2cb319e97051807e8", null ],
+    [ "OnlyDeactivate", "class_game_framework_1_1_display_1_1_particles_1_1_components_1_1_auto_destruct_when_particle_system_finished.html#aa48db0547dcd3f2a0c1317898b507bc9", null ]
+];

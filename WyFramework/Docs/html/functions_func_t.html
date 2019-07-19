@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_func_t.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,19 +88,111 @@ $(function() {
 &#160;
 
 <h3><a id="index_t"></a>- t -</h3><ul>
+<li>TestCustomHandler()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests.html#ac8f364e7af5042cf1ef42e9a1b5eb087">GameFramework.Messaging.MessagingTests</a>
+</li>
+<li>TestHandler()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests.html#a5a14b6ab56b1871ad8bebc0b85c68278">GameFramework.Messaging.MessagingTests</a>
+</li>
+<li>TestHandlerProcessFor1Second()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests.html#ab976e65b7771deda0741b11138131698">GameFramework.Messaging.MessagingTests</a>
+</li>
+<li>Throw()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#a01b602e41af7502f3344cffeac01d2f8">GameFramework.Debugging.MyDebug</a>
+</li>
 <li>ToggleButton()
 : <a class="el" href="class_pro_grids_1_1pg___toggle_content.html#a9a7fc255426850d472632177ed89d9d1">ProGrids.pg_ToggleContent</a>
 </li>
+<li>ToggleTrimmed()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_editor_helper.html#aadffaad24c072e82e252e488204c0dd6">GameFramework.EditorExtras.Editor.EditorHelper</a>
+</li>
+<li>ToHSV()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_color_extension.html#ae2ddfdf27dc2dc5f6552a81346a4b88d">GameFramework.Display.Other.ColorExtension</a>
+</li>
+<li>ToRGB()
+: <a class="el" href="struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html#a82229d4af678c11209a5343a9748e2d1">GameFramework.Display.Other.ColorHSV</a>
+</li>
 <li>ToString()
-: <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a3e2e433711bddd7bfaba988a146540ba">ProBuilder2.EditorCommon.pb_VersionInfo</a>
+: <a class="el" href="class_game_framework_1_1_audio_1_1_messages_1_1_background_volume_changed_message.html#a9dee6bfabcfdd235607e63153695e962">GameFramework.Audio.Messages.BackgroundVolumeChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_audio_1_1_messages_1_1_effect_volume_changed_message.html#acc8ad5a1ee6ab61bd3103f970416bf39">GameFramework.Audio.Messages.EffectVolumeChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_character_purchased_message.html#afbb3aa027e8958b4f57e452f7b01b3ee">GameFramework.Billing.Messages.CharacterPurchasedMessage</a>
+, <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_generic_game_item_purchased_message.html#aac0385c06c6c9c0ea9f369bf527368ea">GameFramework.Billing.Messages.GenericGameItemPurchasedMessage</a>
+, <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_item_purchased_message.html#adc70af592d38c46a8dfd62fb0e4bf7f3">GameFramework.Billing.Messages.ItemPurchasedMessage</a>
+, <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_level_purchased_message.html#af7d6920a1c66b826388d062fde4088d2">GameFramework.Billing.Messages.LevelPurchasedMessage</a>
+, <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_world_purchased_message.html#aabfcb5d2b386269ead8d55f812bcba32">GameFramework.Billing.Messages.WorldPurchasedMessage</a>
+, <a class="el" href="struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html#a61a21d7c4f8a043a1b0305a0e938e774">GameFramework.Display.Other.ColorHSV</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_high_score.html#adc1a4fac8facb082ee42fa39198cac73">GameFramework.Facebook.HighScore</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_app_request_message.html#a6003e41a83f5f03a4577be3502672bba">GameFramework.Facebook.Messages.FacebookAppRequestMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_connecting_message.html#adc78d51fe597dcc561a050a1c01275d8">GameFramework.Facebook.Messages.FacebookConnectingMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_friends_using_app_message.html#a439933a3c35b6c88ada1458800082d5d">GameFramework.Facebook.Messages.FacebookFriendsUsingAppMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_hide_unity_message.html#a4b6b7a5f1d6eaf56abd5becd9ad0df55">GameFramework.Facebook.Messages.FacebookHideUnityMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_login_message.html#a6e9f8a5efdf9cb35d662ba717cae40cc">GameFramework.Facebook.Messages.FacebookLoginMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_profile_picture_message.html#a53d4c161bc9772911ab3b2b7ec6d0dab">GameFramework.Facebook.Messages.FacebookProfilePictureMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_share_link_message.html#a3a5174da22cafb2126ecb31e01023bf5">GameFramework.Facebook.Messages.FacebookShareLinkMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_user_picture_message.html#a02c07985c641dc28c67c11a7e39cfc76">GameFramework.Facebook.Messages.FacebookUserPictureMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_messages_1_1_character_changed_message.html#abbef8ee25253cb34c66c57e678fc9d3e">GameFramework.GameStructure.Characters.Messages.CharacterChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_device_orientation_changed_message.html#a44d0c034e4ac9177852c4efda7e90bd5">GameFramework.GameStructure.Game.Messages.DeviceOrientationChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_game_unlocked_message.html#af2daf49dad8bdcb43667523e8b962583">GameFramework.GameStructure.Game.Messages.GameUnlockedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_resolution_changed_message.html#a9213cf0fbd351b2613f471c6991d72f9">GameFramework.GameStructure.Game.Messages.ResolutionChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_coins_changed_message.html#a146aa809f23d7def6504fa81914a3d7d">GameFramework.GameStructure.GameItems.Messages.CoinsChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_best_changed_message.html#a5d8d7ca0d8c211274c1acb22e69a0b4d">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountBestChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_changed_message.html#a9fc33b981feb235328e1ac49ef1a6690">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html#ab24e7589a56135fb4c86d6128b400520">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountBestChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_changed_message.html#a10fb75de39b98a9d7041756e7a5c2ff1">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_high_score_changed_message.html#a3b178ca15fd46a2e058eaaa65b344214">GameFramework.GameStructure.GameItems.Messages.HighScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_score_changed_message.html#a3c75c10d1a98cd9b22e15fed6efc7bf9">GameFramework.GameStructure.GameItems.Messages.ScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_changed_message.html#a8d47d8d9f6d2f021bfa70eac5f6c4861">GameFramework.GameStructure.Levels.Messages.LevelChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_coins_changed_message.html#a2309353d022f903de77693e27cdfc011">GameFramework.GameStructure.Levels.Messages.LevelCoinsChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_ended_message.html#a149289710c520f8943864c411ec3e78c">GameFramework.GameStructure.Levels.Messages.LevelEndedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_high_score_changed_message.html#ad64c1bb5783ca1145b2219fa95af89c6">GameFramework.GameStructure.Levels.Messages.LevelHighScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_paused_message.html#ad2d1744f85bb67c14d720aa243c496fa">GameFramework.GameStructure.Levels.Messages.LevelPausedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_resumed_message.html#a43490163f11ff888dd7fd4b01db89c86">GameFramework.GameStructure.Levels.Messages.LevelResumedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_score_changed_message.html#a4ff6bffba8fe8662df1b21b33023ad18">GameFramework.GameStructure.Levels.Messages.LevelScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_started_message.html#ae1a1c286f90042aef1cdbcadf447fd97">GameFramework.GameStructure.Levels.Messages.LevelStartedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_stars_won_message.html#acfff4242b78a81cfe9a2b87a41613958">GameFramework.GameStructure.Levels.Messages.StarsWonMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_custom_name_changed_message.html#aee3f514bbd657de7fee9289ab5d7876a">GameFramework.GameStructure.Players.Messages.CustomNameChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_health_changed_message.html#aa0e807f9cb696ee6d0c94642deb1ffb9">GameFramework.GameStructure.Players.Messages.HealthChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_lives_changed_message.html#aaab5a4614c2301012d786aa294cfecfb">GameFramework.GameStructure.Players.Messages.LivesChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_changed_message.html#afd03786dfd4733e10a39aa93a5a9f48e">GameFramework.GameStructure.Players.Messages.PlayerChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_coins_changed_message.html#a9820297c3cc30636a92dfc35f38318fd">GameFramework.GameStructure.Players.Messages.PlayerCoinsChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_high_score_changed_message.html#aecbc59751ed911f0cc572828ffb373a7">GameFramework.GameStructure.Players.Messages.PlayerHighScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_score_changed_message.html#a9a00dfb11478903d45bd0c16254ef46b">GameFramework.GameStructure.Players.Messages.PlayerScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_messages_1_1_world_changed_message.html#a6614da0c00e974c8a1d8e7f1a3270ac3">GameFramework.GameStructure.Worlds.Messages.WorldChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_array.html#abf219eef7c47e65893df310b723f506a">GameFramework.Helper.JSONArray</a>
+, <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#a397280b43ff2ecb3f9b2bb91b7162be8">GameFramework.Helper.JSONObject</a>
+, <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_value.html#a7a18fd53d6514c1a33fa3f8dbac76281">GameFramework.Helper.JSONValue</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_messages_1_1_localisation_changed_message.html#a1b9d71449395f6faa3fbf76b6dfb913c">GameFramework.Localisation.Messages.LocalisationChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#a5904706b1157921d663b5ba6afc0b24c">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+, <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items.html#a311afb2de41ce276a032e54afd4713cf">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;</a>
+, <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a3e2e433711bddd7bfaba988a146540ba">ProBuilder2.EditorCommon.pb_VersionInfo</a>
+</li>
+<li>TriggerMessage()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests.html#abac6e8c410a03bff01422228774f12ec">GameFramework.Messaging.MessagingTests</a>
+, <a class="el" href="class_game_framework_1_1_messaging_1_1_messenger.html#a5ae6c27bb96079a89628b448bd78c6a0">GameFramework.Messaging.Messenger</a>
+</li>
+<li>TryParseRangeString()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_editor_helper.html#a2af0481a94653707a6d6f798d4f58ad7">GameFramework.EditorExtras.Editor.EditorHelper</a>
+</li>
+<li>TrySetAllowedLanguage()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_global_localisation.html#aa7cc8d1bb0466d880c852e34b99218f2">GameFramework.Localisation.GlobalLocalisation</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_localise_text.html#a75386f0421237b263fe2472598b3d6e2">GameFramework.Localisation.LocaliseText</a>
+</li>
+<li>TypeListClassDetails()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_editor_helper.html#a1ac5e16d78d0238ab19ee23a9497a240">GameFramework.EditorExtras.Editor.EditorHelper</a>
+</li>
+<li>TypeListToNames()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_editor_helper.html#a30ca0595ca76ecfaa29240c64d515564">GameFramework.EditorExtras.Editor.EditorHelper</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:13 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

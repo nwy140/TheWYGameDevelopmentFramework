@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['waterhoseparticles',['WaterHoseParticles',['../class_unity_standard_assets_1_1_effects_1_1_water_hose_particles.html',1,'UnityStandardAssets::Effects']]],
-  ['waypointcircuit',['WaypointCircuit',['../class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit.html',1,'UnityStandardAssets::Utility']]],
-  ['waypointlist',['WaypointList',['../class_unity_standard_assets_1_1_utility_1_1_waypoint_circuit_1_1_waypoint_list.html',1,'UnityStandardAssets::Utility::WaypointCircuit']]],
-  ['waypointprogresstracker',['WaypointProgressTracker',['../class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker.html',1,'UnityStandardAssets::Utility']]]
+  ['timeremaining',['TimeRemaining',['../class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_time_remaining.html',1,'GameFramework::UI::Other::Components']]],
+  ['timetofreeprizedisplay',['TimeToFreePrizeDisplay',['../class_game_framework_1_1_free_prize_1_1_components_1_1_time_to_free_prize_display.html',1,'GameFramework::FreePrize::Components']]],
+  ['triggerdata',['TriggerData',['../class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler_1_1_trigger_data.html',1,'GameFramework.GameStructure.Game.Components.CollisionHandler.TriggerData'],['../class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html',1,'GameFramework.GameStructure.Colliders.GenericCollider.TriggerData']]]
 ];

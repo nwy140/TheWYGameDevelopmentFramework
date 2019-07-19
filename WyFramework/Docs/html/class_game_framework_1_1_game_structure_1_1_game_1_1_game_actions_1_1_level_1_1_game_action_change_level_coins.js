@@ -1,0 +1,5 @@
+var class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_change_level_coins =
+[
+    [ "Execute", "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_change_level_coins.html#a1b29f73ba4b24cba395edb7e6714e502", null ],
+    [ "Amount", "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_level_1_1_game_action_change_level_coins.html#a1a576d211545c379bd082fea1c24a627", null ]
+];

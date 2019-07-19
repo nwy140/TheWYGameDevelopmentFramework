@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['running',['Running',['../class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller_1_1_movement_settings.html#a6bc82cc4733822ca23b6ecdd528a5e07',1,'UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.MovementSettings.Running()'],['../class_unity_standard_assets_1_1_characters_1_1_first_person_1_1_rigidbody_first_person_controller.html#a0c791802437d2c7e8b70f0bece1bf901',1,'UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController.Running()']]]
+  ['jsonconfigurationdata',['JsonConfigurationData',['../class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ac0fbacdfca19f25348e142440ba52fcd',1,'GameFramework::GameStructure::GameItems::ObjectModel::GameItem']]],
+  ['jsondata',['JsonData',['../class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ab1f44746dfc5f8bc3f6980b6d7920d1e',1,'GameFramework::GameStructure::GameItems::ObjectModel::GameItem']]],
+  ['jsongamedata',['JsonGameData',['../class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a9ea834df9bee6165a4655bff8eed2052',1,'GameFramework::GameStructure::GameItems::ObjectModel::GameItem']]]
 ];

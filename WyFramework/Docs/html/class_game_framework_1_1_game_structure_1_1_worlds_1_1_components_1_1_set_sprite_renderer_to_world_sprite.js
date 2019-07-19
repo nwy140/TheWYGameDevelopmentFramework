@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_sprite_renderer_to_world_sprite =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_sprite_renderer_to_world_sprite.html#a8255f2c70a5c9a87841c95cd3b4296c7", null ]
+];

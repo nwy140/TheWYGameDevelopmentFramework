@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_gradient_background_from_level_variable =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_gradient_background_from_level_variable.html#ac45d03fe3c8aaf9f66f25d153388a441", null ]
+];

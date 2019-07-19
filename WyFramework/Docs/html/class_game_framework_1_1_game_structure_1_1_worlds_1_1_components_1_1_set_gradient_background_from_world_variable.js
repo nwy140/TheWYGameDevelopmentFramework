@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_gradient_background_from_world_variable =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_gradient_background_from_world_variable.html#af4c467b9add8d9195d755171418b47ea", null ]
+];

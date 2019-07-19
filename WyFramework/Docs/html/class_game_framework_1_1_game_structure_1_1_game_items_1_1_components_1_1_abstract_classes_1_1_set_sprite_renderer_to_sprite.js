@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_set_sprite_renderer_to_sprite =
+[
+    [ "AssignSprite", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_set_sprite_renderer_to_sprite.html#ac74eb7396913fe8a904fd67c658f482e", null ]
+];

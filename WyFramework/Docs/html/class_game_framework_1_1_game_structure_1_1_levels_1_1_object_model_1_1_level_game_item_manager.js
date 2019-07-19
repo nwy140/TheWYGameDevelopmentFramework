@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level_game_item_manager =
+[
+    [ "OnSelectedChanged", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level_game_item_manager.html#a5380ddabbe453aefd0a0d3a7ad6ca1a1", null ]
+];

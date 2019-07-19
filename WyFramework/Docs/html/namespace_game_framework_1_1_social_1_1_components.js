@@ -1,0 +1,8 @@
+var namespace_game_framework_1_1_social_1_1_components =
+[
+    [ "EnableBasedUponModulusOfGamesPlayed", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_games_played.html", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_games_played" ],
+    [ "EnableBasedUponModulusOfLevelsPlayed", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_levels_played.html", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_levels_played" ],
+    [ "EnableBasedUponNumberOfGamesPlayed", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_number_of_games_played.html", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_number_of_games_played" ],
+    [ "EnableBasedUponNumberOfLevelsPlayed", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_number_of_levels_played.html", "class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_number_of_levels_played" ],
+    [ "ShowGameFeedback", "class_game_framework_1_1_social_1_1_components_1_1_show_game_feedback.html", "class_game_framework_1_1_social_1_1_components_1_1_show_game_feedback" ]
+];

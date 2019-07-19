@@ -1,0 +1,7 @@
+var interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback =
+[
+    [ "CounterFloatAmountBestChanged", "interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a075d955d8a71bbc2e9d711f7a43f597b", null ],
+    [ "CounterFloatAmountChanged", "interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a594fab4392301fdd90c1e9f858360598", null ],
+    [ "CounterIntAmountBestChanged", "interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a8660acb8d0f14df5d9e8e7aa5315f30c", null ],
+    [ "CounterIntAmountChanged", "interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a5fae681c4300d27774ffd08fd4deb08d", null ]
+];

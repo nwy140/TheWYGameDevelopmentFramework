@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_enum.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,17 +85,193 @@ $(function() {
 </div>
 
 <div class="contents">
-&#160;<ul>
+&#160;
+
+<h3><a id="index_a"></a>- a -</h3><ul>
+<li>AnimationModeType
+: <a class="el" href="class_game_framework_1_1_animation_1_1_object_model_1_1_game_object_to_game_object_animation.html#a4962f866415291e7941f7fa02d53e9ec">GameFramework.Animation.ObjectModel.GameObjectToGameObjectAnimation</a>
+</li>
+<li>AutomaticallyRunEnum
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_run_game_actions.html#ad809718d25f7def6807d38d67a796cb3">GameFramework.GameStructure.Game.Components.RunGameActions</a>
+</li>
+</ul>
+
+
+<h3><a id="index_b"></a>- b -</h3><ul>
+<li>BorderType
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_align_screen_bounds.html#ad39891157ea83c6f762f4f37914c1564">GameFramework.Display.Placement.Components.AlignScreenBounds</a>
+</li>
+</ul>
+
+
+<h3><a id="index_c"></a>- c -</h3><ul>
+<li>ComparisonType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_condition_helper.html#ad77a2aa3e3ef51975896a9384830fda7">GameFramework.GameStructure.Game.GameConditionHelper</a>
+</li>
+<li>ContextModeType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_context.html#a0849f4294b3d4db07cf8edf2d7f3cbf1">GameFramework.GameStructure.GameItems.ObjectModel.GameItemContext</a>
+</li>
+<li>CopyType
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#aaaad7631df980a18c9de720ca58b90ea">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>CounterModeType
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_time_remaining.html#a6b9fdd3b05ef41c3591c128df5d6b1b4">GameFramework.UI.Other.Components.TimeRemaining</a>
+</li>
+<li>CounterTypeEnum
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_counter_configuration.html#afdb23237746d11a4787eef97e2505d2d">GameFramework.GameStructure.Game.ObjectModel.CounterConfiguration</a>
+</li>
+</ul>
+
+
+<h3><a id="index_d"></a>- d -</h3><ul>
+<li>DebugLevelType
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_my_debug.html#a36a34f506f383887811a2a192933d02b">GameFramework.Debugging.MyDebug</a>
+</li>
+<li>DestroyModeType
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_object_destroyer.html#a1b81b903910e809d741397d3167fd664">GameFramework.Display.Placement.Components.ObjectDestroyer</a>
+</li>
+<li>DialogButtonsType
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#a1a5bd842d263e0bc9d15b0000fb6e6da">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DialogResultType
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#ac0524fb5f54190f4249b51c1fd806ca3">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>DialogSpriteType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html#abe0d493506b85e3202a622cdc1b6c13f">GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton&lt; T &gt;</a>
+</li>
+<li>DisableAfterUseType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a2b23f94b259ae1050f0c7e27f660c91b">GameFramework.GameStructure.Colliders.GenericCollider</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler.html#a38ad8d2f926be5d50c4bbc022c830f5b">GameFramework.GameStructure.Game.Components.CollisionHandler</a>
+</li>
+</ul>
+
+
+<h3><a id="index_g"></a>- g -</h3><ul>
+<li>GameActionEditorOption
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor_helper.html#abadffcacfd03bca269f34ae7cab33461">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditorHelper</a>
+</li>
+<li>GameItemSetupMode
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a4fde5ee062da7ac78dd41c285c61dd91">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>GameItemType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_configuration.html#abff73c1f3952d94058609f6430addc8d">GameFramework.GameStructure.Game.ObjectModel.GameConfiguration</a>
+</li>
+</ul>
+
+
+<h3><a id="index_l"></a>- l -</h3><ul>
+<li>LocalisablePrefabType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ab0bb74d1c4e0ff6f2e6dfbffb4b1b5da">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>LocalisableSpriteType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a147031f8f70276d006a17c7486298128">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+</ul>
+
+
+<h3><a id="index_m"></a>- m -</h3><ul>
+<li>MessageType
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_help_box_attribute.html#ae7cf8e14780bf73d997324b45872433d">GameFramework.EditorExtras.HelpBoxAttribute</a>
+</li>
+<li>ModeType
+: <a class="el" href="class_game_framework_1_1_audio_1_1_components_1_1_start_stop_background_music.html#ae8eba1a2b0813c99bc8445454550bdf7">GameFramework.Audio.Components.StartStopBackgroundMusic</a>
+</li>
+<li>ModifierType
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_localise_text.html#a02df376ac012da7562e4359b3d1adc96">GameFramework.Localisation.Components.LocaliseText</a>
+</li>
+</ul>
+
+
+<h3><a id="index_p"></a>- p -</h3><ul>
+<li>PlacementType
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_components_1_1_dummy_game_loop.html#a9e50cfb4bd05ee0b01ebc778f8856479">GameFramework.Debugging.Components.DummyGameLoop</a>
+</li>
+<li>PositionModeType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a6047d62de4f59dd122b4ceb9a59164e5">GameFramework.GameStructure.GameItems.Components.AbstractClasses.SetPositionFromGameItemVariable&lt; T &gt;</a>
+</li>
+</ul>
+
+
+<h3><a id="index_r"></a>- r -</h3><ul>
+<li>ResetTimeScaleType
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#a3f613a4e7da0d9e1f65001f595e9f725">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>ResultType
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_app_request_message.html#a6d80b52705491fcc0d54aad88b08daf1">GameFramework.Facebook.Messages.FacebookAppRequestMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_friends_using_app_message.html#a7aae9ad90ac2bc5fcfbd9eadc33a3708">GameFramework.Facebook.Messages.FacebookFriendsUsingAppMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_login_message.html#acdfac91e53bdb55a004b71702204959b">GameFramework.Facebook.Messages.FacebookLoginMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_share_link_message.html#a7bd4f98bd1a6143544defce08d192588">GameFramework.Facebook.Messages.FacebookShareLinkMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_user_picture_message.html#ae3d7e57a2eeb2a3f4bb37380da9e5f39">GameFramework.Facebook.Messages.FacebookUserPictureMessage</a>
+</li>
+<li>RotationModeType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#ad6c493ecea22c46f17611339714b84ca">GameFramework.GameStructure.GameItems.Components.AbstractClasses.SetRotationFromGameItemVariable&lt; T &gt;</a>
+</li>
+<li>RunType
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_abstract_classes_1_1_run_on_state.html#a71eae3a65f0f6969b8707d69648a4dbd">GameFramework.GameObjects.Components.AbstractClasses.RunOnState</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_scale_text_based_on_screen_size.html#af734a9036c8b1dd2594bcaf1744ac1a9">GameFramework.UI.Other.Components.ScaleTextBasedOnScreenSize</a>
+</li>
+</ul>
+
+
+<h3><a id="index_s"></a>- s -</h3><ul>
+<li>SaveType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_counter_configuration.html#a43f0716428b3e27e94f82cd099a3c859">GameFramework.GameStructure.Game.ObjectModel.CounterConfiguration</a>
+</li>
+<li>SelectionModeType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a2a3b9933e57ad05ceec35b1e16a83236">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>SendModeType
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_base_message.html#ad8ea1cf4f0f7a47b0ceb651266840699">GameFramework.Messaging.BaseMessage</a>
+</li>
+<li>SetupModeType
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_localisation_configuration.html#a2b3d0015dc25238290f3b12407be245e">GameFramework.Localisation.Components.LocalisationConfiguration</a>
+</li>
+<li>SubscribeTypeOptions
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message_attribute.html#af01010150de4cad0a79e3a7772248faf">GameFramework.Messaging.Components.AbstractClasses.RunOnMessageAttribute</a>
+</li>
+</ul>
+
+
+<h3><a id="index_t"></a>- t -</h3><ul>
+<li>TargetType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_action_helper.html#a53c38c11c5887ae31d9042aaabe9ab22">GameFramework.GameStructure.Game.GameActionHelper</a>
+</li>
+<li>TransitionOrderType
+: <a class="el" href="class_game_framework_1_1_animation_1_1_object_model_1_1_game_object_to_game_object_animation.html#a3b6085796410c2ac73e0ad7f10346358">GameFramework.Animation.ObjectModel.GameObjectToGameObjectAnimation</a>
+</li>
+</ul>
+
+
+<h3><a id="index_u"></a>- u -</h3><ul>
+<li>UnlockModeType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html#a7cacb320a4412c48f5b2ff1550a800aa">GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a91537db4b42cd6a9ba576a99b44eeb1d">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#af18e40b4d67dd8ade3219e05d1c0cd46">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+</ul>
+
+
+<h3><a id="index_v"></a>- v -</h3><ul>
+<li>VariableType
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#ad10aa8a2872acabce83699a751d99924">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+</li>
+</ul>
+
+
+<h3><a id="index_w"></a>- w -</h3><ul>
 <li>WindowModes
 : <a class="el" href="class_doxygen_window.html#ad1f6043062e30f52cb634b72294a5676">DoxygenWindow</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:14 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:03 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

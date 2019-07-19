@@ -1,0 +1,25 @@
+var class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager =
+[
+    [ "MinMax", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager_1_1_min_max.html", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager_1_1_min_max" ],
+    [ "GameSetup", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a6035dddc93a8df65e2cdb45f46057b2a", null ],
+    [ "GetTimeToPrize", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a80ebe409a7cb54f4a9d4a0686fcc160a", null ],
+    [ "IsCountingDown", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ac2bfbae2601db72bf7ecbbce89af541f", null ],
+    [ "IsPrizeAvailable", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ae80eb98ab0ab0c1f9c91e44a3624a81e", null ],
+    [ "MakePrizeAvailable", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a356b7caf06bfd703c4ace31a6a92b780", null ],
+    [ "SaveState", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a03cf183a037febb5ecf44c449cf873d4", null ],
+    [ "ShowFreePrizeDialog", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#aedcf945726186856d30314338ea9f092", null ],
+    [ "ShowFreePrizeDone", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a20b005c9c321cdcb6d13595c4a8f57ca", null ],
+    [ "StartNewCountdown", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a6855825800c84f14a851b236c98994a0", null ],
+    [ "ContentAnimatorController", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ac4aa738fffb4b4027fcc1d7cc80e437a", null ],
+    [ "ContentPrefab", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a2d0fc2cd62ea0fed2faad66c3ae27827", null ],
+    [ "ContentShowsButtons", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ae621b5192fa4eb2f18dd5e9db779c082", null ],
+    [ "DelayRangeToNextCountdown", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#af35e0f51bba5b84ce2be58da7a06e98a", null ],
+    [ "PrizeDialogClosedAudioClip", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a0e9a487889724c5ff74ad4bf2198ba8b", null ],
+    [ "SaveAcrossRestarts", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a35451ffb49d7f9734ae8a13d482ee015", null ],
+    [ "TimeRangeToNextPrize", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a45a9687e89ee8e6c9820a8c362105c93", null ],
+    [ "ValueRange", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#aeca0222b754d720a54fa78b5fb78cd45", null ],
+    [ "CurrentPrizeAmount", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ae913a650b32366ca61a9f3c3478292af", null ],
+    [ "IsShowingFreePrizeDialog", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#ab75f39762202e2c165201d15b6fb8117", null ],
+    [ "NextCountdownStart", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a01b01f9f9bdd4af550434282f98287e2", null ],
+    [ "NextFreePrizeAvailable", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a6ebf57aaa7f174fcb3b9356795ce004f", null ]
+];

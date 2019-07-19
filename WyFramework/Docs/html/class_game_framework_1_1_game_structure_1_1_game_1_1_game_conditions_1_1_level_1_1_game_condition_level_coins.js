@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_level_1_1_game_condition_level_coins =
+[
+    [ "Evaluate", "class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_level_1_1_game_condition_level_coins.html#a9dd0456507ea53a3dc6c67f1617f55a1", null ]
+];

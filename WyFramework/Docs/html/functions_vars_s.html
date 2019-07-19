@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_s.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,11 +88,48 @@ $(function() {
 &#160;
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>s
+: <a class="el" href="struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html#a6093451c71f80881071d622a8ae5b686">GameFramework.Display.Other.ColorHSV</a>
+</li>
+<li>SaveAcrossRestarts
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a35451ffb49d7f9734ae8a13d482ee015">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>SceneName
+: <a class="el" href="class_game_framework_1_1_input_1_1_components_1_1_on_button_load_scene.html#a75932356f8c6397517063965babef3e4">GameFramework.Input.Components.OnButtonLoadScene</a>
+, <a class="el" href="class_game_framework_1_1_input_1_1_components_1_1_on_escape_load_level.html#ae8f4cf494d245c10b607ae50a79bb4ed">GameFramework.Input.Components.OnEscapeLoadLevel</a>
+, <a class="el" href="class_game_framework_1_1_input_1_1_components_1_1_on_escape_load_scene.html#a1a03b1f9584d7021ca3ca91a0f004554">GameFramework.Input.Components.OnEscapeLoadScene</a>
+, <a class="el" href="class_game_framework_1_1_input_1_1_components_1_1_on_mouse_click_or_tap_load_level.html#ad1b2fcf4b984d51bc534e682124d7e45">GameFramework.Input.Components.OnMouseClickOrTapLoadLevel</a>
+, <a class="el" href="class_game_framework_1_1_input_1_1_components_1_1_on_mouse_click_or_tap_load_scene.html#a37510535351ea0c5e102f40581bc6ed2">GameFramework.Input.Components.OnMouseClickOrTapLoadScene</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_on_button_click_load_scene.html#aa02bb088b6583db8441d7a4d8a69addb">GameFramework.UI.Buttons.Components.OnButtonClickLoadScene</a>
+</li>
+<li>Score
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_high_score.html#a834f754745b2c45a64c5497c103afdf2">GameFramework.Facebook.HighScore</a>
+</li>
+<li>ScreenDpiEditForTesting
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_scale_text_based_on_screen_size.html#a501dba2551ae78a179aaf325f18cef84">GameFramework.UI.Other.Components.ScaleTextBasedOnScreenSize</a>
+</li>
 <li>ScriptsDirectory
 : <a class="el" href="class_doxygen_config.html#aea53b2e7fc0f47a7f658ce25e65c4a09">DoxygenConfig</a>
 </li>
+<li>SecurePreferences
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a2b6b7dd77cc49374a1494d857131e7e7">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>SelectedKeyIndex
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_global_localisation_editor_window.html#aa4009209172253ca950f518fd564f816">GameFramework.Localisation.Editor.GlobalLocalisationEditorWindow</a>
+</li>
 <li>SelectedTheme
 : <a class="el" href="class_doxygen_window.html#aff9bfc8c7ed3f017a61e67025ea7c99a">DoxygenWindow</a>
+</li>
+<li>SelectionMode
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_create_game_item_buttons.html#a7c503771827d1340d7b4d819d641fe30">GameFramework.GameStructure.GameItems.Components.AbstractClasses.CreateGameItemButtons&lt; TGameItemButton, TGameItem &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a41eafd02f062cd9f66633ca9c63edff6">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>SendMode
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_base_message.html#a7a05ddf3e44d6b22acdb9816d3a90a39">GameFramework.Messaging.BaseMessage</a>
+</li>
+<li>Shader
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background.html#ac14012726e79653f36e2cdade2186b02">GameFramework.Display.Other.Components.GradientBackground</a>
+, <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background_split_middle.html#a5d04a17eaa8af93bf9ca508c901dbb37">GameFramework.Display.Other.Components.GradientBackgroundSplitMiddle</a>
 </li>
 <li>shootSound
 : <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#a3e022f5a1fabb02507864f27b1594f88">MechExtraCharSkillRangeAtkSpwnObj</a>
@@ -76,8 +137,42 @@ $(function() {
 <li>SHOW_GRID
 : <a class="el" href="class_pro_grids_1_1pg___preferences.html#a10ef2326216f6686ac85e39e1076ed59">ProGrids.pg_Preferences</a>
 </li>
+<li>ShowBuyWindow
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a71391be85d7f2e8b2e50f89e96e6e585">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>ShowCoins
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#aeb553a6af453d46872b3a96c2698e316">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>ShowConfirmWindow
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_buy_game_item_button.html#a8e371e0a831ff4454bbc7f2e1e22a10e">GameFramework.GameStructure.GameItems.Components.AbstractClasses.BuyGameItemButton&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a20a34f2a8837aba7d2571aba4db0a708">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html#a7fdc4b098ffd05f62d2151999b70b8f4">GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton&lt; T &gt;</a>
+</li>
+<li>ShowGameOverDialogDelay
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#af4c7c720eefafa116900ed9edb5700bd">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
 <li>ShowInGameEditor
 : <a class="el" href="class_object_note.html#a79fb374db8a7051b351b397585530bc1">ObjectNote</a>
+</li>
+<li>ShowNotEnoughCoinsWindow
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#ac971115786468762ccb7d4fed941c84c">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>ShowOnStart
+: <a class="el" href="class_game_framework_1_1_advertising_1_1_ad_mob_1_1_components_1_1_show_hide_advert.html#a5f70f3188e35d1e22df252f6afca2438">GameFramework.Advertising.AdMob.Components.ShowHideAdvert</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#aaff29863c27066abfe373cee37cfe29e">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
+<li>ShowScore
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#ac85a8b63769dacc125923760bd82290f">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>ShowStars
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#a91bc7b4222128ef81f4a3df6f599ca19">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>ShowTime
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#aab0a17b4d6f228c937d62e4b01d99495">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>ShowUnlockWindow
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#abe9f2a1c1873e50d33c4a77314a17494">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html#a8847322856c81e5ce1d66d92824fd5cc">GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton&lt; T &gt;</a>
 </li>
 <li>ShowWhenSelected
 : <a class="el" href="class_object_note.html#a9bdab5d3121d2fdd49edad5d7032bd73">ObjectNote</a>
@@ -87,6 +182,9 @@ $(function() {
 </li>
 <li>Size
 : <a class="el" href="class_object_note.html#a162562d091cd57285d46b5016c189cf3">ObjectNote</a>
+</li>
+<li>Smoothing
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_move_with_transform.html#ac03d622e2bc08665e0fe4cea93771db1">GameFramework.Display.Placement.Components.MoveWithTransform</a>
 </li>
 <li>SnapAsGroup
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a437c5f64557f21096a6a3dd16777ddd9">ProGrids.pg_Constant</a>
@@ -103,22 +201,89 @@ $(function() {
 <li>SnapValue
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#afce084d791780b8048b053df626fecc0">ProGrids.pg_Constant</a>
 </li>
+<li>SortingLayerName
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_set_sorting_layer.html#ab3e8b0aedf043594e7ff7288dca231cd">GameFramework.Display.Other.Components.SetSortingLayer</a>
+</li>
+<li>SortingOrder
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_set_sorting_layer.html#a7086854db2854a27f486cb4816fdc2af">GameFramework.Display.Other.Components.SetSortingLayer</a>
+</li>
+<li>Source
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_on_button_click_swap_dialog_instance.html#a2947101c6a900f473f6a2c3dc912e0f2">GameFramework.UI.Dialogs.Components.OnButtonClickSwapDialogInstance</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_on_mouse_click_or_tap_swap_dialog_instance.html#a94139fb90a6334de120448a82b4b5f13">GameFramework.UI.Dialogs.Components.OnMouseClickOrTapSwapDialogInstance</a>
+</li>
+<li>Space
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_fixed_rotation.html#a61e920af970ebb7d3d42004b6e31d1b6">GameFramework.Display.Placement.Components.FixedRotation</a>
+</li>
+<li>spawnPoint
+: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#af90db887399f77aef2f0a3acdbb6883b">MechExtraCharSkillRangeAtkSpwnObj</a>
+</li>
+<li>Speed
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_fixed_movement.html#a8348a57e01f1cbc72d6ec8447c423efb">GameFramework.Display.Placement.Components.FixedMovement</a>
+</li>
 <li>speed
 : <a class="el" href="class_highlight_nearest_face.html#a1f587bbe7223fca263404957f1707f98">HighlightNearestFace</a>
-, <a class="el" href="class_mech_extra_char_skill_projectile.html#a8e642cbe2e26f024f0f407ef4ef4c836">MechExtraCharSkillProjectile</a>
-, <a class="el" href="class_mech_extra_char_skill_projectile2_d.html#af24ca797b33098658204468964e7ebe6">MechExtraCharSkillProjectile2D</a>
+, <a class="el" href="class_mech_extra_char_skill_launch_object_by_speed.html#ad837d86c133c53811ad51d22c18302d2">MechExtraCharSkillLaunchObjectBySpeed</a>
+, <a class="el" href="class_mech_extra_char_skill_launch_object_by_speed2_d.html#a18efaceff6b165abe2985689e5add429">MechExtraCharSkillLaunchObjectBySpeed2D</a>
 </li>
 <li>speedMultiplier
 : <a class="el" href="class_drone_movement.html#a17a47ccde4f90289c4a0ae8cb648932e">DroneMovement</a>
+, <a class="el" href="class_mech_veh_fly_drone_movement25_d.html#adb9b3c8df9ba16c886ef514b78af44d5">MechVehFlyDroneMovement25D</a>
+</li>
+<li>Sprite
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_localise_image.html#a560269b381ea7c498d234852b68dc87d">GameFramework.Localisation.Components.LocaliseImage</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_localise_sprite_renderer.html#ab53946794a7118d2d91de316ab14a949">GameFramework.Localisation.Components.LocaliseSpriteRenderer</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_show_dialog_once.html#a21b6b6786d787d9594b1a8d8348aa420">GameFramework.UI.Dialogs.Components.ShowDialogOnce</a>
+</li>
+<li>StackTrace
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log_entry.html#acdf37f51e1bf4e8eca63c4e17d2da4fc">GameFramework.Messaging.MessageLogEntry</a>
 </li>
 <li>STAND_UP_TRIGGER
 : <a class="el" href="class_cnv_anim_tags.html#ac8f844c16eaf5babb169c226a32903eb">CnvAnimTags</a>
 </li>
-<li>startingRounds
-: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#abd1764c898cda854146f3b64ce103b1a">MechExtraCharSkillRangeAtkSpwnObj</a>
+<li>Star
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_enable_based_upon_number_of_stars_won.html#a15112043275eac3ac231875e557b2064">GameFramework.GameStructure.Levels.Components.EnableBasedUponNumberOfStarsWon</a>
+</li>
+<li>Star1NotWonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#a6125f98ee9bbbe2017576064c7822d25">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Star1WonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#ae7dd34c635b206ff85b541bd635d849f">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Star2NotWonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#aa6700b01daf60cbc4950d4508d8b5375">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Star2WonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#aa4fde217db45a3c736c017eae9e32f64">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Star3NotWonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#af04fa57cd85c946cf1ec769fe9ddcb9f">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Star3WonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#a0f0dc2bc77e7044750faa6b939324184">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Star4NotWonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#ac9722758888e1d69d6283fabb02a7bb3">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Star4WonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#a3ab78cbf60e9526bbdb26cc8d5d54c31">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>Stars
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_create_star_icons.html#aeacb4618134c8cf3d58836e79ff42807">GameFramework.GameStructure.Levels.Components.CreateStarIcons</a>
+</li>
+<li>StarsWonGameObject
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#ad472ae52e123298bf26f500e5fa30554">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+</li>
+<li>startingAmmoInPocket
+: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#a99366273744efe16d02458f53564f408">MechExtraCharSkillRangeAtkSpwnObj</a>
+</li>
+<li>startingRoundsInMagazine
+: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#a2c3cddb45aa9add5f3becebe4ca9cf04">MechExtraCharSkillRangeAtkSpwnObj</a>
 </li>
 <li>StatHPText
 : <a class="el" href="class_mech_char_stat_h_p.html#a968312b9afaaca7d662da4eba6618c93">MechCharStatHP</a>
+</li>
+<li>Statistics
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log.html#adff11bf422a819fd3703e4b097c72edb">GameFramework.Messaging.MessageLog</a>
 </li>
 <li>StatTimerSlider
 : <a class="el" href="class_mech_extra_world_stat_timer.html#a4f3a11eabd619116f76609c9e28293c6">MechExtraWorldStatTimer</a>
@@ -129,6 +294,12 @@ $(function() {
 <li>Style
 : <a class="el" href="class_object_note.html#a11f9ec63f42269ff9fcdbcabe17118d4">ObjectNote</a>
 </li>
+<li>SubscribeType
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message.html#a127752e0c3e49adeeb0abb77e8df6c03">GameFramework.Messaging.Components.AbstractClasses.RunOnMessage&lt; T1, T2 &gt;</a>
+</li>
+<li>SupportedLanguages
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#af750212c72c1056fb4976625b1bb7ca8">GameFramework.GameStructure.GameManager</a>
+</li>
 <li>SyncUnitySnap
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a1a574114f4434ba00eae58f61818ec15">ProGrids.pg_Constant</a>
 </li>
@@ -137,11 +308,14 @@ $(function() {
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:14 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

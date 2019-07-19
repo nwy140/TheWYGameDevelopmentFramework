@@ -1,0 +1,8 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_g652890378628a5441c326d9a2c8d6233 =
+[
+    [ "Awake", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_g652890378628a5441c326d9a2c8d6233.html#aa00d3e726deb6ec26f6643310bbbafd2", null ],
+    [ "OnDisable", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_g652890378628a5441c326d9a2c8d6233.html#a72efff29027d65d3468bd6bfbb6d978a", null ],
+    [ "OnEnable", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_g652890378628a5441c326d9a2c8d6233.html#a1e5dcc9c221d52c72af2572622f14e46", null ],
+    [ "CounterReference", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_g652890378628a5441c326d9a2c8d6233.html#a103e8c2f3edc688a143e9c195bacd485", null ],
+    [ "Counter", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_g652890378628a5441c326d9a2c8d6233.html#aee2c38420c5ee7b4e423ebf32ca7107e", null ]
+];

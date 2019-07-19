@@ -1,0 +1,5 @@
+var namespace_game_framework_1_1_game_structure_1_1_players_1_1_object_model =
+[
+    [ "Player", "class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html", "class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player" ],
+    [ "PlayerGameItemManager", "class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player_game_item_manager.html", "class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player_game_item_manager" ]
+];

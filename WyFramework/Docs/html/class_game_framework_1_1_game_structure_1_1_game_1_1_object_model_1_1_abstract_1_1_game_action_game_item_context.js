@@ -1,0 +1,8 @@
+var class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context =
+[
+    [ "GetIBaseGameItemManager", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context.html#aaf1ef55e243ba9bf074f79361318c485", null ],
+    [ "GetReferencesForContainer", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context.html#a056448e45988a05a019800d77d3f8587", null ],
+    [ "SetReferencesFromContainer", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context.html#ae741012327516304a70b1014fb4d941e", null ],
+    [ "Context", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context.html#a92e3fef90b4b4ae56cadad0af928e89f", null ],
+    [ "GameItem", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context.html#a54739d56abb74dea47b3e931f77cc97f", null ]
+];

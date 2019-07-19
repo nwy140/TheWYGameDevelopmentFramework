@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_m.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -76,23 +100,58 @@ $(function() {
 <li>majorLineIncrement
 : <a class="el" href="class_pro_grids_1_1pg___grid_renderer.html#a0de5069e65a787f69d930acb307c6403">ProGrids.pg_GridRenderer</a>
 </li>
+<li>MakeColoredTexture()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_gui_styles.html#afefb1690e21e05516dbea9bcb71e73fb">GameFramework.EditorExtras.Editor.GuiStyles</a>
+</li>
 <li>MakeNewDoxyFile()
 : <a class="el" href="class_doxygen_window.html#abf3c2a3c3a53e6691e58b865da8404de">DoxygenWindow</a>
+</li>
+<li>MakePrizeAvailable()
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a356b7caf06bfd703c4ace31a6a92b780">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>MarkAndSaveAsBought()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a25ae9b97bbb93fae24202222cca5d20f">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>MatchesFilter
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor_1_1_entry_reference.html#ab0b1ded634a8d27b0d6fade7b2a29fa6">GameFramework.Localisation.Editor.LocalisationDataEditor.EntryReference</a>
+</li>
+<li>MaterialIndex
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_scroll_material_component.html#a386170f5cdf0daba48a626e30161b4fa">GameFramework.Display.Other.Components.ScrollMaterialComponent</a>
+</li>
+<li>Max
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager_1_1_min_max.html#a7ae9d9b3271ae152921637174eb8ab9c">GameFramework.FreePrize.Components.FreePrizeManager.MinMax</a>
+, <a class="el" href="struct_game_framework_1_1_game_objects_1_1_min_max.html#ab09b2cf24d7e0da976350d056a738846">GameFramework.GameObjects.MinMax</a>
+, <a class="el" href="struct_game_framework_1_1_game_objects_1_1_min_maxf.html#af401850685968e7d6e9bdf4768ebe0c4">GameFramework.GameObjects.MinMaxf</a>
+</li>
+<li>maxAmmo
+: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#adeea893eada7618208e46b5988cde2ad">MechExtraCharSkillRangeAtkSpwnObj</a>
+</li>
+<li>MaxFailedUnlocks
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html#a2520d2c78a1629ba70e2652a636cf2c3">GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton&lt; T &gt;</a>
 </li>
 <li>maxHP
 : <a class="el" href="class_mech_char_stat_h_p.html#abcd368674145d7c4b96ffd29313563b1">MechCharStatHP</a>
 </li>
-<li>maxRounds
-: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#a9252085b642ed34069b6ef61c2941449">MechExtraCharSkillRangeAtkSpwnObj</a>
+<li>MaximumLevel
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#a504e74fd18b94d9deaab0e6764be5931">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+</li>
+<li>MaximumWorld
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#ab521f6139423f0cf8f47c80c9416670a">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+</li>
+<li>MaxLines
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_components_1_1_log_to_screen.html#a07c4ecf70abb5797a6b9f3faac13428c">GameFramework.Debugging.Components.LogToScreen</a>
+</li>
+<li>maxRoundsInMagazine
+: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#a19a902b36577d5d3fcb57d0100ac33e1">MechExtraCharSkillRangeAtkSpwnObj</a>
+</li>
+<li>MaxSize
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_match_text_sizes.html#a55b3f16610373b5e482daf22fad7ca8a">GameFramework.UI.Other.Components.MatchTextSizes</a>
 </li>
 <li>MechActorGroundDetector
 : <a class="el" href="class_mech_char_movement.html#ab318f9c86f6896cc399d1a625af4b351">MechCharMovement</a>
 </li>
 <li>Mechanics
 : <a class="el" href="class_m_d_a_1_1_mechanics_as.html#a9c9a5e7cda9306a9bb84384df6dfc649">MDA.MechanicsAs</a>
-</li>
-<li>meleeRate
-: <a class="el" href="class_mech_extra_char_skill_melee_atk_sphr_cast.html#a8272ab676f1f86d88845514a2d411e90">MechExtraCharSkillMeleeAtkSphrCast</a>
 </li>
 <li>MenuAboutProGrids()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#afcee517f5e44429a3d03ff129685de56">ProGrids.pg_Editor</a>
@@ -169,6 +228,41 @@ $(function() {
 <li>MenuUpgradeSelectionAdvanced()
 : <a class="el" href="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced.html#ade756062b5c401378646140957ffe95a">ProBuilder2.Actions.pb_UpgradeBasicToAdvanced</a>
 </li>
+<li>Merge()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#aee7c2de763dd9f7cc8f3d0b07aa95654">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>MergeKeys()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a22e49e9b7e55eb5f757b502d44044aa5">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>MergeLanguage()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a2cd7548092c0a457f90a6d10becab0ae">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>MergeValues()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a29486a7f004b4087c250a80d0145eafb">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>Message
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log_entry.html#a136800599f5468b41dd738b9302d76a0">GameFramework.Messaging.MessageLogEntry</a>
+</li>
+<li>MessageCount
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_statistics.html#aad6c4415c0e9dcb1714edda34048b018">GameFramework.Messaging.MessageStatistics</a>
+</li>
+<li>MessageListenerDelegate()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messenger.html#a80d7b2e8c857cb4f054ecb0ef2ef6892">GameFramework.Messaging.Messenger</a>
+</li>
+<li>MessageLog
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log_handler.html#ad3c62341144af1004c951b45620f50f5">GameFramework.Messaging.MessageLogHandler</a>
+</li>
+<li>MessageLogEntry()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log_entry.html#a4bf9b2983afb6baa36752db64b0507b5">GameFramework.Messaging.MessageLogEntry</a>
+</li>
+<li>MessageType
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_help_box_attribute.html#ae7cf8e14780bf73d997324b45872433d">GameFramework.EditorExtras.HelpBoxAttribute</a>
+, <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log_entry.html#afd7fc53568cd64992196961b579fbb6f">GameFramework.Messaging.MessageLogEntry</a>
+</li>
+<li>Messenger
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a1d3798e523577513a1ae7db94ded46f1">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#ad9d16080170e2b86a1f3d450c71719ec">GameFramework.GameStructure.GameManager</a>
+</li>
 <li>METER
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#ad104d18c0ba36b502e1747bf2229c3f3">ProGrids.pg_Constant</a>
 </li>
@@ -178,28 +272,86 @@ $(function() {
 <li>MethodsOfType()
 : <a class="el" href="class_debug_extension.html#a8939e0a467f6f52bc80ba0844e2db9ff">DebugExtension</a>
 </li>
+<li>MiddleColor
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background_split_middle.html#aed7ed7edef77edfbab4f0f7ecb110a9d">GameFramework.Display.Other.Components.GradientBackgroundSplitMiddle</a>
+</li>
 <li>MILLIMETER
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a53cbade34112c0e1d71bbb69dca2dc92">ProGrids.pg_Constant</a>
+</li>
+<li>Min
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager_1_1_min_max.html#ad361a4e4fd1965dbea1198780df2bf28">GameFramework.FreePrize.Components.FreePrizeManager.MinMax</a>
+, <a class="el" href="struct_game_framework_1_1_game_objects_1_1_min_max.html#aee1e0dce7fd6595f4f532c0b966ba701">GameFramework.GameObjects.MinMax</a>
+, <a class="el" href="struct_game_framework_1_1_game_objects_1_1_min_maxf.html#aa423b30943c01425c4286f38376e6f7c">GameFramework.GameObjects.MinMaxf</a>
+</li>
+<li>MinimumCoinsNeededToUnlock()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a863be917495f9c2b919ac541069b9a15">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>MinimumValueToUnlock()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a5701d263bb2ad1e4ade6900653966900">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
 </li>
 <li>minor
 : <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a3ceeb725bf33bc9b70dd6c682e2c6aae">ProBuilder2.EditorCommon.pb_VersionInfo</a>
 </li>
+<li>MinSize
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_match_text_sizes.html#a9b231dcbfa9da47d6cb332fec7ddcaf3">GameFramework.UI.Other.Components.MatchTextSizes</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_scale_text_based_on_screen_size.html#a4f88d4266d38a7b32fbdda460b9cdaaf">GameFramework.UI.Other.Components.ScaleTextBasedOnScreenSize</a>
+</li>
+<li>ModeType
+: <a class="el" href="class_game_framework_1_1_audio_1_1_components_1_1_start_stop_background_music.html#ae8eba1a2b0813c99bc8445454550bdf7">GameFramework.Audio.Components.StartStopBackgroundMusic</a>
+</li>
+<li>Modifier
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_localise_text.html#a3e9d16c4769277ba62be60dffe135ad5">GameFramework.Localisation.Components.LocaliseText</a>
+</li>
+<li>ModifierType
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_localise_text.html#a02df376ac012da7562e4359b3d1adc96">GameFramework.Localisation.Components.LocaliseText</a>
+</li>
+<li>ModifyMesh()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_gradient_text.html#a97537bea08122883552c690fdb70659c">GameFramework.UI.Other.Components.GradientText</a>
+</li>
+<li>Modulus
+: <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_games_played.html#a05d909dda9fe64d127490859aabab7ce">GameFramework.Social.Components.EnableBasedUponModulusOfGamesPlayed</a>
+, <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_enable_based_upon_modulus_of_levels_played.html#aa973cb824ae4309a4fc60120a496c33b">GameFramework.Social.Components.EnableBasedUponModulusOfLevelsPlayed</a>
+</li>
 <li>MoveHorizontal()
 : <a class="el" href="class_drone_movement.html#a59f7f9c16996e4a2361722027c0edd54">DroneMovement</a>
+, <a class="el" href="class_mech_veh_fly_drone_movement25_d.html#ab6c96e5483ce407d77025c963a00cf8f">MechVehFlyDroneMovement25D</a>
 </li>
 <li>movementSpeed
 : <a class="el" href="class_mech_char_movement.html#aacb7a5095b148226670d257a9e3aa99d">MechCharMovement</a>
 </li>
+<li>MoveToPosition()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#a11f211e16f505b763d22c74c8d329bb9">GameFramework.Display.Other.CoRoutines</a>
+</li>
+<li>MoveToPositionAndBack()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#ac84591d3a62fa274d758e8875d1206a3">GameFramework.Display.Other.CoRoutines</a>
+</li>
+<li>MoveToPositionAndScale()
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#a9288bd0d9b1f117139cb51ebb533e091">GameFramework.Display.Other.CoRoutines</a>
+</li>
 <li>MoveVertical()
 : <a class="el" href="class_drone_movement.html#ae88e7ff07f713f4d1df39610c0d895fc">DroneMovement</a>
+, <a class="el" href="class_mech_veh_fly_drone_movement25_d.html#a943104ab4db653b12ba89489ec7bf742">MechVehFlyDroneMovement25D</a>
+</li>
+<li>MultipleHandlersCalled()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests.html#a1bc047d8366f21a27a8302e8bb231e78">GameFramework.Messaging.MessagingTests</a>
+</li>
+<li>Multiplier
+: <a class="el" href="class_game_framework_1_1_audio_1_1_components_1_1_copy_global_effect_volume.html#ade5855ba4fb6cc8cc0948cfe4a59e2c5">GameFramework.Audio.Components.CopyGlobalEffectVolume</a>
+, <a class="el" href="class_game_framework_1_1_game_framework_1_1_audio_1_1_components_1_1_copy_background_volume.html#aacd698f2d4baf2e9506e4e0a21e63937">GameFramework.GameFramework.Audio.Components.CopyBackgroundVolume</a>
+</li>
+<li>MusicVolumeChanged()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_settings.html#a678bca4c71ba73cbaec279c215fc5f06">GameFramework.UI.Dialogs.Components.Settings</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

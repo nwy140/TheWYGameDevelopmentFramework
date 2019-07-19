@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_e.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -67,19 +91,31 @@ $(function() {
 <li>editor
 : <a class="el" href="class_pro_grids_1_1pg___parameter_window.html#a22244761efcb5fad2e9606d2274a849a">ProGrids.pg_ParameterWindow</a>
 </li>
+<li>Enable
+: <a class="el" href="class_game_framework_1_1_audio_1_1_components_1_1_start_stop_background_music.html#ac64029930d1a8bae6b9ae8beecb8b3f9">GameFramework.Audio.Components.StartStopBackgroundMusic</a>
+</li>
+<li>EnableAfterKey
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_abstract_classes_1_1_run_once.html#a8de84fd525a01ad0e123062e8fd6acef">GameFramework.GameObjects.Components.AbstractClasses.RunOnce</a>
+</li>
 <li>ENEMY_TAG
 : <a class="el" href="class_cnv_gen_tags.html#a8fb0079a41bc3300fa05d323dd459d7a">CnvGenTags</a>
+</li>
+<li>ExcludeFromMenu
+: <a class="el" href="class_game_framework_1_1_helper_1_1_class_details_attribute.html#a8e413dbbd7d76b9e42ffaf1a25d30258">GameFramework.Helper.ClassDetailsAttribute</a>
 </li>
 <li>EXE
 : <a class="el" href="class_doxy_runner.html#a9661f03da50c7783e9bc99e2a92f14e6">DoxyRunner</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:13 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

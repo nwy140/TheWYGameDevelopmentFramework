@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_func_c.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -67,43 +91,331 @@ $(function() {
 <li>CalcDragAxis()
 : <a class="el" href="class_pro_grids_1_1pg___util.html#ab84b92e57339fc96e3c01049b8581ce8">ProGrids.pg_Util</a>
 </li>
+<li>CanTryCoinUnlocking()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a967e5c4ba53e7383b57b4c7be656d5f0">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>CanUseLanguage()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_global_localisation.html#aa2d4eeaf28921edcec13133e981bad43">GameFramework.Localisation.GlobalLocalisation</a>
+</li>
 <li>CeilFloor()
 : <a class="el" href="class_pro_grids_1_1pg___util.html#abdf8b1588b313cf2a9d201002b231e18">ProGrids.pg_Util</a>
+</li>
+<li>CenterOnItem()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_scroll_rect_ensure_visible.html#ad97dcdd1139216a768487dd348167638">GameFramework.UI.Other.Components.ScrollRectEnsureVisible</a>
+</li>
+<li>CharacterButton()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_character_button.html#a7c06230fd9083f6eff505cc39d3e5bee">GameFramework.GameStructure.Characters.Components.CharacterButton</a>
+</li>
+<li>CharacterChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_messages_1_1_character_changed_message.html#a7115c650619126e395b47592a4790e2d">GameFramework.GameStructure.Characters.Messages.CharacterChangedMessage</a>
+</li>
+<li>CharacterPurchasedMessage()
+: <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_character_purchased_message.html#a36157d8050f3d87e5c15ae7183767fc9">GameFramework.Billing.Messages.CharacterPurchasedMessage</a>
+</li>
+<li>CheckAndSetFlag()
+: <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a9f86e9387428c7f81134caa7d052cd1c">GameFramework.Preferences.PreferencesFactory</a>
 </li>
 <li>CheckForUpdate()
 : <a class="el" href="class_pro_builder2_1_1_editor_common_1_1pb___update_check.html#a48bf6153467e6de17d08114693c7d60d">ProBuilder2.EditorCommon.pb_UpdateCheck</a>
 </li>
+<li>ClassDetailsAttribute()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_class_details_attribute.html#a3676c7bf67aca0f1841aaf348557aad8">GameFramework.Helper.ClassDetailsAttribute</a>
+</li>
 <li>CleanUp()
 : <a class="el" href="class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes.html#a2fbfa74b79faa25ff8cfe412935f1bc2">ProBuilder2.Actions.pb_CleanLeakedMeshes</a>
+</li>
+<li>Clear()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_array.html#a9acc5fa1af95071fda77e77cf7cdbd7d">GameFramework.Helper.JSONArray</a>
+, <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#a19d06dc4fb2fb0579c91ba27797254d4">GameFramework.Helper.JSONObject</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_global_localisation.html#a61844e80a20a373971c4e93cdd58a0db">GameFramework.Localisation.GlobalLocalisation</a>
+, <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log.html#a1c3fe7a9ae79ca24dc2fa3bdea5cfd72">GameFramework.Messaging.MessageLog</a>
+</li>
+<li>ClearDictionaries()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localise_text.html#a7e0eebf16258e75b89e556d884643ed0">GameFramework.Localisation.LocaliseText</a>
+</li>
+<li>ClearEntries()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a0645b17a51e0f45ec0a56c94f0653338">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>ClearFlag()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_enable_based_upon_flag.html#ac5d6843474e5c20055fa8c81d0794caf">GameFramework.GameObjects.Components.EnableBasedUponFlag</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a5884095743b4075995fc25c33decd311">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>ClearFocus()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_global_localisation_editor_window.html#a84bd7704b7f6a34beea3028a9b55a748">GameFramework.Localisation.Editor.GlobalLocalisationEditorWindow</a>
+</li>
+<li>ClearGameItemExtension()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a41699cec2e6a959c2d7087ea0c799f41">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>ClearJsonData()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a3820e8906961f3fd601494a402a0e308">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>ClearJsonGameData()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a772531a1fc716c7ef65ca4990e800346">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>ClearLocalisationEntries()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#aeaebf6b806fb2785fd81300c8767cc77">GameFramework.Localisation.LocalisationDataTests</a>
 </li>
 <li>ClearSnapEnabledCache()
 : <a class="el" href="class_pro_grids_1_1pg___util.html#a528759c4a640339f967e7fe737efcdbd">ProGrids.pg_Util</a>
 </li>
+<li>ClickLocked()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a7b17c770bf6e5fe2b92b3c73f0417e57">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>ClickUnlocked()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#a5dccb07c9cbe394efe3590cf5b4a005e">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_world_button.html#a73e7efe96a6d217d3ab16ed1d4b2f502">GameFramework.GameStructure.Worlds.Components.WorldButton</a>
+</li>
 <li>Close()
-: <a class="el" href="class_pro_grids_1_1pg___editor.html#ade62596b7069370a85d65b584a46cf66">ProGrids.pg_Editor</a>
+: <a class="el" href="class_pro_grids_1_1pg___editor.html#a5d45fa118c04172883acba06c20eeff2">ProGrids.pg_Editor</a>
 </li>
 <li>CloseProGrids()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#a6a1cee6da9443ac4f1aece139feca7ad">ProGrids.pg_Editor</a>
 </li>
+<li>CoinsAddCoin()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#acab643fdace7a5fe47ef33b3b9978b67">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CoinsAddCoins()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a45120e26bbcaea255350eed2cf9e8b76">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CoinsCantBeNegative()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a5882ca004acc586f0bcd72ad73fc3c99">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CoinsChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_coins_changed_message.html#a0d367ccf02a7e649d821d3752e3bacae">GameFramework.GameStructure.GameItems.Messages.CoinsChangedMessage</a>
+</li>
+<li>CoinsMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a85b58b52ce5decd9c166a2b0e46f8474">GameFramework.GameStructure.GameItems.GameItemTests</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_levels_tests.html#a36dcd095be932bb175f514b0e8ce8bba">GameFramework.GameStructure.Levels.LevelsTests</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_player_tests.html#adcf07c0683aa7410030610b816d2058a">GameFramework.GameStructure.Players.PlayerTests</a>
+</li>
+<li>CoinsRemoveCoin()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a1c1c183e3a5401e1fea4ba4d01a974b5">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CoinsRemoveCoins()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#abdf6c3343b2ee711f562e44146e6da00">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CoinsUnchangedNoMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a10b05544b8da772db832c1a810d8b653">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CoinUnlockableItems()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a6ab448be84285879255afaeb76a11264">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>ColorHSV()
+: <a class="el" href="struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html#a210f553dec99c83069ecdb6cabd85a01">GameFramework.Display.Other.ColorHSV</a>
+</li>
 <li>ColorWithString()
 : <a class="el" href="class_pro_grids_1_1pg___util.html#a21b25b910535f04ddc1e76d082aaf5b6">ProGrids.pg_Util</a>
+</li>
+<li>CompareNumbers()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_condition_helper.html#ab9589886a86805e6efbe4b5e9a0b7456">GameFramework.GameStructure.Game.GameConditionHelper</a>
 </li>
 <li>CompareTo()
 : <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a148d8eec5305d5f9bc95dc5c7627d38a">ProBuilder2.EditorCommon.pb_VersionInfo</a>
 </li>
+<li>ComponentHelp()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_components_help_window_1_1_component_help.html#abab86b404ec4b44b3acffda52ccd67b3">GameFramework.Localisation.Editor.ComponentsHelpWindow.ComponentHelp</a>
+</li>
+<li>ConditionalHideAttribute()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_conditional_hide_attribute.html#a58573f12c703e189817556677ac86534">GameFramework.EditorExtras.ConditionalHideAttribute</a>
+</li>
 <li>Contains()
 : <a class="el" href="class_pro_grids_1_1_p_g_extensions.html#a1e1f38f16ef2ef8852801341e3bfcc17">ProGrids.PGExtensions</a>
+</li>
+<li>ContainsEntry()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#aa9447b9f1d4f2c397464b9901d4ae751">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>ContainsKey()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#acbe8b8d0e094ecf76ab776966e2fccb9">GameFramework.Helper.JSONObject</a>
+</li>
+<li>ContainsLanguage()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a9a1e314e2e684053a8181aacaaf55326">GameFramework.Localisation.LocalisationDataTests</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#ae91a61eb0850652a81bf232da86dcf1b">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>ContainsLanguageNotFound()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#abe9361503182fd308579254e3618de4a">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>ContainsLocalisationEntry()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a2ea359886c61254bbd88c259cd08a2f9">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>ContainsLocalisationEntryNotFound()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#aa0a48d8bbe3b1657ce2c208281d9bdf4">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>Continue()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#a7304ee292d0e9f75dc2ada8621a1d253">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>ConvertToGameItemManagerUnlockMode()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html#a9fc20332f3eaac5f8ebc3874acb88a1f">GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton&lt; T &gt;</a>
+</li>
+<li>Counter()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a9f7c09e198c3ee1696a2f8bd4eebb249">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
+<li>CounterFloatAmountBestChanged()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests_1_1_counter_callback_test_class.html#ad63f1f6b6ca1f3e7dfc1eed0fc572568">GameFramework.GameStructure.GameItems.CounterTests.CounterCallbackTestClass</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a4a8462447ed7ad3c5c8ac199c398e3ae">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a075d955d8a71bbc2e9d711f7a43f597b">GameFramework.GameStructure.GameItems.ObjectModel.ICounterChangedCallback</a>
+</li>
+<li>CounterFloatAmountBestChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_best_changed_message.html#ac64de10bfc4136667f9772af4eb726cd">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountBestChangedMessage</a>
+</li>
+<li>CounterFloatAmountBestChangedMessageNotSentBeforeInitialised()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#aa79c4a80200d48bfd5b36c4dd9ea45ea">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterFloatAmountBestChangedMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#ab60ac2861a1fc5b29913bc3b8b029aa9">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterFloatAmountChanged()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests_1_1_counter_callback_test_class.html#a5618008ec2a9855d9c0dbf1e4051fea9">GameFramework.GameStructure.GameItems.CounterTests.CounterCallbackTestClass</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a02a3e01063127cdc9980ed5414e89024">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a594fab4392301fdd90c1e9f858360598">GameFramework.GameStructure.GameItems.ObjectModel.ICounterChangedCallback</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#a05b41afd29d4cafb003c1b63f2adb5fc">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+</li>
+<li>CounterFloatAmountChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_changed_message.html#ac542ba056f47aeb69b72fd6561ea75f2">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountChangedMessage</a>
+</li>
+<li>CounterFloatAmountChangedMessageNotSentBeforeInitialised()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#ab722b43e7d18fe38e3e022e1f0e2e40e">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterFloatAmountChangedMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#afc0baa1622537eec1e4a5a4bb0cf726e">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterInitialisationCustom()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a22e9108ac47cd4be84478e8bd5aca2c0">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterInitialisationDefault()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a7686c14bb68eb9fda8e6ad2678e27bdb">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterInitialisationDefault2()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a472c60110211d4b1718259283988c75e">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterInitialisationDefaults()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a08a9656728730b48e8e1dcf4f27d27c4">GameFramework.GameStructure.GameItems.GameItemTests</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_levels_tests.html#ab37b54ae65ee9418851eb8bca8d807cd">GameFramework.GameStructure.Levels.LevelsTests</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_player_tests.html#ac3d38942d2c83dffa725b9d53eeb21c0">GameFramework.GameStructure.Players.PlayerTests</a>
+</li>
+<li>CounterInitialisationPersistentFloatValuesLoaded()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#ad42b2dfe08f613072ea2ad3a1ab55114">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterInitialisationPersistentFloatValuesNotLoaded()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#aa2e940ad1854d5aa7887fadbd8102abf">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterInitialisationPersistentIntValuesLoaded()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a3b279bceb0986ab4c074279d19e76ad0">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterInitialisationPersistentIntValuesNotLoaded()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a2a8913e5cd2f4f6526bb590e276e0889">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterInitialisationSpecifiedCounters()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_levels_tests.html#af67c2ac9066f40d62e7c810a010f7880">GameFramework.GameStructure.Levels.LevelsTests</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_player_tests.html#a34290eec8a9328d848d085133f03487f">GameFramework.GameStructure.Players.PlayerTests</a>
+</li>
+<li>CounterIntAmountBestChanged()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests_1_1_counter_callback_test_class.html#a4ab5f453185049621197bd2b0d38bf25">GameFramework.GameStructure.GameItems.CounterTests.CounterCallbackTestClass</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a7aa17aff7284974415f7a0ef823b4849">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a8660acb8d0f14df5d9e8e7aa5315f30c">GameFramework.GameStructure.GameItems.ObjectModel.ICounterChangedCallback</a>
+</li>
+<li>CounterIntAmountBestChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html#a9fd8df8d85f338d2eaa9d17f4acece0a">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountBestChangedMessage</a>
+</li>
+<li>CounterIntAmountBestChangedMessageNotSentBeforeInitialised()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a4de1a3f76e3ca535a9bd8ecf088f35f3">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterIntAmountBestChangedMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#a1673f098f25df5c46499b0a955238cd8">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterIntAmountChanged()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests_1_1_counter_callback_test_class.html#a9549b5f6f8eac8caa2f2e9de6656ec72">GameFramework.GameStructure.GameItems.CounterTests.CounterCallbackTestClass</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ab9aaefbcce0de92fd2fe9f73b7e6f4a7">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html#a5fae681c4300d27774ffd08fd4deb08d">GameFramework.GameStructure.GameItems.ObjectModel.ICounterChangedCallback</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#aa86a9ce6dfd7c60733b0c53981af44b4">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+</li>
+<li>CounterIntAmountChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_changed_message.html#a02fc7b85ee061561aa725e333deeb32c">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountChangedMessage</a>
+</li>
+<li>CounterIntAmountChangedMessageNotSentBeforeInitialised()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#aa3c8dc0f9834c66ad1a9fb38c8451caf">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterIntAmountChangedMessageSent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_game_item_tests.html#af9c02d13e0dfbce633ba9d7b22284565">GameFramework.GameStructure.GameItems.GameItemTests</a>
+</li>
+<li>CounterNonPersistentValuesNotSavedFloat()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a6e6437c60d44d71cfbeedc6a43a0839d">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterNonPersistentValuesNotSavedInt()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#acc1be5c51e270e04ca2d53dd1b3edc81">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterPersistentValuesSavedFloat()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#ae44db1ceb18596c84dd53648878cc417">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterPersistentValuesSavedInt()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#afe863ba04b7486ecd62985845aadedd5">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterResetFloat()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a23bfa1e51e40e84f5c8f943b51fc564b">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterResetInt()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#ab1dacac2b456bbc31a6a5719c920f659">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterSetFloatWithinBounds()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#aa5930a902308b267af5aa352f7dbaab8">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>CounterSetIntWithinBounds()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_counter_tests.html#a69af7d994670a26cd0d04fa68d21db94">GameFramework.GameStructure.GameItems.CounterTests</a>
+</li>
+<li>Create()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log.html#a68bfd1a275c7471139ed8cd1065e5dbe">GameFramework.Messaging.MessageLog</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_manager.html#a2f57a2971806f38ace7eaed01da6b20b">GameFramework.UI.Dialogs.Components.DialogManager</a>
+</li>
+<li>CreateLevelButtons()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_create_level_buttons.html#abe8525a6c2e4f615d2bafe35d19747c4">GameFramework.GameStructure.Levels.Components.CreateLevelButtons</a>
+</li>
+<li>CreateLocalisation()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#aadd857419516d221094e1445ba33b177">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>CreateLocalised()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_text.html#a208f84f15c4e08a1d619eb18c4911237">GameFramework.Localisation.ObjectModel.LocalisableText</a>
+</li>
+<li>CreateNonLocalised()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_text.html#a6b9c0961de59cef7810904567b66ffa0">GameFramework.Localisation.ObjectModel.LocalisableText</a>
+</li>
+<li>CreateParticleSystem()
+: <a class="el" href="class_game_framework_1_1_display_1_1_particles_1_1_components_1_1_particle_player.html#a925565c72c09b37ba757d15dbb2982ca">GameFramework.Display.Particles.Components.ParticlePlayer</a>
+</li>
+<li>CreateWorldButtons()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_create_world_buttons.html#a196e7fe9d097e76ac0d87448bcf9d417">GameFramework.GameStructure.Worlds.Components.CreateWorldButtons</a>
+</li>
+<li>CustomInitialisation()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a559371ea22d1aaa38d046353ae93fe88">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6b81f2b38f45324f6e42ab4e9d79dcbe">GameFramework.GameStructure.Levels.ObjectModel.Level</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#adefb1f684f53abca06d17c7d27994a48">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+</li>
+<li>CustomMessage1()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests_1_1_custom_message1.html#a0cf7b1abc886c2e017e0dd3637692e87">GameFramework.Messaging.MessagingTests.CustomMessage1</a>
+</li>
+<li>CustomMessage2()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests_1_1_custom_message2.html#aecdbe47f7921d7392b8b2d986d3f7a75">GameFramework.Messaging.MessagingTests.CustomMessage2</a>
+</li>
+<li>CustomMessageProcessedByCorrecthandler()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests.html#a74e56d6dd4666b2091a78dfaac25a167">GameFramework.Messaging.MessagingTests</a>
+</li>
+<li>CustomMessageTriggeredCorrectly()
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests.html#adcde13fec1a72c84cc84720b2f60766a">GameFramework.Messaging.MessagingTests</a>
+</li>
+<li>CustomNameChangedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_custom_name_changed_message.html#af2ea2fabf90c175ec1d8ca134c6726a8">GameFramework.GameStructure.Players.Messages.CustomNameChangedMessage</a>
 </li>
 <li>CyclePerspective()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#a907d54629321e49521beff5f056f6847">ProGrids.pg_Editor</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

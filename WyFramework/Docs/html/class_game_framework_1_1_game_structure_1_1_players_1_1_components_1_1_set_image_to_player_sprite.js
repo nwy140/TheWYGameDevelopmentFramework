@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_image_to_player_sprite =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_image_to_player_sprite.html#a20548231d1f6e1499c30799d79b2a964", null ]
+];

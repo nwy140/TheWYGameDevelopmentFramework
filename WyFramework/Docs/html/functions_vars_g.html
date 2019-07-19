@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_g.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,6 +88,53 @@ $(function() {
 &#160;
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>GameItem
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_coins_changed_message.html#a5b406185de020cd0a3740a84f03a5850">GameFramework.GameStructure.GameItems.Messages.CoinsChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_best_changed_message.html#ae04b660be128bb5819faafbcbd12b76e">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountBestChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_changed_message.html#ac46b887013bff082db4d70bf192a04cb">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html#a201297995b2db854a743e07e19a11206">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountBestChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_changed_message.html#a3a9bf4545a3fb53268703f51ba0c957e">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_high_score_changed_message.html#a30b65476390817c0ac50198af95e43ed">GameFramework.GameStructure.GameItems.Messages.HighScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_score_changed_message.html#a862c43de3631326a671dce8e70ac10d2">GameFramework.GameStructure.GameItems.Messages.ScoreChangedMessage</a>
+</li>
+<li>GameItemReference
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_numbered_game_item_reference.html#a045f1bf2dd0ba7739f114dcee126b407">GameFramework.GameStructure.GameItems.ObjectModel.NumberedGameItemReference&lt; T &gt;</a>
+</li>
+<li>GameName
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#aee119874b7c1c771aba0931f4f249d38">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>GameObject
+: <a class="el" href="class_game_framework_1_1_helper_1_1_components_1_1_generic_callback_functions.html#adff7a3876375203facdc695c4a67196f">GameFramework.Helper.Components.GenericCallbackFunctions</a>
+</li>
+<li>GameObjectToDestruct
+: <a class="el" href="class_game_framework_1_1_display_1_1_particles_1_1_components_1_1_auto_destruct_when_particle_system_finished.html#ae5691c48836177e2cb319e97051807e8">GameFramework.Display.Particles.Components.AutoDestructWhenParticleSystemFinished</a>
+</li>
+<li>GameObjectToGameObjectAnimation
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_swap_game_objects.html#a332f460502f93710cf6b271398b61275">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionSwapGameObjects</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_show_prefab.html#ac4862c09e6bd5b22c83096355c948280">GameFramework.GameStructure.GameItems.Components.AbstractClasses.ShowPrefab&lt; T &gt;</a>
+</li>
+<li>GameOverWhenHealthIsZero
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#aa00a9e9908c588f527368ea4eba7b603">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>GameOverWhenLivesIsZero
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a137a85e48300cc4aa4201f6117646b7a">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>GameOverWhenTargetTimeReached
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a150118d6c6424050b5616e6c797a0070">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>GameWonWhenAllStarsGot
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a2a5b46230a86287459af9cd6564e1807">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>GameWonWhenTargetCoinsReached
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a47cc8147b3b14d07cfd9a8170d53a8d9">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>GameWonWhenTargetScoreReached
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a447b14fc36913cefbf3a1ebbf338a4d9">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>GradientLayer
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background.html#a2780f58c0bff0fb6bdde6bdea7e5bf90">GameFramework.Display.Other.Components.GradientBackground</a>
+, <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background_split_middle.html#a15c6dfe49a7730a42a8672a7773e5577">GameFramework.Display.Other.Components.GradientBackgroundSplitMiddle</a>
+</li>
 <li>GRID_COLOR_X
 : <a class="el" href="class_pro_grids_1_1pg___preferences.html#aac55436aafb94ef146b71703d2bc571a">ProGrids.pg_Preferences</a>
 </li>
@@ -96,11 +167,14 @@ $(function() {
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:13 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

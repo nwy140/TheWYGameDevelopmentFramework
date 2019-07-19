@@ -1,0 +1,4 @@
+var namespace_game_framework_1_1_game_structure_1_1_characters_1_1_messages =
+[
+    [ "CharacterChangedMessage", "class_game_framework_1_1_game_structure_1_1_characters_1_1_messages_1_1_character_changed_message.html", "class_game_framework_1_1_game_structure_1_1_characters_1_1_messages_1_1_character_changed_message" ]
+];

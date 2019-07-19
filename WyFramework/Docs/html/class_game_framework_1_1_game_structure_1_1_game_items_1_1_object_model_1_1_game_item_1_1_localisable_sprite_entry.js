@@ -1,0 +1,6 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_sprite_entry =
+[
+    [ "LocalisableSprite", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_sprite_entry.html#ad73c03a65ac8bcf3c9e398066a87e787", null ],
+    [ "LocalisableSpriteType", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_sprite_entry.html#a729010a246042a52244044b0a420c8fd", null ],
+    [ "Name", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_1_1_localisable_sprite_entry.html#abc4836ae63c6c672fef94403a5e6a6b4", null ]
+];

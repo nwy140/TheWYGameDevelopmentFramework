@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['sidewaysaxis',['SidewaysAxis',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_tilt_input.html#a33494fd997ae63aea22ffb585244f187a96496b3cd12539f92ebfcab10dbc0e64',1,'UnityStandardAssets::CrossPlatformInput::TiltInput']]],
-  ['smoothalongroute',['SmoothAlongRoute',['../class_unity_standard_assets_1_1_utility_1_1_waypoint_progress_tracker.html#ab40f5f8ef7056c806da2080c360bca96abc0049ea8e56ad21378fa97cee371747',1,'UnityStandardAssets::Utility::WaypointProgressTracker']]],
-  ['swipe',['Swipe',['../class_unity_standard_assets_1_1_cross_platform_input_1_1_touch_pad.html#ab4c68ac6f2b8a41c5029c105833ebfb6a78076ce792c4640bf99c598c92bd69e7',1,'UnityStandardAssets::CrossPlatformInput::TouchPad']]]
+  ['queued',['Queued',['../namespace_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_abstract_classes.html#a3b72908e4e7812f68ee89fb37ca88e41a7b2f31b90fe1c2cc33a52233c1925df3',1,'GameFramework::UI::Other::Components::AbstractClasses']]]
 ];

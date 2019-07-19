@@ -1,0 +1,4 @@
+var namespace_game_framework_1_1_game_structure_1_1_editor =
+[
+    [ "GenericGameItemManagerInspector", "class_game_framework_1_1_game_structure_1_1_editor_1_1_generic_game_item_manager_inspector.html", "class_game_framework_1_1_game_structure_1_1_editor_1_1_generic_game_item_manager_inspector" ]
+];

@@ -1,0 +1,12 @@
+var namespace_game_framework_1_1_game_structure_1_1_levels_1_1_messages =
+[
+    [ "LevelChangedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_changed_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_changed_message" ],
+    [ "LevelCoinsChangedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_coins_changed_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_coins_changed_message" ],
+    [ "LevelEndedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_ended_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_ended_message" ],
+    [ "LevelHighScoreChangedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_high_score_changed_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_high_score_changed_message" ],
+    [ "LevelPausedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_paused_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_paused_message" ],
+    [ "LevelResumedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_resumed_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_resumed_message" ],
+    [ "LevelScoreChangedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_score_changed_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_score_changed_message" ],
+    [ "LevelStartedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_started_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_started_message" ],
+    [ "StarsWonMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_stars_won_message.html", "class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_stars_won_message" ]
+];

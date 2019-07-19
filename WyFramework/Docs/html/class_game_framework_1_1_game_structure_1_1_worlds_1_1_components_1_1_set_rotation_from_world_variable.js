@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_rotation_from_world_variable =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_rotation_from_world_variable.html#a2e80cc201791a4ccf4604512923bb4e4", null ]
+];

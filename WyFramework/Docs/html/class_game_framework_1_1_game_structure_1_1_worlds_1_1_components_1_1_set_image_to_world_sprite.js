@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_image_to_world_sprite =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_image_to_world_sprite.html#a2ff4439482ce10b0bdd318fee31a2e9d", null ]
+];

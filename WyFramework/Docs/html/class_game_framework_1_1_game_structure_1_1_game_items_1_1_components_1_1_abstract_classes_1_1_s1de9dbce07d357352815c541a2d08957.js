@@ -1,0 +1,10 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957 =
+[
+    [ "RotationModeType", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#ad6c493ecea22c46f17611339714b84ca", [
+      [ "Global", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#ad6c493ecea22c46f17611339714b84caa4cc6684df7b4a92b1dec6fce3264fac8", null ],
+      [ "Local", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#ad6c493ecea22c46f17611339714b84caa509820290d57f333403f490dde7316f4", null ]
+    ] ],
+    [ "RunMethod", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#a4172db12169c707d6c7cb7e90cb3afe7", null ],
+    [ "RotationMode", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#a1195d65114371f9ada0c81ffc582eae5", null ],
+    [ "Tag", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#aa8db95df1347396bb6078094d8ef914b", null ]
+];

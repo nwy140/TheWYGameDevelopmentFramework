@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_t.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,12 +88,41 @@ $(function() {
 &#160;
 
 <h3><a id="index_t"></a>- t -</h3><ul>
+<li>TagForChildDirectedTreatment
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_advertising_1_1_ad_mob_1_1_ad_mob.html#a2ca85040438bb011883ad9e7f3b7783d">GameFramework.GameFramework.Advertising.AdMob.AdMob</a>
+</li>
 <li>target
 : <a class="el" href="class_cnv_camera_follow_obj.html#a54668fc7aa69804d6adf6365fc5b5b2a">CnvCameraFollowObj</a>
-, <a class="el" href="class_cnv_draw_line_ren.html#a1f91eb64173850093ff8c9fc919d1925">CnvDrawLineRen</a>
+, <a class="el" href="class_cnv_draw_line_ren.html#af2d11eba7eb8f206fd5d429af557f998">CnvDrawLineRen</a>
 , <a class="el" href="class_cnv_look_at2_d.html#a791fb70b80737e14aa706f5dc5d07ca3">CnvLookAt2D</a>
 , <a class="el" href="class_draw_line.html#a1b14660f5c27fb04acbcc70d1265a218">DrawLine</a>
-, <a class="el" href="class_look_at.html#a0184a05fadcef319a0594a2c9d0c1445">LookAt</a>
+</li>
+<li>Target
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_level_of_detail_1_1_level_of_detail_entry.html#a5428c27c6e0423a3d021844857baa32f">GameFramework.Display.Other.Components.LevelOfDetail.LevelOfDetailEntry</a>
+, <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_move_with_transform.html#a729e864ad938340cf17c764871246929">GameFramework.Display.Placement.Components.MoveWithTransform</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_enable_game_object_once.html#ab60d68415ad5d902f3877d3b5a743c5a">GameFramework.GameObjects.Components.EnableGameObjectOnce</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_on_life_lost_enable_gameobject.html#ae4de633ad25608882a0ef9e8be6f999b">GameFramework.GameStructure.Players.Components.OnLifeLostEnableGameobject</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_on_button_click_swap_dialog_instance.html#afa2f4e1eec7cdde0a170181b02828221">GameFramework.UI.Dialogs.Components.OnButtonClickSwapDialogInstance</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_on_mouse_click_or_tap_swap_dialog_instance.html#a397035bb22eb49e7411e7bc68a11e809">GameFramework.UI.Dialogs.Components.OnMouseClickOrTapSwapDialogInstance</a>
+</li>
+<li>target
+: <a class="el" href="class_look_at.html#a0184a05fadcef319a0594a2c9d0c1445">LookAt</a>
+</li>
+<li>Target1Star
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_coins.html#a5ee2d8807081de9e45b64fa494cd4011">GameFramework.GameStructure.Levels.Components.StarsWonHandlerCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_score.html#ac16cc3e0fb026fe52af0e04d45f11947">GameFramework.GameStructure.Levels.Components.StarsWonHandlerScore</a>
+</li>
+<li>Target2Stars
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_coins.html#aaeda76523f6173e2dc92521284a3688f">GameFramework.GameStructure.Levels.Components.StarsWonHandlerCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_score.html#aed5f3f6211d1a1f71a06cd48d3ef06f1">GameFramework.GameStructure.Levels.Components.StarsWonHandlerScore</a>
+</li>
+<li>Target3Stars
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_coins.html#a1e76b9d639bd1ebde975727a7e1f2d1e">GameFramework.GameStructure.Levels.Components.StarsWonHandlerCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_score.html#a057a43e099c39838636fe46b2910331b">GameFramework.GameStructure.Levels.Components.StarsWonHandlerScore</a>
+</li>
+<li>Target4Stars
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_coins.html#ab988b482b4cabdadc0fa19c532c511f2">GameFramework.GameStructure.Levels.Components.StarsWonHandlerCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_score.html#aff66a02ad175eab2c17486dc400b3f14">GameFramework.GameStructure.Levels.Components.StarsWonHandlerScore</a>
 </li>
 <li>targetIsChild
 : <a class="el" href="class_cnv_draw_line_ren.html#a0075058933afdbe82688a9fd1573a0ed">CnvDrawLineRen</a>
@@ -79,11 +132,38 @@ $(function() {
 : <a class="el" href="class_cnv_look_at2_d.html#ae597e723fc0312445cb5db82fddbbf5a">CnvLookAt2D</a>
 , <a class="el" href="class_look_at.html#aa1fcbff3d83b26d220d5da66ecfa2fd9">LookAt</a>
 </li>
+<li>TargetNames
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor_helper.html#a66f57a0ee755ff76548d980940bc3754">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditorHelper</a>
+</li>
+<li>TargetNamesCollider
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor_helper.html#a4fee9915ca84f4043a86f271d99a80c4">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditorHelper</a>
+</li>
+<li>TargetProperty
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#a9baade1a136bf00d21c2bd658b5612c6">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+</li>
+<li>TargetsFromLevelConfig
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_coins.html#abfb7ad12af5134da4234205a93c0cfe3">GameFramework.GameStructure.Levels.Components.StarsWonHandlerCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_stars_won_handler_score.html#a125e1d97eed73bb37c42d151be66c0e2">GameFramework.GameStructure.Levels.Components.StarsWonHandlerScore</a>
+</li>
+<li>TargetTypeProperty
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#a6833c6adf0226c1e78c5f28daf1d636e">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+</li>
+<li>TestDevices
+: <a class="el" href="class_game_framework_1_1_game_framework_1_1_advertising_1_1_ad_mob_1_1_ad_mob.html#a32eea00a4ee8c02af1d70af480029072">GameFramework.GameFramework.Advertising.AdMob.AdMob</a>
+</li>
 <li>Text
-: <a class="el" href="class_object_note.html#a91ea7500cf73469c04c8613a8770e47f">ObjectNote</a>
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_help_box_attribute.html#aa23f3d35bdb00db296ab5246436ed49b">GameFramework.EditorExtras.HelpBoxAttribute</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_show_game_item_info.html#aaeceffdd8dc7e9c2de825dd8576d5433">GameFramework.GameStructure.GameItems.Components.AbstractClasses.ShowGameItemInfo&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_abstract_classes_1_1_show_value_animated.html#a887da252b1a5627c05a0143504609b8f">GameFramework.UI.Other.Components.AbstractClasses.ShowValueAnimated&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_abstract_classes_1_1_show_value_animated_messaging.html#ace12c696dd87c59c4a534d5edbcabb2c">GameFramework.UI.Other.Components.AbstractClasses.ShowValueAnimatedMessaging&lt; T, TM &gt;</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_time_remaining.html#a31a1195fcbb784c1518b88a6c667e2bd">GameFramework.UI.Other.Components.TimeRemaining</a>
+, <a class="el" href="class_object_note.html#a91ea7500cf73469c04c8613a8770e47f">ObjectNote</a>
 </li>
 <li>text
 : <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a537191e7db011ee3b093c75cf5ee22f5">ProBuilder2.EditorCommon.pb_VersionInfo</a>
+</li>
+<li>Text2Key
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_show_dialog_once.html#ab31d41630f5e45a4402a41d87473b3a9">GameFramework.UI.Dialogs.Components.ShowDialogOnce</a>
 </li>
 <li>text_on
 : <a class="el" href="class_pro_grids_1_1pg___toggle_content.html#ab858831e4c21de34d3df7508680be841">ProGrids.pg_ToggleContent</a>
@@ -91,31 +171,92 @@ $(function() {
 <li>textColor
 : <a class="el" href="class_object_note.html#a58ec5322980a411c0bad6f8f020bf203">ObjectNote</a>
 </li>
+<li>TextComponents
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_match_text_sizes.html#a0ac86cb6e5dbf935dad1494f408f001c">GameFramework.UI.Other.Components.MatchTextSizes</a>
+</li>
+<li>TextKey
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_show_dialog_once.html#af8e35b6c5a869b9f65765a72576396d1">GameFramework.UI.Dialogs.Components.ShowDialogOnce</a>
+</li>
+<li>Texture
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_profile_picture_message.html#ad01b57c90a6f00daa5c9e1ea7f5db1ab">GameFramework.Facebook.Messages.FacebookProfilePictureMessage</a>
+, <a class="el" href="class_game_framework_1_1_facebook_1_1_messages_1_1_facebook_user_picture_message.html#a70ffdb5587acb99447f0fded2ca5c2cb">GameFramework.Facebook.Messages.FacebookUserPictureMessage</a>
+</li>
+<li>TextureName
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_scroll_material_component.html#a6b7798bc0d425d0c685ffd05485239b1">GameFramework.Display.Other.Components.ScrollMaterialComponent</a>
+</li>
 <li>Themes
 : <a class="el" href="class_doxygen_window.html#a2dfb0ba26737a0e996797c2848cc2fc0">DoxygenWindow</a>
 </li>
-<li>timeBetweenBullets
-: <a class="el" href="class_mech_extra_char_skill_range_atk_spwn_obj.html#aadaf1b9d5b4d9dd465a317222463e8ea">MechExtraCharSkillRangeAtkSpwnObj</a>
+<li>Time
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_message_log_entry.html#a84198af1ac142c0a117287801f4c351f">GameFramework.Messaging.MessageLogEntry</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_scroll_rect_ensure_visible.html#a5a03e59e44440eff1cd8da883982b0f1">GameFramework.UI.Other.Components.ScrollRectEnsureVisible</a>
 </li>
 <li>timer
 : <a class="el" href="class_cnv_deactive_gm_obj_by_time.html#a41229ab92faeedca89b9ac40b1adffeb">CnvDeactiveGmObjByTime</a>
 </li>
+<li>TimeRangeToNextPrize
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a45a9687e89ee8e6c9820a8c362105c93">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>TimeScale
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_on_button_click_pause_level.html#a5fdc9981c53cbb37ab88fb126db8e1b7">GameFramework.UI.Dialogs.Components.OnButtonClickPauseLevel</a>
+</li>
+<li>TimesPlayedBeforeRatingPrompt
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#a5f27df49d4ba8656d14a42ff3f7be785">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>TitleKey
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_show_dialog_once.html#a72486921c4311fd746c6c12d209d097d">GameFramework.UI.Dialogs.Components.ShowDialogOnce</a>
+</li>
+<li>ToolbarSearchField
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_gui_styles.html#a44ff1b42f42ca3e384b28baf941de1df">GameFramework.EditorExtras.Editor.GuiStyles</a>
+</li>
+<li>ToolbarSearchFieldCancel
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_gui_styles.html#a695ecf1ad8a399a4dcef5d101ddb2eeb">GameFramework.EditorExtras.Editor.GuiStyles</a>
+</li>
+<li>ToolbarSearchFieldCancelEmpty
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_gui_styles.html#ab053827827c9eae9e64790318b7b9b40">GameFramework.EditorExtras.Editor.GuiStyles</a>
+</li>
+<li>Tooltip
+: <a class="el" href="class_game_framework_1_1_helper_1_1_class_details_attribute.html#a508671039ffe8e25b4f4101c06212a7e">GameFramework.Helper.ClassDetailsAttribute</a>
+</li>
 <li>tooltip
 : <a class="el" href="class_pro_grids_1_1pg___toggle_content.html#a3ba6df2b0de41e709d8b4461034215aa">ProGrids.pg_ToggleContent</a>
+</li>
+<li>TopColor
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background.html#ae2e8213e5f4bf09bfb22a2b7af767526">GameFramework.Display.Other.Components.GradientBackground</a>
+, <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background_split_middle.html#a7795e10b6152bf825ad71b9606cd6562">GameFramework.Display.Other.Components.GradientBackgroundSplitMiddle</a>
+</li>
+<li>Total
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_1_1_distance_with_weights.html#a03f87bfe57c9dc4a9c95f72c284752e9">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;.DistanceWithWeights</a>
 </li>
 <li>travel
 : <a class="el" href="class_highlight_nearest_face.html#a70daafe74b69299b65d8bb59fce02836">HighlightNearestFace</a>
 </li>
+<li>Trigger
+: <a class="el" href="class_game_framework_1_1_animation_1_1_components_1_1_set_trigger_once.html#a10d0dec3a2cb8b3da28db606433701b8">GameFramework.Animation.Components.SetTriggerOnce</a>
+</li>
+<li>Type
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_help_box_attribute.html#ad8e53abb51870233da4dcfb570e0e855">GameFramework.EditorExtras.HelpBoxAttribute</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_components_help_window_1_1_component_help.html#ac71f612a32384fee428cea3867041c74">GameFramework.Localisation.Editor.ComponentsHelpWindow.ComponentHelp</a>
+</li>
 <li>type
 : <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a65cebcffbc7483c9ccad0fc91be603bb">ProBuilder2.EditorCommon.pb_VersionInfo</a>
 </li>
+<li>TypeName
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a63f639978616c7ab2536499a5fc463f7">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>TypeNameFull
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a87d199dc3fc1a7c2fa60087abb777ab9">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:14 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

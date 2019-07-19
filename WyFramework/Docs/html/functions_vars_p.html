@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_p.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,14 +88,30 @@ $(function() {
 &#160;
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>Pages
+: <a class="el" href="class_game_framework_1_1___demo_1_1_about_1_1_scripts_1_1_demo.html#ab9c0eadc76cdea3cd249f0a5312c93b7">GameFramework._Demo.About.Scripts.Demo</a>
+</li>
 <li>PARSEC
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a2c5f8983ec030f5436c1d2a1ac711476">ProGrids.pg_Constant</a>
+</li>
+<li>ParticleSystem
+: <a class="el" href="class_game_framework_1_1_display_1_1_particles_1_1_components_1_1_particle_player.html#afc8da6a5443ddcb0ae1a977389ee5eb6">GameFramework.Display.Particles.Components.ParticlePlayer</a>
 </li>
 <li>patch
 : <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a367ba41e0a9ecbed565bd1d4eb362711">ProBuilder2.EditorCommon.pb_VersionInfo</a>
 </li>
+<li>Path
+: <a class="el" href="class_game_framework_1_1_helper_1_1_class_details_attribute.html#a0cd5952f29e4b24484f3a5100676cb32">GameFramework.Helper.ClassDetailsAttribute</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_prefab_override.html#ad11d6187f45d2edf158157a815180545">GameFramework.UI.Dialogs.Components.DialogPrefabOverride</a>
+</li>
 <li>PathtoDoxygen
 : <a class="el" href="class_doxygen_config.html#ad308ed1d0bdb202587fba232b754929f">DoxygenConfig</a>
+</li>
+<li>PermissionPublishActions
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_components_1_1_enable_if_permissions_granted.html#a36bb08746686707769ebacec3711f715">GameFramework.Facebook.Components.EnableIfPermissionsGranted</a>
+</li>
+<li>PermissionUserFriends
+: <a class="el" href="class_game_framework_1_1_facebook_1_1_components_1_1_enable_if_permissions_granted.html#a8fe6d13d1a2bb329aaaa095a9872c195">GameFramework.Facebook.Components.EnableIfPermissionsGranted</a>
 </li>
 <li>PerspGrid
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#ad475505c64e5c9bda1829a734f78596c">ProGrids.pg_Constant</a>
@@ -79,14 +119,73 @@ $(function() {
 <li>PGVersion
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#ad22d2028d58a177e8a997dadcf02b7ee">ProGrids.pg_Constant</a>
 </li>
+<li>Placement
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_components_1_1_dummy_game_loop.html#acc9de1adfce4082c118dcb7f6468fda2">GameFramework.Debugging.Components.DummyGameLoop</a>
+</li>
+<li>Player
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_coins_changed_message.html#a5b89f8b775ff3279f2cabd6790f0da63">GameFramework.GameStructure.Players.Messages.PlayerCoinsChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_high_score_changed_message.html#a4ee27ec5f4838534c04e3d96f5f33f84">GameFramework.GameStructure.Players.Messages.PlayerHighScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_score_changed_message.html#abf8cd49939420253b973b6bc1fb12acb">GameFramework.GameStructure.Players.Messages.PlayerScoreChangedMessage</a>
+</li>
 <li>PLAYER_TAG
 : <a class="el" href="class_cnv_gen_tags.html#afb04bf35fae17c148cfa6932e8c09b5c">CnvGenTags</a>
+</li>
+<li>PlayerCount
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a53d55fb510996822047cdc348b2bec77">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>PlayerSetupMode
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#ae6ac11c6eef4d98f79b8dd08de77fd1b">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>PlayMarketUrl
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#aad41f4c44cf3e2e27e7dc3f4a870ad82">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>PlayWebUrl
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a63df69f85ae7796c313005e824a69fb1">GameFramework.GameStructure.GameManager</a>
 </li>
 <li>PredictiveGrid
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a99887c743ee7f50d5506e59f1156b003">ProGrids.pg_Constant</a>
 </li>
 <li>predictiveGrid
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#ac4434ba6fca7cf853253ce450ff8a78e">ProGrids.pg_Editor</a>
+</li>
+<li>Prefab
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_create_game_item_buttons.html#ad1419af67b90672c87d6ffe3509cc346">GameFramework.GameStructure.GameItems.Components.AbstractClasses.CreateGameItemButtons&lt; TGameItemButton, TGameItem &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_create_star_icons.html#a5e9501d030323c55a006379423201ad8">GameFramework.GameStructure.Levels.Components.CreateStarIcons</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_create_lives_icons.html#ac428c7c44db036386c481478eddb4a64">GameFramework.GameStructure.Players.Components.CreateLivesIcons</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_prefab_override.html#af942a497abf82058e720752b941f3262">GameFramework.UI.Dialogs.Components.DialogPrefabOverride</a>
+</li>
+<li>PrefabName
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_show_dialog_once.html#a7eb808dbaada43750abf31488909469b">GameFramework.UI.Dialogs.Components.ShowDialogOnce</a>
+</li>
+<li>PreferencesPassPhrase
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a22502f884cb31a0765cc38f345b79857">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>PressedColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_image_colors.html#a53b21e412795f04584d8d2a8a12cadcb">GameFramework.UI.Buttons.Components.SyncStateImageColors</a>
+</li>
+<li>PressedOutlineColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#ad690eff2125093dd9be3a21904287558">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>PressedShadowColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#ad18884285a42fb13184e1aea5dad6a01">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>PressedTextColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#a36932f1a5383a5122d2f9058f4aee406">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>PrizeAvailableGameObject
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_enable_if_prize_available.html#a3cb674a83225e18d4a311b334a5ec17c">GameFramework.FreePrize.Components.EnableIfPrizeAvailable</a>
+</li>
+<li>PrizeCountdownGameObject
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_enable_if_prize_available.html#a8cbfb8cedeacd5801095ec44c3fedc17">GameFramework.FreePrize.Components.EnableIfPrizeAvailable</a>
+</li>
+<li>PrizeDialogClosedAudioClip
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a0e9a487889724c5ff74ad4bf2198ba8b">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>ProductID
+: <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_item_purchased_message.html#ab68908068af1589444d09032917cd143">GameFramework.Billing.Messages.ItemPurchasedMessage</a>
+</li>
+<li>ProgressText
+: <a class="el" href="class_game_framework_1_1___demo_1_1_about_1_1_scripts_1_1_demo.html#a8896180e7807ca730b6fbf4500a18514">GameFramework._Demo.About.Scripts.Demo</a>
 </li>
 <li>ProGridsIsEnabled
 : <a class="el" href="class_pro_grids_1_1pg___constant.html#a9f2f547e3f9bfced7a69d27a6d7d3632">ProGrids.pg_Constant</a>
@@ -101,20 +200,23 @@ $(function() {
 : <a class="el" href="class_doxygen_config.html#ae69318495ba1db9f3a4d88e01764f9b4">DoxygenConfig</a>
 </li>
 <li>pushBackForce
-: <a class="el" href="class_mech_extra_char_skill_melee_atk_cols_pushback.html#afd0d9e19ae4261e97f71bdc9dd827c33">MechExtraCharSkillMeleeAtkColsPushback</a>
-, <a class="el" href="class_mech_extra_char_skill_melee_atk_sphr_cast.html#a7cde6978a72e0dec7d7a5db92614dcb9">MechExtraCharSkillMeleeAtkSphrCast</a>
-, <a class="el" href="class_mech_extra_char_skill_projectile.html#a72df6fae80a010eb6af84430e5606201">MechExtraCharSkillProjectile</a>
-, <a class="el" href="class_mech_extra_char_skill_projectile2_d.html#a7f0c35f17fbf7b1ee8ead03335c6f7c6">MechExtraCharSkillProjectile2D</a>
+: <a class="el" href="class_mech_extra_char_skill_launch_object_by_speed.html#ab88db95015676c46909b3ad5b2f0beed">MechExtraCharSkillLaunchObjectBySpeed</a>
+, <a class="el" href="class_mech_extra_char_skill_launch_object_by_speed2_d.html#ac6ad2342817721cbcdacb10b5ccaf2b7">MechExtraCharSkillLaunchObjectBySpeed2D</a>
+, <a class="el" href="class_mech_extra_char_skill_melee_atk_cols_pushback.html#afd0d9e19ae4261e97f71bdc9dd827c33">MechExtraCharSkillMeleeAtkColsPushback</a>
+, <a class="el" href="class_mech_extra_char_skill_melee_atk_sphr_cast_pushback.html#a61c584326118c2f271daa2ca8ae0f54c">MechExtraCharSkillMeleeAtkSphrCastPushback</a>
 , <a class="el" href="class_mech_extra_char_skill_range_atk_ray_cast2_d.html#a94686ff81e825b29da41c8e5b1bd193c">MechExtraCharSkillRangeAtkRayCast2D</a>
 , <a class="el" href="class_mech_extra_char_skill_range_atk_ray_cast3_d.html#a7da89e7d0db5f6b8b1f98856872bf035">MechExtraCharSkillRangeAtkRayCast3D</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:14 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

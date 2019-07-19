@@ -1,0 +1,5 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_abstract_classes_1_1_set_sprite_editor =
+[
+    [ "OnEnable", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_abstract_classes_1_1_set_sprite_editor.html#aef89e92ae00b88c5fcc8a421ba547931", null ],
+    [ "OnInspectorGUI", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_abstract_classes_1_1_set_sprite_editor.html#a5d2b50908ab5c0cb60d43c73d712e3fa", null ]
+];

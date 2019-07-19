@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['parsec',['Parsec',['../namespace_pro_grids.html#abfddea9a410267f4a9796f3258295193a445e0d3422800aa2d92b715de623dc38',1,'ProGrids']]],
-  ['patch',['Patch',['../namespace_pro_builder2_1_1_editor_common.html#a01ca28dd3d8150db2aebcb0f48b75f5fa156e10596fdc76ee5300bab931d89c0f',1,'ProBuilder2::EditorCommon']]]
+  ['left',['Left',['../class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_align_screen_bounds.html#ad39891157ea83c6f762f4f37914c1564a945d5e233cf7d6240f6b783b36a374ff',1,'GameFramework::Display::Placement::Components::AlignScreenBounds']]],
+  ['lessthan',['LessThan',['../class_game_framework_1_1_game_structure_1_1_game_1_1_game_condition_helper.html#ad77a2aa3e3ef51975896a9384830fda7ac6d9d7bb9939f62f01c80f8b1251501c',1,'GameFramework::GameStructure::Game::GameConditionHelper']]],
+  ['lessthanorequal',['LessThanOrEqual',['../class_game_framework_1_1_game_structure_1_1_game_1_1_game_condition_helper.html#ad77a2aa3e3ef51975896a9384830fda7a4ab671acbbaacb0db7d8477cfe4f4e0b',1,'GameFramework::GameStructure::Game::GameConditionHelper']]],
+  ['level',['Level',['../class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_configuration.html#abff73c1f3952d94058609f6430addc8daa0db49ba470c1c9ae2128c3470339153',1,'GameFramework::GameStructure::Game::ObjectModel::GameConfiguration']]],
+  ['local',['Local',['../class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a6047d62de4f59dd122b4ceb9a59164e5a509820290d57f333403f490dde7316f4',1,'GameFramework.GameStructure.GameItems.Components.AbstractClasses.SetPositionFromGameItemVariable.Local()'],['../class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s1de9dbce07d357352815c541a2d08957.html#ad6c493ecea22c46f17611339714b84caa509820290d57f333403f490dde7316f4',1,'GameFramework.GameStructure.GameItems.Components.AbstractClasses.SetRotationFromGameItemVariable.Local()']]],
+  ['lowercase',['LowerCase',['../class_game_framework_1_1_localisation_1_1_components_1_1_localise_text.html#a02df376ac012da7562e4359b3d1adc96af3fa26b7f03932f588080f5b22d68908',1,'GameFramework::Localisation::Components::LocaliseText']]]
 ];

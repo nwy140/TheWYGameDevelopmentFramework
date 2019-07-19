@@ -1,0 +1,4 @@
+var namespace_game_framework_1_1_localisation_1_1_messages =
+[
+    [ "LocalisationChangedMessage", "class_game_framework_1_1_localisation_1_1_messages_1_1_localisation_changed_message.html", "class_game_framework_1_1_localisation_1_1_messages_1_1_localisation_changed_message" ]
+];

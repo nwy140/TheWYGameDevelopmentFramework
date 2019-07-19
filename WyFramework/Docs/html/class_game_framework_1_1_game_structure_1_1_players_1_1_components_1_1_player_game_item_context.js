@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_player_game_item_context =
+[
+    [ "GetIBaseGameItemManager", "class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_player_game_item_context.html#a5b49658c94c390a185d075a665a548bb", null ]
+];

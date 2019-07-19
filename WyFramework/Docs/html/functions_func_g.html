@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_func_g.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,31 +88,510 @@ $(function() {
 &#160;
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>GameConfiguration()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_configuration.html#a60273332f902b29571baaf4ae69980dc">GameFramework.GameStructure.Game.ObjectModel.GameConfiguration</a>
+</li>
+<li>GameDestroy()
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_components_1_1_log_to_disk.html#acf9347dbbc7d512a0f8fc2802cd2ae25">GameFramework.Debugging.Components.LogToDisk</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_singleton.html#a8c6f6ea640cb9fcae54996beda042b3d">GameFramework.GameObjects.Components.Singleton&lt; T &gt;</a>
+</li>
+<li>GameFeedback()
+: <a class="el" href="class_game_framework_1_1_social_1_1_game_feedback.html#acf66109f62d7cbfe8a6c219815a2c20d">GameFramework.Social.GameFeedback</a>
+</li>
+<li>GameFeedbackAssumeTheyLike()
+: <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_show_game_feedback.html#a8cea19f4f139649820d9e8725167a6ea">GameFramework.Social.Components.ShowGameFeedback</a>
+, <a class="el" href="class_game_framework_1_1_social_1_1_game_feedback.html#a18ead491bcde1cf7b7e3b8858f02429b">GameFramework.Social.GameFeedback</a>
+</li>
+<li>GameFeedbackAssumeTheyLikeOptional()
+: <a class="el" href="class_game_framework_1_1_social_1_1_game_feedback.html#ab373ee82304e688a53cf25eaff50864b">GameFramework.Social.GameFeedback</a>
+</li>
+<li>GameFeedbackUnsureIfTheyLike()
+: <a class="el" href="class_game_framework_1_1_social_1_1_components_1_1_show_game_feedback.html#aa7167b9423c8c8581c67de9a6f905d45">GameFramework.Social.Components.ShowGameFeedback</a>
+, <a class="el" href="class_game_framework_1_1_social_1_1_game_feedback.html#a5ec322b0a56ae774365b08ea27b62420">GameFramework.Social.GameFeedback</a>
+</li>
+<li>GameItemButton()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_button.html#ad25da83c9c243b105be0af39973b75a3">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemButton&lt; T &gt;</a>
+</li>
+<li>GameItemManager()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#ab5b43948aeeb963b3743540d5d4a126a">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>GameOver()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a0de3a686986f79111cba097fa652c27c">GameFramework.GameStructure.Levels.LevelManager</a>
+</li>
+<li>GameSetup()
+: <a class="el" href="class_game_framework_1_1_advertising_1_1_ad_mob_1_1_components_1_1_ad_mob_manager.html#a06314b436fef8b026167d3d09d62ba7a">GameFramework.Advertising.AdMob.Components.AdMobManager</a>
+, <a class="el" href="class_game_framework_1_1_debugging_1_1_components_1_1_log_to_disk.html#a0f075d14894e5e78347bb0d7f4395014">GameFramework.Debugging.Components.LogToDisk</a>
+, <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a6035dddc93a8df65e2cdb45f46057b2a">GameFramework.FreePrize.Components.FreePrizeManager</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_singleton.html#af0fcac09e1d74c9ce2a0b36c695ded8b">GameFramework.GameObjects.Components.Singleton&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_singleton_persistant.html#a8814d6c0a131b144cbee92f87e5fcd2e">GameFramework.GameObjects.Components.SingletonPersistant&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#ac7132805e5c2328bde0eb0d3d56125e8">GameFramework.GameStructure.GameManager</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_components_1_1_generic_game_item_manager.html#af7e32c71b7c489a706c41b35734c721e">GameFramework.GameStructure.GenericGameItems.Components.GenericGameItemManager</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_level_manager.html#a30d2571fbeaff96af128bd36186b8b9b">GameFramework.GameStructure.Levels.LevelManager</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#a4eae4f9a6cc9c0f1187f62c421a0a1f9">GameFramework.UI.Dialogs.Components.GameOver</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_pause_window.html#ae309d64217f178a71ee73a42ab8f9be8">GameFramework.UI.Dialogs.Components.PauseWindow</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_settings.html#a0debb2c75b6d8219692ac8268a0be0a1">GameFramework.UI.Dialogs.Components.Settings</a>
+</li>
+<li>GameUnlockedMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_game_unlocked_message.html#a8bd73907f1f978ac8cc0c7b93d90b5b0">GameFramework.GameStructure.Game.Messages.GameUnlockedMessage</a>
+</li>
+<li>GenericGameItemButton()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_components_1_1_generic_game_item_button.html#af35db84794dc830d46bc8f2a0dffd2d3">GameFramework.GameStructure.GenericGameItems.Components.GenericGameItemButton</a>
+</li>
+<li>GenericGameItemPurchasedMessage()
+: <a class="el" href="class_game_framework_1_1_billing_1_1_messages_1_1_generic_game_item_purchased_message.html#aff0df1404ac09833233f89a26b7aeb0a">GameFramework.Billing.Messages.GenericGameItemPurchasedMessage</a>
+</li>
+<li>Get()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localise_text.html#a103163abaf8739d610c79463660fbecf">GameFramework.Localisation.LocaliseText</a>
+</li>
 <li>GetAboutEntry()
 : <a class="el" href="class_pro_builder2_1_1_editor_common_1_1pb___version_util.html#acfc4c6d08289d59f4465138fae08d2c6">ProBuilder2.EditorCommon.pb_VersionUtil</a>
+</li>
+<li>GetArray()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#ac771349b517af0d1f963c055473514b7">GameFramework.Helper.JSONObject</a>
+</li>
+<li>GetAsPercent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a6a62ce185da90757158ee77b457b8f4b">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
+<li>GetAssociatedDistance()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items.html#a95ed89c6c34954f854e9774013f4d0fc">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;</a>
+</li>
+<li>GetAssociatedItemForDistance()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_test.html#a0192b947b30078cce4f1ce72a4347732">GameFramework.Weighting.DistanceWeightedItemsTest</a>
+</li>
+<li>GetBool()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#a30f4b5fd16ea5c54022b2e3fe21ad75e">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+, <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#afcd2a8600622eb84d1ecf3cf7266f35d">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#a09e7f99ed5a291c4392a5178f573c098">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#aa9fec5b2cdf51cd3ae1d4793f1f528d3">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>GetBoolean()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#a7a8fe35d941fc3c42a62c2cce46c01e3">GameFramework.Helper.JSONObject</a>
+</li>
+<li>GetBoundsFromColliders()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_position_helper.html#af96ad0647ebdd32f48cef931850026bb">GameFramework.Display.Placement.PositionHelper</a>
+</li>
+<li>GetChildComponentOnNamedGameObject&lt; TComponent &gt;()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_helper.html#a29f11594b5ed4e8bfc9924336277ff97">GameFramework.GameObjects.GameObjectHelper</a>
+</li>
+<li>GetChildNamedGameObject()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_helper.html#aa8967e37b2983716fa858cf7495b5951">GameFramework.GameObjects.GameObjectHelper</a>
+</li>
+<li>GetColor()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#a3b60e16fa6ebbbfff6cfbe5a0ac65ff7">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+, <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#a346e9aeab979ece18ec4bb51689715ce">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#a490a85be6fdb39b4ed7b74b593822b0c">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a4984188f7475da386dc548a2c442e8e3">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>GetCounter()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ad4862c0f0f99ba0840b73e993f844f82">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetCounterConfiguration()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_editor_1_1_show_character_counter_editor.html#a6917102335a8f6e26f918f58613160e0">GameFramework.GameStructure.Characters.Editor.ShowCharacterCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_object_model_1_1_character.html#abed76fdf4856ddf22ecf1e8a0c57686e">GameFramework.GameStructure.Characters.ObjectModel.Character</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_configuration.html#a2d83057c6d7e3f20761665d6c7f6bb64">GameFramework.GameStructure.Game.ObjectModel.GameConfiguration</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_abstract_classes_1_1_show_game_item_counter_editor.html#a8b7c97f931f3cff1a5d7bf99bc2b053b">GameFramework.GameStructure.GameItems.Editor.AbstractClasses.ShowGameItemCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#adc8dc2321b0c33c05a0d6a01ddeabc59">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_editor_1_1_show_level_counter_editor.html#a930053530777dd9e5390cabb721066c0">GameFramework.GameStructure.Levels.Editor.ShowLevelCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#af3915cb3657ee98a3cac6b93825867db">GameFramework.GameStructure.Levels.ObjectModel.Level</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_editor_1_1_show_player_counter_editor.html#ad749b612b5ea2c7fdff0696c509ce3ea">GameFramework.GameStructure.Players.Editor.ShowPlayerCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#a0b38a8bed1f2f1520eb6383ea402a494">GameFramework.GameStructure.Players.ObjectModel.Player</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_show_world_counter_editor.html#a3f4db9a3e721ea982aeda4d92b7edaa5">GameFramework.GameStructure.Worlds.Editor.ShowWorldCounterEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_object_model_1_1_world.html#a78b1f62ac0cc7bc7438a2f7059392d07">GameFramework.GameStructure.Worlds.ObjectModel.World</a>
+</li>
+<li>GetCounterIndex()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a463f5205abf3add395cd033cf01de7fe">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
 </li>
 <li>GetCurrent()
 : <a class="el" href="class_pro_builder2_1_1_editor_common_1_1pb___version_util.html#a173c404a03ebbadf66af36e9d2c4660c">ProBuilder2.EditorCommon.pb_VersionUtil</a>
 </li>
+<li>GetCurrentItem()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_instantiate_character_prefab.html#adc8860430a7065e5de3190bae73a3d51">GameFramework.GameStructure.Characters.Components.InstantiateCharacterPrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_instantiate_prefab.html#a09bb08d891c7ad3d10ba29d2edecf537">GameFramework.GameStructure.GameItems.Components.AbstractClasses.InstantiatePrefab&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_instantiate_level_prefab.html#a8285211ada59a36c5e4ecc7df6b99692">GameFramework.GameStructure.Levels.Components.InstantiateLevelPrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_instantiate_player_prefab.html#a8d84843f002e0d4e2c8351144661974e">GameFramework.GameStructure.Players.Components.InstantiatePlayerPrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_instantiate_world_prefab.html#a9e7a98d286d4efc82fbdf44d44a8e689">GameFramework.GameStructure.Worlds.Components.InstantiateWorldPrefab</a>
+</li>
+<li>GetDistances()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items.html#a12ef7decdd79b4543139276544bea8dd">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;</a>
+</li>
+<li>GetDistanceTotalWeight()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items.html#a0a788a1bddaae91d76dc49e6898cc726">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;</a>
+</li>
+<li>GetDpi()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_display_metrics.html#a15c90320ff57d8889707a62a0d913f8e">GameFramework.Display.Placement.DisplayMetrics</a>
+</li>
+<li>GetEntry()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a6e330569e2080744e35060c370533fd1">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>GetEnumerator()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#ac600880ca8e93622f33bfe2a0c7ca894">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+, <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_array.html#a386bf4dc98d3dd4d92cb3484d422d299">GameFramework.Helper.JSONArray</a>
+, <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#a51eb6a9fb8ab934803443ce2adda05eb">GameFramework.Helper.JSONObject</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_array.html#a684da49c036dde9a6aa07ae3ee12147a">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONArray</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_object.html#acb3e31cbd647b066059fc455646455f8">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONObject</a>
+</li>
+<li>GetEnumeratorCurrent()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a12a21ba361ba15d88a8c22d146af4c90">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>GetExtension&lt; T &gt;()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#adb7e24b9e2d9b29cbafd2c0f69105bd9">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetFloat()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a5f267925f09c26906897bae7a0a7ac0d">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#a86863d5260069cf9cee6407ed0fd6a04">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+, <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#ae3bcc2a4520e90111a684b25be56fa4c">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#acd2cab3dd51397fa22dcc831d3e7dc6d">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a468d98edd4f363b0a6129d1ca547c487">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>GetGameItem&lt; T &gt;()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base.html#a92977ab53038e33f37862d759714f0eb">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemContextBase</a>
+</li>
+<li>GetGameItemFromContextReference()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_context.html#a2eddd3d2f05c1e6a2c0e7395f9a531af">GameFramework.GameStructure.GameItems.ObjectModel.GameItemContext</a>
+</li>
+<li>GetGameItemManager()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_buy_character_button.html#acd7b0247656b8998c3a0ed08ff0f08ad">GameFramework.GameStructure.Characters.Components.BuyCharacterButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_character_button.html#a9a697f01d649d4aaabb1405288637419">GameFramework.GameStructure.Characters.Components.CharacterButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_create_character_buttons.html#ab037719f43cbbbf3e52c56cd06081d2b">GameFramework.GameStructure.Characters.Components.CreateCharacterButtons</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_set_gradient_background_from_character_variable.html#ab6def48c8fd59558a04f9bc8c6533a2c">GameFramework.GameStructure.Characters.Components.SetGradientBackgroundFromCharacterVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_set_image_to_character_sprite.html#a644bc9b7985ce86bb10b5a3450c75170">GameFramework.GameStructure.Characters.Components.SetImageToCharacterSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_set_position_from_character_variable.html#a61eacf5a1c008ede2a005fe916610072">GameFramework.GameStructure.Characters.Components.SetPositionFromCharacterVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_set_rotation_from_character_variable.html#a5f30f8f7a0f21340aef0cccbf420ddda">GameFramework.GameStructure.Characters.Components.SetRotationFromCharacterVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_set_scale_from_character_variable.html#a70dc003ebd25656a45ef70bd56f2cb3c">GameFramework.GameStructure.Characters.Components.SetScaleFromCharacterVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_set_sprite_renderer_to_character_sprite.html#a46ee521594567ef3c28f0c23275ab21e">GameFramework.GameStructure.Characters.Components.SetSpriteRendererToCharacterSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_show_character_info.html#a81b15b674c3389adeed4d444a74bee67">GameFramework.GameStructure.Characters.Components.ShowCharacterInfo</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_show_character_prefab.html#ab2644e8f4cd13962f132cc7aa04f9e79">GameFramework.GameStructure.Characters.Components.ShowCharacterPrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_unlock_character_button.html#abfe59cb8973c238e201da521acea7d47">GameFramework.GameStructure.Characters.Components.UnlockCharacterButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_create_game_item_buttons.html#ae264f4a27ff2284787b5011cc84be4e2">GameFramework.GameStructure.GameItems.Components.AbstractClasses.CreateGameItemButtons&lt; TGameItemButton, TGameItem &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base_runnable.html#a1d7fdfa1989aa87535e84d39cb94ab39">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemContextBaseRunnable&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_components_1_1_create_generic_game_item_buttons.html#ac9b6112ddd0fb9ed4d14999885a8c76f">GameFramework.GameStructure.GenericGameItems.Components.CreateGenericGameItemButtons</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_components_1_1_generic_game_item_button.html#a9bc86c81492f195cca7a1196b02db985">GameFramework.GameStructure.GenericGameItems.Components.GenericGameItemButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_components_1_1_show_generic_game_item_info.html#a5682328dbc2e93faddad7dc6354a26db">GameFramework.GameStructure.GenericGameItems.Components.ShowGenericGameItemInfo</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_generic_game_items_1_1_components_1_1_unlock_generic_game_item_button.html#a6cd71b8eee7bf46295d3c1b4134b609b">GameFramework.GameStructure.GenericGameItems.Components.UnlockGenericGameItemButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_buy_level_button.html#a4f473053e905b118387bdba56ebfa38f">GameFramework.GameStructure.Levels.Components.BuyLevelButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_create_level_buttons.html#abe008da1161e249218d2ae89f977cf70">GameFramework.GameStructure.Levels.Components.CreateLevelButtons</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_button.html#af3f8995252cf07a05262f9f8d3bea2c1">GameFramework.GameStructure.Levels.Components.LevelButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_gradient_background_from_level_variable.html#ac45d03fe3c8aaf9f66f25d153388a441">GameFramework.GameStructure.Levels.Components.SetGradientBackgroundFromLevelVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_image_to_level_sprite.html#a4eba04c54c6295d04e18624314826a8a">GameFramework.GameStructure.Levels.Components.SetImageToLevelSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_position_from_level_variable.html#a9036a0e48c1e4419d96206b0a488dcb6">GameFramework.GameStructure.Levels.Components.SetPositionFromLevelVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_rotation_from_level_variable.html#a198fe2c18e099aaead6aac75cd5bf1e1">GameFramework.GameStructure.Levels.Components.SetRotationFromLevelVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_scale_from_level_variable.html#ad1114ea92ea9e9193c191d0740f338b3">GameFramework.GameStructure.Levels.Components.SetScaleFromLevelVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_sprite_renderer_to_level_sprite.html#ab57dec272070e4e944900ee6cb7eb5ae">GameFramework.GameStructure.Levels.Components.SetSpriteRendererToLevelSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_show_level_info.html#a1a33005a0daed4df7aa0d316e95b37e9">GameFramework.GameStructure.Levels.Components.ShowLevelInfo</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_show_level_prefab.html#a219e3e41aa38d05dd2debcc325edbd49">GameFramework.GameStructure.Levels.Components.ShowLevelPrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_unlock_level_button.html#a93ba1cab606100e814965efb8d429d04">GameFramework.GameStructure.Levels.Components.UnlockLevelButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_player_button.html#a11d6677846f415a493e857913ac8f5c2">GameFramework.GameStructure.Players.Components.PlayerButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_gradient_background_from_player_variable.html#a122136d4fae609d76c054aa67fcaeeef">GameFramework.GameStructure.Players.Components.SetGradientBackgroundFromPlayerVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_image_to_player_sprite.html#a20548231d1f6e1499c30799d79b2a964">GameFramework.GameStructure.Players.Components.SetImageToPlayerSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_position_from_player_variable.html#ac0141817fd9f522ba822545380460861">GameFramework.GameStructure.Players.Components.SetPositionFromPlayerVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_rotation_from_player_variable.html#abc544c734d0e8ffddd098b037236197a">GameFramework.GameStructure.Players.Components.SetRotationFromPlayerVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_scale_from_player_variable.html#a4a4e462df66b7cf9597d86b568a3145b">GameFramework.GameStructure.Players.Components.SetScaleFromPlayerVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_set_sprite_renderer_to_player_sprite.html#a737568c670fd3a0d8acd16a43622b070">GameFramework.GameStructure.Players.Components.SetSpriteRendererToPlayerSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_player_info.html#ad173dbb7ccce832b92f35e2daf3bac4d">GameFramework.GameStructure.Players.Components.ShowPlayerInfo</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_player_prefab.html#a419fd5234976203fa80507c0ea898043">GameFramework.GameStructure.Players.Components.ShowPlayerPrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_buy_world_button.html#aaf915ac2c820df2fc842cedde3ddda3a">GameFramework.GameStructure.Worlds.Components.BuyWorldButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_create_world_buttons.html#a01591dc0efd5737493c37544990549c7">GameFramework.GameStructure.Worlds.Components.CreateWorldButtons</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_gradient_background_from_world_variable.html#af4c467b9add8d9195d755171418b47ea">GameFramework.GameStructure.Worlds.Components.SetGradientBackgroundFromWorldVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_image_to_world_sprite.html#a2ff4439482ce10b0bdd318fee31a2e9d">GameFramework.GameStructure.Worlds.Components.SetImageToWorldSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_position_from_world_variable.html#a9325be9e3d8d8a601d1a0ebc55d02830">GameFramework.GameStructure.Worlds.Components.SetPositionFromWorldVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_rotation_from_world_variable.html#a2e80cc201791a4ccf4604512923bb4e4">GameFramework.GameStructure.Worlds.Components.SetRotationFromWorldVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_scale_from_world_variable.html#a9f86dfbab28c4d009d83a766967b25f4">GameFramework.GameStructure.Worlds.Components.SetScaleFromWorldVariable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_set_sprite_renderer_to_world_sprite.html#a8255f2c70a5c9a87841c95cd3b4296c7">GameFramework.GameStructure.Worlds.Components.SetSpriteRendererToWorldSprite</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_show_world_info.html#a9c54ae294ecbfa3194535333dd6c6c6f">GameFramework.GameStructure.Worlds.Components.ShowWorldInfo</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_show_world_prefab.html#a4d6c5e36c80ceba0e68a7aca4e29d89b">GameFramework.GameStructure.Worlds.Components.ShowWorldPrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_unlock_world_button.html#a07fe2670b19e8645eac7cbe1f0747702">GameFramework.GameStructure.Worlds.Components.UnlockWorldButton</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_world_button.html#a13ed5d4a710dd369ef4a62b81a4d8c4b">GameFramework.GameStructure.Worlds.Components.WorldButton</a>
+</li>
 <li>GetHashCode()
-: <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a1b9c5f339156ed33019a7bde92222d6d">ProBuilder2.EditorCommon.pb_VersionInfo</a>
+: <a class="el" href="struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html#adceb9e28be79229374c4a6ba71309e0a">GameFramework.Display.Other.ColorHSV</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_bool.html#ad96c2dc8bc5bea54f40d6012709657ca">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONBool</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_lazy_creator.html#a7820578d21723152a7b7de9cdb8193f4">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONLazyCreator</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html#a37059103995d0efc54f3667d52e02f66">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_null.html#a8fdcea1b576bd3f60db480a69a7e62fa">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNull</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_number.html#ac60cbe829de8a16e036a81eb4410c33c">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNumber</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_string.html#ab502e34ecf60f934c360f26b9e0f069d">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONString</a>
+, <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a1b9c5f339156ed33019a7bde92222d6d">ProBuilder2.EditorCommon.pb_VersionInfo</a>
+</li>
+<li>GetHeight()
+: <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_help_box_decorator_drawer.html#a5ed2803fd7e762611a994a0ca4f6cb51">GameFramework.EditorExtras.Editor.HelpBoxDecoratorDrawer</a>
+</li>
+<li>GetIBaseGameItemManager()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_character_game_item_context.html#aa490bd9e30ed266258e5bc73255a58ac">GameFramework.GameStructure.Characters.Components.CharacterGameItemContext</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_show_character_counter.html#ab285f318ccd49cfeefcf83925a8471a0">GameFramework.GameStructure.Characters.Components.ShowCharacterCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context.html#aaf1ef55e243ba9bf074f79361318c485">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameActionGameItemContext</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_g1b2e5adfd4a6799fcaaf071076f176d7.html#ae8ef3aa131a0a78c9f8e25b2b6f6b641">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameActionGameItemContextSelectableType</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition_game_item_context.html#ab3950d4a6910bc6ac1fe9fd74902fa99">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameConditionGameItemContext</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_conditio4b7b94deb7932d92998da54661018b9c.html#acd4f7534fad3829fe76c7a987d274d0f">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameConditionGameItemContextSelectableType</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base.html#a61c546592df33772f6a71e89e5fe9f4e">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemContextBase</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base_runnable.html#ae51279181f099483fa3ad32d1d92fa32">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemContextBaseRunnable&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_g35a608afb5b8a17e95af8d4c0143e1c8.html#a9a3d3cec635769b01b7b957bc84b87f1">GameFramework.GameStructure.GameItems.Components.AbstractClasses.GameItemContextBaseSelectableTypeRunnable</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_change_counter_over_time.html#ad212d3d126fba83bb0e8a9aeb1676bc3">GameFramework.GameStructure.GameItems.Components.ChangeCounterOverTime</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#aaab6478b3d743ff91405379de7d6616e">GameFramework.GameStructure.GameManager</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_level_game_item_context.html#a63fd8b16c14e68381796f7e96256c2ab">GameFramework.GameStructure.Levels.Components.LevelGameItemContext</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_show_level_counter.html#a4abc86ea87bd5af166b3926d8cfd5a0b">GameFramework.GameStructure.Levels.Components.ShowLevelCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_player_game_item_context.html#a5b49658c94c390a185d075a665a548bb">GameFramework.GameStructure.Players.Components.PlayerGameItemContext</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_player_counter.html#ab514cee5b2d871392f585449d69d98df">GameFramework.GameStructure.Players.Components.ShowPlayerCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_show_world_counter.html#aa9c0ee7b5937a9b211e1f6ac758455b7">GameFramework.GameStructure.Worlds.Components.ShowWorldCounter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_world_game_item_context.html#a6ab2b853f8ad7bf93ef10180f6aa4bb6">GameFramework.GameStructure.Worlds.Components.WorldGameItemContext</a>
+</li>
+<li>GetIdentifierBase()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#af982a58aaa52e1cf35bbe8ee75324988">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>GetIdentifierScene()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a98f70bcc32bc6058f2d40c55479e5bbd">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>GetIndexFromWeights()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items.html#a07d121da71a5474f89bb73269f82be45">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_test.html#af3e0e7be1987f5a6e84969ea76ce2fcf">GameFramework.Weighting.DistanceWeightedItemsTest</a>
+</li>
+<li>GetInt()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a7c353a72bad58d9537f31f8b0eb8867d">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#aff91814663a7647883fb3b118f46324e">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+, <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#a27aec2a1ba54e969c045b09e169451d5">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#a62c938a7f6f66a82ee15df4a117be26b">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a0cd81a4965fba53154c1071cc5aaf3e2">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>GetInterface&lt; T &gt;()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_extensions.html#a447a3457c635495352121688b3fee6ff">GameFramework.GameObjects.GameObjectExtensions</a>
+</li>
+<li>GetInterfaceInChildren&lt; T &gt;()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_extensions.html#a7a1e21cfbbff0ed09bbcddfab1b75485">GameFramework.GameObjects.GameObjectExtensions</a>
+</li>
+<li>GetInterfaces&lt; T &gt;()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_extensions.html#a8e83b0c3bc9f68e8f54f7cef69cd61ec">GameFramework.GameObjects.GameObjectExtensions</a>
+</li>
+<li>GetInterfacesInChildren&lt; T &gt;()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_extensions.html#ae0c1102920e5dd2b4371a150186b68c7">GameFramework.GameObjects.GameObjectExtensions</a>
+</li>
+<li>GetItem()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a586efad37d03f2fdf9fdfbc7a9c7bb8a">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>GetItemForDistance()
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items.html#a507ba511af48d975750e8e2e520dc659">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;</a>
+, <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_test.html#a8db96acf9626f1ea84b7899de62e6596">GameFramework.Weighting.DistanceWeightedItemsTest</a>
+</li>
+<li>GetItemToTryCoinUnlocking()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#ae097901c7185c746b8d52f0ef0793faa">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>GetLanguage()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a7d0e7a66f6eea31f392d749696f79f58">GameFramework.Localisation.LocalisationDataTests</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#af3789ec72c46ec20b467575b22f5a154">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>GetLanguageCodes()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_languages.html#a2be568a43c19a426ae73b4ffdfba231f">GameFramework.Localisation.ObjectModel.Languages</a>
+</li>
+<li>GetLanguageIndex()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a3aa9715d6f85bece8cc26dfb934ad73e">GameFramework.Localisation.LocalisationDataTests</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a0775b083105849d111fc675437ecdf8e">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>GetLanguageNames()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a8bdfc6d4b2c00428cb44b9a68b0a4be3">GameFramework.Localisation.LocalisationDataTests</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#aba78d2d0fcb332457754bb9d276583fc">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>GetLanguageNotFound()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a2f3cd27643956e825cef058a344d55a6">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>GetLanguages()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a00526c9209e1d3622160274529725c62">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>GetLatestValue()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_abstract_classes_1_1_show_value_animated.html#a516687373510d8a69083932ca8d9d227">GameFramework.UI.Other.Components.AbstractClasses.ShowValueAnimated&lt; T &gt;</a>
+</li>
+<li>GetLocalisationEntry()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a2d12bd6255a3c3f5293325c861997565">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>GetMousePositionOnPlane()
+: <a class="el" href="class_game_framework_1_1_input_1_1_input_helper.html#ad2080bb33e37c4c0920c6d312212e9b4">GameFramework.Input.InputHelper</a>
+</li>
+<li>GetMousePositionOnXzPlane()
+: <a class="el" href="class_game_framework_1_1_input_1_1_input_helper.html#a7030dce13fa9fae14cf1a654d978c282">GameFramework.Input.InputHelper</a>
+</li>
+<li>GetNewStarsWon()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#a3c9eb911b2e4a57480b82e36a2a84259">GameFramework.UI.Dialogs.Components.GameOver</a>
+</li>
+<li>GetNextItem()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a546e5f5774fde4f7ff2662936aba39e8">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>GetNormalisedAmount()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_counter.html#a7ddfd3617b8284e6a9dd269ed34ba74e">GameFramework.GameStructure.GameItems.ObjectModel.Counter</a>
+</li>
+<li>GetNumber()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#ae2beb8e1937af88a1e9aff7763152908">GameFramework.Helper.JSONObject</a>
+</li>
+<li>GetObject()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#ac19a3477726f948b4566d00c1fd89dc4">GameFramework.Helper.JSONObject</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_abstract_classes_1_1_localisable_object.html#abb84f5f2ca2beb729cd266876c26f4e1">GameFramework.Localisation.ObjectModel.AbstractClasses.LocalisableObject</a>
+</li>
+<li>GetParentNamedGameObject()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_helper.html#ab46247e2e7ceab3e141615e6f88ecd80">GameFramework.GameObjects.GameObjectHelper</a>
+</li>
+<li>GetPath()
+: <a class="el" href="class_game_framework_1_1_game_objects_1_1_game_object_extensions.html#a053fe93614c8badb0013e7efdb679846">GameFramework.GameObjects.GameObjectExtensions</a>
+</li>
+<li>GetPhysicalHeight()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_display_metrics.html#a804ec2d8558b9326a46b01293a64f670">GameFramework.Display.Placement.DisplayMetrics</a>
+</li>
+<li>GetPhysicalWidth()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_display_metrics.html#a9013411e7cf118ae43f417b44789a411">GameFramework.Display.Placement.DisplayMetrics</a>
+</li>
+<li>GetPlayer()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a7cac4fa3a1b7118d1b460d91e4af7a5a">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>GetPositionOnPlane()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_position_helper.html#ae11621f9ef57e3ff034464a5c4d63759">GameFramework.Display.Placement.PositionHelper</a>
+</li>
+<li>GetPositionOnXzPlane()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_position_helper.html#a0b39f92ad55cbe4d5b9d94b1f21c4665">GameFramework.Display.Placement.PositionHelper</a>
+</li>
+<li>GetPrefab()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a751f6b25c7e2a0c4a8ccbc470001b1bb">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_prefab.html#a02e037d4e39e498facd2c71be51a1004">GameFramework.Localisation.ObjectModel.LocalisablePrefab</a>
+</li>
+<li>GetPrefabInGame()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a04465c3c4a2955870076c1647709babf">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetPrefabSelectionMenu()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#acd3335f07ce204c28f8e430fc768bba4">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetPreviousItem()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html#a26930cc9adb9dee9667baf9f8647b0e8">GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager&lt; T, TParent &gt;</a>
+</li>
+<li>GetPropertyHeight()
+: <a class="el" href="class_game_framework_1_1_animation_1_1_editor_1_1_game_object_to_game_object_animation_drawer.html#adc2aa5942859e0aaa2848e11ef46a938">GameFramework.Animation.Editor.GameObjectToGameObjectAnimationDrawer</a>
+, <a class="el" href="class_game_framework_1_1_editor_extras_1_1_editor_1_1_conditional_hide_property_drawer.html#a5dc7bb13898a07edb333ce918afe31fa">GameFramework.EditorExtras.Editor.ConditionalHidePropertyDrawer</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_game_item_context_drawer.html#a07bbf9226cc7a549778be8cf8a023987">GameFramework.GameStructure.GameItems.Editor.GameItemContextDrawer</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_editor_1_1_variables_object_drawer.html#a05baecb065413c9b476836952c3eeb67">GameFramework.GameStructure.GameItems.Editor.VariablesObjectDrawer</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_editor_1_1_variable_object_drawer.html#aea238573bc1011621239e6dd7f201323">GameFramework.GameStructure.Variables.Editor.VariableObjectDrawer</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_abstract_classes_1_1_localisable_object_drawer.html#aa14e241143a55c836c089cbed6963ce8">GameFramework.Localisation.Editor.AbstractClasses.LocalisableObjectDrawer</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_localisable_text_drawer.html#a0425bc31a03e5b837d7871af190bd831">GameFramework.Localisation.Editor.LocalisableTextDrawer</a>
+</li>
+<li>GetReferencedContextMode()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_context.html#a49aaef08e59bd5dabaaa67577eb14528">GameFramework.GameStructure.GameItems.ObjectModel.GameItemContext</a>
+</li>
+<li>GetReferencesForContainer()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_audio_1_1_game_action_play_audio_clip.html#ac3fe843b0a882968fb0f755b357301a7">GameFramework.GameStructure.Game.GameActions.Audio.GameActionPlayAudioClip</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_instantiate_prefab.html#aab511876ad8295a72509ab0065a49e01">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionInstantiatePrefab</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_hierarchy_1_1_game_action_swap_game_objects.html#a4995c0f2d040e4ed47c327c3763bd48f">GameFramework.GameStructure.Game.GameActions.Hierarchy.GameActionSwapGameObjects</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_u_i_1_1_game_action_set_button_interactable_state.html#acf18fd8af82ca0afaf4e90b028c59193">GameFramework.GameStructure.Game.GameActions.UI.GameActionSetButtonInteractableState</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_cond64f6da973ba0b26d23f9288d7f4de406.html#a40486f9e5e0f5a5eff6125c9d7b03ecf">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemMatchesGameItem</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html#ab8ab28c0882704c544995514f582a373">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_game_item_context.html#a056448e45988a05a019800d77d3f8587">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameActionGameItemContext</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_target.html#adbb72f577d2dc7fc9669ee7dd655d82c">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameActionTarget</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition.html#a26b73d92a4175ab16f21f57521fc2dc2">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameCondition</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition_game_item_context.html#a276536027c14e1fbe96fd3b700e504b5">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameConditionGameItemContext</a>
+, <a class="el" href="interface_game_framework_1_1_helper_1_1_i_scriptable_object_container_sync_references.html#a1d52b9e38c529a186166baba858de662">GameFramework.Helper.IScriptableObjectContainerSyncReferences</a>
+</li>
+<li>GetScale()
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_display_metrics.html#a52d8262444bb82a49670ea341301eea7">GameFramework.Display.Placement.DisplayMetrics</a>
+</li>
+<li>GetScrollPosition()
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_scroll_rect_ensure_visible.html#ab52f0734855544b89e4eb0632e9a2c4a">GameFramework.UI.Other.Components.ScrollRectEnsureVisible</a>
+</li>
+<li>GetSettingBool()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#acf05fc8ef1e4eb3688fc2aad03330152">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetSettingFloat()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a0a917b4d97b6e083cdc21d60d07e76a7">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetSettingInt()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ab22c0f93fbd80d43eae150565e73eb24">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetSettingString()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a44531ede5c0d2067487a2c68479d778b">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
 </li>
 <li>GetSnapIncrement()
 : <a class="el" href="class_pro_grids_1_1pg___editor.html#a813a57833ff54a1a7e5ecdf11d54302a">ProGrids.pg_Editor</a>
 </li>
+<li>GetSprite()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ab2fdfcec00c6a55b2e086fdbac24ec04">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_sprite.html#a3a6d22d85a73cde08b3ef74554431a53">GameFramework.Localisation.ObjectModel.LocalisableSprite</a>
+</li>
+<li>GetSpriteByName()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a418b10d2ee6750431fd44e9906ab866d">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetSpriteByType()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a2d0427bc5f6cb7c4a1009c53d62cda00">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetSpriteInGame()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a7523ba9a8a67497d965288aefc72bf9a">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetSpriteSelectionMenu()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a1e5ccb31722fa42e5290aa41c9c2782a">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetSpriteUnlockWindow()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a8c138e45e740c308b1392ea4043977a4">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>GetString()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#afa9da40a4127bc2fe99b31d0eebceb15">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+, <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#afaba8a543e323969da195a9bb92b453c">GameFramework.Helper.JSONObject</a>
+, <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#a27ba8c92e846a5bcbbd3bd594f0ac8ac">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#a5acaef22920879a943477b5b48285d94">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#abe37436d6fc54e45616cae9e3d7506c0">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>GetText()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_global_localisation.html#a17275b4d412c177f84d18e4c10704e91">GameFramework.Localisation.GlobalLocalisation</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a202460b71b3eac561861bb401059f0d1">GameFramework.Localisation.LocalisationDataTests</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#ae1b63c146e0c43315f24d57f2e31ccfc">GameFramework.Localisation.ObjectModel.LocalisationData</a>
+</li>
+<li>GetTextByIndex()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#af83a604e18b1f1c86a97e7f04338a437">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>GetTextKeyNotFound()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a92fc5fd13ae548e9d82b3099a2dba3b4">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>GetTextLanguageNotFound()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a1d926024f6089b75a1ae36648349443f">GameFramework.Localisation.LocalisationDataTests</a>
+</li>
+<li>GetTimeToPrize()
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a80ebe409a7cb54f4a9d4a0686fcc160a">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>GetTriggerMessages()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_condf5fc374098e2486d56b0074074783683.html#aa34be405f8652f1c03ba17e47f9ac631">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemCanUnlockWithCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_game_conditions_1_1_game_item_1_1_game_cond5dea34760dfaccbcd5463929445e31a3.html#a524222c624262d71b4a84dcf887f6103">GameFramework.GameStructure.Game.GameConditions.GameItem.GameConditionGameItemPlayerHasCoinsToUnlock</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition.html#ab790535742d5e5369c18fa5dd4eec8d4">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameCondition</a>
+</li>
 <li>GetUnityGridEnabled()
 : <a class="el" href="class_pro_grids_1_1pg___util.html#a2e63c657373a45d54965cc1d08f9e2b9">ProGrids.pg_Util</a>
+</li>
+<li>GetValue()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#aaffad5474b8d662fac43cd473da0bfe7">GameFramework.Helper.JSONObject</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_text.html#ae03ce711d1303c1906e54505a9aa5cdd">GameFramework.Localisation.ObjectModel.LocalisableText</a>
+</li>
+<li>GetValueFromMessage()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_show_level_coins.html#a341dfc4168f830e9ee5dbdcc922b6b2d">GameFramework.GameStructure.Levels.Components.ShowLevelCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_show_level_high_score.html#a97139beeb843404cfd875fdcd4672148">GameFramework.GameStructure.Levels.Components.ShowLevelHighScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_show_level_score.html#ab3270f5cd9cd9458d3c3afc1670fe81e">GameFramework.GameStructure.Levels.Components.ShowLevelScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_coins.html#a5d4d557b37c4756a08035f924ba6d4d8">GameFramework.GameStructure.Players.Components.ShowCoins</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_high_score.html#a7b0e137d29f018fe81fd18bcfa9ab9c5">GameFramework.GameStructure.Players.Components.ShowHighScore</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_lives.html#a3ffe3fd4670dd3a910691c679ba63f8b">GameFramework.GameStructure.Players.Components.ShowLives</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_score.html#ad080102d17465e147e838d83b3856f4a">GameFramework.GameStructure.Players.Components.ShowScore</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_abstract_classes_1_1_show_value_animated_messaging.html#a52d8c3b8fa2270eeb1f8e325ed6a5a8e">GameFramework.UI.Other.Components.AbstractClasses.ShowValueAnimatedMessaging&lt; T, TM &gt;</a>
+</li>
+<li>GetVector2()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#ab2668239761f4543ed71462bff98ccbd">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+, <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#a200e1bf4194b2dad026e250ac707ef67">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#a2721ea693754e6834b331a076cdfa1d1">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a1ef984879bb9a35fbf5e249b8027147d">GameFramework.Preferences.PreferencesFactory</a>
+</li>
+<li>GetVector3()
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html#a79a38c1197ffd3012c7ddf4a7ec1a8ce">GameFramework.GameStructure.Variables.ObjectModel.Variables</a>
+, <a class="el" href="interface_game_framework_1_1_preferences_1_1_i_preferences.html#a80d1f621a057adb18c1da570cdcafd28">GameFramework.Preferences.IPreferences</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_player_prefs_integration_1_1_player_prefs_handler.html#a668a150fded4bac60cb816b02c419f3f">GameFramework.Preferences.PlayerPrefsIntegration.PlayerPrefsHandler</a>
+, <a class="el" href="class_game_framework_1_1_preferences_1_1_preferences_factory.html#a0f5e8ea93ea3269f24180592845b2f0f">GameFramework.Preferences.PreferencesFactory</a>
 </li>
 <li>GetVersionType()
 : <a class="el" href="struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html#a0827a79662d1851c0f09ea128366da63">ProBuilder2.EditorCommon.pb_VersionInfo</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

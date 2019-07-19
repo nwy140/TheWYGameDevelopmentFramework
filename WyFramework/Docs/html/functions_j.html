@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_j.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,6 +88,36 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_j"></a>- j -</h3><ul>
+<li>JSONArray()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_array.html#a9337424e582d6c5bb01cc9f6208dbbf2">GameFramework.Helper.JSONArray</a>
+</li>
+<li>JSONBool()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_bool.html#ac8aae2ed0cb9818fc3563decc2e53402">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONBool</a>
+</li>
+<li>JsonConfigurationData
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ac0fbacdfca19f25348e142440ba52fcd">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>JsonData
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#ab1f44746dfc5f8bc3f6980b6d7920d1e">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>JsonGameData
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item.html#a9ea834df9bee6165a4655bff8eed2052">GameFramework.GameStructure.GameItems.ObjectModel.GameItem</a>
+</li>
+<li>JSONLazyCreator()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_lazy_creator.html#a82c187b6f7a2569650de3d259b16277c">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONLazyCreator</a>
+</li>
+<li>JSONNumber()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_number.html#ac2f235d6e8e08aed7116489dc928af01">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNumber</a>
+</li>
+<li>JSONObject()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_object.html#a0df393add2a1389e6a5050636e8da0fb">GameFramework.Helper.JSONObject</a>
+</li>
+<li>JSONString()
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_string.html#a103f7375e3ec6ce37f0b5a8333475df6">GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONString</a>
+</li>
+<li>JSONValue()
+: <a class="el" href="class_game_framework_1_1_helper_1_1_j_s_o_n_value.html#ac4eca0f01012f754c042ee99dba28f0a">GameFramework.Helper.JSONValue</a>
+</li>
 <li>Jump()
 : <a class="el" href="class_vis_char_anim.html#a373b4e491704d770d837724e26b8de41">VisCharAnim</a>
 </li>
@@ -78,11 +132,14 @@ $(function() {
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:12 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -1,0 +1,26 @@
+var class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level =
+[
+    [ "CustomInitialisation", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6b81f2b38f45324f6e42ab4e9d79dcbe", null ],
+    [ "GetCounterConfiguration", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#af3915cb3657ee98a3cac6b93825867db", null ],
+    [ "IsStarWon", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6fbea90798cf05acaa7fc557efb17766", null ],
+    [ "SendCoinsChangedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#acdfc2034c0fa6cdc82208ffe53b81220", null ],
+    [ "SendHighScoreChangedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a83c524e7dff0c9a14c1c9564b9938661", null ],
+    [ "SendScoreChangedMessage", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a9230f7cabfffa976c385200ccd2b5e31", null ],
+    [ "StarWon", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#ae4f3529c3a4ba05bee5bac65ff1ab39a", null ],
+    [ "UpdatePlayerPrefs", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#ae58a9c63540a7f86dbce86c4721b01b2", null ],
+    [ "CoinTarget", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a48a0cd27ff52fcae6ed33ca15f0902f6", null ],
+    [ "IdentifierBase", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a0fbf9fd6bfd496418b48064eeb62bec3", null ],
+    [ "IdentifierBasePrefs", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#aae900d25a4bcf65aa357793c51b5fe5f", null ],
+    [ "Progress", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#ad41b6eb91b721c01e0449b4410bb3d76", null ],
+    [ "ProgressBest", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a2893e123ce402f51adefea4369880f61", null ],
+    [ "ScoreTarget", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#afea2db71958d97310253a892f22eccca", null ],
+    [ "Star1Target", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#ab61df7ba0a2717674c50a70a429149a2", null ],
+    [ "Star2Target", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#aaba44b754cb82f45dcfd8be123ebc706", null ],
+    [ "Star3Target", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#af413d087b95b5c35917b0bca12c90b7c", null ],
+    [ "Star4Target", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#ab46e70ad579441234db7009e1e07d3bb", null ],
+    [ "StarsWon", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#ad64525dec291f827e9d2935e5f4d707a", null ],
+    [ "StarsWonCount", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a9999bb40203083e47c05411bd7cecc5c", null ],
+    [ "StarTotalCount", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a40db5c4adf9edfe0f3dab80a6ccbe636", null ],
+    [ "TimeBest", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#aa9212e6fe74268ebe52b64d4af9e7c55", null ],
+    [ "TimeTarget", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#aac71a10b479243605237b63db6faab12", null ]
+];

@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_o.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -64,6 +88,10 @@ $(function() {
 &#160;
 
 <h3><a id="index_o"></a>- o -</h3><ul>
+<li>ObjectReferencesProperty
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#aa16f73dbd3b1eabc4e2b8187cdf8fa60">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_game_condition_editor.html#a5b8e50a7b368e2ef8585fb2ebdfdf995">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionEditor</a>
+</li>
 <li>objsToDisableOnDeath
 : <a class="el" href="class_mech_char_stat_h_p.html#acfab47b4e18e2c495ca13b1f7bb3d6a4">MechCharStatHP</a>
 </li>
@@ -79,7 +107,13 @@ $(function() {
 <li>offset
 : <a class="el" href="class_cnv_camera_follow_obj.html#a127d15fdd50db15f4ed5cfbfd353668e">CnvCameraFollowObj</a>
 , <a class="el" href="class_cnv_look_at2_d.html#a6ac00df8c81a0922005110ca01ecce78">CnvLookAt2D</a>
-, <a class="el" href="class_look_at.html#ab301892ea347a077cf80c0143e759339">LookAt</a>
+</li>
+<li>Offset
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_align_screen_bounds.html#a46a6e07dcd233005458dab54c6101ddf">GameFramework.Display.Placement.Components.AlignScreenBounds</a>
+, <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_center_in_camera.html#a977677bf1caa04dd365dd9ba4b43dd6c">GameFramework.Display.Placement.Components.CenterInCamera</a>
+</li>
+<li>offset
+: <a class="el" href="class_look_at.html#ab301892ea347a077cf80c0143e759339">LookAt</a>
 </li>
 <li>Offset
 : <a class="el" href="class_object_note.html#ad6b0f1b46743a83a080a86f8d4bd2c95">ObjectNote</a>
@@ -90,26 +124,104 @@ $(function() {
 <li>offsetMultiplier
 : <a class="el" href="class_mech_extra_char_skill_range_atk_ray_cast2_d.html#ade0840bf516238872c45dd7783c61d93">MechExtraCharSkillRangeAtkRayCast2D</a>
 </li>
+<li>OldAmount
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_best_changed_message.html#ab1eba9f4b1b64bd7e54bcf65cb27c879">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountBestChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_changed_message.html#aa0cf31f02323d3b516c7bb23b9fd7ec4">GameFramework.GameStructure.GameItems.Messages.CounterFloatAmountChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html#a7a8f0b80eab7da830c849407d75b802f">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountBestChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_changed_message.html#af0de20173b342dac0cac6c68bed3f695">GameFramework.GameStructure.GameItems.Messages.CounterIntAmountChangedMessage</a>
+</li>
+<li>OldCharacter
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_characters_1_1_messages_1_1_character_changed_message.html#a5ca6a1d48a859d8166fa68ae02aa2247">GameFramework.GameStructure.Characters.Messages.CharacterChangedMessage</a>
+</li>
+<li>OldCoins
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_coins_changed_message.html#aca693bf01a25efe4a0c5dbf73df983ff">GameFramework.GameStructure.GameItems.Messages.CoinsChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_coins_changed_message.html#ac094bd052b82ab850e5fd38104aeede7">GameFramework.GameStructure.Levels.Messages.LevelCoinsChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_coins_changed_message.html#a1effdc57f8711c609dd66f0e727d24bd">GameFramework.GameStructure.Players.Messages.PlayerCoinsChangedMessage</a>
+</li>
+<li>OldDeviceOrientation
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_device_orientation_changed_message.html#ad12c89356ba077f7416ed2ad2d5eb440">GameFramework.GameStructure.Game.Messages.DeviceOrientationChangedMessage</a>
+</li>
+<li>OldHealth
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_health_changed_message.html#aff2ae2642850119ed7fed98c58e1c46e">GameFramework.GameStructure.Players.Messages.HealthChangedMessage</a>
+</li>
+<li>OldHighScore
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_high_score_changed_message.html#a27abf537ec1a741474b4a2e5aad8c551">GameFramework.GameStructure.GameItems.Messages.HighScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_high_score_changed_message.html#a08229a9fb7da0bf93ce316f4228743a6">GameFramework.GameStructure.Levels.Messages.LevelHighScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_high_score_changed_message.html#a8e283b30198e4f4bd81b94b74ed7ea19">GameFramework.GameStructure.Players.Messages.PlayerHighScoreChangedMessage</a>
+</li>
+<li>OldLevel
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_changed_message.html#abdfbd1002a521db4add90e655eeed69d">GameFramework.GameStructure.Levels.Messages.LevelChangedMessage</a>
+</li>
+<li>OldLives
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_lives_changed_message.html#a14ba427dfaf4a83373465823bfa55530">GameFramework.GameStructure.Players.Messages.LivesChangedMessage</a>
+</li>
+<li>OldLocalisation
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_messages_1_1_localisation_changed_message.html#a8f01c790ddf951be8182bd0c67a61a54">GameFramework.Localisation.Messages.LocalisationChangedMessage</a>
+</li>
+<li>OldName
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_custom_name_changed_message.html#a12c8bde93e2ce67e0678fc2cf2aa5339">GameFramework.GameStructure.Players.Messages.CustomNameChangedMessage</a>
+</li>
+<li>OldPlayer
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_changed_message.html#ab4f614688ff5b0593bd191dabbf2c516">GameFramework.GameStructure.Players.Messages.PlayerChangedMessage</a>
+</li>
+<li>OldResolution
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_messages_1_1_resolution_changed_message.html#a7c8765bf7f4501a9fcf2045bfd44c1c3">GameFramework.GameStructure.Game.Messages.ResolutionChangedMessage</a>
+</li>
+<li>OldScore
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_score_changed_message.html#a38a57b614d0ddf269ef0559e29c29302">GameFramework.GameStructure.GameItems.Messages.ScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_score_changed_message.html#a117c7eb83569cc6cf7370fc95f2feb22">GameFramework.GameStructure.Levels.Messages.LevelScoreChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_messages_1_1_player_score_changed_message.html#aed84e9d233c1df02a17695517c4abbab">GameFramework.GameStructure.Players.Messages.PlayerScoreChangedMessage</a>
+</li>
+<li>OldStarsWon
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_stars_won_message.html#a789230553de9ab2fb3ce6c24a168deb9">GameFramework.GameStructure.Levels.Messages.StarsWonMessage</a>
+</li>
+<li>OldVolume
+: <a class="el" href="class_game_framework_1_1_audio_1_1_messages_1_1_background_volume_changed_message.html#a495c8ed48abbf8c22dc892403fb7c833">GameFramework.Audio.Messages.BackgroundVolumeChangedMessage</a>
+, <a class="el" href="class_game_framework_1_1_audio_1_1_messages_1_1_effect_volume_changed_message.html#a4542a5cc4aff7fb76afd95aed86c7771">GameFramework.Audio.Messages.EffectVolumeChangedMessage</a>
+</li>
+<li>OldWorld
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_worlds_1_1_messages_1_1_world_changed_message.html#a9dcefcdbee3ccd55549cf74bba306363">GameFramework.GameStructure.Worlds.Messages.WorldChangedMessage</a>
+</li>
 <li>onCompleteCallBack
 : <a class="el" href="class_doxy_runner.html#ac1401822d6b3dea5626b786a94aa98d5">DoxyRunner</a>
 </li>
+<li>OnlyDeactivate
+: <a class="el" href="class_game_framework_1_1_display_1_1_particles_1_1_components_1_1_auto_destruct_when_particle_system_finished.html#aa48db0547dcd3f2a0c1317898b507bc9">GameFramework.Display.Particles.Components.AutoDestructWhenParticleSystemFinished</a>
+, <a class="el" href="class_game_framework_1_1_game_objects_1_1_components_1_1_auto_destruct_when_no_children.html#afa8a63311e7c1577b2f14845b8bf5ca1">GameFramework.GameObjects.Components.AutoDestructWhenNoChildren</a>
+</li>
+<li>OnlyWhenLevelRunning
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_fixed_movement.html#aa39db77f9cdb3f1fa8adf3b0318ac19e">GameFramework.Display.Placement.Components.FixedMovement</a>
+, <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_fixed_rotation.html#a36e00bff3851c6bd396044a85d54c037">GameFramework.Display.Placement.Components.FixedRotation</a>
+</li>
+<li>OnPreLocalise
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_components_1_1_localise_text.html#a803549306bb53f65af2397941d0313ea">GameFramework.Localisation.Components.LocaliseText</a>
+</li>
 <li>Open
 : <a class="el" href="class_object_note.html#ab9d6b8a0de032c3336efc2ea2f37bf66">ObjectNote</a>
+</li>
+<li>Options
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#a81abf0bac76aa71097facc2fe9dbdb60">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
 </li>
 <li>orbitSpeed
 : <a class="el" href="class_pro_builder2_1_1_examples_1_1_camera_controls.html#ac10d0f35c46819d377aa5f19acbb0748">ProBuilder2.Examples.CameraControls</a>
 </li>
 <li>origin
-: <a class="el" href="class_cnv_draw_line_ren.html#ac4cc1a4a903411ad9799bfe0bce49206">CnvDrawLineRen</a>
+: <a class="el" href="class_cnv_draw_line_ren.html#acb820ee6a1cece09c63605e33b44ba69">CnvDrawLineRen</a>
 , <a class="el" href="class_draw_line.html#a58134a979b6c7f7279ca9edac612a1a0">DrawLine</a>
+</li>
+<li>Owner
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition.html#ada0a04e1158603234f2a6ff0b299e863">GameFramework.GameStructure.Game.ObjectModel.Abstract.GameCondition</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:13 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

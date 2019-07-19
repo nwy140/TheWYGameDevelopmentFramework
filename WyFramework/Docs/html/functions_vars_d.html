@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +54,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('functions_vars_d.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -65,15 +89,19 @@ $(function() {
 
 <h3><a id="index_d"></a>- d -</h3><ul>
 <li>damage
-: <a class="el" href="class_mech_extra_char_skill_melee_atk_cols_pushback.html#a497c8912f6110073088f2a35a8ec443d">MechExtraCharSkillMeleeAtkColsPushback</a>
-, <a class="el" href="class_mech_extra_char_skill_melee_atk_sphr_cast.html#a203d01f3fe0f57a418cc772c4f3fc860">MechExtraCharSkillMeleeAtkSphrCast</a>
-, <a class="el" href="class_mech_extra_char_skill_projectile.html#a2807e15a73813a6bdb97923d160426b5">MechExtraCharSkillProjectile</a>
-, <a class="el" href="class_mech_extra_char_skill_projectile2_d.html#a0da92c16ad6155557fc6d9b2f7c3a5a6">MechExtraCharSkillProjectile2D</a>
+: <a class="el" href="class_mech_extra_char_skill_launch_object_by_speed.html#a160a5ae8bf98b1eb45373884fb6fd562">MechExtraCharSkillLaunchObjectBySpeed</a>
+, <a class="el" href="class_mech_extra_char_skill_launch_object_by_speed2_d.html#a14122df3af54b6a14d16fdf248eabb74">MechExtraCharSkillLaunchObjectBySpeed2D</a>
+, <a class="el" href="class_mech_extra_char_skill_melee_atk_cols_pushback.html#a497c8912f6110073088f2a35a8ec443d">MechExtraCharSkillMeleeAtkColsPushback</a>
+, <a class="el" href="class_mech_extra_char_skill_melee_atk_sphr_cast_pushback.html#a1575f355d13c82df642855762473ecc1">MechExtraCharSkillMeleeAtkSphrCastPushback</a>
 , <a class="el" href="class_mech_extra_char_skill_range_atk_ray_cast2_d.html#ad7a00b51172ef64cd9fb2ba92614d04a">MechExtraCharSkillRangeAtkRayCast2D</a>
 , <a class="el" href="class_mech_extra_char_skill_range_atk_ray_cast3_d.html#a0e7ede655ea231772458c33b2538ed2a">MechExtraCharSkillRangeAtkRayCast3D</a>
 </li>
 <li>damageRate
 : <a class="el" href="class_mech_extra_char_skill_melee_atk_cols_pushback.html#a1a490f5f9ddcf27b5251cd0d2554a1a9">MechExtraCharSkillMeleeAtkColsPushback</a>
+</li>
+<li>DataProperty
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#a6071cb2e346d06ca4fb94924ae96df6c">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+, <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_conditions_1_1_common_1_1_game_condition_editor.html#acc7b9dcb20a856c46bec9e4d8e3b8835">GameFramework.GameStructure.Game.Editor.GameConditions.Common.GameConditionEditor</a>
 </li>
 <li>date
 : <a class="el" href="class_pro_builder2_1_1_editor_common_1_1pb___about_entry.html#a898ae760063c48fd4cb4af414dc64945">ProBuilder2.EditorCommon.pb_AboutEntry</a>
@@ -101,6 +129,12 @@ $(function() {
 </li>
 <li>debugBounds_Size
 : <a class="el" href="class_example.html#af071403d31ac42e5e4aaeb242ac5e977">Example</a>
+</li>
+<li>DebugBuildsOnly
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_components_1_1_log_to_disk.html#a5e3c0583e0fb7bceddf0dbc97c79ff67">GameFramework.Debugging.Components.LogToDisk</a>
+</li>
+<li>DebugBuildsOrEditorOnly
+: <a class="el" href="class_game_framework_1_1_debugging_1_1_components_1_1_log_to_screen.html#a24c27e8da7cdbc9dce87e2e911706899">GameFramework.Debugging.Components.LogToScreen</a>
 </li>
 <li>debugCapsule
 : <a class="el" href="class_example.html#adb6a3ac8f574a4f76e8b96eda6f72fc2">Example</a>
@@ -150,6 +184,9 @@ $(function() {
 <li>debugCylinder_Radius
 : <a class="el" href="class_example.html#a0eea7c2c341e8d1d45122f5aa169ae7c">Example</a>
 </li>
+<li>DebugLevel
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#abd23111787325e250841ec8a221f59bf">GameFramework.GameStructure.GameManager</a>
+</li>
 <li>debugPoint
 : <a class="el" href="class_example.html#a8d327af7387f0d6d2797c19df43988e0">Example</a>
 </li>
@@ -171,22 +208,105 @@ $(function() {
 <li>debugWireSphere_Radius
 : <a class="el" href="class_example.html#abe9a82c56b770899c39d4219a6ebd955">Example</a>
 </li>
+<li>DefaultDpi
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_display_metrics.html#a7a7b701671cf06592701d2d14a3987d8">GameFramework.Display.Placement.DisplayMetrics</a>
+</li>
+<li>DelayGameObject
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_enable_if_prize_available.html#a7621f025f03323d20802aaf450ac1cf1">GameFramework.FreePrize.Components.EnableIfPrizeAvailable</a>
+</li>
+<li>DelayProperty
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor.html#afdcf946b90b4edab84739ff4052fbf26">GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditor</a>
+</li>
+<li>DelayRangeToNextCountdown
+: <a class="el" href="class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#af35e0f51bba5b84ce2be58da7a06e98a">GameFramework.FreePrize.Components.FreePrizeManager</a>
+</li>
+<li>Demo
+: <a class="el" href="class_game_framework_1_1___demo_1_1_about_1_1_scripts_1_1_custom_settings.html#a31180332db56a6729b7059f1c5c74ac7">GameFramework._Demo.About.Scripts.CustomSettings</a>
+</li>
+<li>Description
+: <a class="el" href="class_game_framework_1_1_localisation_1_1_editor_1_1_components_help_window_1_1_component_help.html#adc69cfce489ae8f3f787fbe7535fe024">GameFramework.Localisation.Editor.ComponentsHelpWindow.ComponentHelp</a>
+, <a class="el" href="class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_entry.html#a8dda7c9f87fc15ae5f56d722f51fdae4">GameFramework.Localisation.ObjectModel.LocalisationEntry</a>
+</li>
+<li>DesktopUrl
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_on_button_click_load_url.html#ae1712fdef4d6682c40c0dfcc3416ba25">GameFramework.UI.Buttons.Components.OnButtonClickLoadUrl</a>
+</li>
+<li>DestroyMode
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_object_destroyer.html#acb3db4a2cbed023c6dc4db5731971240">GameFramework.Display.Placement.Components.ObjectDestroyer</a>
+</li>
+<li>DestroyTag
+: <a class="el" href="class_game_framework_1_1_display_1_1_placement_1_1_components_1_1_object_destroyer.html#ab660398e3cc9b4d4e19563d496f87e7f">GameFramework.Display.Placement.Components.ObjectDestroyer</a>
+</li>
+<li>DialogInstance
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_game_over.html#aa3b6a5169ba884752b7bdec1ad5567ad">GameFramework.UI.Dialogs.Components.GameOver</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_pause_window.html#a5af8181354732c9242a4c3c971d7a58b">GameFramework.UI.Dialogs.Components.PauseWindow</a>
+, <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_settings.html#a33dcf7bf50880f7944fb14badd716280">GameFramework.UI.Dialogs.Components.Settings</a>
+</li>
+<li>DialogKey
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_show_dialog_once.html#a23fc2fd488dc12835e44f3844d2aa6f7">GameFramework.UI.Dialogs.Components.ShowDialogOnce</a>
+</li>
+<li>DialogPrefabOverrides
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_manager.html#a302f7820cd2913a9adc7dea380ca6d7d">GameFramework.UI.Dialogs.Components.DialogManager</a>
+</li>
+<li>Disable
+: <a class="el" href="class_game_framework_1_1_audio_1_1_components_1_1_start_stop_background_music.html#a2ad349db7efa94c65bb1b40c1b0f0307">GameFramework.Audio.Components.StartStopBackgroundMusic</a>
+</li>
+<li>DisabledColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_image_colors.html#a9f6fafa9a9f9f705f18801d7384f1c37">GameFramework.UI.Buttons.Components.SyncStateImageColors</a>
+</li>
+<li>DisableDelay
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_on_life_lost_enable_gameobject.html#a4d2589e4fdb525a379cd4e057ba27b7c">GameFramework.GameStructure.Players.Components.OnLifeLostEnableGameobject</a>
+</li>
+<li>DisabledOutlineColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#a67f5f9e9153ffb5dd39c3caf5dded5a9">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>DisabledShadowColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#aab758b34fd2bc0d4888805972c2363e7">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>DisabledTextColor
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html#ada14f82abcc281d322f21461e6d1cc8d">GameFramework.UI.Buttons.Components.SyncStateTextColors</a>
+</li>
+<li>DisableIfCanNotUnlock
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html#a6566cfa9569b7dbc8ccc701a5ed19852">GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton&lt; T &gt;</a>
+</li>
+<li>DisableOutOfBounds
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_level_of_detail.html#a885a8f9c686907ed9ec62e1743ed427e">GameFramework.Display.Other.Components.LevelOfDetail</a>
+</li>
+<li>DisplayChangeCheckDelay
+: <a class="el" href="class_game_framework_1_1_game_structure_1_1_game_manager.html#a4e56e5902bb48136004cba53f71ae128">GameFramework.GameStructure.GameManager</a>
+</li>
+<li>Distance
+: <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weighted_items_1_1_distance_with_weights.html#ab464aa3c1a6145f774a274d6dff288b9">GameFramework.Weighting.DistanceWeightedItems&lt; T &gt;.DistanceWithWeights</a>
+, <a class="el" href="class_game_framework_1_1_weighting_1_1_distance_weight_value.html#a9a672440c8f8183b2ac263d966124743">GameFramework.Weighting.DistanceWeightValue</a>
+</li>
+<li>DistanceFrom
+: <a class="el" href="class_game_framework_1_1_display_1_1_other_1_1_components_1_1_level_of_detail.html#ab134fad1f1fc79f41aab8251bf1842bd">GameFramework.Display.Other.Components.LevelOfDetail</a>
+</li>
 <li>dmg
 : <a class="el" href="class_mech_prop_damage_stat_h_p.html#a9ada929a385741ad336f500f773b60a4">MechPropDamageStatHP</a>
 </li>
 <li>DocDirectory
 : <a class="el" href="class_doxygen_config.html#aea9ba41fe61487effafbeb77120749f0">DoxygenConfig</a>
 </li>
+<li>DoneCallback
+: <a class="el" href="class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_instance.html#afd744d2a8d64a4c306f1cc0add0d880e">GameFramework.UI.Dialogs.Components.DialogInstance</a>
+</li>
 <li>DoxygenOutputString
 : <a class="el" href="class_doxygen_window.html#a20e7d1bdb1f32c97f600bf0f0bdb2358">DoxygenWindow</a>
 </li>
+<li>DummyValue
+: <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests_1_1_custom_message1.html#a4e6c80fa8e7d176974efce1ea4febee6">GameFramework.Messaging.MessagingTests.CustomMessage1</a>
+, <a class="el" href="class_game_framework_1_1_messaging_1_1_messaging_tests_1_1_custom_message2.html#afa2f0d4ebc076f8ec6a9b9310f71e05e">GameFramework.Messaging.MessagingTests.CustomMessage2</a>
+</li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Tue Jul 16 2019 02:49:13 for WyFramework by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jul 19 2019 13:14:02 for WyFramework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>

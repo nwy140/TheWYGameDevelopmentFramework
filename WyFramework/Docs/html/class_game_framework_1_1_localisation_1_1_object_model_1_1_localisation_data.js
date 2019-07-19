@@ -1,0 +1,26 @@
+var class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data =
+[
+    [ "AddEntry", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a7bf361ec6db783e376d1ff21a47eed5f", null ],
+    [ "AddLanguage", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a4eb2b5100aba4302bc693a4211327688", null ],
+    [ "ClearEntries", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a0645b17a51e0f45ec0a56c94f0653338", null ],
+    [ "ContainsEntry", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#aa9447b9f1d4f2c397464b9901d4ae751", null ],
+    [ "ContainsLanguage", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#ae91a61eb0850652a81bf232da86dcf1b", null ],
+    [ "GetEntry", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a6e330569e2080744e35060c370533fd1", null ],
+    [ "GetLanguage", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#af3789ec72c46ec20b467575b22f5a154", null ],
+    [ "GetLanguageIndex", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a0775b083105849d111fc675437ecdf8e", null ],
+    [ "GetLanguageNames", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#aba78d2d0fcb332457754bb9d276583fc", null ],
+    [ "GetText", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a6c6042d25b9863073761be2e4a7ea490", null ],
+    [ "GetText", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#ae1b63c146e0c43315f24d57f2e31ccfc", null ],
+    [ "InternalVerifyState", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#ad1aa420d3231941f1f0b1c0d58c29c87", null ],
+    [ "LoadCsv", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a1e43054a0a4e260ea351cfbb370234bb", null ],
+    [ "LoadCsv", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#abde7df791dde06cf77293dda8231c420", null ],
+    [ "Merge", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#aee7c2de763dd9f7cc8f3d0b07aa95654", null ],
+    [ "OnAfterDeserialize", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a714fbc625c84a8ac1e677fe935cf8f76", null ],
+    [ "OnBeforeSerialize", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a7ddcf9dd6e682ec1eab3e38b903905b0", null ],
+    [ "RemoveEntry", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a0757ceef65798c39be478fb8165e133a", null ],
+    [ "RemoveLanguage", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#ab97ce87d633758e1afc40ebdbf1d03e7", null ],
+    [ "WriteCsv", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a84c88a85c0a5f564261adb1fab9d0da6", null ],
+    [ "Entries", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a91d20f57386c66642ae968ab96e0b3c1", null ],
+    [ "EntriesDictionary", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#af10eef0f23a1f833644c42fc3e9c8e9d", null ],
+    [ "Languages", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html#a58ea61f0cfeb940810d8a0661b4e5293", null ]
+];

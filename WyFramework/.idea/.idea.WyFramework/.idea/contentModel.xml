@@ -1096,21 +1096,28 @@
                   <e p="MechExtraWorldStatTimer.cs" t="Include" />
                 </e>
               </e>
+              <e p="MechVehFlyDroneMovement25D.cs" t="Include" />
             </e>
             <e p="Vis Scripts" t="Include">
               <e p="VisCharAnim.cs" t="Include" />
             </e>
           </e>
           <e p="Convenience Scripts" t="Include">
+            <e p="CnvCameraDrag.cs" t="Include" />
             <e p="CnvCameraFollowObj.cs" t="Include" />
+            <e p="CnvCameraRTS.cs" t="Include" />
+            <e p="CnvCameraTouch.cs" t="Include" />
             <e p="CnvDeactiveGmObjByTime.cs" t="Include" />
             <e p="CnvDrawLineRen.cs" t="Include" />
+            <e p="CnvInputMobileSwipe.cs" t="Include" />
             <e p="CnvLockPosToObj.cs" t="Include" />
             <e p="CnvLookAt2D.cs" t="Include" />
             <e p="CnvTags.cs" t="Include" />
+            <e p="Singleton" t="Include">
+              <e p="CnvSgtLvlMan.cs" t="Include" />
+            </e>
           </e>
           <e p="DocumentationTemplate.cs" t="Include" />
-          <e p="MechVehDroneMovement25D.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

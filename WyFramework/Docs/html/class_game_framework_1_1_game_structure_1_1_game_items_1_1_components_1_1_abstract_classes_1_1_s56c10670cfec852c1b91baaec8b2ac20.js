@@ -1,0 +1,10 @@
+var class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20 =
+[
+    [ "PositionModeType", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a6047d62de4f59dd122b4ceb9a59164e5", [
+      [ "Global", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a6047d62de4f59dd122b4ceb9a59164e5a4cc6684df7b4a92b1dec6fce3264fac8", null ],
+      [ "Local", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a6047d62de4f59dd122b4ceb9a59164e5a509820290d57f333403f490dde7316f4", null ]
+    ] ],
+    [ "RunMethod", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a7e6298cda49b5f8bd5799d927f4a861d", null ],
+    [ "PositionMode", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a4d82c9243d2c4d34b8019d8d1ffeb001", null ],
+    [ "Tag", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#aa0adf6df92567c38f4bf0059024ad922", null ]
+];

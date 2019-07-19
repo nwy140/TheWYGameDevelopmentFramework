@@ -1,0 +1,4 @@
+var class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_sprite_renderer_to_level_sprite =
+[
+    [ "GetGameItemManager", "class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_set_sprite_renderer_to_level_sprite.html#ab57dec272070e4e944900ee6cb7eb5ae", null ]
+];

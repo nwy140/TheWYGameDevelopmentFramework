@@ -1,0 +1,4 @@
+var namespace_game_framework_1_1_game_framework_1_1_audio_1_1_components =
+[
+    [ "CopyBackgroundVolume", "class_game_framework_1_1_game_framework_1_1_audio_1_1_components_1_1_copy_background_volume.html", "class_game_framework_1_1_game_framework_1_1_audio_1_1_components_1_1_copy_background_volume" ]
+];

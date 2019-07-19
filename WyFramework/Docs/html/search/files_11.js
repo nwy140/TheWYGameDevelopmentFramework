@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['waterhoseparticles_2ecs',['WaterHoseParticles.cs',['../_water_hose_particles_8cs.html',1,'']]],
-  ['waypointcircuit_2ecs',['WaypointCircuit.cs',['../_waypoint_circuit_8cs.html',1,'']]],
-  ['waypointprogresstracker_2ecs',['WaypointProgressTracker.cs',['../_waypoint_progress_tracker_8cs.html',1,'']]]
+  ['timeremaining_2ecs',['TimeRemaining.cs',['../_time_remaining_8cs.html',1,'']]],
+  ['timetofreeprizedisplay_2ecs',['TimeToFreePrizeDisplay.cs',['../_time_to_free_prize_display_8cs.html',1,'']]]
 ];
