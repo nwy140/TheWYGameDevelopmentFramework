@@ -2,6 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/**
+This class explain and describes how the documentation of the Wy framework works.
+ 
+Explanation:
+ 
+Usage:
+
+Integration:
+
+Implement Later:
+
+ */
 public class MechVehFlyDroneMovement25D : MonoBehaviour
 {
 
@@ -13,7 +25,7 @@ public class MechVehFlyDroneMovement25D : MonoBehaviour
     public float horizontalRot =3f;
 
     Rigidbody myRB;
-    
+    public GameObject vehMesh; // set this to make drone lean forward via rotating while moving
 
     // Start is called before the first frame update
     void Awake()
@@ -31,27 +43,26 @@ public class MechVehFlyDroneMovement25D : MonoBehaviour
         
         MoveVertical(Input.GetAxis("Vertical"));
 
-        
-        // Lock Z axis
-        transform.position = new Vector3(transform.position.x,transform.position.y,0f);
+
         myRB.AddForce(idleForce); // force added to Drone at all times
         myRB.AddForce(-idleForce); // inertia force added to Drone at all times
 
 
-        //clamp rotation
-        // if(transform.rotation.z <=-30 || transform.rotation.z >=30 || movingHorizontal == 0){
-        //     transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * horizontalRot);
-        // }
+//        clamp rotation
+         if( (transform.rotation.z <=-30 || transform.rotation.z >=30 ) || Input.GetAxis("Horizontal") == 0){
+             vehMesh.transform.rotation = Quaternion.Slerp(vehMesh.transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * horizontalRot);
+         }
 
     }
 
     public void MoveHorizontal(float AxisValue){
-        myRB.AddForce(new Vector3(horizontalSpeed * AxisValue, 0f, 0f));
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, -30* AxisValue), Time.deltaTime * horizontalRot);
+        myRB.AddForce( transform.right * (horizontalSpeed * AxisValue) );
+        if(vehMesh)
+            vehMesh.transform.rotation = Quaternion.Slerp(vehMesh.transform.rotation, Quaternion.Euler(-30* AxisValue * transform.forward), Time.deltaTime * horizontalRot);
     }
 
     public void MoveVertical(float AxisValue){
-        myRB.AddForce(new Vector3(0f, verticalSpeed * AxisValue, 0f));
+        myRB.AddForce( transform.up * (verticalSpeed * AxisValue) );
     }
     
 
