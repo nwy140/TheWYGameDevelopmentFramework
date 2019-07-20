@@ -36,3 +36,16 @@ sysinfo.txt
 *.unitypackage
 
 
+# Custom
+[Jj]etBrains/
+/WyFramework/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+/WyFramework/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+/WyFramework/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+/WyFramework/Assets/Plugins/Editor.meta
+/WyFramework/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+/WyFramework/Assets/Plugins/Editor/JetBrains.meta
+/WyFramework/Assets/Plugins/Editor/JetBrains.meta
+/WyFramework/Assets/Plugins/Editor/JetBrains/
+/WyFramework/Assets/Plugins/Editor/JetBrains.meta
+/WyFramework/.idea/.idea.WyFramework/.idea/
+/WyFramework/.idea/.idea.WyFramework/.idea/misc.xml
