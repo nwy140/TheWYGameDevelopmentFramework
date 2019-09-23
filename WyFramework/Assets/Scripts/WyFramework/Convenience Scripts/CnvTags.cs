@@ -61,3 +61,7 @@ public class CnvGenTags { // general tags
     public const string ITEM_WEAPON = "ItemWeapon";
 
 }
+
+public class CnvSavePrefsTags{
+
+}
