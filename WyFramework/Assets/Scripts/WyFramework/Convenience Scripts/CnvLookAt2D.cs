@@ -27,7 +27,6 @@ public class CnvLookAt2D : MonoBehaviour
     void Update()
     {
         LookAt2d();
-
     }
 
     private void LookAt2d(){
