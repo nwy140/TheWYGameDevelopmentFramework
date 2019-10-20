@@ -1,0 +1,18 @@
+constant velocit
+rate of turning same
+
+
+
+
+
+
+
+Whenever enemy sees another enemey,
+shoot each other
+
+
+
+120 degrees raycast
+
+
+4pie / 6

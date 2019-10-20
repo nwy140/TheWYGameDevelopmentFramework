@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Metal
+  - Target
+  - ExplosiveBarrel
+  - Attach
+  - Enemy
+  - yankee
+  - Enemy_2
+  - Enemy_1
+  - Death
+  - loading_scene
   layers:
   - Default
   - TransparentFX
@@ -14,7 +24,7 @@ TagManager:
   - 
   - 
   - PropCol
-  - PropTrig
+  - 
   - 
   - 
   - 
