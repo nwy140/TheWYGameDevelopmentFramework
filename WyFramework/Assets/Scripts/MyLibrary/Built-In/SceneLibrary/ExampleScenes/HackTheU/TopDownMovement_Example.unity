@@ -247,6 +247,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy_2
       objectReference: {fileID: 0}
+    - target: {fileID: -8718769943576871904, guid: 2648307138cef4923b0a50f8571c102c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 233f237a57188534580d30e1a5b212cf, type: 2}
     - target: {fileID: -8684251187902555887, guid: 2648307138cef4923b0a50f8571c102c,
         type: 3}
       propertyPath: m_IsActive
@@ -3687,7 +3692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -4.06, y: 3}
+  m_AnchoredPosition: {x: -4.06, y: -1.69}
   m_SizeDelta: {x: 542, y: 314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1096776953
@@ -6575,7 +6580,7 @@ GameObject:
   - component: {fileID: 1738523648}
   - component: {fileID: 1738523647}
   - component: {fileID: 1738523646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

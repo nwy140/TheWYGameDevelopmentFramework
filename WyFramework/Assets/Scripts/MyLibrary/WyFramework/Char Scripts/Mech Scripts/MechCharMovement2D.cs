@@ -27,9 +27,9 @@ using UnityEngine.Serialization;
 	/// 
 	/// </summary>
 
-public class MechCharMovement : MonoBehaviour
+public class MechCharMovement2D : MonoBehaviour
 {
-	/// <summary> 
+	/// <summary>
 	/// 	Reference to RigidBody in current gameObj
 	/// 		
 	///		Explanation:

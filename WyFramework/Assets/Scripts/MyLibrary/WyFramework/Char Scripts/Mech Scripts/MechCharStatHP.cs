@@ -94,8 +94,8 @@ public class MechCharStatHP : MonoBehaviour
     
     public void OnDeath()
 	{
-    	
-        anim.SetTrigger(CnvAnimTags.DEATH_TRIGGER);
+		if(anim)
+        	anim.SetTrigger(CnvAnimTags.DEATH_TRIGGER);
         // default tag objects will not be shot
         tag = "Death";
         //// death code for char
@@ -110,8 +110,9 @@ public class MechCharStatHP : MonoBehaviour
 		MonoBehaviour[] components = GetComponents<MonoBehaviour>();
         foreach(MonoBehaviour comp in components)
         {
-
-            comp.enabled = false;
+	        if(comp){
+		        comp.enabled = false;
+	        }
         }
 
         foreach (GameObject obj in objsToDisableOnDeath)

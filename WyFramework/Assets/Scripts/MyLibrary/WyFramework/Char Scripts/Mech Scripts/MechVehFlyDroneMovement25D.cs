@@ -50,7 +50,9 @@ public class MechVehFlyDroneMovement25D : MonoBehaviour
 
 //        clamp rotation
          if( (transform.rotation.z <=-30 || transform.rotation.z >=30 ) || Input.GetAxis("Horizontal") == 0){
-             vehMesh.transform.rotation = Quaternion.Slerp(vehMesh.transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * horizontalRot);
+	         if(vehMesh){
+		         vehMesh.transform.rotation = Quaternion.Slerp(vehMesh.transform.rotation, Quaternion.Euler(0, 0, 0), Time.deltaTime * horizontalRot);
+	         }
          }
 
     }
