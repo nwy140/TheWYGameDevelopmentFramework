@@ -7,6 +7,8 @@ var searchData=
   ['enable',['Enable',['../class_game_framework_1_1_audio_1_1_components_1_1_start_stop_background_music.html#ac64029930d1a8bae6b9ae8beecb8b3f9',1,'GameFramework::Audio::Components::StartStopBackgroundMusic']]],
   ['enableafterkey',['EnableAfterKey',['../class_game_framework_1_1_game_objects_1_1_components_1_1_abstract_classes_1_1_run_once.html#a8de84fd525a01ad0e123062e8fd6acef',1,'GameFramework::GameObjects::Components::AbstractClasses::RunOnce']]],
   ['enableeditor',['enableEditor',['../class_script_inspector_1_1_script_inspector.html#afc0dd2e01800814cd9a1f0430dc9fbdd',1,'ScriptInspector::ScriptInspector']]],
+  ['enemy_5fcurrentstate',['enemy_CurrentState',['../class_mech_char_a_i_state.html#a7c509043793e36cd0ef118f0dc86b8f0',1,'MechCharAIState']]],
+  ['enemy_5flaststate',['enemy_LastState',['../class_mech_char_a_i_state.html#ac644969d4177ab5e241d8656f5ae1077',1,'MechCharAIState']]],
   ['enemy_5ftag',['ENEMY_TAG',['../class_cnv_gen_tags.html#a8fb0079a41bc3300fa05d323dd459d7a',1,'CnvGenTags']]],
   ['enummembers',['enumMembers',['../class_script_inspector_1_1_themes_1_1_theme.html#a810a7ab39c63d27077ff24eecfc70241',1,'ScriptInspector::Themes::Theme']]],
   ['enummembersstyle',['enumMembersStyle',['../class_script_inspector_1_1_themes_1_1_theme.html#a85ad8d42cca6ad6e8f7f9a05e38d3386',1,'ScriptInspector::Themes::Theme']]],

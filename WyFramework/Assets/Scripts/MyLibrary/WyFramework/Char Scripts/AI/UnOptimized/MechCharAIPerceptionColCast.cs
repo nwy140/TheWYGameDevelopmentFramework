@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CnvMechAIPerceptionColCast : MonoBehaviour
+public class MechCharAIPerceptionColCast : MonoBehaviour
 {
 	// This class is not usable and optimized yet
 

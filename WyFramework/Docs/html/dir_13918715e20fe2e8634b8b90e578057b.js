@@ -4,5 +4,8 @@ var dir_13918715e20fe2e8634b8b90e578057b =
     [ "Convenience Scripts", "dir_95969239d62ad96ba0067a620e0b23c3.html", "dir_95969239d62ad96ba0067a620e0b23c3" ],
     [ "DocumentationTemplate.cs", "_documentation_template_8cs.html", [
       [ "DocumentationTemplate", "class_wy_framework_1_1_documentation_template.html", null ]
+    ] ],
+    [ "DocumentationTemplateJavaDoc.cs", "_documentation_template_java_doc_8cs.html", [
+      [ "DocumentationTemplateJavaDoc", "class_w_y_framework_1_1_documentation_template_java_doc.html", "class_w_y_framework_1_1_documentation_template_java_doc" ]
     ] ]
 ];

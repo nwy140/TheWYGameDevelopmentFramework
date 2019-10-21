@@ -1,7 +1,7 @@
 var searchData=
 [
   ['wait',['Wait',['../class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#a81be0b8df523ff97e70759addb88fd30',1,'GameFramework::Display::Other::CoRoutines']]],
-  ['walk',['Walk',['../class_vis_char_anim.html#a262026e385dda464e1efa306aa331b11',1,'VisCharAnim.Walk()'],['../class_cnv_anim_tags.html#a5262e65efe4cb367581dd1296491856f',1,'CnvAnimTags.WALK()']]],
+  ['walk',['WALK',['../class_cnv_anim_tags.html#a5262e65efe4cb367581dd1296491856f',1,'CnvAnimTags.WALK()'],['../class_vis_char_anim.html#a262026e385dda464e1efa306aa331b11',1,'VisCharAnim.Walk()'],['../_mech_char_a_i_state_8cs.html#abd9ce831b47b2a8a76dc261294d37163abb2dfc184fa2e91373d3ff304cb01b8a',1,'WALK():&#160;MechCharAIState.cs']]],
   ['warning',['Warning',['../class_game_framework_1_1_debugging_1_1_my_debug.html#a36a34f506f383887811a2a192933d02ba0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'GameFramework.Debugging.MyDebug.Warning()'],['../class_game_framework_1_1_editor_extras_1_1_help_box_attribute.html#ae7cf8e14780bf73d997324b45872433da0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'GameFramework.EditorExtras.HelpBoxAttribute.Warning()']]],
   ['webdata',['WebData',['../class_web_data.html',1,'']]],
   ['webdata_2ecs',['WebData.cs',['../_web_data_8cs.html',1,'']]],
@@ -74,5 +74,5 @@ var searchData=
   ['writereference',['WriteReference',['../class_script_inspector_1_1_find_results_window.html#ab7a9b781572fdb9c0662f0e86d084414a148977ad834685118f02303f86b58531',1,'ScriptInspector::FindResultsWindow']]],
   ['writes',['writes',['../class_script_inspector_1_1_find_results_window_1_1_filtering_options.html#a1849a7be2987de9242833cf66dcac93a',1,'ScriptInspector::FindResultsWindow::FilteringOptions']]],
   ['wss',['WSS',['../class_w_s_s.html',1,'']]],
-  ['wyframework',['WyFramework',['../namespace_wy_framework.html',1,'']]]
+  ['wyframework',['WYFramework',['../namespace_w_y_framework.html',1,'WYFramework'],['../namespace_wy_framework.html',1,'WyFramework']]]
 ];

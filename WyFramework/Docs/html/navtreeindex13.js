@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a48a0cd27ff52fcae6ed33ca15f0902f6":[1,0,0,12,6,3,0,8],
+"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6b81f2b38f45324f6e42ab4e9d79dcbe":[1,0,0,12,6,3,0,0],
+"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6fbea90798cf05acaa7fc557efb17766":[1,0,0,12,6,3,0,2],
+"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a83c524e7dff0c9a14c1c9564b9938661":[1,0,0,12,6,3,0,4],
 "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a9230f7cabfffa976c385200ccd2b5e31":[1,0,0,12,6,3,0,5],
 "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a9999bb40203083e47c05411bd7cecc5c":[1,0,0,12,6,3,0,19],
 "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#aa9212e6fe74268ebe52b64d4af9e7c55":[1,0,0,12,6,3,0,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_world_game_item_context.html":[1,0,0,12,9,0,14],
 "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_world_game_item_context.html#a6ab2b853f8ad7bf93ef10180f6aa4bb6":[1,0,0,12,9,0,14,0],
 "class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_buy_world_button_editor.html":[1,0,0,12,9,1,0],
-"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_instantiate_world_prefab_editor.html":[1,0,0,12,9,1,1],
-"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_set_image_to_world_sprite_editor.html":[1,0,0,12,9,1,2],
-"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_set_sprite_renderer_to_world_sprite_editor.html":[1,0,0,12,9,1,3],
-"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_show_world_counter_editor.html":[1,0,0,12,9,1,4],
-"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_show_world_counter_editor.html#a3f4db9a3e721ea982aeda4d92b7edaa5":[1,0,0,12,9,1,4,0]
+"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_instantiate_world_prefab_editor.html":[1,0,0,12,9,1,1]
 };

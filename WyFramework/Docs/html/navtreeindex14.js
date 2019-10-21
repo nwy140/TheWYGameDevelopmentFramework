@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_set_image_to_world_sprite_editor.html":[1,0,0,12,9,1,2],
+"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_set_sprite_renderer_to_world_sprite_editor.html":[1,0,0,12,9,1,3],
+"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_show_world_counter_editor.html":[1,0,0,12,9,1,4],
+"class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_show_world_counter_editor.html#a3f4db9a3e721ea982aeda4d92b7edaa5":[1,0,0,12,9,1,4,0],
 "class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_show_world_prefab_editor.html":[1,0,0,12,9,1,5],
 "class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_unlock_world_button_editor.html":[1,0,0,12,9,1,6],
 "class_game_framework_1_1_game_structure_1_1_worlds_1_1_editor_1_1_world_button_editor.html":[1,0,0,12,9,1,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a6caf4049fc084b40a5c7c1a8d392ea62":[1,0,0,15,5,35],
 "class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a7a0ea1771a9225815e8287c424e28a15":[1,0,0,15,5,32],
 "class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a7b016eb4f0dfd3592ffa83ac4353c8d0":[1,0,0,15,5,7],
-"class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a7d0e7a66f6eea31f392d749696f79f58":[1,0,0,15,5,15],
-"class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a884a9d49ae7ee95b6e4e7e1a87883e34":[1,0,0,15,5,5],
-"class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a8bdfc6d4b2c00428cb44b9a68b0a4be3":[1,0,0,15,5,17],
-"class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a92fc5fd13ae548e9d82b3099a2dba3b4":[1,0,0,15,5,23],
-"class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a9a1e314e2e684053a8181aacaaf55326":[1,0,0,15,5,10]
+"class_game_framework_1_1_localisation_1_1_localisation_data_tests.html#a7d0e7a66f6eea31f392d749696f79f58":[1,0,0,15,5,15]
 };

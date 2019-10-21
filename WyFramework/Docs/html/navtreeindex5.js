@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"class_f_g_text_buffer.html#afaf46b33f5e3eeab262a818a7c71b7f8":[1,0,38,46],
+"class_f_g_text_buffer.html#afbdae924ae854911ae71859932895e81":[1,0,38,44],
+"class_f_g_text_buffer.html#afc9b354504060e6d613a5f08547f5ce8":[1,0,38,102],
+"class_f_g_text_buffer.html#afe0b292f10a2ed1d97245529c77b4c9c":[1,0,38,95],
 "class_f_g_text_buffer_1_1_caret_pos.html":[1,0,38,0],
 "class_f_g_text_buffer_1_1_caret_pos.html#a0a33c7f6c02d863dd2cafd29662bb475":[1,0,38,0,5],
 "class_f_g_text_buffer_1_1_caret_pos.html#a0c25df3859046c69aaf658384ccc1100":[1,0,38,0,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX5 =
 "class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#ac84591d3a62fa274d758e8875d1206a3":[1,0,0,6,0,4,3],
 "class_game_framework_1_1_display_1_1_other_1_1_co_routines.html#afad474bfccd04acb4a66ae2c98663943":[1,0,0,6,0,4,5],
 "class_game_framework_1_1_display_1_1_other_1_1_color_extension.html":[1,0,0,6,0,1],
-"class_game_framework_1_1_display_1_1_other_1_1_color_extension.html#ae2ddfdf27dc2dc5f6552a81346a4b88d":[1,0,0,6,0,1,0],
-"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html":[1,0,0,6,0,2],
-"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html#a1c0b036ad114b9d18981117b4103c601":[1,0,0,6,0,2,2],
-"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html#a329b592f5cbfb67a299615500ecd8d2b":[1,0,0,6,0,2,1],
-"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html#a5375fb49d4f784c2875bfe3e3362991b":[1,0,0,6,0,2,0]
+"class_game_framework_1_1_display_1_1_other_1_1_color_extension.html#ae2ddfdf27dc2dc5f6552a81346a4b88d":[1,0,0,6,0,1,0]
 };

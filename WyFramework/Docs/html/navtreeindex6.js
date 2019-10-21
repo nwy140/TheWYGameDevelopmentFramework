@@ -1,5 +1,9 @@
 var NAVTREEINDEX6 =
 {
+"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html":[1,0,0,6,0,2],
+"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html#a1c0b036ad114b9d18981117b4103c601":[1,0,0,6,0,2,2],
+"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html#a329b592f5cbfb67a299615500ecd8d2b":[1,0,0,6,0,2,1],
+"class_game_framework_1_1_display_1_1_other_1_1_color_helper.html#a5375fb49d4f784c2875bfe3e3362991b":[1,0,0,6,0,2,0],
 "class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background.html":[1,0,0,6,0,0,0],
 "class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background.html#a2780f58c0bff0fb6bdde6bdea7e5bf90":[1,0,0,6,0,0,0,2],
 "class_game_framework_1_1_display_1_1_other_1_1_components_1_1_gradient_background.html#a2f79c249e6e92c91e96718fc24ebfa25":[1,0,0,6,0,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a2d0fc2cd62ea0fed2faad66c3ae27827":[1,0,0,9,0,2,11],
 "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a35451ffb49d7f9734ae8a13d482ee015":[1,0,0,9,0,2,15],
 "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a356b7caf06bfd703c4ace31a6a92b780":[1,0,0,9,0,2,5],
-"class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a45a9687e89ee8e6c9820a8c362105c93":[1,0,0,9,0,2,16],
-"class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a6035dddc93a8df65e2cdb45f46057b2a":[1,0,0,9,0,2,1],
-"class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a6855825800c84f14a851b236c98994a0":[1,0,0,9,0,2,9],
-"class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a6ebf57aaa7f174fcb3b9356795ce004f":[1,0,0,9,0,2,21],
-"class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a80ebe409a7cb54f4a9d4a0686fcc160a":[1,0,0,9,0,2,2]
+"class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager.html#a45a9687e89ee8e6c9820a8c362105c93":[1,0,0,9,0,2,16]
 };

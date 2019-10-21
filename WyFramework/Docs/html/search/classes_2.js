@@ -36,7 +36,6 @@ var searchData=
   ['cnvlockpostoobj',['CnvLockPosToObj',['../class_cnv_lock_pos_to_obj.html',1,'']]],
   ['cnvlookat2d',['CnvLookAt2D',['../class_cnv_look_at2_d.html',1,'']]],
   ['cnvlvlsgtman',['CnvLvlSgtMan',['../class_cnv_lvl_sgt_man.html',1,'']]],
-  ['cnvmechaiperceptioncolcast',['CnvMechAIPerceptionColCast',['../class_cnv_mech_a_i_perception_col_cast.html',1,'']]],
   ['cnvmechobjpoolman',['CnvMechObjPoolMan',['../class_cnv_mech_obj_pool_man.html',1,'']]],
   ['cnvmechobjpooltrigdeact',['CnvMechObjPoolTrigDeact',['../class_cnv_mech_obj_pool_trig_deact.html',1,'']]],
   ['cnvmechobjpooltrigspwn',['CnvMechObjPoolTrigSpwn',['../class_cnv_mech_obj_pool_trig_spwn.html',1,'']]],

@@ -5,5 +5,6 @@ var namespaces_dup =
     [ "ProBuilder2", "namespace_pro_builder2.html", "namespace_pro_builder2" ],
     [ "ProGrids", "namespace_pro_grids.html", null ],
     [ "ScriptInspector", "namespace_script_inspector.html", "namespace_script_inspector" ],
+    [ "WYFramework", "namespace_w_y_framework.html", null ],
     [ "WyFramework", "namespace_wy_framework.html", null ]
 ];

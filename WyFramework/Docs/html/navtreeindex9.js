@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_health.html#a5665dd7c9f031b1c5abd9521c2b2a6ff":[1,0,0,12,3,2,4,1,1],
+"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_health.html#a80a68ac9b3e567ba51703da5d777d9de":[1,0,0,12,3,2,4,1,0],
+"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html":[1,0,0,12,3,2,4,2],
+"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html#aae4fc775d993f89c56832e6a7c2c79a3":[1,0,0,12,3,2,4,2,0],
 "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html#ad48df614fa97daf5f65065fd58bdbde3":[1,0,0,12,3,2,4,2,1],
 "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_score.html":[1,0,0,12,3,2,4,3],
 "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_score.html#aa1fe81c5d9730f404a9537924d63d449":[1,0,0,12,3,2,4,3,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base.html#a66bec0f580e9926148803a92212cc658":[1,0,0,12,4,0,0,3,4],
 "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base.html#a92977ab53038e33f37862d759714f0eb":[1,0,0,12,4,0,0,3,1],
 "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base.html#aa8c2c1751994a4979feb3b6b6f04d252":[1,0,0,12,4,0,0,3,3],
-"class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base.html#acf64484385cd323bfb8c2fc58b4b2d5d":[1,0,0,12,4,0,0,3,0],
-"class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base_runnable.html":[1,0,0,12,4,0,0,4],
-"class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base_runnable.html#a030ab1a154f55a21831e2dcf883373e8":[1,0,0,12,4,0,0,4,5],
-"class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base_runnable.html#a1d7fdfa1989aa87535e84d39cb94ab39":[1,0,0,12,4,0,0,4,0],
-"class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base_runnable.html#a28a5e06177a8013c4917092092d20dfb":[1,0,0,12,4,0,0,4,3]
+"class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_game_item_context_base.html#acf64484385cd323bfb8c2fc58b4b2d5d":[1,0,0,12,4,0,0,3,0]
 };

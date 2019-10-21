@@ -16,7 +16,7 @@ var searchData=
   ['tocsharpstringextensions',['ToCSharpStringExtensions',['../class_script_inspector_1_1_to_c_sharp_string_extensions.html',1,'ScriptInspector']]],
   ['token',['Token',['../class_script_inspector_1_1_f_g_grammar_1_1_token.html',1,'ScriptInspector::FGGrammar']]],
   ['tokenset',['TokenSet',['../class_script_inspector_1_1_f_g_grammar_1_1_token_set.html',1,'ScriptInspector::FGGrammar']]],
-  ['triggerdata',['TriggerData',['../class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html',1,'GameFramework.GameStructure.Colliders.GenericCollider.TriggerData'],['../class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler_1_1_trigger_data.html',1,'GameFramework.GameStructure.Game.Components.CollisionHandler.TriggerData']]],
+  ['triggerdata',['TriggerData',['../class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler_1_1_trigger_data.html',1,'GameFramework.GameStructure.Game.Components.CollisionHandler.TriggerData'],['../class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html',1,'GameFramework.GameStructure.Colliders.GenericCollider.TriggerData']]],
   ['typealias',['TypeAlias',['../struct_script_inspector_1_1_type_alias.html',1,'ScriptInspector']]],
   ['typebasescope',['TypeBaseScope',['../class_script_inspector_1_1_type_base_scope.html',1,'ScriptInspector']]],
   ['typedefinition',['TypeDefinition',['../class_script_inspector_1_1_type_definition.html',1,'ScriptInspector']]],

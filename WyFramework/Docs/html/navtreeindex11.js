@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_changed_message.html#aa0cf31f02323d3b516c7bb23b9fd7ec4":[1,0,0,12,4,2,2,5],
+"class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_changed_message.html#ac46b887013bff082db4d70bf192a04cb":[1,0,0,12,4,2,2,3],
+"class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_float_amount_changed_message.html#ac542ba056f47aeb69b72fd6561ea75f2":[1,0,0,12,4,2,2,0],
+"class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html":[1,0,0,12,4,2,3],
 "class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html#a201297995b2db854a743e07e19a11206":[1,0,0,12,4,2,3,3],
 "class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html#a3a78df31720fe9721c16b44af1128303":[1,0,0,12,4,2,3,4],
 "class_game_framework_1_1_game_structure_1_1_game_items_1_1_messages_1_1_counter_int_amount_best_changed_message.html#a7a8f0b80eab7da830c849407d75b802f":[1,0,0,12,4,2,3,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX11 =
 "class_game_framework_1_1_game_structure_1_1_game_manager.html#a8c84f3ff8e18f5461109c84e894c304e":[1,0,0,12,10,39],
 "class_game_framework_1_1_game_structure_1_1_game_manager.html#a8c863bf0653dc79a91bdd7e68656b8bd":[1,0,0,12,10,72],
 "class_game_framework_1_1_game_structure_1_1_game_manager.html#a8f658e9d4de061c84163d04c8b6825a9":[1,0,0,12,10,75],
-"class_game_framework_1_1_game_structure_1_1_game_manager.html#a950417cab0b2cc5d65ade86a1f19890b":[1,0,0,12,10,51],
-"class_game_framework_1_1_game_structure_1_1_game_manager.html#a96cc5653adb2dfa5065fb1ded9a66f3d":[1,0,0,12,10,13],
-"class_game_framework_1_1_game_structure_1_1_game_manager.html#a981eaaf253f57f22a131087c5811018a":[1,0,0,12,10,26],
-"class_game_framework_1_1_game_structure_1_1_game_manager.html#a98f70bcc32bc6058f2d40c55479e5bbd":[1,0,0,12,10,4],
-"class_game_framework_1_1_game_structure_1_1_game_manager.html#a9b1202acf9db11d31246a56d160b8032":[1,0,0,12,10,37]
+"class_game_framework_1_1_game_structure_1_1_game_manager.html#a950417cab0b2cc5d65ade86a1f19890b":[1,0,0,12,10,51]
 };

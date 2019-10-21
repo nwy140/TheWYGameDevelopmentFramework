@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"class_game_framework_1_1_game_structure_1_1_game_manager.html#a96cc5653adb2dfa5065fb1ded9a66f3d":[1,0,0,12,10,13],
+"class_game_framework_1_1_game_structure_1_1_game_manager.html#a981eaaf253f57f22a131087c5811018a":[1,0,0,12,10,26],
+"class_game_framework_1_1_game_structure_1_1_game_manager.html#a98f70bcc32bc6058f2d40c55479e5bbd":[1,0,0,12,10,4],
+"class_game_framework_1_1_game_structure_1_1_game_manager.html#a9b1202acf9db11d31246a56d160b8032":[1,0,0,12,10,37],
 "class_game_framework_1_1_game_structure_1_1_game_manager.html#a9e0ddeddf223412b195bcae487e83bb6":[1,0,0,12,10,60],
 "class_game_framework_1_1_game_structure_1_1_game_manager.html#a9f2492bf726e3d247185adc380fa6863":[1,0,0,12,10,12],
 "class_game_framework_1_1_game_structure_1_1_game_manager.html#aa39c606cfea63be6db8dbbc9cc451974":[1,0,0,12,10,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html":[1,0,0,12,6,3,0],
 "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a0fbf9fd6bfd496418b48064eeb62bec3":[1,0,0,12,6,3,0,9],
 "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a2893e123ce402f51adefea4369880f61":[1,0,0,12,6,3,0,12],
-"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a40db5c4adf9edfe0f3dab80a6ccbe636":[1,0,0,12,6,3,0,20],
-"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a48a0cd27ff52fcae6ed33ca15f0902f6":[1,0,0,12,6,3,0,8],
-"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6b81f2b38f45324f6e42ab4e9d79dcbe":[1,0,0,12,6,3,0,0],
-"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a6fbea90798cf05acaa7fc557efb17766":[1,0,0,12,6,3,0,2],
-"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a83c524e7dff0c9a14c1c9564b9938661":[1,0,0,12,6,3,0,4]
+"class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_level.html#a40db5c4adf9edfe0f3dab80a6ccbe636":[1,0,0,12,6,3,0,20]
 };

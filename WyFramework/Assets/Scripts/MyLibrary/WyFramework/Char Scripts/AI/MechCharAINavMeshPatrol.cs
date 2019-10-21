@@ -3,15 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-/**
- * A brief history of JavaDoc-style (C-style) comments.
- *
- * This is the typical JavaDoc-style C-style comment. It starts with two
- * asterisks.
- *
- * @param theory Even if there is only one possible unified theory. it is just a
- *               set of rules and equations.
- */
+
 
 public class MechCharAINavMeshPatrol : MonoBehaviour
 {
@@ -26,9 +18,8 @@ public class MechCharAINavMeshPatrol : MonoBehaviour
         
 	    setPatrolDestinationByIndex(patrolIndex);
     }
-    
-	// Update is called every frame, if the MonoBehaviour is enabled.
-	protected void Update()
+
+  void Update()
 	{
 		if(CheckHasReachDestination(reachDestinationRadius)){
 			patrolIndex++;
@@ -39,6 +30,7 @@ public class MechCharAINavMeshPatrol : MonoBehaviour
 		}
 	}
 	
+
 	public void setPatrolDestinationByIndex(int indexVal){
 		mNavMeshAgent.destination = patrolPoints[indexVal].position;
 	}

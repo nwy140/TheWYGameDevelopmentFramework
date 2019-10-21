@@ -47,7 +47,7 @@ var searchData=
   ['localisationentry',['LocalisationEntry',['../class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_entry.html',1,'GameFramework::Localisation::ObjectModel']]],
   ['localiseimage',['LocaliseImage',['../class_game_framework_1_1_localisation_1_1_components_1_1_localise_image.html',1,'GameFramework::Localisation::Components']]],
   ['localisespriterenderer',['LocaliseSpriteRenderer',['../class_game_framework_1_1_localisation_1_1_components_1_1_localise_sprite_renderer.html',1,'GameFramework::Localisation::Components']]],
-  ['localisetext',['LocaliseText',['../class_game_framework_1_1_localisation_1_1_localise_text.html',1,'GameFramework.Localisation.LocaliseText'],['../class_game_framework_1_1_localisation_1_1_components_1_1_localise_text.html',1,'GameFramework.Localisation.Components.LocaliseText']]],
+  ['localisetext',['LocaliseText',['../class_game_framework_1_1_localisation_1_1_components_1_1_localise_text.html',1,'GameFramework.Localisation.Components.LocaliseText'],['../class_game_framework_1_1_localisation_1_1_localise_text.html',1,'GameFramework.Localisation.LocaliseText']]],
   ['localisetexteditor',['LocaliseTextEditor',['../class_game_framework_1_1_localisation_1_1_editor_1_1_localise_text_editor.html',1,'GameFramework::Localisation::Editor']]],
   ['localisetextonprelocaliseevent',['LocaliseTextOnPreLocaliseEvent',['../class_game_framework_1_1_localisation_1_1_components_1_1_localise_text_on_pre_localise_event.html',1,'GameFramework::Localisation::Components']]],
   ['localscope',['LocalScope',['../class_script_inspector_1_1_local_scope.html',1,'ScriptInspector']]],

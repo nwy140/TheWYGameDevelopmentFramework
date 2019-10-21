@@ -1,11 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-using WyFramework;
-
-namespace WyFramework{
 	
-
+	// Example Doxygen Documentation Convention
+	/**
+	 * @file
+	 * @author  John Doe <jdoe@example.com>
+	 * @version 1.0
+	 * @section DESCRIPTION
+	 *
+	 * The time class represents a moment of time.
+	 */
 public class CnvLvlSgtMan : MonoBehaviour
 {
 
@@ -119,6 +124,4 @@ public class CnvLvlSgtMan : MonoBehaviour
 		GameplayTimeScale--;
 		Time.timeScale = GameplayTimeScale;
 	}
-}
-
 }

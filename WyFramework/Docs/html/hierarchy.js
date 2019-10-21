@@ -8,11 +8,11 @@ var hierarchy =
       [ "ScriptInspector.CodeSnippets", "class_script_inspector_1_1_code_snippets.html", null ]
     ] ],
     [ "Attribute", null, [
-      [ "GameFramework.Messaging.Components.AbstractClasses.RunOnMessageAttribute", "class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message_attribute.html", null ]
-    ] ],
-    [ "Attribute", null, [
       [ "ProGrids.ProGridsConditionalSnapAttribute", "class_pro_grids_1_1_pro_grids_conditional_snap_attribute.html", null ],
       [ "ProGrids.ProGridsNoSnapAttribute", "class_pro_grids_1_1_pro_grids_no_snap_attribute.html", null ]
+    ] ],
+    [ "Attribute", null, [
+      [ "GameFramework.Messaging.Components.AbstractClasses.RunOnMessageAttribute", "class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message_attribute.html", null ]
     ] ],
     [ "ScriptInspector.BacktrackingStringMatcher", "class_script_inspector_1_1_backtracking_string_matcher.html", null ],
     [ "BaseMeshEffect", null, [
@@ -123,6 +123,7 @@ var hierarchy =
     [ "GameFramework.Weighting.DistanceWeightValue", "class_game_framework_1_1_weighting_1_1_distance_weight_value.html", null ],
     [ "GameFramework.Weighting.DistanceWeightedItems< T >.DistanceWithWeights", "class_game_framework_1_1_weighting_1_1_distance_weighted_items_1_1_distance_with_weights.html", null ],
     [ "WyFramework.DocumentationTemplate", "class_wy_framework_1_1_documentation_template.html", null ],
+    [ "WYFramework.DocumentationTemplateJavaDoc", "class_w_y_framework_1_1_documentation_template_java_doc.html", null ],
     [ "DoxygenConfig", "class_doxygen_config.html", null ],
     [ "DoxyRunner", "class_doxy_runner.html", null ],
     [ "DoxyThreadSafeOutput", "class_doxy_thread_safe_output.html", null ],
@@ -601,8 +602,8 @@ var hierarchy =
     [ "GameFramework.Messaging.MessageStatistics", "class_game_framework_1_1_messaging_1_1_message_statistics.html", null ],
     [ "GameFramework.Messaging.MessagingTests", "class_game_framework_1_1_messaging_1_1_messaging_tests.html", null ],
     [ "GameFramework.Messaging.Messenger", "class_game_framework_1_1_messaging_1_1_messenger.html", null ],
-    [ "GameFramework.GameObjects.MinMax", "struct_game_framework_1_1_game_objects_1_1_min_max.html", null ],
     [ "GameFramework.FreePrize.Components.FreePrizeManager.MinMax", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager_1_1_min_max.html", null ],
+    [ "GameFramework.GameObjects.MinMax", "struct_game_framework_1_1_game_objects_1_1_min_max.html", null ],
     [ "GameFramework.GameObjects.MinMaxf", "struct_game_framework_1_1_game_objects_1_1_min_maxf.html", null ],
     [ "MonoBehaviour", null, [
       [ "Cnv_DetectCollision", "class_cnv___detect_collision.html", null ],
@@ -620,7 +621,6 @@ var hierarchy =
       [ "CnvLockPosToObj", "class_cnv_lock_pos_to_obj.html", null ],
       [ "CnvLookAt2D", "class_cnv_look_at2_d.html", null ],
       [ "CnvLvlSgtMan", "class_cnv_lvl_sgt_man.html", null ],
-      [ "CnvMechAIPerceptionColCast", "class_cnv_mech_a_i_perception_col_cast.html", null ],
       [ "CnvMechObjPoolMan", "class_cnv_mech_obj_pool_man.html", null ],
       [ "CnvMechObjPoolTrigDeact", "class_cnv_mech_obj_pool_trig_deact.html", null ],
       [ "CnvMechObjPoolTrigSpwn", "class_cnv_mech_obj_pool_trig_spwn.html", null ],
@@ -774,6 +774,8 @@ var hierarchy =
       [ "HighlightNearestFace", "class_highlight_nearest_face.html", null ],
       [ "MechActorGroundDetector", "class_mech_actor_ground_detector.html", null ],
       [ "MechCharAINavMeshPatrol", "class_mech_char_a_i_nav_mesh_patrol.html", null ],
+      [ "MechCharAIPerceptionColCast", "class_mech_char_a_i_perception_col_cast.html", null ],
+      [ "MechCharAIState", "class_mech_char_a_i_state.html", null ],
       [ "MechCharMovement2D", "class_mech_char_movement2_d.html", null ],
       [ "MechCharMovementRTS", "class_mech_char_movement_r_t_s.html", null ],
       [ "MechCharMovementTopDown", "class_mech_char_movement_top_down.html", null ],
@@ -1190,8 +1192,8 @@ var hierarchy =
     [ "ScriptInspector.Themes.Theme", "class_script_inspector_1_1_themes_1_1_theme.html", null ],
     [ "ScriptInspector.ToCSharpStringExtensions", "class_script_inspector_1_1_to_c_sharp_string_extensions.html", null ],
     [ "ScriptInspector.FGGrammar.TokenSet", "class_script_inspector_1_1_f_g_grammar_1_1_token_set.html", null ],
-    [ "GameFramework.GameStructure.Colliders.GenericCollider.TriggerData", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html", null ],
     [ "GameFramework.GameStructure.Game.Components.CollisionHandler.TriggerData", "class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler_1_1_trigger_data.html", null ],
+    [ "GameFramework.GameStructure.Colliders.GenericCollider.TriggerData", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html", null ],
     [ "ScriptInspector.TypeAlias", "struct_script_inspector_1_1_type_alias.html", null ],
     [ "GameFramework.UI.Other.UIHelper", "class_game_framework_1_1_u_i_1_1_other_1_1_u_i_helper.html", null ],
     [ "GameFramework.Advertising.UnityAds.UnityAds", "class_game_framework_1_1_advertising_1_1_unity_ads_1_1_unity_ads.html", null ],

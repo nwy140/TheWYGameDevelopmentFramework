@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7151021e2dd420f3cf26f160028a2fd8":[1,0,0,12,1,2,25],
+"class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7250c896b07e1a3f56eac1a525400198":[1,0,0,12,1,2,3],
+"class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7ad9fac6c4db60d8e21a8fd0c99bf669":[1,0,0,12,1,2,17],
+"class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a7e94d4a85d6ec09c03d0954c3208bc20":[1,0,0,12,1,2,10],
 "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a86eb0435a5ee3ab452962ae0a5b7109b":[1,0,0,12,1,2,6],
 "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a946e755143256cb6cc59c400a2c29b95":[1,0,0,12,1,2,24],
 "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider.html#a95907f59fa9141686abec7db966bf54a":[1,0,0,12,1,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_coins.html":[1,0,0,12,3,2,4,0],
 "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_coins.html#a18c14a60fc1f92294f2113414092796c":[1,0,0,12,3,2,4,0,1],
 "class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_coins.html#a841854cbeb9f031b040a17a87157af81":[1,0,0,12,3,2,4,0,0],
-"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_health.html":[1,0,0,12,3,2,4,1],
-"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_health.html#a5665dd7c9f031b1c5abd9521c2b2a6ff":[1,0,0,12,3,2,4,1,1],
-"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_health.html#a80a68ac9b3e567ba51703da5d777d9de":[1,0,0,12,3,2,4,1,0],
-"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html":[1,0,0,12,3,2,4,2],
-"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_lives.html#aae4fc775d993f89c56832e6a7c2c79a3":[1,0,0,12,3,2,4,2,0]
+"class_game_framework_1_1_game_structure_1_1_game_1_1_game_actions_1_1_player_1_1_game_action_change_player_health.html":[1,0,0,12,3,2,4,1]
 };

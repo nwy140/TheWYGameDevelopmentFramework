@@ -18,6 +18,7 @@ var searchData=
   ['distanceweightvalue',['DistanceWeightValue',['../class_game_framework_1_1_weighting_1_1_distance_weight_value.html',1,'GameFramework::Weighting']]],
   ['distancewithweights',['DistanceWithWeights',['../class_game_framework_1_1_weighting_1_1_distance_weighted_items_1_1_distance_with_weights.html',1,'GameFramework::Weighting::DistanceWeightedItems']]],
   ['documentationtemplate',['DocumentationTemplate',['../class_wy_framework_1_1_documentation_template.html',1,'WyFramework']]],
+  ['documentationtemplatejavadoc',['DocumentationTemplateJavaDoc',['../class_w_y_framework_1_1_documentation_template_java_doc.html',1,'WYFramework']]],
   ['doxygenconfig',['DoxygenConfig',['../class_doxygen_config.html',1,'']]],
   ['doxygenwindow',['DoxygenWindow',['../class_doxygen_window.html',1,'']]],
   ['doxyrunner',['DoxyRunner',['../class_doxy_runner.html',1,'']]],
