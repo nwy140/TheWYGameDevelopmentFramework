@@ -1,6 +1,6 @@
 ﻿using System;
 using UnityEngine;
-public class CnvAltGameplayMan
+public class CnvAltGameplayMan : MonoBehaviour
 {
     public static CnvAltGameplayMan instance;
 

@@ -15,8 +15,9 @@ public class CnvLvlSgtMan : MonoBehaviour
 {
 
 	public static CnvLvlSgtMan instance;
-    
+	    
 	public float GameplayTimeScale = 1;
+	
 
     public void Awake()
     {
@@ -99,13 +100,19 @@ public class CnvLvlSgtMan : MonoBehaviour
     }
 
     public void PauseLevel()
-    {
+	{
+		if(CnvAltGameplayMan.instance){
+			CnvAltGameplayMan.instance.gameplayState = CnvAltGameplayMan.GameplayState.GAME_PAUSE;
+		}
         Time.timeScale = 0;
         CnvAltGameplayMan.instance.gameplayState = CnvAltGameplayMan.GameplayState.GAME_PAUSE;
     }
 
     public void unPauseLevel()
-    {
+	{
+		if(CnvAltGameplayMan.instance){
+			CnvAltGameplayMan.instance.gameplayState = CnvAltGameplayMan.GameplayState.GAME_RUNNING;
+		}
 	    Time.timeScale =  GameplayTimeScale;
         CnvAltGameplayMan.instance.gameplayState = CnvAltGameplayMan.GameplayState.GAME_RUNNING;
     }
