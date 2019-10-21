@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,6 +17,7 @@ Implement Later:
  */
 public class CnvLookAt2D : MonoBehaviour
 {
+	
     // Update is called once per frame
 
     public Transform target;

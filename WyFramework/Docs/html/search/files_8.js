@@ -1,7 +1,6 @@
 var searchData=
 [
   ['icobumpin_2ecs',['IcoBumpin.cs',['../_ico_bumpin_8cs.html',1,'']]],
-  ['iinteractenvironment_2ecs',['IInteractEnvironment.cs',['../_i_interact_environment_8cs.html',1,'']]],
   ['info_2ecs',['Info.cs',['../_info_8cs.html',1,'']]],
   ['inputhelper_2ecs',['InputHelper.cs',['../_input_helper_8cs.html',1,'']]],
   ['instantiatecharacterprefab_2ecs',['InstantiateCharacterPrefab.cs',['../_instantiate_character_prefab_8cs.html',1,'']]],

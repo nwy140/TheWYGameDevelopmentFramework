@@ -27,6 +27,7 @@ var menudata={children:[
 {text:"Packages",url:"namespaces.html"},
 {text:"Package Functions",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html"},
+{text:"Typedefs",url:"namespacemembers_type.html"},
 {text:"Enumerations",url:"namespacemembers_enum.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
@@ -119,6 +120,7 @@ var menudata={children:[
 {text:"c",url:"functions_enum.html#index_c"},
 {text:"d",url:"functions_enum.html#index_d"},
 {text:"g",url:"functions_enum.html#index_g"},
+{text:"k",url:"functions_enum.html#index_k"},
 {text:"l",url:"functions_enum.html#index_l"},
 {text:"m",url:"functions_enum.html#index_m"},
 {text:"p",url:"functions_enum.html#index_p"},
@@ -139,6 +141,7 @@ var menudata={children:[
 {text:"h",url:"functions_prop_h.html#index_h"},
 {text:"i",url:"functions_prop_i.html#index_i"},
 {text:"j",url:"functions_prop_j.html#index_j"},
+{text:"k",url:"functions_prop_k.html#index_k"},
 {text:"l",url:"functions_prop_l.html#index_l"},
 {text:"m",url:"functions_prop_m.html#index_m"},
 {text:"n",url:"functions_prop_n.html#index_n"},
@@ -149,7 +152,8 @@ var menudata={children:[
 {text:"t",url:"functions_prop_t.html#index_t"},
 {text:"u",url:"functions_prop_u.html#index_u"},
 {text:"v",url:"functions_prop_v.html#index_v"},
-{text:"w",url:"functions_prop_w.html#index_w"}]},
+{text:"w",url:"functions_prop_w.html#index_w"},
+{text:"x",url:"functions_prop_x.html#index_x"}]},
 {text:"Events",url:"functions_evnt.html"}]}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},

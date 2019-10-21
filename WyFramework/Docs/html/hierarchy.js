@@ -3,15 +3,18 @@ var hierarchy =
     [ "GameFramework.GameFramework.Advertising.AdMob.AdMob", "class_game_framework_1_1_game_framework_1_1_advertising_1_1_ad_mob_1_1_ad_mob.html", null ],
     [ "pg_AboutWindow.AdvertisementThumb", "structpg___about_window_1_1_advertisement_thumb.html", null ],
     [ "AssetPostprocessor", null, [
-      [ "pg_AboutWindowSetup", "classpg___about_window_setup.html", null ]
+      [ "FGTextBufferManager.FGScriptPostprocessor", "class_f_g_text_buffer_manager_1_1_f_g_script_postprocessor.html", null ],
+      [ "pg_AboutWindowSetup", "classpg___about_window_setup.html", null ],
+      [ "ScriptInspector.CodeSnippets", "class_script_inspector_1_1_code_snippets.html", null ]
+    ] ],
+    [ "Attribute", null, [
+      [ "GameFramework.Messaging.Components.AbstractClasses.RunOnMessageAttribute", "class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message_attribute.html", null ]
     ] ],
     [ "Attribute", null, [
       [ "ProGrids.ProGridsConditionalSnapAttribute", "class_pro_grids_1_1_pro_grids_conditional_snap_attribute.html", null ],
       [ "ProGrids.ProGridsNoSnapAttribute", "class_pro_grids_1_1_pro_grids_no_snap_attribute.html", null ]
     ] ],
-    [ "Attribute", null, [
-      [ "GameFramework.Messaging.Components.AbstractClasses.RunOnMessageAttribute", "class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message_attribute.html", null ]
-    ] ],
+    [ "ScriptInspector.BacktrackingStringMatcher", "class_script_inspector_1_1_backtracking_string_matcher.html", null ],
     [ "BaseMeshEffect", null, [
       [ "GameFramework.UI.Other.Components.GradientText", "class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_gradient_text.html", null ]
     ] ],
@@ -67,6 +70,10 @@ var hierarchy =
       [ "GameFramework.Messaging.MessagingTests.CustomMessage1", "class_game_framework_1_1_messaging_1_1_messaging_tests_1_1_custom_message1.html", null ],
       [ "GameFramework.Messaging.MessagingTests.CustomMessage2", "class_game_framework_1_1_messaging_1_1_messaging_tests_1_1_custom_message2.html", null ]
     ] ],
+    [ "ScriptInspector.ParseTree.BaseNode", "class_script_inspector_1_1_parse_tree_1_1_base_node.html", [
+      [ "ScriptInspector.ParseTree.Leaf", "class_script_inspector_1_1_parse_tree_1_1_leaf.html", null ],
+      [ "ScriptInspector.ParseTree.Node", "class_script_inspector_1_1_parse_tree_1_1_node.html", null ]
+    ] ],
     [ "GameFramework.GameStructure.GameItems.Components.AbstractClasses.BuyGameItemButton< Character >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_buy_game_item_button.html", [
       [ "GameFramework.GameStructure.Characters.Components.BuyCharacterButton", "class_game_framework_1_1_game_structure_1_1_characters_1_1_components_1_1_buy_character_button.html", null ]
     ] ],
@@ -77,9 +84,12 @@ var hierarchy =
       [ "GameFramework.GameStructure.Worlds.Components.BuyWorldButton", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_buy_world_button.html", null ]
     ] ],
     [ "GameFramework.GameStructure.Characters.CharactersTests", "class_game_framework_1_1_game_structure_1_1_characters_1_1_characters_tests.html", null ],
+    [ "CnvAltGameplayMan", "class_cnv_alt_gameplay_man.html", null ],
     [ "CnvAnimTags", "class_cnv_anim_tags.html", null ],
     [ "CnvAxisTags", "class_cnv_axis_tags.html", null ],
     [ "CnvGenTags", "class_cnv_gen_tags.html", null ],
+    [ "CnvSavePrefsTags", "class_cnv_save_prefs_tags.html", null ],
+    [ "ScriptInspector.CodeIssue", "struct_script_inspector_1_1_code_issue.html", null ],
     [ "GameFramework.Display.Other.ColorExtension", "class_game_framework_1_1_display_1_1_other_1_1_color_extension.html", null ],
     [ "GameFramework.Display.Other.ColorHelper", "class_game_framework_1_1_display_1_1_other_1_1_color_helper.html", null ],
     [ "GameFramework.Display.Other.ColorHSV", "struct_game_framework_1_1_display_1_1_other_1_1_color_h_s_v.html", null ],
@@ -100,11 +110,13 @@ var hierarchy =
     [ "GameFramework.GameStructure.GameItems.Components.AbstractClasses.CreateGameItemButtons< WorldButton, World >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_create_game_item_buttons.html", [
       [ "GameFramework.GameStructure.Worlds.Components.CreateWorldButtons", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_create_world_buttons.html", null ]
     ] ],
+    [ "ScriptInspector.Themes.Darcula", "class_script_inspector_1_1_themes_1_1_darcula.html", null ],
     [ "DebugExtension", "class_debug_extension.html", null ],
     [ "DecoratorDrawer", null, [
       [ "GameFramework.EditorExtras.Editor.HelpBoxDecoratorDrawer", "class_game_framework_1_1_editor_extras_1_1_editor_1_1_help_box_decorator_drawer.html", null ]
     ] ],
     [ "GameFramework.UI.Dialogs.Components.DialogPrefabOverride", "class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_prefab_override.html", null ],
+    [ "ScriptInspector.DictExtensions", "class_script_inspector_1_1_dict_extensions.html", null ],
     [ "GameFramework.Display.Placement.DisplayMetrics", "class_game_framework_1_1_display_1_1_placement_1_1_display_metrics.html", null ],
     [ "GameFramework.Weighting.DistanceWeightedItems< T >", "class_game_framework_1_1_weighting_1_1_distance_weighted_items.html", null ],
     [ "GameFramework.Weighting.DistanceWeightedItemsTest", "class_game_framework_1_1_weighting_1_1_distance_weighted_items_test.html", null ],
@@ -233,7 +245,6 @@ var hierarchy =
       [ "GameFramework.UI.Dialogs.Editor.GameOverEditor", "class_game_framework_1_1_u_i_1_1_dialogs_1_1_editor_1_1_game_over_editor.html", null ],
       [ "ObjectNoteEditor", "class_object_note_editor.html", null ],
       [ "ObjectNoteInGameEditor", "class_object_note_in_game_editor.html", null ],
-      [ "pb_Preferences", "classpb___preferences.html", null ],
       [ "ProBuilder2.Actions.pb_BridgeEdges", "class_pro_builder2_1_1_actions_1_1pb___bridge_edges.html", null ],
       [ "ProBuilder2.Actions.pb_CleanLeakedMeshes", "class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes.html", null ],
       [ "ProBuilder2.Actions.pb_ConnectEdges", "class_pro_builder2_1_1_actions_1_1pb___connect_edges.html", null ],
@@ -250,16 +261,14 @@ var hierarchy =
       [ "ProBuilder2.Actions.pb_MakeMeshAsset", "class_pro_builder2_1_1_actions_1_1pb___make_mesh_asset.html", null ],
       [ "ProBuilder2.Actions.pb_MaterialSelection", "class_pro_builder2_1_1_actions_1_1pb___material_selection.html", null ],
       [ "ProBuilder2.Actions.pb_MergeFaces", "class_pro_builder2_1_1_actions_1_1pb___merge_faces.html", null ],
-      [ "ProBuilder2.Actions.pb_ProBuilderize", "class_pro_builder2_1_1_actions_1_1pb___pro_builderize.html", null ],
+      [ "ProBuilder2.Actions.pb_ProBuilderMenuItems", "class_pro_builder2_1_1_actions_1_1pb___pro_builder_menu_items.html", null ],
       [ "ProBuilder2.Actions.pb_RebuildMeshes", "class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes.html", null ],
       [ "ProBuilder2.Actions.pb_RebuildSharedIndices", "class_pro_builder2_1_1_actions_1_1pb___rebuild_shared_indices.html", null ],
       [ "ProBuilder2.Actions.pb_RemoveDegenerateTris", "class_pro_builder2_1_1_actions_1_1pb___remove_degenerate_tris.html", null ],
-      [ "ProBuilder2.Actions.pb_RepairColors", "class_pro_builder2_1_1_actions_1_1pb___repair_colors.html", null ],
-      [ "ProBuilder2.Actions.pb_SetPivot", "class_pro_builder2_1_1_actions_1_1pb___set_pivot.html", null ],
+      [ "ProBuilder2.Actions.pb_ResetEntityMaterials", "class_pro_builder2_1_1_actions_1_1pb___reset_entity_materials.html", null ],
       [ "ProBuilder2.Actions.pb_StripProBuilderScripts", "class_pro_builder2_1_1_actions_1_1pb___strip_pro_builder_scripts.html", null ],
       [ "ProBuilder2.Actions.pb_Triangulate", "class_pro_builder2_1_1_actions_1_1pb___triangulate.html", null ],
-      [ "ProBuilder2.Actions.pb_UpgradeBasicToAdvanced", "class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced.html", null ],
-      [ "ProBuilder2.Actions.pb_VertexMergeWeld", "class_pro_builder2_1_1_actions_1_1pb___vertex_merge_weld.html", null ]
+      [ "ProBuilder2.Actions.pb_UpgradeBasicToAdvanced", "class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced.html", null ]
     ] ],
     [ "GameFramework.EditorExtras.Editor.EditorHelper", "class_game_framework_1_1_editor_extras_1_1_editor_1_1_editor_helper.html", null ],
     [ "EditorWindow", null, [
@@ -276,7 +285,21 @@ var hierarchy =
       [ "ProBuilder2.Actions.pb_MaterialSelectionShortcut", "class_pro_builder2_1_1_actions_1_1pb___material_selection_shortcut.html", null ],
       [ "ProBuilder2.EditorCommon.pb_AboutWindow", "class_pro_builder2_1_1_editor_common_1_1pb___about_window.html", null ],
       [ "ProBuilder2.EditorCommon.pb_UpdateAvailable", "class_pro_builder2_1_1_editor_common_1_1pb___update_available.html", null ],
-      [ "ProGrids.pg_ParameterWindow", "class_pro_grids_1_1pg___parameter_window.html", null ]
+      [ "ProGrids.pg_ParameterWindow", "class_pro_grids_1_1pg___parameter_window.html", null ],
+      [ "ScriptInspector.AboutScriptInspector", "class_script_inspector_1_1_about_script_inspector.html", null ],
+      [ "ScriptInspector.FGCodeWindow", "class_script_inspector_1_1_f_g_code_window.html", null ],
+      [ "ScriptInspector.FGConsole", "class_script_inspector_1_1_f_g_console.html", null ],
+      [ "ScriptInspector.FGPopupWindow", "class_script_inspector_1_1_f_g_popup_window.html", [
+        [ "FGTooltip", "class_f_g_tooltip.html", null ],
+        [ "ScriptInspector.FGListPopup", "class_script_inspector_1_1_f_g_list_popup.html", null ],
+        [ "ScriptInspector.TabSwitcher", "class_script_inspector_1_1_tab_switcher.html", null ]
+      ] ],
+      [ "ScriptInspector.FindReplaceWindow", "class_script_inspector_1_1_find_replace_window.html", null ],
+      [ "ScriptInspector.FindResultsWindow", "class_script_inspector_1_1_find_results_window.html", null ],
+      [ "ScriptInspector.GoToLineWindow", "class_script_inspector_1_1_go_to_line_window.html", null ],
+      [ "WebData", "class_web_data.html", null ],
+      [ "WebEditor", "class_web_editor.html", null ],
+      [ "WebWindow", "class_web_window.html", null ]
     ] ],
     [ "GameFramework.GameObjects.Components.AbstractClasses.EnableDisableGameObjectMessaging< GameUnlockedMessage >", "class_game_framework_1_1_game_objects_1_1_components_1_1_abstract_classes_1_1_enable_disable_game_object_messaging.html", [
       [ "GameFramework.GameStructure.Game.Components.EnableBasedUponGameUnlocked", "class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_enable_based_upon_game_unlocked.html", null ]
@@ -288,8 +311,29 @@ var hierarchy =
       [ "GameFramework.GameStructure.Levels.Components.EnableBasedUponNumberOfStarsWon", "class_game_framework_1_1_game_structure_1_1_levels_1_1_components_1_1_enable_based_upon_number_of_stars_won.html", null ]
     ] ],
     [ "GameFramework.Localisation.Editor.LocalisationDataEditor.EntryReference", "class_game_framework_1_1_localisation_1_1_editor_1_1_localisation_data_editor_1_1_entry_reference.html", null ],
+    [ "ScriptInspector.FGGrammar.ErrorMessageProvider", "class_script_inspector_1_1_f_g_grammar_1_1_error_message_provider.html", [
+      [ "ScriptInspector.FGGrammar.MissingTokenErrorMessage", "class_script_inspector_1_1_f_g_grammar_1_1_missing_token_error_message.html", null ],
+      [ "ScriptInspector.FGGrammar.UnexpectedTokenErrorMessage", "class_script_inspector_1_1_f_g_grammar_1_1_unexpected_token_error_message.html", null ]
+    ] ],
     [ "GameFramework.Helper.Extensions", "class_game_framework_1_1_helper_1_1_extensions.html", null ],
     [ "GameFramework.Facebook.FacebookFriend", "class_game_framework_1_1_facebook_1_1_facebook_friend.html", null ],
+    [ "ScriptInspector.FGFindInFiles", "class_script_inspector_1_1_f_g_find_in_files.html", null ],
+    [ "ScriptInspector.FGGrammar", "class_script_inspector_1_1_f_g_grammar.html", [
+      [ "ScriptInspector.CsGrammar", "class_script_inspector_1_1_cs_grammar.html", null ]
+    ] ],
+    [ "ScriptInspector.FGGrammarExtensions", "class_script_inspector_1_1_f_g_grammar_extensions.html", null ],
+    [ "ScriptInspector.FGKeyboardHook", "class_script_inspector_1_1_f_g_keyboard_hook.html", null ],
+    [ "ScriptInspector.FGParser", "class_script_inspector_1_1_f_g_parser.html", [
+      [ "ScriptInspector.BooParser", "class_script_inspector_1_1_boo_parser.html", null ],
+      [ "ScriptInspector.CsParser", "class_script_inspector_1_1_cs_parser.html", null ],
+      [ "ScriptInspector.JsParser", "class_script_inspector_1_1_js_parser.html", null ],
+      [ "ScriptInspector.ShaderParser", "class_script_inspector_1_1_shader_parser.html", null ],
+      [ "ScriptInspector.TextParser", "class_script_inspector_1_1_text_parser.html", null ]
+    ] ],
+    [ "ScriptInspector.FGResolver", "class_script_inspector_1_1_f_g_resolver.html", null ],
+    [ "ScriptInspector.FGTextEditor", "class_script_inspector_1_1_f_g_text_editor.html", null ],
+    [ "ScriptInspector.FindResultsWindow.FilteringOptions", "class_script_inspector_1_1_find_results_window_1_1_filtering_options.html", null ],
+    [ "FGTextBuffer.FormatedLine", "class_f_g_text_buffer_1_1_formated_line.html", null ],
     [ "GameFramework.GameStructure.Game.Editor.GameActions.GameActionEditorHelper", "class_game_framework_1_1_game_structure_1_1_game_1_1_editor_1_1_game_actions_1_1_game_action_editor_helper.html", null ],
     [ "GameFramework.GameStructure.Game.GameActionHelper", "class_game_framework_1_1_game_structure_1_1_game_1_1_game_action_helper.html", null ],
     [ "GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction.GameActionInvocationContext", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action_1446a365b0dd5f1cb0bcf88c3756cb5ee.html", null ],
@@ -352,13 +396,23 @@ var hierarchy =
     [ "GameFramework.GameObjects.GameObjectExtensions", "class_game_framework_1_1_game_objects_1_1_game_object_extensions.html", null ],
     [ "GameFramework.GameObjects.GameObjectHelper", "class_game_framework_1_1_game_objects_1_1_game_object_helper.html", null ],
     [ "GameFramework.Animation.ObjectModel.GameObjectToGameObjectAnimation", "class_game_framework_1_1_animation_1_1_object_model_1_1_game_object_to_game_object_animation.html", null ],
+    [ "ScriptInspector.GenericMenuExtensions", "class_script_inspector_1_1_generic_menu_extensions.html", null ],
     [ "GameFramework.Localisation.GlobalLocalisation", "class_game_framework_1_1_localisation_1_1_global_localisation.html", null ],
+    [ "GlobalUndoRecord", "class_global_undo_record.html", null ],
     [ "GameFramework.EditorExtras.Editor.GuiStyles", "class_game_framework_1_1_editor_extras_1_1_editor_1_1_gui_styles.html", null ],
     [ "GameFramework.Facebook.HighScore", "class_game_framework_1_1_facebook_1_1_high_score.html", null ],
     [ "GameFramework.GameStructure.GameItems.ObjectModel.IBaseGameItemManager", "interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_base_game_item_manager.html", [
       [ "GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager< T, TParent >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html", null ]
     ] ],
+    [ "ScriptInspector.ICodeFix", "interface_script_inspector_1_1_i_code_fix.html", [
+      [ "ScriptInspector.AddNamespaceQualifierFix", "class_script_inspector_1_1_add_namespace_qualifier_fix.html", null ],
+      [ "ScriptInspector.AddUsingStatementFix", "class_script_inspector_1_1_add_using_statement_fix.html", null ]
+    ] ],
+    [ "ScriptInspector.ICodeFixProvider", "interface_script_inspector_1_1_i_code_fix_provider.html", [
+      [ "ScriptInspector.ResolveAsTypeFixProvider", "class_script_inspector_1_1_resolve_as_type_fix_provider.html", null ]
+    ] ],
     [ "IComparable", null, [
+      [ "FGTextBuffer.CaretPos", "class_f_g_text_buffer_1_1_caret_pos.html", null ],
       [ "ProBuilder2.EditorCommon.pb_VersionInfo", "struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html", null ]
     ] ],
     [ "GameFramework.GameStructure.GameItems.ObjectModel.ICounterChangedCallback", "interface_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_i_counter_changed_callback.html", [
@@ -377,6 +431,9 @@ var hierarchy =
         [ "GameFramework.UI.Buttons.Components.SyncStateTextColors", "class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_sync_state_text_colors.html", null ]
       ] ]
     ] ],
+    [ "IDisposable", null, [
+      [ "WebSocketHook", "class_web_socket_hook.html", null ]
+    ] ],
     [ "IEnumerable", null, [
       [ "GameFramework.GameStructure.GameItems.ObjectModel.GameItemManager< T, TParent >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_game_item_manager.html", null ],
       [ "GameFramework.Helper.JSONArray", "class_game_framework_1_1_helper_1_1_j_s_o_n_array.html", null ],
@@ -386,8 +443,22 @@ var hierarchy =
     [ "IEnumerable< KeyValuePair< string, JSONValue >>", null, [
       [ "GameFramework.Helper.JSONObject", "class_game_framework_1_1_helper_1_1_j_s_o_n_object.html", null ]
     ] ],
+    [ "IEnumerator", null, [
+      [ "ScriptInspector.FGGrammar.IScanner", "class_script_inspector_1_1_f_g_grammar_1_1_i_scanner.html", [
+        [ "ScriptInspector.CsGrammar.Scanner", "class_script_inspector_1_1_cs_grammar_1_1_scanner.html", null ]
+      ] ]
+    ] ],
     [ "IEquatable", null, [
+      [ "FGTextBuffer.CaretPos", "class_f_g_text_buffer_1_1_caret_pos.html", null ],
       [ "ProBuilder2.EditorCommon.pb_VersionInfo", "struct_pro_builder2_1_1_editor_common_1_1pb___version_info.html", null ]
+    ] ],
+    [ "IHasCustomMenu", null, [
+      [ "ScriptInspector.FGCodeWindow", "class_script_inspector_1_1_f_g_code_window.html", null ],
+      [ "ScriptInspector.FGConsole", "class_script_inspector_1_1_f_g_console.html", null ]
+    ] ],
+    [ "ScriptInspector.IHierarchicalVisitor< NonLeaf, Leaf >", "interface_script_inspector_1_1_i_hierarchical_visitor.html", null ],
+    [ "ScriptInspector.IIssueProvider", "interface_script_inspector_1_1_i_issue_provider.html", [
+      [ "ScriptInspector.UnknownSymbolIssueProvider", "class_script_inspector_1_1_unknown_symbol_issue_provider.html", null ]
     ] ],
     [ "GameFramework.Input.InputHelper", "class_game_framework_1_1_input_1_1_input_helper.html", null ],
     [ "GameFramework.GameStructure.GameItems.Components.AbstractClasses.InstantiatePrefab< Character >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_instantiate_prefab.html", [
@@ -402,6 +473,7 @@ var hierarchy =
     [ "GameFramework.GameStructure.GameItems.Components.AbstractClasses.InstantiatePrefab< World >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_instantiate_prefab.html", [
       [ "GameFramework.GameStructure.Worlds.Components.InstantiateWorldPrefab", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_components_1_1_instantiate_world_prefab.html", null ]
     ] ],
+    [ "ScriptInspector.IntegerLiteral", "class_script_inspector_1_1_integer_literal.html", null ],
     [ "IPointerDownHandler", null, [
       [ "GameFramework.UI.Buttons.Components.AbstractClasses.SyncState", "class_game_framework_1_1_u_i_1_1_buttons_1_1_components_1_1_abstract_classes_1_1_sync_state.html", null ]
     ] ],
@@ -485,6 +557,13 @@ var hierarchy =
       [ "GameFramework.Localisation.ObjectModel.LocalisationData", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html", null ],
       [ "ProGrids.pg_Editor", "class_pro_grids_1_1pg___editor.html", null ]
     ] ],
+    [ "ScriptInspector.ISnippetProvider", "interface_script_inspector_1_1_i_snippet_provider.html", [
+      [ "ScriptInspector.GenerateOverrideMethod", "class_script_inspector_1_1_generate_override_method.html", null ],
+      [ "ScriptInspector.GeneratePropertyForField", "class_script_inspector_1_1_generate_property_for_field.html", null ],
+      [ "ScriptInspector.GenerateUnityMagicMethod", "class_script_inspector_1_1_generate_unity_magic_method.html", null ]
+    ] ],
+    [ "WebSocketHook.Item", "class_web_socket_hook_1_1_item.html", null ],
+    [ "ScriptInspector.IVisitableTreeNode< NonLeaf, Leaf >", "interface_script_inspector_1_1_i_visitable_tree_node.html", null ],
     [ "GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSON", "class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n.html", null ],
     [ "GameFramework.Helper.JSONLogger", "class_game_framework_1_1_helper_1_1_j_s_o_n_logger.html", null ],
     [ "GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONNode", "class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_node.html", [
@@ -502,6 +581,7 @@ var hierarchy =
     [ "GameFramework.Localisation.ObjectModel.Languages", "class_game_framework_1_1_localisation_1_1_object_model_1_1_languages.html", null ],
     [ "GameFramework.Display.Other.Components.LevelOfDetail.LevelOfDetailEntry", "class_game_framework_1_1_display_1_1_other_1_1_components_1_1_level_of_detail_1_1_level_of_detail_entry.html", null ],
     [ "GameFramework.GameStructure.Levels.LevelsTests", "class_game_framework_1_1_game_structure_1_1_levels_1_1_levels_tests.html", null ],
+    [ "ScriptInspector.ListExtensions", "class_script_inspector_1_1_list_extensions.html", null ],
     [ "GameFramework.Localisation.ObjectModel.AbstractClasses.LocalisableObject", "class_game_framework_1_1_localisation_1_1_object_model_1_1_abstract_classes_1_1_localisable_object.html", [
       [ "GameFramework.Localisation.ObjectModel.LocalisablePrefab", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_prefab.html", null ],
       [ "GameFramework.Localisation.ObjectModel.LocalisableSprite", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisable_sprite.html", null ]
@@ -512,6 +592,8 @@ var hierarchy =
     [ "GameFramework.Localisation.LocalisationDataTests", "class_game_framework_1_1_localisation_1_1_localisation_data_tests.html", null ],
     [ "GameFramework.Localisation.ObjectModel.LocalisationEntry", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_entry.html", null ],
     [ "GameFramework.Localisation.LocaliseText", "class_game_framework_1_1_localisation_1_1_localise_text.html", null ],
+    [ "ScriptInspector.Themes.MDBrown", "class_script_inspector_1_1_themes_1_1_m_d_brown.html", null ],
+    [ "ScriptInspector.Themes.MDBrownDark", "class_script_inspector_1_1_themes_1_1_m_d_brown_dark.html", null ],
     [ "MDA.MechanicsAs", "class_m_d_a_1_1_mechanics_as.html", null ],
     [ "MechExtraCharSkillPhysicsShortcuts", "class_mech_extra_char_skill_physics_shortcuts.html", null ],
     [ "GameFramework.Messaging.MessageLogEntry", "class_game_framework_1_1_messaging_1_1_message_log_entry.html", null ],
@@ -519,19 +601,30 @@ var hierarchy =
     [ "GameFramework.Messaging.MessageStatistics", "class_game_framework_1_1_messaging_1_1_message_statistics.html", null ],
     [ "GameFramework.Messaging.MessagingTests", "class_game_framework_1_1_messaging_1_1_messaging_tests.html", null ],
     [ "GameFramework.Messaging.Messenger", "class_game_framework_1_1_messaging_1_1_messenger.html", null ],
-    [ "GameFramework.FreePrize.Components.FreePrizeManager.MinMax", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager_1_1_min_max.html", null ],
     [ "GameFramework.GameObjects.MinMax", "struct_game_framework_1_1_game_objects_1_1_min_max.html", null ],
+    [ "GameFramework.FreePrize.Components.FreePrizeManager.MinMax", "class_game_framework_1_1_free_prize_1_1_components_1_1_free_prize_manager_1_1_min_max.html", null ],
     [ "GameFramework.GameObjects.MinMaxf", "struct_game_framework_1_1_game_objects_1_1_min_maxf.html", null ],
     [ "MonoBehaviour", null, [
-      [ "AttachObjects", "class_attach_objects.html", null ],
+      [ "Cnv_DetectCollision", "class_cnv___detect_collision.html", null ],
+      [ "CnvAltSaveSettings", "class_cnv_alt_save_settings.html", null ],
+      [ "CnvCameraDrag", "class_cnv_camera_drag.html", null ],
       [ "CnvCameraFollowObj", "class_cnv_camera_follow_obj.html", null ],
+      [ "CnvCameraFPSSpectator", "class_cnv_camera_f_p_s_spectator.html", null ],
+      [ "CnvCameraRTS", "class_cnv_camera_r_t_s.html", null ],
+      [ "CnvCameraTouch", "class_cnv_camera_touch.html", null ],
       [ "CnvDeactiveGmObjByTime", "class_cnv_deactive_gm_obj_by_time.html", null ],
+      [ "CnvDestroyBySeconds", "class_cnv_destroy_by_seconds.html", null ],
       [ "CnvDrawLineRen", "class_cnv_draw_line_ren.html", null ],
+      [ "CnvFollowAxisOfTarget", "class_cnv_follow_axis_of_target.html", null ],
+      [ "CnvInputMobileSwipe", "class_cnv_input_mobile_swipe.html", null ],
       [ "CnvLockPosToObj", "class_cnv_lock_pos_to_obj.html", null ],
       [ "CnvLookAt2D", "class_cnv_look_at2_d.html", null ],
-      [ "CnvSgtLvlMan", "class_cnv_sgt_lvl_man.html", null ],
-      [ "DrawLine", "class_draw_line.html", null ],
-      [ "DroneMovement", "class_drone_movement.html", null ],
+      [ "CnvLvlSgtMan", "class_cnv_lvl_sgt_man.html", null ],
+      [ "CnvMechAIPerceptionColCast", "class_cnv_mech_a_i_perception_col_cast.html", null ],
+      [ "CnvMechObjPoolMan", "class_cnv_mech_obj_pool_man.html", null ],
+      [ "CnvMechObjPoolTrigDeact", "class_cnv_mech_obj_pool_trig_deact.html", null ],
+      [ "CnvMechObjPoolTrigSpwn", "class_cnv_mech_obj_pool_trig_spwn.html", null ],
+      [ "CnvMeshColor", "class_cnv_mesh_color.html", null ],
       [ "Example", "class_example.html", null ],
       [ "GameFramework._Demo.About.Scripts.Demo", "class_game_framework_1_1___demo_1_1_about_1_1_scripts_1_1_demo.html", null ],
       [ "GameFramework._Demo.GameStructure.Scripts.Movement", "class_game_framework_1_1___demo_1_1_game_structure_1_1_scripts_1_1_movement.html", null ],
@@ -679,9 +772,11 @@ var hierarchy =
       [ "GameFramework.UI.Other.Components.TimeRemaining", "class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_time_remaining.html", null ],
       [ "GameFramework.Weighting.Components.DistanceWeight", "class_game_framework_1_1_weighting_1_1_components_1_1_distance_weight.html", null ],
       [ "HighlightNearestFace", "class_highlight_nearest_face.html", null ],
-      [ "LookAt", "class_look_at.html", null ],
       [ "MechActorGroundDetector", "class_mech_actor_ground_detector.html", null ],
-      [ "MechCharMovement", "class_mech_char_movement.html", null ],
+      [ "MechCharAINavMeshPatrol", "class_mech_char_a_i_nav_mesh_patrol.html", null ],
+      [ "MechCharMovement2D", "class_mech_char_movement2_d.html", null ],
+      [ "MechCharMovementRTS", "class_mech_char_movement_r_t_s.html", null ],
+      [ "MechCharMovementTopDown", "class_mech_char_movement_top_down.html", null ],
       [ "MechCharStatHP", "class_mech_char_stat_h_p.html", null ],
       [ "MechExtraCharSkillLaunchObjectBySpeed", "class_mech_extra_char_skill_launch_object_by_speed.html", null ],
       [ "MechExtraCharSkillLaunchObjectBySpeed2D", "class_mech_extra_char_skill_launch_object_by_speed2_d.html", null ],
@@ -692,19 +787,49 @@ var hierarchy =
       [ "MechExtraCharSkillRangeAtkSpwnObj", "class_mech_extra_char_skill_range_atk_spwn_obj.html", null ],
       [ "MechExtraWorldStatTimer", "class_mech_extra_world_stat_timer.html", null ],
       [ "MechPropDamageStatHP", "class_mech_prop_damage_stat_h_p.html", null ],
+      [ "MechVehDroneMovementTopDown", "class_mech_veh_drone_movement_top_down.html", null ],
       [ "MechVehFlyDroneMovement25D", "class_mech_veh_fly_drone_movement25_d.html", null ],
       [ "ObjectNote", "class_object_note.html", [
         [ "ObjectNoteInGame", "class_object_note_in_game.html", null ]
       ] ],
-      [ "PlayerInputController", "class_player_input_controller.html", null ],
       [ "ProBuilder2.Examples.CameraControls", "class_pro_builder2_1_1_examples_1_1_camera_controls.html", null ],
       [ "VisCharAnim", "class_vis_char_anim.html", null ]
     ] ],
+    [ "ScriptInspector.Themes.Monokai", "class_script_inspector_1_1_themes_1_1_monokai.html", null ],
     [ "GameFramework.Debugging.MyDebug", "class_game_framework_1_1_debugging_1_1_my_debug.html", null ],
+    [ "ScriptInspector.FGGrammar.Node", "class_script_inspector_1_1_f_g_grammar_1_1_node.html", [
+      [ "ScriptInspector.FGGrammar.Alt", "class_script_inspector_1_1_f_g_grammar_1_1_alt.html", null ],
+      [ "ScriptInspector.FGGrammar.Id", "class_script_inspector_1_1_f_g_grammar_1_1_id.html", [
+        [ "ScriptInspector.FGGrammar.NameId", "class_script_inspector_1_1_f_g_grammar_1_1_name_id.html", null ]
+      ] ],
+      [ "ScriptInspector.FGGrammar.Lit", "class_script_inspector_1_1_f_g_grammar_1_1_lit.html", null ],
+      [ "ScriptInspector.FGGrammar.Many", "class_script_inspector_1_1_f_g_grammar_1_1_many.html", [
+        [ "ScriptInspector.FGGrammar.Opt", "class_script_inspector_1_1_f_g_grammar_1_1_opt.html", [
+          [ "ScriptInspector.FGGrammar.If", "class_script_inspector_1_1_f_g_grammar_1_1_if.html", [
+            [ "ScriptInspector.FGGrammar.IfNot", "class_script_inspector_1_1_f_g_grammar_1_1_if_not.html", null ]
+          ] ]
+        ] ]
+      ] ],
+      [ "ScriptInspector.FGGrammar.Parser", "class_script_inspector_1_1_f_g_grammar_1_1_parser.html", null ],
+      [ "ScriptInspector.FGGrammar.Rule", "class_script_inspector_1_1_f_g_grammar_1_1_rule.html", null ],
+      [ "ScriptInspector.FGGrammar.Seq", "class_script_inspector_1_1_f_g_grammar_1_1_seq.html", null ],
+      [ "ScriptInspector.FGGrammar.Token", "class_script_inspector_1_1_f_g_grammar_1_1_token.html", null ]
+    ] ],
     [ "GameFramework.GameStructure.GameItems.ObjectModel.NumberedGameItemReference< T >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_numbered_game_item_reference.html", null ],
     [ "GameFramework.GameStructure.GameItems.ObjectModel.NumberedGameItemReference< Level >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_object_model_1_1_numbered_game_item_reference.html", [
       [ "GameFramework.GameStructure.Levels.ObjectModel.NumberedLevelReference", "class_game_framework_1_1_game_structure_1_1_levels_1_1_object_model_1_1_numbered_level_reference.html", null ]
     ] ],
+    [ "Object", null, [
+      [ "FGTextBuffer.CaretPos", "class_f_g_text_buffer_1_1_caret_pos.html", null ]
+    ] ],
+    [ "ObjectPoolItem", "class_object_pool_item.html", null ],
+    [ "ScriptInspector.OptionsBase", "class_script_inspector_1_1_options_base.html", [
+      [ "ScriptInspector.BoolOption", "class_script_inspector_1_1_bool_option.html", null ],
+      [ "ScriptInspector.FloatOption", "class_script_inspector_1_1_float_option.html", null ],
+      [ "ScriptInspector.IntOption", "class_script_inspector_1_1_int_option.html", null ],
+      [ "ScriptInspector.StringOption", "class_script_inspector_1_1_string_option.html", null ]
+    ] ],
+    [ "ScriptInspector.ParseTree", "class_script_inspector_1_1_parse_tree.html", null ],
     [ "GameFramework.Billing.Payment", "class_game_framework_1_1_billing_1_1_payment.html", null ],
     [ "ProBuilder2.EditorCommon.pb_AboutEntry", "class_pro_builder2_1_1_editor_common_1_1pb___about_entry.html", null ],
     [ "ProBuilder2.EditorCommon.pb_AboutWindowSetup", "class_pro_builder2_1_1_editor_common_1_1pb___about_window_setup.html", null ],
@@ -725,6 +850,7 @@ var hierarchy =
     [ "ProGrids.PGExtensions", "class_pro_grids_1_1_p_g_extensions.html", null ],
     [ "GameFramework.EditorExtras.Editor.PlayerSettingsHelper", "class_game_framework_1_1_editor_extras_1_1_editor_1_1_player_settings_helper.html", null ],
     [ "GameFramework.GameStructure.Players.PlayerTests", "class_game_framework_1_1_game_structure_1_1_players_1_1_player_tests.html", null ],
+    [ "ScriptInspector.FGKeyboardHook.Point", "class_script_inspector_1_1_f_g_keyboard_hook_1_1_point.html", null ],
     [ "GameFramework.Preferences.PreferencesFactory", "class_game_framework_1_1_preferences_1_1_preferences_factory.html", null ],
     [ "PropertyAttribute", null, [
       [ "GameFramework.EditorExtras.ConditionalHideAttribute", "class_game_framework_1_1_editor_extras_1_1_conditional_hide_attribute.html", null ],
@@ -745,7 +871,10 @@ var hierarchy =
       ] ],
       [ "GameFramework.Localisation.Editor.LocalisableTextDrawer", "class_game_framework_1_1_localisation_1_1_editor_1_1_localisable_text_drawer.html", null ]
     ] ],
+    [ "RecentLocation", "class_recent_location.html", null ],
+    [ "FGTextBuffer.RegionTree", "class_f_g_text_buffer_1_1_region_tree.html", null ],
     [ "GameFramework.Display.Other.RendererExtensions", "class_game_framework_1_1_display_1_1_other_1_1_renderer_extensions.html", null ],
+    [ "ScriptInspector.ResolveContext", "class_script_inspector_1_1_resolve_context.html", null ],
     [ "GameFramework.Messaging.Components.AbstractClasses.RunOnMessage< T >", "class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message.html", [
       [ "GameFramework.GameObjects.Components.AbstractClasses.EnableDisableGameObjectMessaging< T >", "class_game_framework_1_1_game_objects_1_1_components_1_1_abstract_classes_1_1_enable_disable_game_object_messaging.html", null ]
     ] ],
@@ -776,7 +905,24 @@ var hierarchy =
     [ "GameFramework.Messaging.Components.AbstractClasses.RunOnMessage< TM >", "class_game_framework_1_1_messaging_1_1_components_1_1_abstract_classes_1_1_run_on_message.html", [
       [ "GameFramework.UI.Other.Components.AbstractClasses.ShowValueAnimatedMessaging< T, TM >", "class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_abstract_classes_1_1_show_value_animated_messaging.html", null ]
     ] ],
+    [ "ScriptInspector.Scope", "class_script_inspector_1_1_scope.html", [
+      [ "ScriptInspector.AttributesScope", "class_script_inspector_1_1_attributes_scope.html", null ],
+      [ "ScriptInspector.LocalScope", "class_script_inspector_1_1_local_scope.html", [
+        [ "ScriptInspector.AttributeArgumentsScope", "class_script_inspector_1_1_attribute_arguments_scope.html", null ],
+        [ "ScriptInspector.BodyScope", "class_script_inspector_1_1_body_scope.html", [
+          [ "ScriptInspector.AccessorBodyScope", "class_script_inspector_1_1_accessor_body_scope.html", null ]
+        ] ]
+      ] ],
+      [ "ScriptInspector.MemberInitializerScope", "class_script_inspector_1_1_member_initializer_scope.html", null ],
+      [ "ScriptInspector.NamespaceScope", "class_script_inspector_1_1_namespace_scope.html", [
+        [ "ScriptInspector.CompilationUnitScope", "class_script_inspector_1_1_compilation_unit_scope.html", null ]
+      ] ],
+      [ "ScriptInspector.SymbolDeclarationScope", "class_script_inspector_1_1_symbol_declaration_scope.html", null ],
+      [ "ScriptInspector.TypeBaseScope", "class_script_inspector_1_1_type_base_scope.html", null ]
+    ] ],
     [ "ScriptableObject", null, [
+      [ "FGTextBuffer", "class_f_g_text_buffer.html", null ],
+      [ "FGTextBufferManager", "class_f_g_text_buffer_manager.html", null ],
       [ "GameFramework.GameStructure.Game.ObjectModel.Abstract.GameAction", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_action.html", null ],
       [ "GameFramework.GameStructure.Game.ObjectModel.Abstract.GameCondition", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_abstract_1_1_game_condition.html", null ],
       [ "GameFramework.GameStructure.Game.ObjectModel.GameConfiguration", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_configuration.html", null ],
@@ -785,7 +931,8 @@ var hierarchy =
       [ "GameFramework.Localisation.Components.LocalisationConfiguration", "class_game_framework_1_1_localisation_1_1_components_1_1_localisation_configuration.html", null ],
       [ "GameFramework.Localisation.ObjectModel.LocalisationData", "class_game_framework_1_1_localisation_1_1_object_model_1_1_localisation_data.html", null ],
       [ "GameFramework.Messaging.MessageLog", "class_game_framework_1_1_messaging_1_1_message_log.html", null ],
-      [ "ProGrids.pg_Editor", "class_pro_grids_1_1pg___editor.html", null ]
+      [ "ProGrids.pg_Editor", "class_pro_grids_1_1pg___editor.html", null ],
+      [ "WebViewHook", "class_web_view_hook.html", null ]
     ] ],
     [ "GameFramework.Helper.ScriptableObjectContainer< GameAction >", "class_game_framework_1_1_helper_1_1_scriptable_object_container.html", [
       [ "GameFramework.GameStructure.Game.ObjectModel.GameActionReference", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_action_reference.html", null ]
@@ -793,6 +940,7 @@ var hierarchy =
     [ "GameFramework.Helper.ScriptableObjectContainer< GameCondition >", "class_game_framework_1_1_helper_1_1_scriptable_object_container.html", [
       [ "GameFramework.GameStructure.Game.ObjectModel.GameConditionReference", "class_game_framework_1_1_game_structure_1_1_game_1_1_object_model_1_1_game_condition_reference.html", null ]
     ] ],
+    [ "ScriptInspector.FindResultsWindow.SearchOptions", "class_script_inspector_1_1_find_results_window_1_1_search_options.html", null ],
     [ "GameFramework.GameStructure.GameItems.Components.AbstractClasses.SetFromCounterNormalisedAmount< Image >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_see0e255d1367b8da5895e100942493f6.html", [
       [ "GameFramework.GameStructure.GameItems.Components.SetImageColorFromCounter", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_set_image_color_from_counter.html", null ],
       [ "GameFramework.GameStructure.GameItems.Components.SetImageFillFromCounter", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_set_image_fill_from_counter.html", null ]
@@ -931,6 +1079,9 @@ var hierarchy =
     [ "GameFramework.UI.Other.Components.AbstractClasses.ShowValueAnimatedMessaging< int, PlayerScoreChangedMessage >", "class_game_framework_1_1_u_i_1_1_other_1_1_components_1_1_abstract_classes_1_1_show_value_animated_messaging.html", [
       [ "GameFramework.GameStructure.Players.Components.ShowScore", "class_game_framework_1_1_game_structure_1_1_players_1_1_components_1_1_show_score.html", null ]
     ] ],
+    [ "Si3ImmediateWindow", "class_si3_immediate_window.html", null ],
+    [ "ScriptInspector.Extensions.FlipbookGames.Si3OpenAnyFile", "class_script_inspector_1_1_extensions_1_1_flipbook_games_1_1_si3_open_any_file.html", null ],
+    [ "ScriptInspector.Extensions.FlipbookGames.Si3OpenFile", "class_script_inspector_1_1_extensions_1_1_flipbook_games_1_1_si3_open_file.html", null ],
     [ "GameFramework.GameObjects.Components.Singleton< DialogManager >", "class_game_framework_1_1_game_objects_1_1_components_1_1_singleton.html", [
       [ "GameFramework.UI.Dialogs.Components.DialogManager", "class_game_framework_1_1_u_i_1_1_dialogs_1_1_components_1_1_dialog_manager.html", null ]
     ] ],
@@ -963,13 +1114,98 @@ var hierarchy =
     [ "GameFramework.GameObjects.Components.SingletonPersistant< LogToDisk >", "class_game_framework_1_1_game_objects_1_1_components_1_1_singleton_persistant.html", [
       [ "GameFramework.Debugging.Components.LogToDisk", "class_game_framework_1_1_debugging_1_1_components_1_1_log_to_disk.html", null ]
     ] ],
-    [ "GameFramework.GameStructure.Game.Components.CollisionHandler.TriggerData", "class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler_1_1_trigger_data.html", null ],
+    [ "ScriptInspector.SISettings", "class_script_inspector_1_1_s_i_settings.html", null ],
+    [ "ScriptInspector.Themes.SolarizedDark", "class_script_inspector_1_1_themes_1_1_solarized_dark.html", null ],
+    [ "ScriptInspector.Themes.SolarizedLight", "class_script_inspector_1_1_themes_1_1_solarized_light.html", null ],
+    [ "ScriptInspector.Themes.SonOfObsidian", "class_script_inspector_1_1_themes_1_1_son_of_obsidian.html", null ],
+    [ "ScriptInspector.FGTextEditor.Styles", "class_script_inspector_1_1_f_g_text_editor_1_1_styles.html", null ],
+    [ "ScriptInspector.SymbolDeclaration", "class_script_inspector_1_1_symbol_declaration.html", [
+      [ "ScriptInspector.NamespaceDeclaration", "class_script_inspector_1_1_namespace_declaration.html", null ]
+    ] ],
+    [ "ScriptInspector.SymbolDefinition", "class_script_inspector_1_1_symbol_definition.html", [
+      [ "ScriptInspector.AssemblyDefinition", "class_script_inspector_1_1_assembly_definition.html", null ],
+      [ "ScriptInspector.ConstructedSymbolReference", "class_script_inspector_1_1_constructed_symbol_reference.html", null ],
+      [ "ScriptInspector.InstanceDefinition", "class_script_inspector_1_1_instance_definition.html", [
+        [ "ScriptInspector.ConstructedInstanceDefinition", "class_script_inspector_1_1_constructed_instance_definition.html", null ],
+        [ "ScriptInspector.IndexerDefinition", "class_script_inspector_1_1_indexer_definition.html", null ],
+        [ "ScriptInspector.NullLiteral", "class_script_inspector_1_1_null_literal.html", null ],
+        [ "ScriptInspector.ParameterDefinition", "class_script_inspector_1_1_parameter_definition.html", [
+          [ "ScriptInspector.ValueParameter", "class_script_inspector_1_1_value_parameter.html", null ]
+        ] ],
+        [ "ScriptInspector.ReflectedMember", "class_script_inspector_1_1_reflected_member.html", null ],
+        [ "ScriptInspector.ThisReference", "class_script_inspector_1_1_this_reference.html", null ]
+      ] ],
+      [ "ScriptInspector.InvokeableSymbolDefinition", "class_script_inspector_1_1_invokeable_symbol_definition.html", [
+        [ "ScriptInspector.MethodDefinition", "class_script_inspector_1_1_method_definition.html", [
+          [ "ScriptInspector.ConstructedMethodDefinition", "class_script_inspector_1_1_constructed_method_definition.html", null ],
+          [ "ScriptInspector.ReflectedConstructor", "class_script_inspector_1_1_reflected_constructor.html", null ],
+          [ "ScriptInspector.ReflectedMethod", "class_script_inspector_1_1_reflected_method.html", null ]
+        ] ]
+      ] ],
+      [ "ScriptInspector.MethodGroupDefinition", "class_script_inspector_1_1_method_group_definition.html", [
+        [ "ScriptInspector.ConstructedMethodGroupDefinition", "class_script_inspector_1_1_constructed_method_group_definition.html", null ]
+      ] ],
+      [ "ScriptInspector.NamespaceDefinition", "class_script_inspector_1_1_namespace_definition.html", [
+        [ "ScriptInspector.CompilationUnitDefinition", "class_script_inspector_1_1_compilation_unit_definition.html", null ]
+      ] ],
+      [ "ScriptInspector.SnippetCompletion", "class_script_inspector_1_1_snippet_completion.html", null ],
+      [ "ScriptInspector.TypeDefinitionBase", "class_script_inspector_1_1_type_definition_base.html", [
+        [ "ScriptInspector.IntegerLiteralType", "class_script_inspector_1_1_integer_literal_type.html", [
+          [ "ScriptInspector.IntegerLiteralTypeByte", "class_script_inspector_1_1_integer_literal_type_byte.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeByteOrSByte", "class_script_inspector_1_1_integer_literal_type_byte_or_s_byte.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeInt", "class_script_inspector_1_1_integer_literal_type_int.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeIntOrUInt", "class_script_inspector_1_1_integer_literal_type_int_or_u_int.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeLongOrULong", "class_script_inspector_1_1_integer_literal_type_long_or_u_long.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeSByte", "class_script_inspector_1_1_integer_literal_type_s_byte.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeShort", "class_script_inspector_1_1_integer_literal_type_short.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeShortOrUShort", "class_script_inspector_1_1_integer_literal_type_short_or_u_short.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeUInt", "class_script_inspector_1_1_integer_literal_type_u_int.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeUShort", "class_script_inspector_1_1_integer_literal_type_u_short.html", null ],
+          [ "ScriptInspector.IntegerLiteralTypeZero", "class_script_inspector_1_1_integer_literal_type_zero.html", null ]
+        ] ],
+        [ "ScriptInspector.LambdaExpressionDefinition", "class_script_inspector_1_1_lambda_expression_definition.html", null ],
+        [ "ScriptInspector.NullTypeDefinition", "class_script_inspector_1_1_null_type_definition.html", null ],
+        [ "ScriptInspector.TypeDefinition", "class_script_inspector_1_1_type_definition.html", [
+          [ "ScriptInspector.ArrayTypeDefinition", "class_script_inspector_1_1_array_type_definition.html", null ],
+          [ "ScriptInspector.ConstructedTypeDefinition", "class_script_inspector_1_1_constructed_type_definition.html", null ],
+          [ "ScriptInspector.DelegateTypeDefinition", "class_script_inspector_1_1_delegate_type_definition.html", null ],
+          [ "ScriptInspector.EnumTypeDefinition", "class_script_inspector_1_1_enum_type_definition.html", null ],
+          [ "ScriptInspector.ReflectedType", "class_script_inspector_1_1_reflected_type.html", null ]
+        ] ],
+        [ "ScriptInspector.TypeParameterDefinition", "class_script_inspector_1_1_type_parameter_definition.html", null ]
+      ] ]
+    ] ],
+    [ "ScriptInspector.SymbolDefinition.SymbolList", "struct_script_inspector_1_1_symbol_definition_1_1_symbol_list.html", null ],
+    [ "ScriptInspector.SymbolReference", "class_script_inspector_1_1_symbol_reference.html", [
+      [ "ScriptInspector.ReflectedTypeReference", "class_script_inspector_1_1_reflected_type_reference.html", null ]
+    ] ],
+    [ "ScriptInspector.SyntaxToken", "class_script_inspector_1_1_syntax_token.html", null ],
+    [ "ScriptInspector.TangoColors", "class_script_inspector_1_1_tango_colors.html", null ],
+    [ "ScriptInspector.Themes.TangoDark_Oblivion", "class_script_inspector_1_1_themes_1_1_tango_dark___oblivion.html", null ],
+    [ "ScriptInspector.Themes.TangoLight", "class_script_inspector_1_1_themes_1_1_tango_light.html", null ],
+    [ "FGTextBuffer.UndoRecord.TextChange", "class_f_g_text_buffer_1_1_undo_record_1_1_text_change.html", null ],
+    [ "ScriptInspector.TextOffset", "struct_script_inspector_1_1_text_offset.html", null ],
+    [ "ScriptInspector.TextPosition", "struct_script_inspector_1_1_text_position.html", null ],
+    [ "ScriptInspector.TextSpan", "struct_script_inspector_1_1_text_span.html", null ],
+    [ "ScriptInspector.Themes.Theme", "class_script_inspector_1_1_themes_1_1_theme.html", null ],
+    [ "ScriptInspector.ToCSharpStringExtensions", "class_script_inspector_1_1_to_c_sharp_string_extensions.html", null ],
+    [ "ScriptInspector.FGGrammar.TokenSet", "class_script_inspector_1_1_f_g_grammar_1_1_token_set.html", null ],
     [ "GameFramework.GameStructure.Colliders.GenericCollider.TriggerData", "class_game_framework_1_1_game_structure_1_1_colliders_1_1_generic_collider_1_1_trigger_data.html", null ],
+    [ "GameFramework.GameStructure.Game.Components.CollisionHandler.TriggerData", "class_game_framework_1_1_game_structure_1_1_game_1_1_components_1_1_collision_handler_1_1_trigger_data.html", null ],
+    [ "ScriptInspector.TypeAlias", "struct_script_inspector_1_1_type_alias.html", null ],
     [ "GameFramework.UI.Other.UIHelper", "class_game_framework_1_1_u_i_1_1_other_1_1_u_i_helper.html", null ],
     [ "GameFramework.Advertising.UnityAds.UnityAds", "class_game_framework_1_1_advertising_1_1_unity_ads_1_1_unity_ads.html", null ],
     [ "UnityEvent", null, [
       [ "GameFramework.Helper.UnityEvents.UnityGameObjectEvent", "class_game_framework_1_1_helper_1_1_unity_events_1_1_unity_game_object_event.html", null ],
       [ "GameFramework.Localisation.Components.LocaliseTextOnPreLocaliseEvent", "class_game_framework_1_1_localisation_1_1_components_1_1_localise_text_on_pre_localise_event.html", null ]
+    ] ],
+    [ "UnityEventDrawer", null, [
+      [ "ScriptInspector.Extensions.FlipbookGames.Si3UnityEventDrawer", "class_script_inspector_1_1_extensions_1_1_flipbook_games_1_1_si3_unity_event_drawer.html", null ]
+    ] ],
+    [ "ScriptInspector.UnitySymbols", "class_script_inspector_1_1_unity_symbols.html", null ],
+    [ "ScriptInspector.UnknownSymbolFix", "class_script_inspector_1_1_unknown_symbol_fix.html", [
+      [ "ScriptInspector.AddNamespaceQualifierFix", "class_script_inspector_1_1_add_namespace_qualifier_fix.html", null ],
+      [ "ScriptInspector.AddUsingStatementFix", "class_script_inspector_1_1_add_using_statement_fix.html", null ]
     ] ],
     [ "GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html", null ],
     [ "GameFramework.GameStructure.GameItems.Components.AbstractClasses.UnlockGameItemButton< Character >", "class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_unlock_game_item_button.html", [
@@ -1008,12 +1244,32 @@ var hierarchy =
       [ "GameFramework.GameStructure.Variables.ObjectModel.Vector3Variable", "class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_vector3_variable.html", null ]
     ] ],
     [ "GameFramework.GameStructure.Variables.ObjectModel.Variables", "class_game_framework_1_1_game_structure_1_1_variables_1_1_object_model_1_1_variables.html", null ],
+    [ "ScriptInspector.Themes.VisualStudio", "class_script_inspector_1_1_themes_1_1_visual_studio.html", null ],
+    [ "ScriptInspector.Themes.VisualStudioDark", "class_script_inspector_1_1_themes_1_1_visual_studio_dark.html", null ],
+    [ "ScriptInspector.Themes.VSCodeMonokai", "class_script_inspector_1_1_themes_1_1_v_s_code_monokai.html", null ],
+    [ "ScriptInspector.Themes.VSDarkWithResharper", "class_script_inspector_1_1_themes_1_1_v_s_dark_with_resharper.html", null ],
+    [ "ScriptInspector.Themes.VSDarkWithVAX", "class_script_inspector_1_1_themes_1_1_v_s_dark_with_v_a_x.html", null ],
+    [ "ScriptInspector.Themes.VSLightWithVAX", "class_script_inspector_1_1_themes_1_1_v_s_light_with_v_a_x.html", null ],
+    [ "WebSocketBehavior", null, [
+      [ "WSS", "class_w_s_s.html", null ]
+    ] ],
     [ "GameFramework.GameStructure.Worlds.WorldsTests", "class_game_framework_1_1_game_structure_1_1_worlds_1_1_worlds_tests.html", null ],
+    [ "ScriptInspector.Themes.Xcode", "class_script_inspector_1_1_themes_1_1_xcode.html", null ],
     [ "Editor", null, [
+      [ "pb_Preferences", "classpb___preferences.html", null ],
       [ "ProBuilder2.Actions.pb_ConformNormals", "class_pro_builder2_1_1_actions_1_1pb___conform_normals.html", null ],
       [ "ProBuilder2.Actions.pb_EdgeSelection", "class_pro_builder2_1_1_actions_1_1pb___edge_selection.html", null ],
-      [ "ProBuilder2.Actions.pb_ProBuilderMenuItems", "class_pro_builder2_1_1_actions_1_1pb___pro_builder_menu_items.html", null ],
-      [ "ProBuilder2.Actions.pb_ResetEntityMaterials", "class_pro_builder2_1_1_actions_1_1pb___reset_entity_materials.html", null ],
+      [ "ProBuilder2.Actions.pb_ProBuilderize", "class_pro_builder2_1_1_actions_1_1pb___pro_builderize.html", null ],
+      [ "ProBuilder2.Actions.pb_RepairColors", "class_pro_builder2_1_1_actions_1_1pb___repair_colors.html", null ],
+      [ "ProBuilder2.Actions.pb_SetPivot", "class_pro_builder2_1_1_actions_1_1pb___set_pivot.html", null ],
+      [ "ProBuilder2.Actions.pb_VertexMergeWeld", "class_pro_builder2_1_1_actions_1_1pb___vertex_merge_weld.html", null ],
       [ "ProBuilder2.EditorCommon.pb_MissingScriptEditor", "class_pro_builder2_1_1_editor_common_1_1pb___missing_script_editor.html", null ]
+    ] ],
+    [ "Editor", null, [
+      [ "ScriptInspector.ScriptInspector", "class_script_inspector_1_1_script_inspector.html", [
+        [ "ScriptInspector.FGDefaultAssetInspector", "class_script_inspector_1_1_f_g_default_asset_inspector.html", null ],
+        [ "ScriptInspector.FGTextInspector", "class_script_inspector_1_1_f_g_text_inspector.html", null ],
+        [ "ScriptInspector.ShaderInspector", "class_script_inspector_1_1_shader_inspector.html", null ]
+      ] ]
     ] ]
 ];

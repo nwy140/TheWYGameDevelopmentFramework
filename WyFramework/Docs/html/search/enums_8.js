@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['placementtype',['PlacementType',['../class_game_framework_1_1_debugging_1_1_components_1_1_dummy_game_loop.html#a9e50cfb4bd05ee0b01ebc778f8856479',1,'GameFramework::Debugging::Components::DummyGameLoop']]],
-  ['positionmodetype',['PositionModeType',['../class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a6047d62de4f59dd122b4ceb9a59164e5',1,'GameFramework::GameStructure::GameItems::Components::AbstractClasses::SetPositionFromGameItemVariable']]]
+  ['kind',['Kind',['../class_script_inspector_1_1_syntax_token.html#aec95fd72512a682f4be6ad17052bf635',1,'ScriptInspector.SyntaxToken.Kind()'],['../class_f_g_text_buffer_1_1_region_tree.html#a0c0e375ed480fc48f222eaf2b8bbe442',1,'FGTextBuffer.RegionTree.Kind()'],['../struct_script_inspector_1_1_code_issue.html#ac8485b2f59ae17ce42cbb33d89001fbb',1,'ScriptInspector.CodeIssue.Kind()']]]
 ];

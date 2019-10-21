@@ -10,5 +10,6 @@ var searchData=
   ['jsonnumber',['JSONNumber',['../class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_number.html',1,'GameFramework::Localisation::ObjectModel::Internal::SimpleJSON']]],
   ['jsonobject',['JSONObject',['../class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_object.html',1,'GameFramework.Localisation.ObjectModel.Internal.SimpleJSON.JSONObject'],['../class_game_framework_1_1_helper_1_1_j_s_o_n_object.html',1,'GameFramework.Helper.JSONObject']]],
   ['jsonstring',['JSONString',['../class_game_framework_1_1_localisation_1_1_object_model_1_1_internal_1_1_simple_j_s_o_n_1_1_j_s_o_n_string.html',1,'GameFramework::Localisation::ObjectModel::Internal::SimpleJSON']]],
-  ['jsonvalue',['JSONValue',['../class_game_framework_1_1_helper_1_1_j_s_o_n_value.html',1,'GameFramework::Helper']]]
+  ['jsonvalue',['JSONValue',['../class_game_framework_1_1_helper_1_1_j_s_o_n_value.html',1,'GameFramework::Helper']]],
+  ['jsparser',['JsParser',['../class_script_inspector_1_1_js_parser.html',1,'ScriptInspector']]]
 ];

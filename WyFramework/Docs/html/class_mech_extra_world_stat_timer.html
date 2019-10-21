@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>WyFramework: MechExtraWorldStatTimer Class Reference</title>
+<title>WYFramework: MechExtraWorldStatTimer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,7 +29,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">WyFramework
+   <div id="projectname">WYFramework
    </div>
   </td>
  </tr>
@@ -86,7 +86,9 @@ $(document).ready(function(){initNavTree('class_mech_extra_world_stat_timer.html
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_mech_extra_world_stat_timer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MechExtraWorldStatTimer Class Reference</div>  </div>
@@ -102,6 +104,11 @@ Inheritance diagram for MechExtraWorldStatTimer:</div>
   <img src="class_mech_extra_world_stat_timer.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adf65907d9b69f6b3f321fafdac82773b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_extra_world_stat_timer.html#adf65907d9b69f6b3f321fafdac82773b">ResetTimer</a> (float newtimerValue, float newMaxValue)</td></tr>
+<tr class="separator:adf65907d9b69f6b3f321fafdac82773b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa0bf7f6514d930b16ada9c15f7317083"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_extra_world_stat_timer.html#aa0bf7f6514d930b16ada9c15f7317083">currentCountDownTimer</a> = 100f</td></tr>
@@ -110,11 +117,49 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a434e6cbabd005eabc7cc0439918f0ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f3a11eabd619116f76609c9e28293c6"><td class="memItemLeft" align="right" valign="top">Slider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_extra_world_stat_timer.html#a4f3a11eabd619116f76609c9e28293c6">StatTimerSlider</a></td></tr>
 <tr class="separator:a4f3a11eabd619116f76609c9e28293c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff0da5364b73b2087e22c679848fef7"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_extra_world_stat_timer.html#a4ff0da5364b73b2087e22c679848fef7">StatTimerImg</a></td></tr>
+<tr class="separator:a4ff0da5364b73b2087e22c679848fef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cfc32a0323851b36a2f344069cc0a54"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_extra_world_stat_timer.html#a6cfc32a0323851b36a2f344069cc0a54">isPauseTimer</a></td></tr>
+<tr class="separator:a6cfc32a0323851b36a2f344069cc0a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a8d133da7ac989938800e36a966939282"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_mech_extra_world_stat_timer.html">MechExtraWorldStatTimer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mech_extra_world_stat_timer.html#a8d133da7ac989938800e36a966939282">instance</a></td></tr>
+<tr class="separator:a8d133da7ac989938800e36a966939282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class sets a timer in game, that will keep counting down in real time.0 </p>
 <p>Explanation: Usage: Integration: </p><pre class="fragment">Implement Later: 
-</pre></div><h2 class="groupheader">Member Data Documentation</h2>
+</pre></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="adf65907d9b69f6b3f321fafdac82773b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf65907d9b69f6b3f321fafdac82773b">&#9670;&nbsp;</a></span>ResetTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MechExtraWorldStatTimer.ResetTimer </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newtimerValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>newMaxValue</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa0bf7f6514d930b16ada9c15f7317083"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0bf7f6514d930b16ada9c15f7317083">&#9670;&nbsp;</a></span>currentCountDownTimer</h2>
 
@@ -123,6 +168,56 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">float MechExtraWorldStatTimer.currentCountDownTimer = 100f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d133da7ac989938800e36a966939282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d133da7ac989938800e36a966939282">&#9670;&nbsp;</a></span>instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mech_extra_world_stat_timer.html">MechExtraWorldStatTimer</a> MechExtraWorldStatTimer.instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6cfc32a0323851b36a2f344069cc0a54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cfc32a0323851b36a2f344069cc0a54">&#9670;&nbsp;</a></span>isPauseTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MechExtraWorldStatTimer.isPauseTimer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ff0da5364b73b2087e22c679848fef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff0da5364b73b2087e22c679848fef7">&#9670;&nbsp;</a></span>StatTimerImg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image MechExtraWorldStatTimer.StatTimerImg</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -158,7 +253,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/MyGitRepos/TheWYGameDevelopmentFramework/WyFramework/Assets/Scripts/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/<a class="el" href="_mech_extra_world_stat_timer_8cs.html">MechExtraWorldStatTimer.cs</a></li>
+<li>C:/Users/User/Desktop/MyGitRepos/Projects/Library/TheWYGameDevelopmentFramework/WyFramework/Assets/Scripts/MyLibrary/WyFramework/Char Scripts/Mech Scripts/MechExtra Scripts/WorldStat/<a class="el" href="_mech_extra_world_stat_timer_8cs.html">MechExtraWorldStatTimer.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -166,7 +261,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_mech_extra_world_stat_timer.html">MechExtraWorldStatTimer</a></li>
-    <li class="footer">Generated on Fri Jul 19 2019 13:13:55 for WyFramework by
+    <li class="footer">Generated on Sun Oct 20 2019 20:18:13 for WYFramework by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

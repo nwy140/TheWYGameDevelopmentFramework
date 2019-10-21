@@ -1,17 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using WyFramework;
 
-
+namespace WyFramework{
+	
 
 public class CnvLvlSgtMan : MonoBehaviour
 {
 
-    public static CnvLvlSgtMan instance;
+	public static CnvLvlSgtMan instance;
+    
+	public float GameplayTimeScale = 1;
 
     public void Awake()
     {
-        MakeInstance();
+	    MakeInstance();
+	    
+	    // default gameplay timeScale
+	    Time.timeScale =  GameplayTimeScale;
     }
 
     void Update()
@@ -27,6 +34,13 @@ public class CnvLvlSgtMan : MonoBehaviour
         }
         //Always show mouse on Menu
 
+	    // cheats // 
+	    if(Input.GetKeyDown(KeyCode.RightBracket)){
+	    	cheatIncreaseTimeScale();
+	    } else if(Input.GetKeyDown(KeyCode.LeftBracket)){
+	    	cheatDecreaseTimeScale();
+	    }
+	    
     }
     void MakeInstance()
     {
@@ -87,9 +101,24 @@ public class CnvLvlSgtMan : MonoBehaviour
 
     public void unPauseLevel()
     {
-        Time.timeScale = 1;
+	    Time.timeScale =  GameplayTimeScale;
         CnvAltGameplayMan.instance.gameplayState = CnvAltGameplayMan.GameplayState.GAME_RUNNING;
     }
+	
+	public void setGameplayTimeScale(float timeScaleVal){
+		GameplayTimeScale = timeScaleVal;
+		
+		
+	}
 
+	public void cheatIncreaseTimeScale(){
+		GameplayTimeScale++;
+		Time.timeScale = GameplayTimeScale;
+	}
+	public void cheatDecreaseTimeScale(){
+		GameplayTimeScale--;
+		Time.timeScale = GameplayTimeScale;
+	}
+}
 
 }

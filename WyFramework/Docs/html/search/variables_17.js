@@ -3,9 +3,19 @@ var searchData=
   ['walk',['WALK',['../class_cnv_anim_tags.html#a5262e65efe4cb367581dd1296491856f',1,'CnvAnimTags']]],
   ['weight',['Weight',['../class_game_framework_1_1_weighting_1_1_distance_weight_value.html#aee7495dfe297088860d443390f863b78',1,'GameFramework::Weighting::DistanceWeightValue']]],
   ['weights',['Weights',['../class_game_framework_1_1_weighting_1_1_components_1_1_distance_weight.html#ae7e7a2337d2393b87cfc021631803b3c',1,'GameFramework::Weighting::Components::DistanceWeight']]],
+  ['whitespaces',['whitespaces',['../class_script_inspector_1_1_f_g_parser.html#ad9a2a88b7d057b015785548d15d9432e',1,'ScriptInspector::FGParser']]],
   ['won',['Won',['../class_game_framework_1_1_game_structure_1_1_levels_1_1_messages_1_1_level_ended_message.html#a864a1afb40789803c9efe40db7769bf4',1,'GameFramework::GameStructure::Levels::Messages::LevelEndedMessage']]],
+  ['wordbreak_5fignorepunctuations',['wordBreak_IgnorePunctuations',['../class_script_inspector_1_1_s_i_settings.html#aaaa73a971def78f79bc2feef2af96f65',1,'ScriptInspector::SISettings']]],
+  ['wordbreak_5frightarrowstopsatwordend',['wordBreak_RightArrowStopsAtWordEnd',['../class_script_inspector_1_1_s_i_settings.html#afe7ddb07f4eb1948d969cff5695b42cd',1,'ScriptInspector::SISettings']]],
+  ['wordbreak_5fstoponsubwords',['wordBreak_StopOnSubwords',['../class_script_inspector_1_1_s_i_settings.html#ab35ee49e880bfa6f84c921a6a4c7b2df',1,'ScriptInspector::SISettings']]],
+  ['wordbreak_5fusebothmodifiers',['wordBreak_UseBothModifiers',['../class_script_inspector_1_1_s_i_settings.html#af6e23f724acb1dcefedaf01745386e4d',1,'ScriptInspector::SISettings']]],
+  ['wordwrapcode',['wordWrapCode',['../class_script_inspector_1_1_s_i_settings.html#af47b92ca6fd7833a3558544e52ab6988',1,'ScriptInspector::SISettings']]],
+  ['wordwrapcodeinspector',['wordWrapCodeInspector',['../class_script_inspector_1_1_s_i_settings.html#a157266ab36dceb6ef917c1da2710ae3d',1,'ScriptInspector::SISettings']]],
+  ['wordwraptext',['wordWrapText',['../class_script_inspector_1_1_s_i_settings.html#ab2ce94f68ce505d0c6cfb7f2754bc5ee',1,'ScriptInspector::SISettings']]],
+  ['wordwraptextinspector',['wordWrapTextInspector',['../class_script_inspector_1_1_s_i_settings.html#a885515a794e444c5d294a85841e025d9',1,'ScriptInspector::SISettings']]],
   ['worldlevelnumbers',['WorldLevelNumbers',['../class_game_framework_1_1_game_structure_1_1_game_manager.html#a950417cab0b2cc5d65ade86a1f19890b',1,'GameFramework::GameStructure::GameManager']]],
   ['worldnumber',['WorldNumber',['../class_game_framework_1_1_billing_1_1_messages_1_1_world_purchased_message.html#a2a1bedd5c782d0896116471d29afccd3',1,'GameFramework::Billing::Messages::WorldPurchasedMessage']]],
   ['worldsetupmode',['WorldSetupMode',['../class_game_framework_1_1_game_structure_1_1_game_manager.html#ae404a86f652532528bbcd06b604f11b6',1,'GameFramework::GameStructure::GameManager']]],
-  ['worldunlockmode',['WorldUnlockMode',['../class_game_framework_1_1_game_structure_1_1_game_manager.html#ade647fe9e2df094e2512ae8f978d57d9',1,'GameFramework::GameStructure::GameManager']]]
+  ['worldunlockmode',['WorldUnlockMode',['../class_game_framework_1_1_game_structure_1_1_game_manager.html#ade647fe9e2df094e2512ae8f978d57d9',1,'GameFramework::GameStructure::GameManager']]],
+  ['writes',['writes',['../class_script_inspector_1_1_find_results_window_1_1_filtering_options.html#a1849a7be2987de9242833cf66dcac93a',1,'ScriptInspector::FindResultsWindow::FilteringOptions']]]
 ];

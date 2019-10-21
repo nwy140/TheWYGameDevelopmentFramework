@@ -1,6 +1,8 @@
 var searchData=
 [
   ['hasaskedtorate',['HasAskedToRate',['../class_game_framework_1_1_social_1_1_game_feedback.html#ab6f8e0c7689a393e02203335be70d09d',1,'GameFramework::Social::GameFeedback']]],
+  ['hascodeviewfocus',['hasCodeViewFocus',['../class_script_inspector_1_1_f_g_text_editor.html#a9feacc19f8be7fdb866b4fd57e91a862',1,'ScriptInspector::FGTextEditor']]],
+  ['haspendingassetimports',['HasPendingAssetImports',['../class_f_g_text_buffer_manager.html#ac9403a9eaab2cded697df66cbcc720cf',1,'FGTextBufferManager']]],
   ['hasrated',['HasRated',['../class_game_framework_1_1_social_1_1_game_feedback.html#a139f5de3df6e6ab3fd4905686ab2f2eb',1,'GameFramework::Social::GameFeedback']]],
   ['health',['Health',['../class_game_framework_1_1_game_structure_1_1_players_1_1_object_model_1_1_player.html#a727fede531e894cb762256d2e80113a6',1,'GameFramework::GameStructure::Players::ObjectModel::Player']]],
   ['healthchange',['HealthChange',['../class_game_framework_1_1_game_structure_1_1_colliders_1_1_health_collider.html#ab606d6ce4af07215fd942752daae779a',1,'GameFramework::GameStructure::Colliders::HealthCollider']]],

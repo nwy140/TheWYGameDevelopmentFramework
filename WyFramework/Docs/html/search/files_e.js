@@ -70,7 +70,6 @@ var searchData=
   ['playergameitemcontexteditor_2ecs',['PlayerGameItemContextEditor.cs',['../_player_game_item_context_editor_8cs.html',1,'']]],
   ['playergameitemmanager_2ecs',['PlayerGameItemManager.cs',['../_player_game_item_manager_8cs.html',1,'']]],
   ['playerhighscorechangedmessage_2ecs',['PlayerHighScoreChangedMessage.cs',['../_player_high_score_changed_message_8cs.html',1,'']]],
-  ['playerinputcontroller_2ecs',['PlayerInputController.cs',['../_player_input_controller_8cs.html',1,'']]],
   ['playerprefshandler_2ecs',['PlayerPrefsHandler.cs',['../_player_prefs_handler_8cs.html',1,'']]],
   ['playerscorechangedmessage_2ecs',['PlayerScoreChangedMessage.cs',['../_player_score_changed_message_8cs.html',1,'']]],
   ['playersettingshelper_2ecs',['PlayerSettingsHelper.cs',['../_player_settings_helper_8cs.html',1,'']]],

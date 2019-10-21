@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['targettype',['TargetType',['../class_game_framework_1_1_game_structure_1_1_game_1_1_game_action_helper.html#a53c38c11c5887ae31d9042aaabe9ab22',1,'GameFramework::GameStructure::Game::GameActionHelper']]],
-  ['transitionordertype',['TransitionOrderType',['../class_game_framework_1_1_animation_1_1_object_model_1_1_game_object_to_game_object_animation.html#a3b6085796410c2ac73e0ad7f10346358',1,'GameFramework::Animation::ObjectModel::GameObjectToGameObjectAnimation']]]
+  ['placementtype',['PlacementType',['../class_game_framework_1_1_debugging_1_1_components_1_1_dummy_game_loop.html#a9e50cfb4bd05ee0b01ebc778f8856479',1,'GameFramework::Debugging::Components::DummyGameLoop']]],
+  ['positionmodetype',['PositionModeType',['../class_game_framework_1_1_game_structure_1_1_game_items_1_1_components_1_1_abstract_classes_1_1_s56c10670cfec852c1b91baaec8b2ac20.html#a6047d62de4f59dd122b4ceb9a59164e5',1,'GameFramework::GameStructure::GameItems::Components::AbstractClasses::SetPositionFromGameItemVariable']]]
 ];

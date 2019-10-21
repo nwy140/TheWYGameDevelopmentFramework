@@ -3291,6 +3291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b920d00d22db0a24a8d3503671f7df3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameplayTimeScale: 1
 --- !u!1001 &1009240515
 PrefabInstance:
   m_ObjectHideFlags: 0

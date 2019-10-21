@@ -9,7 +9,7 @@ var class_mech_extra_char_skill_range_atk_spwn_obj =
     [ "fireRate", "class_mech_extra_char_skill_range_atk_spwn_obj.html#ab9ef16ad9ec419dbf14a7cda1307c733", null ],
     [ "maxAmmo", "class_mech_extra_char_skill_range_atk_spwn_obj.html#adeea893eada7618208e46b5988cde2ad", null ],
     [ "maxRoundsInMagazine", "class_mech_extra_char_skill_range_atk_spwn_obj.html#a19a902b36577d5d3fcb57d0100ac33e1", null ],
-    [ "objToSpawn", "class_mech_extra_char_skill_range_atk_spwn_obj.html#a9b5fc840967153f060195d226a279255", null ],
+    [ "objToSpawn", "class_mech_extra_char_skill_range_atk_spwn_obj.html#add6c64e6007631b76b4e4d7a053a470a", null ],
     [ "reloadSound", "class_mech_extra_char_skill_range_atk_spwn_obj.html#ad4c9d1ebeac2b8791d9f3cc8b5614f22", null ],
     [ "roundsPerShot", "class_mech_extra_char_skill_range_atk_spwn_obj.html#ac631a3e290c6838fe9b8eeccc6531c7a", null ],
     [ "shootSound", "class_mech_extra_char_skill_range_atk_spwn_obj.html#a3e022f5a1fabb02507864f27b1594f88", null ],
